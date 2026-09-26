@@ -3,7 +3,7 @@ title: "The Second African-Nordic Conference in Mathematics"
 date: 2026-08-14
 location: "Arusha, Tanzania"
 category: "Research and Scientific Collaboration"
-image: "/assets/images/african-nordic-conference-2026.avif"
+image: "/assets/images/african-nordic-conference-2026.jpg"
 ---
 
 The Second African-Nordic Conference in Mathematics took place in Arusha, Tanzania, from 11 to 14 August 2026. The conference brought together more than 75 participants in mathematics and mathematics education.

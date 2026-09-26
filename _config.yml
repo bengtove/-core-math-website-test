@@ -1,4 +1,7 @@
 title: CoRE-Math
 description: Africa–Europe collaboration in the mathematical sciences
 
+baseurl: "/-core-math-website-test"
+url: "https://bengtove.github.io"
+
 permalink: /news/:year/:title/

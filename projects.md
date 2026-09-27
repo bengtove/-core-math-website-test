@@ -22,7 +22,7 @@ Explore CoRE-Math programmes and projects.
 
 ### [{{ industry_mathematics.title }}]({{ industry_mathematics.url | relative_url }})
 
-Industry Mathematics connects mathematics with problems from industry and society through contact workshops, Modelling Weeks, Study Groups with Industry and follow-up research.
+Industrial Mathematics connects mathematics with problems from industry and society through contact workshops, Modelling Weeks, Study Groups with Industry and follow-up research.
 
 ### [{{ women_in_math.title }}]({{ women_in_math.url | relative_url }})
 

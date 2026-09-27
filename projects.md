@@ -1,46 +1,39 @@
 ---
-title: "Projects"
+title: "Programmes & Projects"
 permalink: /projects/
 ---
 
-# Projects
+# Programmes & Projects
 
 Explore CoRE-Math programmes and projects.
 
-{% for programme in site.programmes %}
-## [{{ programme.title }}]({{ programme.url | relative_url }})
+{% assign core_math_schools = site.programmes | where: "programme_id", "core-math-schools" | first %}
+{% assign core_math_fellowships = site.programmes | where: "programme_id", "core-math-fellowships" | first %}
+{% assign industry_mathematics = site.programmes | where: "programme_id", "study-groups-with-industry" | first %}
+{% assign women_in_math = site.projects | where: "title", "Women in Math" | first %}
+{% assign lake_victoria = site.projects | where: "project_id", "lake-victoria" | first %}
+{% assign math4sdg = site.projects | where: "project_id", "math4sdg" | first %}
 
-{% assign related_projects = site.projects | where: "programme", programme.programme_id %}
-{% for project in related_projects %}
-- [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
-{% endfor %}
-{% endfor %}
+## Programmes
 
-{% assign other_project_count = 0 %}
-{% for project in site.projects %}
-  {% if project.programme %}
-    {% assign matching_programmes = site.programmes | where: "programme_id", project.programme %}
-    {% assign matching_programme_count = matching_programmes | size %}
-    {% if matching_programme_count == 0 %}
-      {% assign other_project_count = other_project_count | plus: 1 %}
-    {% endif %}
-  {% else %}
-    {% assign other_project_count = other_project_count | plus: 1 %}
-  {% endif %}
-{% endfor %}
+### [{{ core_math_schools.title }}]({{ core_math_schools.url | relative_url }})
 
-{% if other_project_count > 0 %}
-## Other projects
+### [{{ core_math_fellowships.title }}]({{ core_math_fellowships.url | relative_url }})
 
-{% for project in site.projects %}
-  {% if project.programme %}
-    {% assign matching_programmes = site.programmes | where: "programme_id", project.programme %}
-    {% assign matching_programme_count = matching_programmes | size %}
-    {% if matching_programme_count == 0 %}
-- [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
-    {% endif %}
-  {% else %}
-- [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
-  {% endif %}
-{% endfor %}
-{% endif %}
+### [{{ industry_mathematics.title }}]({{ industry_mathematics.url | relative_url }})
+
+The Industry Mathematics programme brings mathematicians, students and industry partners together to work on problems originating outside academia.
+
+### [{{ women_in_math.title }}]({{ women_in_math.url | relative_url }})
+
+Women in Math is a cross-cutting area of work within CoRE-Math, aiming to increase participation and opportunities for women in the mathematical sciences and strengthen inclusion across CoRE-Math activities.
+
+## Projects
+
+### [{{ lake_victoria.title }}]({{ lake_victoria.url | relative_url }})
+
+A developing CoRE-Math research collaboration around Lake Victoria.
+
+### [{{ math4sdg.title }}]({{ math4sdg.url | relative_url }})
+
+Math4SDG was funded through Norad’s NORHED II programme, with its closing conference held in Arusha in August 2026.

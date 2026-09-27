@@ -35,4 +35,4 @@ Promising problems and collaborations may continue through MSc or PhD projects, 
 
 ## History
 
-Industry Mathematics builds on a long history of collaboration in applied and industrial mathematics between Eastern Africa and Nordic partners, including East Africa Technomathematics (2007–2015) and Mathematics Education and Working Life Relevance in East Africa (2013–2015). This work contributed to the development of Modelling Weeks and, later, Study Groups with Industry in Eastern Africa.
+Industrial Mathematics builds on a long history of collaboration in applied and industrial mathematics between Eastern Africa and Nordic partners, including East Africa Technomathematics (2007–2015) and Mathematics Education and Working Life Relevance in East Africa (2013–2015). This work contributed to the development of Modelling Weeks and, later, Study Groups with Industry in Eastern Africa.

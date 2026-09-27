@@ -18,6 +18,10 @@
   margin: 0;
 }
 
+.site-navigation li + li {
+  margin-top: 0;
+}
+
 .site-navigation a {
   white-space: nowrap;
 }

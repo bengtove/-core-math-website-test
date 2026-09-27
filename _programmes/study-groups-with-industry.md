@@ -6,9 +6,9 @@ programme_id: "study-groups-with-industry"
 
 # Industry Mathematics
 
-CoRE-Math connects mathematicians, students and partners outside academia to identify and work on problems where mathematics can contribute.
+Industry Mathematics connects mathematicians and students with partners outside academia to identify and work on problems where mathematics can contribute. The programme builds on a long history of collaboration in applied and industrial mathematics in Eastern Africa and Europe.
 
-## Components
+## How it works
 
 ### Mathematics–Industry Contact Workshops
 
@@ -26,7 +26,7 @@ Bring mathematicians, students and problem owners together for intensive work on
 
 Promising problems and collaborations may continue through MSc or PhD projects, research visits, publications and longer-term research collaboration.
 
-## Projects
+## Activities
 
 {% assign related_projects = site.projects | where: "programme", page.programme_id %}
 {% for project in related_projects %}

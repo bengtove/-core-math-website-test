@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Industry Mathematics"
+title: "Industrial Mathematics"
 programme_id: "study-groups-with-industry"
 ---
 
-# Industry Mathematics
+# Industrial Mathematics
 
-Industry Mathematics connects mathematicians and students with partners outside academia to identify and work on problems where mathematics can contribute. The programme builds on a long history of collaboration in applied and industrial mathematics in Eastern Africa and Europe.
+Industrial Mathematics connects mathematicians and students with partners outside academia to identify and work on problems where mathematics can contribute. The programme builds on a long history of collaboration in applied and industrial mathematics in Eastern Africa and Europe.
 
 ## How it works
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Study Groups with Industry"
+title: "Industry Mathematics"
 programme_id: "study-groups-with-industry"
 ---
 
-# Study Groups with Industry
+# Industry Mathematics
 
-The Study Groups with Industry programme brings mathematicians, students and industry partners together to work on problems originating outside academia.
+The Industry Mathematics programme brings mathematicians, students and industry partners together to work on problems originating outside academia.
 
 ## Projects
 

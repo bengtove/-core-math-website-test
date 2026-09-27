@@ -7,14 +7,30 @@ permalink: /projects/
 
 Explore CoRE-Math programmes and projects.
 
-## Programmes
-
 {% for programme in site.programmes %}
-- [{{ programme.title }}]({{ programme.url | relative_url }})
-{% endfor %}
+## [{{ programme.title }}]({{ programme.url | relative_url }})
 
-## Projects
-
-{% for project in site.projects %}
+{% assign related_projects = site.projects | where: "programme", programme.programme_id %}
+{% for project in related_projects %}
 - [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
 {% endfor %}
+{% endfor %}
+
+{% assign other_project_count = 0 %}
+{% for project in site.projects %}
+  {% assign matching_programmes = site.programmes | where: "programme_id", project.programme %}
+  {% if matching_programmes == empty %}
+    {% assign other_project_count = other_project_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if other_project_count > 0 %}
+## Other projects
+
+{% for project in site.projects %}
+  {% assign matching_programmes = site.programmes | where: "programme_id", project.programme %}
+  {% if matching_programmes == empty %}
+- [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
+  {% endif %}
+{% endfor %}
+{% endif %}

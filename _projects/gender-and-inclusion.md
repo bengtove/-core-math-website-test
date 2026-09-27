@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Gender & Inclusion"
+title: "Women in Math"
 id: gender-and-inclusion
 type: project
 section: projects
 ---
 
-# Gender & Inclusion
+# Women in Math
 
-Gender & Inclusion is a cross-cutting area of work within CoRE-Math. It aims to increase participation and opportunities for women in the mathematical sciences and to strengthen inclusion across CoRE-Math activities.
+Women in Math is a cross-cutting area of work within CoRE-Math. It aims to increase participation and opportunities for women in the mathematical sciences and to strengthen inclusion across CoRE-Math activities.

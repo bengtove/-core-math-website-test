@@ -13,6 +13,8 @@ Explore CoRE-Math programmes and projects.
 {% assign women_in_math = site.projects | where: "title", "Women in Math" | first %}
 {% assign lake_victoria = site.projects | where: "project_id", "lake-victoria" | first %}
 {% assign math4sdg = site.projects | where: "project_id", "math4sdg" | first %}
+{% assign fame = site.projects | where: "project_id", "fame" | first %}
+{% assign sida_collaboration = site.projects | where: "project_id", "sida-supported-collaboration" | first %}
 
 ## Programmes
 
@@ -37,3 +39,11 @@ A developing CoRE-Math research collaboration around Lake Victoria.
 ### [{{ math4sdg.title }}]({{ math4sdg.url | relative_url }})
 
 Math4SDG was funded through Norad’s NORHED II programme, with its closing conference held in Arusha in August 2026.
+
+### [FAME]({{ fame.url | relative_url }})
+
+An applied mathematics flagship programme supporting research collaboration between Finland and Africa, including doctoral and postdoctoral collaboration.
+
+### [{{ sida_collaboration.title }}]({{ sida_collaboration.url | relative_url }})
+
+Long-term bilateral and regional collaboration in mathematics, postgraduate education and research capacity development involving universities in Eastern Africa and Sweden.

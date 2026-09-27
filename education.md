@@ -7,10 +7,14 @@ permalink: /education/
 
 Education and postgraduate training within CoRE-Math.
 
-## Projects
+## Schools
 
 {% for project in site.projects %}
   {% if project.sections contains "education" %}
 - [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
   {% endif %}
 {% endfor %}
+
+## PhD pipeline
+
+**Planned:** This section will provide an overview of PhD students and doctoral research within CoRE-Math, including collaborative supervision across participating institutions. The data have not yet been added.

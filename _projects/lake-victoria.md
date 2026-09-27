@@ -8,4 +8,4 @@ section: research
 
 # Lake Victoria project
 
-A CoRE-Math research project.
+A developing CoRE-Math research collaboration around Lake Victoria.

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Study Groups with Industry"
 programme_id: "study-groups-with-industry"
 ---

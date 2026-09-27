@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Kampala SGI 2026"
 project_id: "kampala-sgi-2026"
 programme: "study-groups-with-industry"

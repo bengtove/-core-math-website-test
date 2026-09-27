@@ -17,6 +17,10 @@ Education and postgraduate training within CoRE-Math.
 
 [View previous schools →]({{ "/education/schools/" | relative_url }})
 
+## Modelling Weeks
+
+**Planned:** Modelling Weeks for MSc students will provide intensive training in mathematical modelling, including activities connected to CoRE-Math Study Groups with Industry.
+
 ## PhD pipeline
 
 **Planned:** This section will provide an overview of PhD students and doctoral research within CoRE-Math, including collaborative supervision across participating institutions. The data have not yet been added.

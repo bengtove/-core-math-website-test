@@ -5,3 +5,11 @@ baseurl: "/-core-math-website-test"
 url: "https://bengtove.github.io"
 
 permalink: /news/:year/:title/
+
+collections:
+  programmes:
+    output: true
+    permalink: /programmes/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/

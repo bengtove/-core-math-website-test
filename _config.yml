@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  research_groups:
+    output: true
+    permalink: /research-groups/:name/
 
 defaults:
   - scope:

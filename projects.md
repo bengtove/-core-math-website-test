@@ -57,3 +57,5 @@ A University of Geneva–University of Rwanda research collaboration developing 
 ### [{{ earth_observation.title }}]({{ earth_observation.url | relative_url }})
 
 A Finland–Rwanda collaboration in applied mathematics for Earth observation involving LUT University, the University of Rwanda and AIMS Rwanda.
+
+[View previous projects →]({{ "/projects/previous/" | relative_url }})

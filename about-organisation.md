@@ -9,17 +9,11 @@ CoRE-Math is a collaborative cluster of universities in Africa and Europe. Its g
 
 ## Co-Leads
 
-CoRE-Math is co-led by Makerere University and Uppsala University.
-
-The current Co-Leads are John Magero Mango, Makerere University, and Bengt Ove Turesson, International Science Programme (ISP), Uppsala University.
-
-The Co-Leads lead the Cluster and coordinate its overall development.
+CoRE-Math is co-led by Makerere University and Uppsala University. The current Co-Leads are John Magero Mango, Makerere University, and Bengt Ove Turesson, International Science Programme (ISP), Uppsala University. The Co-Leads lead the Cluster and coordinate its overall development.
 
 ## Steering Committee
 
-The Steering Committee is CoRE-Math’s main decision-making body. It consists of the Co-Leads and the node coordinators representing the member universities.
-
-The Steering Committee provides strategic direction, makes major decisions and reviews the development and activities of the Cluster.
+The Steering Committee is CoRE-Math’s main decision-making body. It consists of the Co-Leads and the node coordinators representing the member universities. The Steering Committee provides strategic direction, makes major decisions and reviews the development and activities of the Cluster.
 
 ## Node coordinators
 
@@ -57,12 +51,8 @@ Each member university has a node coordinator who serves as a main point of cont
 
 ## Management Team
 
-The Management Team coordinates the ongoing work of CoRE-Math across its activities, partnerships and strategic priorities.
-
-The current Management Team consists of Alex Behakanira Tumwesi, Barbara Brena, Bengt Ove Turesson, John Magero Mango and Matti Heiliö.
+The Management Team coordinates the ongoing work of CoRE-Math across its activities, partnerships and strategic priorities. The current Management Team consists of Alex Behakanira Tumwesi, Barbara Brena, Bengt Ove Turesson, John Magero Mango and Matti Heiliö.
 
 ## Working groups
 
-Working groups bring together participants from across the network to develop particular areas of CoRE-Math’s work.
-
-CoRE-Math currently has working groups for Communication, Industrial Mathematics and Schools.
+Working groups bring together participants from across the network to develop particular areas of CoRE-Math’s work. CoRE-Math currently has working groups for Communication, Industrial Mathematics and Schools.

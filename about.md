@@ -75,3 +75,5 @@ Read more about CoRE-Math's [network and partnerships]({{ "/network-partnerships
 ## Organisation
 
 CoRE-Math is co-led by Makerere University and Uppsala University. The Steering Committee consists of the Co-Leads and node coordinators and is responsible for major decisions. A smaller Management Team coordinates ongoing activities, supported by working groups in specific areas.
+
+[Read more about organisation and governance →]({{ "/about/organisation/" | relative_url }})

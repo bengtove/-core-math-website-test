@@ -1,4 +1,3 @@
-/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 ---
 title: "About CoRE-Math"
 permalink: /about/
@@ -10,11 +9,17 @@ permalink: /about/
 
 CoRE-Math works to strengthen research and higher education in the mathematical sciences through long-term Africa–Europe collaboration. It brings together universities, research groups, networks and partner organisations and provides a platform for research collaboration, postgraduate education, institutional development, and engagement with industry and society.
 
-CoRE-Math is one of the [Clusters of Research Excellence](https://www.the-guild.eu/africa-europe-core/) established by the **African Research Universities Alliance (ARUA)** and **The Guild of European Research-Intensive Universities**.
+CoRE-Math is one of the [Clusters of Research Excellence](https://www.the-guild.eu/africa-europe-core/) established by the [African Research Universities Alliance (ARUA)](https://arua.org/) and [The Guild of European Research-Intensive Universities](https://www.the-guild.eu/).
+
+## Background
+
+CoRE-Math was established in 2024 as an ARUA–The Guild Cluster of Research Excellence. It builds on more than three decades of collaboration in mathematics between African and European universities, including the Eastern Africa Universities Mathematics Programme (EAUMP), long-term ISP support, Sida-supported bilateral research programmes, and Nordic–African university partnerships.
+
+**[Read more: The development of CoRE-Math →]({{ "/about/development/" | relative_url }})**
 
 ## Our goal
 
-**Building sustainable and internationally connected environments for research and higher education in the mathematical sciences through long-term Africa–Europe collaboration.**
+*Building sustainable and internationally connected environments for research and higher education in the mathematical sciences through long-term Africa–Europe collaboration.*
 
 ## What we do
 
@@ -24,7 +29,7 @@ The Cluster also supports institutional development, develops partnerships and n
 
 ## Member universities
 
-CoRE-Math currently brings together **eight African and nine European universities**.
+CoRE-Math currently brings together eight African and nine European universities.
 
 <div class="member-columns">
   <section>
@@ -69,10 +74,4 @@ Read more about CoRE-Math's [network and partnerships]({{ "/network-partnerships
 
 ## Organisation
 
-CoRE-Math is co-led by **Makerere University and Uppsala University**. The Steering Committee consists of the Co-Leads and node coordinators and is responsible for major decisions. A smaller Management Team coordinates ongoing activities, supported by working groups in specific areas.
-
-## Background
-
-CoRE-Math was established in **2024** as an ARUA–The Guild Cluster of Research Excellence. It builds on more than three decades of collaboration in mathematics between African and European universities, including the Eastern Africa Universities Mathematics Programme (EAUMP), long-term ISP support, Sida-supported bilateral research programmes, and Nordic–African university partnerships.
-
-**[Read more: The development of CoRE-Math →]({{ "/about/development/" | relative_url }})**
+CoRE-Math is co-led by Makerere University and Uppsala University. The Steering Committee consists of the Co-Leads and node coordinators and is responsible for major decisions. A smaller Management Team coordinates ongoing activities, supported by working groups in specific areas.

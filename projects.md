@@ -15,6 +15,8 @@ Explore CoRE-Math programmes and projects.
 {% assign math4sdg = site.projects | where: "project_id", "math4sdg" | first %}
 {% assign fame = site.projects | where: "project_id", "fame" | first %}
 {% assign sida_collaboration = site.projects | where: "project_id", "sida-supported-collaboration" | first %}
+{% assign spirit = site.projects | where: "project_id", "spirit" | first %}
+{% assign earth_observation = site.projects | where: "project_id", "applied-mathematics-for-earth-observation" | first %}
 
 ## Programmes
 
@@ -47,3 +49,11 @@ An applied mathematics flagship programme supporting research collaboration betw
 ### [{{ sida_collaboration.title }}]({{ sida_collaboration.url | relative_url }})
 
 Long-term bilateral and regional collaboration in mathematics, postgraduate education and research capacity development involving universities in Eastern Africa and Sweden.
+
+### [{{ spirit.title }}]({{ spirit.url | relative_url }})
+
+A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda.
+
+### [{{ earth_observation.title }}]({{ earth_observation.url | relative_url }})
+
+A Finland–Rwanda collaboration in applied mathematics for Earth observation involving LUT University, the University of Rwanda and AIMS Rwanda.

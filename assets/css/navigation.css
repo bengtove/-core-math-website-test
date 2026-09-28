@@ -1,3 +1,4 @@
+/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 .site-navigation {
   margin: 1rem 0 2rem;
   padding: 0.75rem 0;
@@ -24,4 +25,12 @@
 
 .site-navigation a {
   white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .member-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 2rem;
+  }
 }

@@ -1,0 +1,188 @@
+name: Coda scoped-access diagnostic
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-scoped-access:
+    name: Test restricted document, table, and row access
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      CODA_API_TOKEN: ${{ secrets.CODA_API_TOKEN }}
+      CODA_DOCUMENT_ID: twgdrEvtAq
+      EXPECTED_TABLE_NAME: Mathematics funding database
+      PREVIOUS_TABLE_ID: grid-DWbBoJPUOE
+
+    steps:
+      - name: Run read-only scoped access checks
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          BASE_URL = "https://coda.io/apis/v1"
+          token = os.environ.get("CODA_API_TOKEN", "")
+          document_id = os.environ["CODA_DOCUMENT_ID"]
+          expected_table_name = os.environ["EXPECTED_TABLE_NAME"]
+          previous_table_id = os.environ["PREVIOUS_TABLE_ID"]
+
+          if not token:
+              print("ERROR: The required repository secret is unavailable.", file=sys.stderr)
+              sys.exit(1)
+
+          def request(path, params=None, parse_json=False):
+              query = urllib.parse.urlencode(params or {})
+              url = f"{BASE_URL}{path}"
+              if query:
+                  url = f"{url}?{query}"
+              api_request = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/json",
+                  },
+                  method="GET",
+              )
+              try:
+                  with urllib.request.urlopen(api_request, timeout=30) as response:
+                      if not parse_json:
+                          return response.status, None
+                      try:
+                          return response.status, json.load(response)
+                      except json.JSONDecodeError:
+                          return response.status, "invalid-json"
+              except urllib.error.HTTPError as error:
+                  return error.code, None
+              except urllib.error.URLError:
+                  return None, None
+
+          encoded_document_id = urllib.parse.quote(document_id, safe="")
+
+          print("=== 1. Document access ===")
+          document_status, document = request(
+              f"/docs/{encoded_document_id}",
+              parse_json=True,
+          )
+          print(
+              "Document GET: "
+              + (f"HTTP {document_status}" if document_status else "request failed")
+          )
+          if document_status == 200 and isinstance(document, dict):
+              print(f"Document name: {document.get('name', '<not returned>')}")
+          elif document_status == 200:
+              print("Document name: <response was not valid JSON>")
+
+          print("\n=== 2. Tables/views access ===")
+          tables = []
+          params = {"limit": 100}
+          tables_status = None
+          while True:
+              status, payload = request(
+                  f"/docs/{encoded_document_id}/tables",
+                  params=params,
+                  parse_json=True,
+              )
+              if tables_status is None:
+                  tables_status = status
+                  print(
+                      "Tables GET: "
+                      + (f"HTTP {status}" if status else "request failed")
+                  )
+              if status != 200 or not isinstance(payload, dict):
+                  if status == 200:
+                      print("Tables response was not valid JSON.")
+                  break
+              items = payload.get("items")
+              if not isinstance(items, list):
+                  print("Tables response did not contain an items array.")
+                  break
+              tables.extend(item for item in items if isinstance(item, dict))
+              next_token = payload.get("nextPageToken")
+              if not next_token:
+                  break
+              params["pageToken"] = next_token
+
+          if tables_status == 200:
+              for table in tables:
+                  print(
+                      f"- {table.get('name', '<unnamed>')} | "
+                      f"ID: {table.get('id', '<missing>')}"
+                  )
+
+          matches = [
+              table
+              for table in tables
+              if str(table.get("name", "")).strip().casefold()
+              == expected_table_name.casefold()
+          ]
+
+          if len(matches) != 1:
+              print("\n=== 3. One-row access ===")
+              print("Row retrieval not attempted: the target table/view was not uniquely returned.")
+              if document_status == 200 and tables_status != 200:
+                  print("RESULT A: the document is accessible, but its tables/views are not.")
+              elif document_status != 200 and tables_status != 200:
+                  print(
+                      "RESULT D: the document restriction is not granting the expected "
+                      "REST API access."
+                  )
+              else:
+                  print(
+                      "RESULT: table listing succeeded, but Mathematics funding database "
+                      "was not returned uniquely."
+                  )
+              sys.exit(0)
+
+          table = matches[0]
+          returned_table_id = table.get("id")
+          print(f"Matched table/view ID: {returned_table_id or '<missing>'}")
+          if not returned_table_id:
+              print("\n=== 3. One-row access ===")
+              print("Row retrieval not attempted: the returned table/view had no ID.")
+              sys.exit(0)
+
+          if returned_table_id != previous_table_id:
+              print(
+                  "RESULT B: the restricted-token request returned a different table/view "
+                  "ID from the previously recorded ID."
+              )
+          else:
+              print("Returned table/view ID matches the previously recorded ID.")
+
+          print("\n=== 3. One-row access ===")
+          encoded_table_id = urllib.parse.quote(str(returned_table_id), safe="")
+          row_status, _ = request(
+              f"/docs/{encoded_document_id}/tables/{encoded_table_id}/rows",
+              params={
+                  "limit": 1,
+                  "useColumnNames": "false",
+                  "valueFormat": "simple",
+              },
+              parse_json=False,
+          )
+          print(
+              "One-row GET: "
+              + (f"HTTP {row_status}" if row_status else "request failed")
+          )
+          if row_status == 200:
+              print("Row retrieval succeeded: yes")
+              print(
+                  "RESULT C: the restricted token can access the table and rows; "
+                  "the production request should be checked for request differences."
+              )
+          else:
+              print("Row retrieval succeeded: no")
+              print(
+                  "RESULT: the table/view is visible, but the one-row request was not "
+                  "permitted or could not be resolved."
+              )
+          PY

@@ -1,0 +1,159 @@
+name: Coda EPSRC URL representation diagnostic
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/coda-epsrc-url-diagnostic.yml
+
+permissions:
+  contents: read
+
+jobs:
+  inspect-url-representation:
+    name: Inspect EPSRC URL representations
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      CODA_API_TOKEN: ${{ secrets.CODA_API_TOKEN }}
+
+    steps:
+      - name: Compare the two URL-bearing cells
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          DOCUMENT_ID = "twgdrEvtAq"
+          TABLE_ID = "grid-DWbBoJPU0E"
+          ROW_ID = "i-jCMat0ZvUG"
+          PROGRAMME_COLUMN = "c-hgesZqt97J"
+          INTERNAL_URL_COLUMN = "c-wzYiAIeRZO"
+
+          MARKDOWN_LINK_RE = re.compile(r"\[[^\]]*\]\((https?://[^\s)]+)\)")
+          RAW_URL_RE = re.compile(r"https?://[^\s<>\]\[\]\"'()`]+")
+
+          token = os.environ.get("CODA_API_TOKEN", "")
+          if not token:
+              print("ERROR: The required repository secret is unavailable.", file=sys.stderr)
+              sys.exit(1)
+
+          def normalized_url(candidate):
+              candidate = candidate.strip().rstrip(".,;:")
+              parsed = urllib.parse.urlparse(candidate)
+              if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                  return None
+              hostname = (parsed.hostname or "").casefold()
+              if hostname == "coda.io" or hostname.endswith(".coda.io"):
+                  return None
+              if hostname == "docs.superhuman.com":
+                  return None
+              return urllib.parse.urlunparse(parsed)
+
+          def extract_urls(value):
+              candidates = set()
+              if isinstance(value, str):
+                  strings = MARKDOWN_LINK_RE.findall(value) + RAW_URL_RE.findall(value)
+                  for item in strings:
+                      url = normalized_url(item)
+                      if url:
+                          candidates.add(url)
+              elif isinstance(value, list):
+                  for item in value:
+                      candidates.update(extract_urls(item))
+              elif isinstance(value, dict):
+                  for key in ("url", "href", "browserLink"):
+                      if key in value:
+                          candidates.update(extract_urls(value[key]))
+                  for key in ("value", "values", "text", "content"):
+                      if key in value:
+                          candidates.update(extract_urls(value[key]))
+              return candidates
+
+          path = (
+              f"/docs/{DOCUMENT_ID}/tables/{TABLE_ID}/rows/{ROW_ID}"
+              "?useColumnNames=false&valueFormat=rich"
+          )
+          request = urllib.request.Request(
+              f"https://coda.io/apis/v1{path}",
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/json",
+              },
+              method="GET",
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  row = json.load(response)
+          except urllib.error.HTTPError as error:
+              print(f"ERROR: Coda API returned HTTP {error.code}.", file=sys.stderr)
+              sys.exit(1)
+          except (urllib.error.URLError, json.JSONDecodeError):
+              print("ERROR: The scoped read-only request failed.", file=sys.stderr)
+              sys.exit(1)
+
+          values = row.get("values", {})
+          programme_value = values.get(PROGRAMME_COLUMN)
+          internal_value = values.get(INTERNAL_URL_COLUMN)
+          programme_candidates = sorted(extract_urls(programme_value))
+          internal_candidates = sorted(extract_urls(internal_value))
+
+          print("1. Rich Programme value:")
+          print(repr(programme_value))
+          print("2. Extracted Programme candidate:")
+          print(programme_candidates[0] if len(programme_candidates) == 1 else repr(programme_candidates))
+          print("3. URLs (internal) value:")
+          print(repr(internal_value))
+          print("4. Extracted URLs (internal) candidate:")
+          print(internal_candidates[0] if len(internal_candidates) == 1 else repr(internal_candidates))
+          print("5. Candidate repr():")
+          print(f"Programme: {programme_candidates[0]!r}" if len(programme_candidates) == 1 else f"Programme: {programme_candidates!r}")
+          print(f"Internal:  {internal_candidates[0]!r}" if len(internal_candidates) == 1 else f"Internal:  {internal_candidates!r}")
+
+          if len(programme_candidates) != 1 or len(internal_candidates) != 1:
+              print("6. Current normalized comparison form: unavailable because a source did not yield exactly one candidate")
+              print("7. Exact difference: candidate cardinality differs")
+              sys.exit(0)
+
+          programme_url = programme_candidates[0]
+          internal_url = internal_candidates[0]
+          programme_normalized = normalized_url(programme_url)
+          internal_normalized = normalized_url(internal_url)
+
+          print("6. Current normalized comparison form:")
+          print(f"Programme: {programme_normalized!r}")
+          print(f"Internal:  {internal_normalized!r}")
+
+          print("7. Exact difference:")
+          if programme_normalized == internal_normalized:
+              print("None; the current normalized strings are equal.")
+              sys.exit(0)
+
+          limit = min(len(programme_normalized), len(internal_normalized))
+          difference_index = next(
+              (
+                  index
+                  for index in range(limit)
+                  if programme_normalized[index] != internal_normalized[index]
+              ),
+              limit,
+          )
+          print(f"First differing index: {difference_index}")
+          if difference_index < limit:
+              left = programme_normalized[difference_index]
+              right = internal_normalized[difference_index]
+              print(f"Programme character: {left!r} (U+{ord(left):04X})")
+              print(f"Internal character:  {right!r} (U+{ord(right):04X})")
+          print(f"Programme length: {len(programme_normalized)}")
+          print(f"Internal length:  {len(internal_normalized)}")
+          print(f"Programme suffix from difference: {programme_normalized[difference_index:]!r}")
+          print(f"Internal suffix from difference:  {internal_normalized[difference_index:]!r}")
+          PY

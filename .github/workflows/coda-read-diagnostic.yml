@@ -13,6 +13,7 @@ jobs:
     timeout-minutes: 5
     env:
       CODA_API_TOKEN: ${{ secrets.CODA_API_TOKEN }}
+      CODA_EXPECTED_DOCUMENT_ID: twgdrEvtAq
       CODA_TARGET_DOCUMENT: Mathematics funding database
       CODA_TARGET_BROWSER_URL: https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C
       CODA_TARGET_TABLE: Mathematics funding database
@@ -31,6 +32,7 @@ jobs:
 
           BASE_URL = "https://coda.io/apis/v1"
           token = os.environ.get("CODA_API_TOKEN", "")
+          expected_document_id = os.environ["CODA_EXPECTED_DOCUMENT_ID"]
           target_document_name = os.environ["CODA_TARGET_DOCUMENT"]
           target_browser_url = os.environ["CODA_TARGET_BROWSER_URL"]
           target_table_name = os.environ["CODA_TARGET_TABLE"]
@@ -96,23 +98,44 @@ jobs:
                   + str(document.get("browserLink") or "<not returned>")
               )
 
+          normalized_expected_id = expected_document_id.strip().casefold()
           normalized_target_name = target_document_name.strip().casefold()
           normalized_target_url = target_browser_url.rstrip("/").casefold()
+          normalized_browser_root = (
+              "https://docs.superhuman.com/d/_dtwgdrEvtAq".casefold()
+          )
 
+          id_matches = [
+              document
+              for document in documents
+              if str(document.get("id", "")).strip().casefold()
+              == normalized_expected_id
+          ]
+          url_matches = [
+              document
+              for document in documents
+              if normalized_browser_root
+              in str(document.get("browserLink", "")).rstrip("/").casefold()
+              or normalized_target_url
+              in str(document.get("browserLink", "")).rstrip("/").casefold()
+          ]
           name_matches = [
               document
               for document in documents
               if normalized_target_name
               in str(document.get("name", "")).strip().casefold()
           ]
-          url_matches = [
-              document
-              for document in documents
-              if normalized_target_url
-              in str(document.get("browserLink", "")).rstrip("/").casefold()
-          ]
 
-          if len(url_matches) == 1:
+          if len(id_matches) == 1:
+              target_document = id_matches[0]
+          elif len(id_matches) > 1:
+              print(
+                  "ERROR: More than one listed document returned the expected API "
+                  "document ID; stopping.",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+          elif len(url_matches) == 1:
               target_document = url_matches[0]
           elif len(url_matches) > 1:
               print(
@@ -132,8 +155,9 @@ jobs:
               sys.exit(1)
           else:
               print(
-                  "The restricted token cannot discover the document through "
-                  "the list-documents API.",
+                  f"ERROR: API document ID {expected_document_id!r} was not present "
+                  "in the list-documents response, and no unique browser-link or "
+                  "name match was found.",
                   file=sys.stderr,
               )
               sys.exit(1)

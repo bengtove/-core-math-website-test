@@ -8,7 +8,7 @@
     "deadline_note": "Activity-specific application deadlines",
     "support_type": "Event participation",
     "career_stage": "PhD, Early-career, Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.ictp.it/home/scientific-calendar"
   },
   {
@@ -20,7 +20,7 @@
     "deadline_note": "Four calls per year, September call",
     "support_type": "Teaching",
     "career_stage": "Institutional",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.cimpa.info/index.php/en/node/59"
   },
   {
@@ -32,7 +32,7 @@
     "deadline_note": "Deadlines vary by centre",
     "support_type": "Event participation, Research visits",
     "career_stage": "Faculty, MSc , PhD, Postdoc",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.cimpa.info/en/node/64"
   },
   {
@@ -44,7 +44,7 @@
     "deadline_note": "Annual call, typically October",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.cimpa.info/en/node/60"
   },
   {
@@ -56,7 +56,7 @@
     "deadline_note": "Programme-specific calls and deadlines",
     "support_type": "Research collaboration, Research funding",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://belmontforum.org/open-opportunities/?utm_source=chatgpt.com"
   },
   {
@@ -68,7 +68,7 @@
     "deadline_note": "Two calls per year, November call",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://compositio.nl/foundation"
   },
   {
@@ -80,7 +80,7 @@
     "deadline_note": "Annual call",
     "support_type": "Postdoc funding",
     "career_stage": "Postdoc",
-    "region": "",
+    "region": "Global",
     "url": "https://www.leverhulme.ac.uk/early-career-fellowships/"
   },
   {
@@ -92,7 +92,7 @@
     "deadline_note": "Annual call, typically October",
     "support_type": "Research visits",
     "career_stage": "Postdoc",
-    "region": "",
+    "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
   },
   {
@@ -104,7 +104,7 @@
     "deadline_note": "Annual call, typically April",
     "support_type": "Research visits",
     "career_stage": "Early-career, Faculty",
-    "region": "",
+    "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
   },
   {
@@ -116,7 +116,7 @@
     "deadline_note": "Four calls per year, December call",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.claymath.org/funded-programs/enhancement-and-partnership/"
   },
   {
@@ -128,7 +128,7 @@
     "deadline_note": "Annual call; international participation limited to 15% of requested funding",
     "support_type": "Research funding",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://formas.se/soka-finansiering/alla-utlysningar/utlysningar/2026-04-21-utforska---nytankande-forskning-for-miljo-areella-naringar-och-samhallsbyggande-2026.html?query=WEAVE"
   },
   {
@@ -140,7 +140,7 @@
     "deadline_note": "",
     "support_type": "PhD funding, Postdoc funding",
     "career_stage": "PhD, Postdoc",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.facultyforthefuture.net/"
   },
   {
@@ -152,7 +152,7 @@
     "deadline_note": "Country-specific application procedures and deadlines",
     "support_type": "Institutional capacity building, Teaching",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://fulbrightspecialist.worldlearning.org/?utm_source=chatgpt.com"
   },
   {
@@ -164,7 +164,7 @@
     "deadline_note": "2027 April call",
     "support_type": "Research visits",
     "career_stage": "Early-career, Faculty",
-    "region": "",
+    "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
   },
   {
@@ -176,7 +176,7 @@
     "deadline_note": "2026 December call",
     "support_type": "Research visits",
     "career_stage": "Early-career, Faculty",
-    "region": "",
+    "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
   },
   {
@@ -188,7 +188,7 @@
     "deadline_note": "Four calls per year, October call",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants/overview-funding-opportunities"
   },
   {
@@ -200,32 +200,8 @@
     "deadline_note": "Programme-specific calls and deadlines",
     "support_type": "Research collaboration",
     "career_stage": "Faculty, Institutional",
-    "region": "",
+    "region": "Global",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/"
-  },
-  {
-    "programme": "IMSA–CNRS Postes Rouges",
-    "funder": "IMSA",
-    "description": "Research visits by South African mathematical scientists to CNRS mathematics departments in France",
-    "status": "Open",
-    "deadline": "24 September 2026",
-    "deadline_note": "2027 call",
-    "support_type": "Research visits",
-    "career_stage": "Faculty",
-    "region": "",
-    "url": "https://www.coe-mass.ac.za/funding-scholarships/"
-  },
-  {
-    "programme": "IMSA–Oxford Early Career Research Fellowship",
-    "funder": "IMSA",
-    "description": "Three-month research fellowship at Oxford for South African early-career mathematical scientists",
-    "status": "Open",
-    "deadline": "24 September 2026",
-    "deadline_note": "2027 fellowship",
-    "support_type": "Research visits",
-    "career_stage": "Faculty, Postdoc",
-    "region": "",
-    "url": "https://www.coe-mass.ac.za/funding-scholarships/"
   },
   {
     "programme": "IMU-Simons Research Fellowship Program for Developing Countries",
@@ -236,7 +212,7 @@
     "deadline_note": "Four calls per year, October call",
     "support_type": "Research visits",
     "career_stage": "Faculty, Postdoc",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants/SRF"
   },
   {
@@ -248,7 +224,7 @@
     "deadline_note": "Annual call, typically April",
     "support_type": "Institutional capacity building",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
   },
   {
@@ -260,7 +236,7 @@
     "deadline_note": "Applications may be submitted at any time",
     "support_type": "Research collaboration",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/international-cooperation/initiation-international-collaboration"
   },
   {
@@ -272,7 +248,7 @@
     "deadline_note": "Annual call, typically September",
     "support_type": "Institutional capacity building",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
   },
   {
@@ -284,7 +260,7 @@
     "deadline_note": "Three calls per year, November call",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://icms.ac.uk/fundings/ke-event-fund/"
   },
   {
@@ -296,7 +272,7 @@
     "deadline_note": "Rolling applications",
     "support_type": "Institutional capacity building",
     "career_stage": "Institutional",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants-institutions"
   },
   {
@@ -308,7 +284,7 @@
     "deadline_note": "No closing date",
     "support_type": "Postdoc funding",
     "career_stage": "Postdoc",
-    "region": ""
+    "region": "Global"
   },
   {
     "programme": "Mathematical Sciences Postdoctoral Fellowship",
@@ -319,7 +295,7 @@
     "deadline_note": "Open with no closing date",
     "support_type": "Postdoc funding",
     "career_stage": "Postdoc",
-    "region": "",
+    "region": "Global",
     "url": "https://www.ukri.org/opportunity/mathematical-sciences-postdoctoral-fellowship/"
   },
   {
@@ -331,7 +307,7 @@
     "deadline_note": "Deadline not specified",
     "support_type": "Research funding, Research visits",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Africa",
     "url": "https://arua.org/mid-career-research-fellowships/"
   },
   {
@@ -343,7 +319,7 @@
     "deadline_note": "Annual call",
     "support_type": "PhD funding, Research collaboration",
     "career_stage": "PhD",
-    "region": "",
+    "region": "Global",
     "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks"
   },
   {
@@ -355,7 +331,7 @@
     "deadline_note": "Annual call",
     "support_type": "Postdoc funding",
     "career_stage": "Postdoc",
-    "region": "",
+    "region": "Global",
     "url": "https://kaw.wallenberg.org/en/funding-guide/calls"
   },
   {
@@ -367,7 +343,7 @@
     "deadline_note": "Programme-specific calls and deadlines",
     "support_type": "Institutional capacity building",
     "career_stage": "Institutional",
-    "region": "",
+    "region": "Global South",
     "url": "https://idrc-crdi.ca/en/topics/science-and-technology"
   },
   {
@@ -379,7 +355,7 @@
     "deadline_note": "Deadlines vary by country of origin",
     "support_type": "Research visits",
     "career_stage": "PhD, Postdoc",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.daad.de/en"
   },
   {
@@ -391,7 +367,7 @@
     "deadline_note": "Proposals accepted on an ongoing basis",
     "support_type": "Research collaboration",
     "career_stage": "Faculty, Postdoc",
-    "region": "",
+    "region": "Global",
     "url": "https://www.birs.ca/programs"
   },
   {
@@ -403,7 +379,7 @@
     "deadline_note": "Programme-specific deadlines",
     "support_type": "Research collaboration",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South, Nordic",
     "url": "https://www.nordforsk.org/funding"
   },
   {
@@ -415,7 +391,7 @@
     "deadline_note": "Programme-specific deadlines",
     "support_type": "Research collaboration",
     "career_stage": "Faculty, Postdoc",
-    "region": "",
+    "region": "Global",
     "url": "https://www.slmath.org/programs"
   },
   {
@@ -427,7 +403,7 @@
     "deadline_note": "Five calls per year, November round",
     "support_type": "Event organisation, Research visits",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global, UK linked",
     "url": "https://www.ems.ac.uk/research-support-fund/?utm_source=chatgpt.com"
   },
   {
@@ -439,7 +415,7 @@
     "deadline_note": "Annual call, typically April",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.icms.org.uk/workshops"
   },
   {
@@ -451,7 +427,7 @@
     "deadline_note": "",
     "support_type": "Research funding",
     "career_stage": "Faculty, Postdoc",
-    "region": "",
+    "region": "Global",
     "url": "https://www.icms.org.uk/research-groups"
   },
   {
@@ -463,7 +439,7 @@
     "deadline_note": "Annual call, typically October",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.cimpa.info/index.php/en/node/61"
   },
   {
@@ -475,20 +451,8 @@
     "deadline_note": "2026 call",
     "support_type": "Research collaboration",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Africa",
     "url": "https://www.sasuf.org/sasuf-nrf-seed-grants-for-intra-africa-collaborative-research-1"
-  },
-  {
-    "programme": "SGCI–STISA 2034 Multilateral Research Call",
-    "funder": "Science Granting Councils Initiative (SGCI)",
-    "description": "Funding for Africa-led multinational research consortia through participating national science granting councils",
-    "status": "Open",
-    "deadline": "25 September 2026",
-    "deadline_note": "Deadline for Expression of Interest",
-    "support_type": "Research collaboration",
-    "career_stage": "Faculty, Institutional",
-    "region": "",
-    "url": "https://call.sgci.africa/"
   },
   {
     "programme": "Simons Collaborations in Mathematics and the Physical Sciences",
@@ -499,7 +463,7 @@
     "deadline_note": "Annual call; Letter of Intent required",
     "support_type": "Research funding",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.simonsfoundation.org"
   },
   {
@@ -511,7 +475,7 @@
     "deadline_note": "Annual call, typically 1 October",
     "support_type": "Research visits",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.simonsfoundation.org/grant/simons-fellows-in-mathematics"
   },
   {
@@ -523,7 +487,7 @@
     "deadline_note": "Annual call, typically 30 September",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.simonsfoundation.org"
   },
   {
@@ -535,7 +499,7 @@
     "deadline_note": "Annual call, 2027 competition",
     "support_type": "Postdoc funding",
     "career_stage": "Early-career",
-    "region": "",
+    "region": "Global",
     "url": "https://erc.europa.eu/apply-grant/starting-grant"
   },
   {
@@ -547,7 +511,7 @@
     "deadline_note": "Two calls per year",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://icms.ac.uk/fundings/strategic-workshops/"
   },
   {
@@ -559,7 +523,7 @@
     "deadline_note": "Annual call, typically 30 September",
     "support_type": "Institutional capacity building",
     "career_stage": "Institutional",
-    "region": "",
+    "region": "Global",
     "url": "https://www.simonsfoundation.org/grant/targeted-grants-to-institutes"
   },
   {
@@ -571,7 +535,7 @@
     "deadline_note": "Several calls per year, dates announced individually",
     "support_type": "Research visits",
     "career_stage": "Early-career, Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants/research-travel-grants"
   },
   {
@@ -583,7 +547,7 @@
     "deadline_note": "Two calls per year, October call",
     "support_type": "Event participation",
     "career_stage": "Early-career, Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.europeanwomeninmaths.org/travel-grants/"
   },
   {
@@ -595,7 +559,7 @@
     "deadline_note": "2026 call",
     "support_type": "Research visits",
     "career_stage": "Early-career",
-    "region": "",
+    "region": "Global",
     "url": "https://www.unesco.org/en/fellowships/keizo-obuchi?utm_source=chatgpt.com"
   },
   {
@@ -607,7 +571,7 @@
     "deadline_note": "Three calls per year, October call",
     "support_type": "Teaching",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants/volunteer-lecturer-program"
   },
   {
@@ -619,7 +583,7 @@
     "deadline_note": "Three calls per year, April call",
     "support_type": "Research funding",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards"
   },
   {
@@ -631,7 +595,7 @@
     "deadline_note": "Three calls per year, November call",
     "support_type": "Research funding",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global South",
     "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards"
   },
   {
@@ -643,7 +607,7 @@
     "deadline_note": "Three calls per year, November call",
     "support_type": "Research funding",
     "career_stage": "Early-career",
-    "region": "",
+    "region": "Global South",
     "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards"
   },
   {
@@ -655,7 +619,7 @@
     "deadline_note": "Three calls per year, April call",
     "support_type": "Research funding",
     "career_stage": "Early-career",
-    "region": "",
+    "region": "Global South",
     "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards"
   },
   {
@@ -667,7 +631,7 @@
     "deadline_note": "Rolling applications",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "",
+    "region": "Global",
     "url": "https://www.cirm-math.fr/en/programmes.html"
   }
 ]

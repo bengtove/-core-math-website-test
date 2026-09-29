@@ -17,7 +17,7 @@ from typing import Any
 
 BASE_URL = "https://coda.io/apis/v1"
 DOCUMENT_ID = "twgdrEvtAq"
-TABLE_ID = "grid-DWbBoJPUOE"
+TABLE_ID = "grid-DWbBoJPU0E"
 
 COLUMNS = {
     "programme": "c-hgesZqt97J",

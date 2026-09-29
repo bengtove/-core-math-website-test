@@ -1,0 +1,212 @@
+name: Coda read-only diagnostic
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect-coda:
+    name: Inspect funding database structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      CODA_API_TOKEN: ${{ secrets.CODA_API_TOKEN }}
+      CODA_DOC_ID: _dtwgdrEvtAq
+      CODA_TARGET_TABLE: Mathematics funding database
+
+    steps:
+      - name: Query Coda API using read-only endpoints
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          BASE_URL = "https://coda.io/apis/v1"
+          token = os.environ.get("CODA_API_TOKEN", "")
+          doc_id = os.environ["CODA_DOC_ID"]
+          target_name = os.environ["CODA_TARGET_TABLE"]
+
+          if not token:
+              print("ERROR: CODA_API_TOKEN is not available to this workflow.", file=sys.stderr)
+              sys.exit(1)
+
+          def get_json(path, params=None):
+              query = urllib.parse.urlencode(params or {})
+              url = f"{BASE_URL}{path}"
+              if query:
+                  url = f"{url}?{query}"
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Accept": "application/json",
+                  },
+                  method="GET",
+              )
+              try:
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as error:
+                  print(
+                      f"ERROR: Coda API returned HTTP {error.code} for {path}.",
+                      file=sys.stderr,
+                  )
+                  sys.exit(1)
+              except urllib.error.URLError as error:
+                  print(
+                      f"ERROR: Could not reach Coda API for {path}: {error.reason}",
+                      file=sys.stderr,
+                  )
+                  sys.exit(1)
+
+          def list_all(path, params=None):
+              items = []
+              page_params = dict(params or {})
+              while True:
+                  response = get_json(path, page_params)
+                  items.extend(response.get("items", []))
+                  next_token = response.get("nextPageToken")
+                  if not next_token:
+                      return items
+                  page_params["pageToken"] = next_token
+
+          encoded_doc_id = urllib.parse.quote(doc_id, safe="")
+
+          print("=== Tables and views ===")
+          tables = list_all(
+              f"/docs/{encoded_doc_id}/tables",
+              {"limit": 100},
+          )
+          if not tables:
+              print("No tables or views were returned.")
+              sys.exit(1)
+
+          for item in tables:
+              kind = item.get("tableType") or item.get("type") or "unknown"
+              print(
+                  f"- {item.get('name', '<unnamed>')} | "
+                  f"immutable ID: {item.get('id', '<missing>')} | "
+                  f"type: {kind}"
+              )
+
+          normalized_target = target_name.strip().casefold()
+          matches = [
+              item
+              for item in tables
+              if str(item.get("name", "")).strip().casefold() == normalized_target
+          ]
+          if len(matches) != 1:
+              print(
+                  f"ERROR: Expected one exact match for {target_name!r}; "
+                  f"found {len(matches)}.",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+
+          target = matches[0]
+          table_id = target["id"]
+          table_kind = target.get("tableType") or target.get("type") or "unknown"
+          encoded_table_id = urllib.parse.quote(table_id, safe="")
+
+          print("\n=== Selected table/view ===")
+          print(f"Name: {target.get('name')}")
+          print(f"Immutable ID: {table_id}")
+          print(f"Type: {table_kind}")
+
+          print("\n=== Columns ===")
+          columns = list_all(
+              f"/docs/{encoded_doc_id}/tables/{encoded_table_id}/columns",
+              {"limit": 100},
+          )
+          for column in columns:
+              print(
+                  f"- {column.get('name', '<unnamed>')} | "
+                  f"immutable ID: {column.get('id', '<missing>')}"
+              )
+
+          relevant_fields = [
+              "Programme",
+              "Funder",
+              "Description",
+              "Status",
+              "Deadline",
+              "Deadline note",
+              "Support type",
+              "Career stage",
+              "Region",
+          ]
+
+          print("\n=== Sample rows (maximum 3; selected fields only) ===")
+          rows_response = get_json(
+              f"/docs/{encoded_doc_id}/tables/{encoded_table_id}/rows",
+              {
+                  "limit": 3,
+                  "sortBy": "natural",
+                  "useColumnNames": "true",
+                  "valueFormat": "simple",
+              },
+          )
+          rows = rows_response.get("items", [])
+          if not rows:
+              print("No rows were returned.")
+          for index, row in enumerate(rows, start=1):
+              values = row.get("values", {})
+              selected = {
+                  field: values.get(field, "<missing>")
+                  for field in relevant_fields
+              }
+              print(
+                  f"Row {index}: "
+                  + json.dumps(selected, ensure_ascii=False, default=str)
+              )
+
+          print("\n=== Calculated Status check ===")
+          status_column = next(
+              (
+                  column
+                  for column in columns
+                  if str(column.get("name", "")).strip().casefold() == "status"
+              ),
+              None,
+          )
+          if status_column is None:
+              print("Status column metadata was not found.")
+              sys.exit(1)
+
+          is_calculated = status_column.get("calculated")
+          returned_statuses = [
+              row.get("values", {}).get("Status")
+              for row in rows
+              if "Status" in row.get("values", {})
+          ]
+
+          print(f"Status immutable column ID: {status_column.get('id')}")
+          print(f"Status metadata calculated: {is_calculated!r}")
+          print(
+              "Status values returned in sample: "
+              + json.dumps(returned_statuses, ensure_ascii=False, default=str)
+          )
+
+          if is_calculated is True and returned_statuses:
+              print(
+                  "CONFIRMED: Status is marked calculated and the API returned "
+                  "its computed/displayed value in simple format."
+              )
+          elif is_calculated is True:
+              print(
+                  "UNCONFIRMED: Status is marked calculated, but no sample row "
+                  "returned a Status value."
+              )
+          else:
+              print(
+                  "NOT CONFIRMED: The Status column was not marked calculated "
+                  "in the returned column metadata."
+              )
+          PY

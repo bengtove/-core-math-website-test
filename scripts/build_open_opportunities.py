@@ -123,10 +123,17 @@ def normalized_url(candidate: str) -> str | None:
     return urllib.parse.urlunparse(parsed)
 
 
+def unwrap_outer_markdown_bold(value: str) -> str:
+    if len(value) >= 4 and value.startswith("**") and value.endswith("**"):
+        return value[2:-2]
+    return value
+
+
 def extract_urls(value: Any) -> set[str]:
     candidates: set[str] = set()
     if isinstance(value, str):
-        strings = MARKDOWN_LINK_RE.findall(value) + RAW_URL_RE.findall(value)
+        unwrapped = unwrap_outer_markdown_bold(value)
+        strings = MARKDOWN_LINK_RE.findall(unwrapped) + RAW_URL_RE.findall(unwrapped)
         for item in strings:
             url = normalized_url(item)
             if url:

@@ -53,7 +53,7 @@ The opportunities below are current external funding opportunities selected from
         data-deadline="{{ opportunity.deadline | escape }}"
         data-support-type="{{ opportunity.support_type | escape }}"
         data-career-stage="{{ opportunity.career_stage | escape }}">
-        <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
+        <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}" target="_blank" rel="noopener noreferrer">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <p class="opportunity-meta">
@@ -78,7 +78,7 @@ The opportunities below are current external funding opportunities selected from
         data-deadline="{{ opportunity.deadline | escape }}"
         data-support-type="{{ opportunity.support_type | escape }}"
         data-career-stage="{{ opportunity.career_stage | escape }}">
-        <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
+        <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}" target="_blank" rel="noopener noreferrer">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <p class="opportunity-meta">
@@ -98,7 +98,7 @@ The opportunities below are current external funding opportunities selected from
 
 The full ISP Mathematics Funding Database also includes programmes for which there is currently no open call and provides a broader overview of funding possibilities.
 
-[View the full ISP Mathematics Funding Database →](https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C)
+<a href="https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C" target="_blank" rel="noopener noreferrer">View the full ISP Mathematics Funding Database →</a>
 
 </div>
 

@@ -53,16 +53,16 @@ The partnership with ICIAM connects CoRE-Math with the international industrial 
 
 ## Partners
 
+### [Centre International de Mathématiques Pures et Appliquées (CIMPA)](https://www.cimpa.info/en)
+
+CoRE-Math collaborates with CIMPA particularly through research schools, bringing international researchers together with postgraduate students and early-career mathematicians in Africa.
+
 ### [Centre of Excellence for Mathematical and Statistical Sciences (CoE-MaSS)](https://www.coe-mass.ac.za/)
-
-### [National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))](https://www.up.ac.za/nga-mass)
-
-CoRE-Math is developing collaboration with CoE-MaSS and NGA(MaSS) in research and networking, postgraduate education, industrial mathematics, schools and workshops, early-career development, and joint funding initiatives.
 
 ### [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it/)
 
 ICTP has collaborated for many years with universities and networks that now participate in CoRE-Math. The collaboration includes schools and other activities supporting research and postgraduate education in mathematics.
 
-### [Centre International de Mathématiques Pures et Appliquées (CIMPA)](https://www.cimpa.info/en)
+### [National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))](https://www.up.ac.za/nga-mass)
 
-CoRE-Math collaborates with CIMPA particularly through research schools, bringing international researchers together with postgraduate students and early-career mathematicians in Africa.
+CoRE-Math is developing collaboration with CoE-MaSS and NGA(MaSS) in research and networking, postgraduate education, industrial mathematics, schools and workshops, early-career development, and joint funding initiatives.

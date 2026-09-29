@@ -34,3 +34,81 @@
     gap: 0 2rem;
   }
 }
+
+.opportunities-page .fellowship-list,
+.opportunities-page .opportunity-list {
+  border-top: 1px solid #d0d7de;
+}
+
+.opportunities-page .fellowship-entry,
+.opportunities-page .opportunity-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.opportunities-page .fellowship-entry h3,
+.opportunities-page .opportunity-entry h4 {
+  margin: 0;
+}
+
+.opportunities-page .opportunity-funder {
+  margin: 0.25rem 0 0;
+  font-weight: 600;
+}
+
+.opportunities-page .opportunity-description {
+  margin: 0.5rem 0;
+  color: #57606a;
+}
+
+.opportunities-page .opportunity-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0;
+  margin: 0.5rem 0 0;
+  font-size: 0.9em;
+}
+
+.opportunities-page .opportunity-meta span + span::before {
+  content: "\00b7";
+  margin: 0 0.5rem;
+  color: #8c959f;
+}
+
+.opportunities-page .opportunity-deadline-note {
+  margin: 0.25rem 0 0;
+  color: #57606a;
+  font-size: 0.9em;
+}
+
+.opportunities-page .opportunity-filters {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.opportunities-page .opportunity-filters label {
+  font-weight: 600;
+}
+
+.opportunities-page .opportunity-filters select {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #8c959f;
+  border-radius: 4px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+
+.opportunities-page .opportunity-no-results {
+  margin: 1rem 0;
+}
+
+@media (min-width: 600px) {
+  .opportunities-page .opportunity-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

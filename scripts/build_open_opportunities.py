@@ -28,7 +28,7 @@ COLUMNS = {
     "deadline_note": "c-EAm7jWk5aP",
     "support_type": "c-eKVKLI88t_",
     "career_stage": "c-dJzcLWwGR8",
-    "region": "c-xiaIgEGf9",
+    "region": "c--xiaIgEGf9",
 }
 INTERNAL_URL_COLUMN = "c-wzYiAIeRZO"
 PUBLISHED_STATUSES = {"Open", "Rolling"}

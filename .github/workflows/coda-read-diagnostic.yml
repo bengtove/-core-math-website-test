@@ -14,10 +14,11 @@ jobs:
     env:
       CODA_API_TOKEN: ${{ secrets.CODA_API_TOKEN }}
       CODA_TARGET_DOCUMENT: Mathematics funding database
-      CODA_TARGET_BROWSER_URL: https://docs.superhuman.com/d/_dtwgdrEvtAq/
+      CODA_TARGET_BROWSER_URL: https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C
+      CODA_TARGET_TABLE: Mathematics funding database
 
     steps:
-      - name: Discover document and list its tables using read-only endpoints
+      - name: Discover document and inspect funding table using read-only endpoints
         shell: bash
         run: |
           python3 - <<'PY'
@@ -30,8 +31,9 @@ jobs:
 
           BASE_URL = "https://coda.io/apis/v1"
           token = os.environ.get("CODA_API_TOKEN", "")
-          target_name = os.environ["CODA_TARGET_DOCUMENT"]
+          target_document_name = os.environ["CODA_TARGET_DOCUMENT"]
           target_browser_url = os.environ["CODA_TARGET_BROWSER_URL"]
+          target_table_name = os.environ["CODA_TARGET_TABLE"]
 
           if not token:
               print(
@@ -84,17 +86,17 @@ jobs:
           documents = list_all("/docs", {"limit": 100})
 
           if not documents:
-              print("No documents were returned by the list-docs API.")
+              print("No documents were returned by the list-documents API.")
 
           for document in documents:
-              print(f"- Name: {document.get('name', '<unnamed>')}")
+              print(f"- Document name: {document.get('name', '<unnamed>')}")
               print(f"  API document ID: {document.get('id', '<missing>')}")
               print(
                   "  browserLink: "
                   + str(document.get("browserLink") or "<not returned>")
               )
 
-          normalized_target_name = target_name.strip().casefold()
+          normalized_target_name = target_document_name.strip().casefold()
           normalized_target_url = target_browser_url.rstrip("/").casefold()
 
           name_matches = [
@@ -111,33 +113,32 @@ jobs:
           ]
 
           if len(url_matches) == 1:
-              target = url_matches[0]
+              target_document = url_matches[0]
           elif len(url_matches) > 1:
               print(
-                  "ERROR: More than one document matched the target browser URL; "
-                  "stopping without guessing an API document ID.",
+                  "ERROR: More than one document matched the supplied browser URL; "
+                  "stopping without guessing.",
                   file=sys.stderr,
               )
               sys.exit(1)
           elif len(name_matches) == 1:
-              target = name_matches[0]
+              target_document = name_matches[0]
           elif len(name_matches) > 1:
               print(
                   "ERROR: More than one document matched the target name; "
-                  "stopping without guessing an API document ID.",
+                  "stopping without guessing.",
                   file=sys.stderr,
               )
               sys.exit(1)
           else:
               print(
-                  "ERROR: The restricted token cannot see the Mathematics funding "
-                  "database document through the list-docs API. No document ID was "
-                  "inferred or guessed.",
+                  "The restricted token cannot discover the document through "
+                  "the list-documents API.",
                   file=sys.stderr,
               )
               sys.exit(1)
 
-          document_id = target.get("id")
+          document_id = target_document.get("id")
           if not document_id:
               print(
                   "ERROR: The matching document did not include an API document ID; "
@@ -147,9 +148,12 @@ jobs:
               sys.exit(1)
 
           print("\n=== Selected document ===")
-          print(f"Name: {target.get('name', '<unnamed>')}")
+          print(f"Document name: {target_document.get('name', '<unnamed>')}")
           print(f"API document ID: {document_id}")
-          print(f"browserLink: {target.get('browserLink') or '<not returned>'}")
+          print(
+              "browserLink: "
+              + str(target_document.get("browserLink") or "<not returned>")
+          )
 
           encoded_document_id = urllib.parse.quote(str(document_id), safe="")
 
@@ -158,10 +162,9 @@ jobs:
               f"/docs/{encoded_document_id}/tables",
               {"limit": 100},
           )
-
           if not tables:
               print("No tables or views were returned.")
-              sys.exit(0)
+              sys.exit(1)
 
           for item in tables:
               kind = item.get("tableType") or item.get("type") or "unknown"
@@ -169,5 +172,124 @@ jobs:
                   f"- {item.get('name', '<unnamed>')} | "
                   f"immutable ID: {item.get('id', '<missing>')} | "
                   f"type: {kind}"
+              )
+
+          normalized_table_name = target_table_name.strip().casefold()
+          table_matches = [
+              item
+              for item in tables
+              if str(item.get("name", "")).strip().casefold()
+              == normalized_table_name
+          ]
+          if len(table_matches) != 1:
+              print(
+                  f"ERROR: Expected one exact table/view match for "
+                  f"{target_table_name!r}; found {len(table_matches)}.",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+
+          target_table = table_matches[0]
+          table_id = target_table["id"]
+          table_kind = (
+              target_table.get("tableType")
+              or target_table.get("type")
+              or "unknown"
+          )
+          encoded_table_id = urllib.parse.quote(str(table_id), safe="")
+
+          print("\n=== Selected table/view ===")
+          print(f"Name: {target_table.get('name')}")
+          print(f"Immutable ID: {table_id}")
+          print(f"Type: {table_kind}")
+
+          print("\n=== Columns ===")
+          columns = list_all(
+              f"/docs/{encoded_document_id}/tables/{encoded_table_id}/columns",
+              {"limit": 100},
+          )
+          for column in columns:
+              print(
+                  f"- {column.get('name', '<unnamed>')} | "
+                  f"immutable ID: {column.get('id', '<missing>')}"
+              )
+
+          relevant_fields = [
+              "Programme",
+              "Funder",
+              "Description",
+              "Status",
+              "Deadline",
+              "Deadline note",
+              "Support type",
+              "Career stage",
+              "Region",
+          ]
+
+          print("\n=== Sample rows (maximum 3; selected fields only) ===")
+          rows_response = get_json(
+              f"/docs/{encoded_document_id}/tables/{encoded_table_id}/rows",
+              {
+                  "limit": 3,
+                  "sortBy": "natural",
+                  "useColumnNames": "true",
+                  "valueFormat": "simple",
+              },
+          )
+          rows = rows_response.get("items", [])
+          if not rows:
+              print("No rows were returned.")
+          for index, row in enumerate(rows, start=1):
+              values = row.get("values", {})
+              selected = {
+                  field: values.get(field, "<missing>")
+                  for field in relevant_fields
+              }
+              print(
+                  f"Row {index}: "
+                  + json.dumps(selected, ensure_ascii=False, default=str)
+              )
+
+          print("\n=== Calculated Status check ===")
+          status_column = next(
+              (
+                  column
+                  for column in columns
+                  if str(column.get("name", "")).strip().casefold() == "status"
+              ),
+              None,
+          )
+          if status_column is None:
+              print("Status column metadata was not found.")
+              sys.exit(1)
+
+          is_calculated = status_column.get("calculated")
+          returned_statuses = [
+              row.get("values", {}).get("Status")
+              for row in rows
+              if "Status" in row.get("values", {})
+          ]
+
+          print(f"Status immutable column ID: {status_column.get('id')}")
+          print(f"Status metadata calculated: {is_calculated!r}")
+          print(
+              "Status values returned in sample: "
+              + json.dumps(returned_statuses, ensure_ascii=False, default=str)
+          )
+
+          if is_calculated is True and returned_statuses:
+              print(
+                  "CONFIRMED: Status is marked calculated and the API returned "
+                  "its computed/displayed value in simple format."
+              )
+          elif is_calculated is True:
+              print(
+                  "UNCONFIRMED: Status is marked calculated, but no sample row "
+                  "returned a Status value."
+              )
+          else:
+              print(
+                  "NOT CONFIRMED: The Status column was not marked calculated "
+                  "in the returned column metadata."
               )
           PY

@@ -50,7 +50,7 @@
   {
     "programme": "Collaborative Research Actions (CRAs)",
     "funder": "Belmont Forum",
-    "description": "nternational transdisciplinary research funding addressing global environmental change and sustainability",
+    "description": "International transdisciplinary research funding addressing global environmental change and sustainability",
     "status": "Rolling",
     "deadline": "",
     "deadline_note": "Programme-specific calls and deadlines",
@@ -284,7 +284,8 @@
     "deadline_note": "No closing date",
     "support_type": "Postdoc funding",
     "career_stage": "Postdoc",
-    "region": "Global"
+    "region": "Global",
+    "url": "https://www.ukri.org/opportunity/mathematical-sciences-early-independence-fellowship/"
   },
   {
     "programme": "Mathematical Sciences Postdoctoral Fellowship",

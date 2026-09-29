@@ -44,6 +44,7 @@ The opportunities below are current external funding opportunities selected from
 
 <section class="opportunity-section" data-opportunity-section>
   <h3>Open calls</h3>
+  <p class="opportunity-section-note">Sorted by application deadline, earliest first.</p>
   <div class="opportunity-list" data-opportunity-list="open">
     {% for opportunity in open_calls %}
       <article class="opportunity-entry"
@@ -57,8 +58,8 @@ The opportunities below are current external funding opportunities selected from
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <p class="opportunity-meta">
           {% if opportunity.deadline != empty %}<span>Deadline: {{ opportunity.deadline | escape }}</span>{% endif %}
-          {% if opportunity.support_type != empty %}<span>{{ opportunity.support_type | escape }}</span>{% endif %}
-          {% if opportunity.career_stage != empty %}<span>{{ opportunity.career_stage | escape }}</span>{% endif %}
+          {% if opportunity.support_type != empty %}<span>Support type: {{ opportunity.support_type | escape }}</span>{% endif %}
+          {% if opportunity.career_stage != empty %}<span>Career stage: {{ opportunity.career_stage | escape }}</span>{% endif %}
         </p>
         {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
       </article>
@@ -68,6 +69,7 @@ The opportunities below are current external funding opportunities selected from
 
 <section class="opportunity-section" data-opportunity-section>
   <h3>Rolling opportunities</h3>
+  <p class="opportunity-section-note">Opportunities without a fixed closing date, listed alphabetically.</p>
   <div class="opportunity-list" data-opportunity-list="rolling">
     {% for opportunity in rolling_opportunities %}
       <article class="opportunity-entry"
@@ -81,8 +83,8 @@ The opportunities below are current external funding opportunities selected from
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <p class="opportunity-meta">
           {% if opportunity.deadline != empty %}<span>Deadline: {{ opportunity.deadline | escape }}</span>{% endif %}
-          {% if opportunity.support_type != empty %}<span>{{ opportunity.support_type | escape }}</span>{% endif %}
-          {% if opportunity.career_stage != empty %}<span>{{ opportunity.career_stage | escape }}</span>{% endif %}
+          {% if opportunity.support_type != empty %}<span>Support type: {{ opportunity.support_type | escape }}</span>{% endif %}
+          {% if opportunity.career_stage != empty %}<span>Career stage: {{ opportunity.career_stage | escape }}</span>{% endif %}
         </p>
         {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
       </article>

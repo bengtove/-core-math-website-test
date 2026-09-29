@@ -53,7 +53,7 @@
 
 .opportunities-page .opportunity-funder {
   margin: 0.25rem 0 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .opportunities-page .opportunity-description {
@@ -62,17 +62,18 @@
 }
 
 .opportunities-page .opportunity-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 0;
   margin: 0.5rem 0 0;
   font-size: 0.9em;
 }
 
-.opportunities-page .opportunity-meta span + span::before {
-  content: "\00b7";
-  margin: 0 0.5rem;
-  color: #8c959f;
+.opportunities-page .opportunity-meta span {
+  display: block;
+}
+
+.opportunities-page .opportunity-section-note {
+  margin-top: -0.25rem;
+  color: #57606a;
+  font-size: 0.9em;
 }
 
 .opportunities-page .opportunity-deadline-note {

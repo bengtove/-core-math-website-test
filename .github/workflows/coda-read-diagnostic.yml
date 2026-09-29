@@ -34,7 +34,7 @@ jobs:
           target_name = os.environ["CODA_TARGET_TABLE"]
 
           if not token:
-              print("ERROR: CODA_API_TOKEN is not available to this workflow.", file=sys.stderr)
+              print("ERROR: The required repository secret is not available to this workflow.", file=sys.stderr)
               sys.exit(1)
 
           def get_json(path, params=None):

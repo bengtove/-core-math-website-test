@@ -17,6 +17,7 @@ jobs:
       CODA_TARGET_DOCUMENT: Mathematics funding database
       CODA_TARGET_BROWSER_URL: https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C
       CODA_TARGET_TABLE: Mathematics funding database
+      CODA_PERMISSION_TEST_DOCUMENT_ID: D4Qz3eJngD
 
     steps:
       - name: Discover document and inspect funding table using read-only endpoints
@@ -316,4 +317,64 @@ jobs:
                   "NOT CONFIRMED: The Status column was not marked calculated "
                   "in the returned column metadata."
               )
+          PY
+
+      - name: Test unrelated-document content permission
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          import sys
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          token = os.environ.get("CODA_API_TOKEN", "")
+          document_id = os.environ["CODA_PERMISSION_TEST_DOCUMENT_ID"]
+
+          if not token:
+              print(
+                  "ERROR: The required repository secret is not available to this workflow.",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+
+          encoded_document_id = urllib.parse.quote(document_id, safe="")
+          request = urllib.request.Request(
+              f"https://coda.io/apis/v1/docs/{encoded_document_id}/tables",
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/json",
+              },
+              method="GET",
+          )
+
+          try:
+              with urllib.request.urlopen(request, timeout=30):
+                  pass
+          except urllib.error.HTTPError as error:
+              if error.code in (401, 403, 404):
+                  print(
+                      "PERMISSION TEST PASSED: the restricted token cannot read "
+                      "content from the unrelated document."
+                  )
+                  sys.exit(0)
+              print(
+                  "PERMISSION TEST INCONCLUSIVE: the unrelated-document request "
+                  f"returned HTTP {error.code}.",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+          except urllib.error.URLError:
+              print(
+                  "PERMISSION TEST INCONCLUSIVE: the Coda API could not be reached.",
+                  file=sys.stderr,
+              )
+              sys.exit(1)
+
+          print(
+              "PERMISSION TEST FAILED: the restricted token can read content "
+              "from the unrelated document."
+          )
+          sys.exit(1)
           PY

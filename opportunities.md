@@ -22,7 +22,9 @@ Fellowship programmes at Uppsala University and the University of KwaZulu-Natal 
 
 ## Funding opportunities
 
-The opportunities below are current external funding opportunities selected from the ISP Mathematics Funding Database.
+The opportunities below are current funding opportunities selected from the ISP Mathematics Funding Database. They are intended as a starting point for postgraduate students, researchers and institutions looking for funding for research, mobility, training and collaboration.
+
+For full details, eligibility requirements and application procedures, please consult the funder's website using the links below. Deadlines and other information may change, so applicants should always verify the current information with the funder.
 
 <div class="opportunity-filters" aria-label="Filter funding opportunities">
   <label for="support-type-filter">

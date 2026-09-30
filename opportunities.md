@@ -130,4 +130,4 @@ The full ISP Mathematics Funding Database also includes programmes for which the
 
 </div>
 
-<script src="{{ '/assets/js/opportunities.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/opportunities.js' | relative_url }}?v=funder-filter" defer></script>

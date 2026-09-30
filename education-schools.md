@@ -5,6 +5,7 @@ permalink: /education/schools/
 
 # Previous schools
 
+- **2026:** [Arithmetic Geometry Summer School]({{ "/projects/arithmetic-geometry-summer-school-2026/" | relative_url }}) — Addis Ababa University, Ethiopia; 17–28 August 2026.
 - **2025:** EAUMP-ICTP School on Real and Harmonic Analysis — University of Rwanda; 21 July–1 August 2025.
 - **2024:** [EAUMP-ICTP School on the Mathematics of AI](https://indico.ictp.it/event/10494) — Makerere University, Uganda; 8–26 July 2024.
 - **2023:** [EAUMP-ICTP School on Enumerative Combinatorics, in Collaboration with AMU, CIMPA and ISP](https://indico.ictp.it/event/10188) — Arusha, Tanzania; 10–28 July 2023.

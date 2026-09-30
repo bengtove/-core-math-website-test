@@ -88,6 +88,7 @@
       });
   }
 
+  var funderFilter = page.querySelector("#funder-filter");
   var supportFilter = page.querySelector("#support-type-filter");
   var careerFilter = page.querySelector("#career-stage-filter");
   var noResults = page.querySelector("[data-opportunity-no-results]");
@@ -96,9 +97,10 @@
     var visibleCount = 0;
 
     page.querySelectorAll("[data-opportunity]").forEach(function (item) {
+      var funderMatches = !funderFilter.value || valuesFrom(item.dataset.funder || "").includes(funderFilter.value);
       var supportMatches = !supportFilter.value || valuesFrom(item.dataset.supportType || "").includes(supportFilter.value);
       var careerMatches = !careerFilter.value || valuesFrom(item.dataset.careerStage || "").includes(careerFilter.value);
-      var visible = supportMatches && careerMatches;
+      var visible = funderMatches && supportMatches && careerMatches;
       item.hidden = !visible;
       if (visible) visibleCount += 1;
     });
@@ -111,8 +113,10 @@
   }
 
   sortOpportunities();
+  populateFilter(funderFilter, "funder");
   populateFilter(supportFilter, "supportType");
   populateFilter(careerFilter, "careerStage");
+  funderFilter.addEventListener("change", applyFilters);
   supportFilter.addEventListener("change", applyFilters);
   careerFilter.addEventListener("change", applyFilters);
 }());

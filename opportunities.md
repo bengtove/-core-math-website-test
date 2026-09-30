@@ -27,6 +27,12 @@ The opportunities below are current funding opportunities selected from the ISP 
 For full details, eligibility requirements and application procedures, please consult the funder's website using the links below. Deadlines and other information may change, so applicants should always verify the current information with the funder.
 
 <div class="opportunity-filters" aria-label="Filter funding opportunities">
+  <label for="funder-filter">
+    Funder
+    <select id="funder-filter">
+      <option value="">All funders</option>
+    </select>
+  </label>
   <label for="support-type-filter">
     Support type
     <select id="support-type-filter">
@@ -52,18 +58,28 @@ For full details, eligibility requirements and application procedures, please co
       <article class="opportunity-entry"
         data-opportunity
         data-programme="{{ opportunity.programme | escape }}"
+        data-funder="{{ opportunity.funder | escape }}"
         data-deadline="{{ opportunity.deadline | escape }}"
         data-support-type="{{ opportunity.support_type | escape }}"
         data-career-stage="{{ opportunity.career_stage | escape }}">
         <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}" target="_blank" rel="noopener noreferrer">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
-        <p class="opportunity-meta">
-          {% if opportunity.deadline != empty %}<span>Deadline: {{ opportunity.deadline | escape }}</span>{% endif %}
-          {% if opportunity.support_type != empty %}<span>Support type: {{ opportunity.support_type | escape }}</span>{% endif %}
-          {% if opportunity.career_stage != empty %}<span>Career stage: {{ opportunity.career_stage | escape }}</span>{% endif %}
-        </p>
-        {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
+        <dl class="opportunity-meta">
+          <div class="opportunity-meta-item opportunity-meta-deadline">
+            <dt>Deadline</dt>
+            {% if opportunity.deadline != empty %}<dd class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</dd>{% endif %}
+            {% if opportunity.deadline_note != empty %}<dd class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</dd>{% endif %}
+          </div>
+          <div class="opportunity-meta-item">
+            <dt>Support type</dt>
+            <dd>{{ opportunity.support_type | escape }}</dd>
+          </div>
+          <div class="opportunity-meta-item">
+            <dt>Career stage</dt>
+            <dd>{{ opportunity.career_stage | escape }}</dd>
+          </div>
+        </dl>
       </article>
     {% endfor %}
   </div>
@@ -77,18 +93,28 @@ For full details, eligibility requirements and application procedures, please co
       <article class="opportunity-entry"
         data-opportunity
         data-programme="{{ opportunity.programme | escape }}"
+        data-funder="{{ opportunity.funder | escape }}"
         data-deadline="{{ opportunity.deadline | escape }}"
         data-support-type="{{ opportunity.support_type | escape }}"
         data-career-stage="{{ opportunity.career_stage | escape }}">
         <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}" target="_blank" rel="noopener noreferrer">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
-        <p class="opportunity-meta">
-          {% if opportunity.deadline != empty %}<span>Deadline: {{ opportunity.deadline | escape }}</span>{% endif %}
-          {% if opportunity.support_type != empty %}<span>Support type: {{ opportunity.support_type | escape }}</span>{% endif %}
-          {% if opportunity.career_stage != empty %}<span>Career stage: {{ opportunity.career_stage | escape }}</span>{% endif %}
-        </p>
-        {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
+        <dl class="opportunity-meta">
+          <div class="opportunity-meta-item opportunity-meta-deadline">
+            <dt>Deadline</dt>
+            {% if opportunity.deadline != empty %}<dd class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</dd>{% endif %}
+            {% if opportunity.deadline_note != empty %}<dd class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</dd>{% endif %}
+          </div>
+          <div class="opportunity-meta-item">
+            <dt>Support type</dt>
+            <dd>{{ opportunity.support_type | escape }}</dd>
+          </div>
+          <div class="opportunity-meta-item">
+            <dt>Career stage</dt>
+            <dd>{{ opportunity.career_stage | escape }}</dd>
+          </div>
+        </dl>
       </article>
     {% endfor %}
   </div>

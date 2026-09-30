@@ -10,17 +10,13 @@ Industrial Mathematics connects mathematicians and students with companies, publ
 
 ## How it works
 
-**Contact workshops → Modelling Weeks → Study Groups with Industry → Reports → Follow-up research**
+**Problem identification → Study Group with Industry → Report → Follow-up research**
 
-These activities form a connected approach, although they do not necessarily all take place in every case or follow a rigid sequence.
+This pathway connects real-world problems with intensive mathematical work, documented results and opportunities for longer-term collaboration.
 
-### Mathematics–Industry Contact Workshops
+### Working with external partners
 
-Mathematics–Industry Contact Workshops bring mathematicians together with companies, public organisations and other stakeholders to identify problems where mathematics may contribute, establish contacts and develop potential collaborations. Problems identified through these workshops can subsequently be developed for Study Groups with Industry and longer-term research.
-
-### Modelling Weeks
-
-[Modelling Weeks](https://ecmiindmath.org/education/modelling-weeks/) give MSc students intensive experience of working collaboratively on open-ended real-world problems using mathematical modelling. Students work in groups, develop mathematical approaches, communicate their results and gain experience of modelling as a process rather than simply applying predetermined techniques.
+Mathematics–Industry Contact Workshops and other interactions bring mathematicians together with companies, public organisations and other stakeholders to identify problems where mathematics may contribute, establish contacts and develop potential collaborations. Contact workshops are one important way of identifying and developing suitable problems and building relationships with external partners, but they are not a prerequisite for every Study Group.
 
 ### Study Groups with Industry
 
@@ -33,6 +29,10 @@ Every CoRE-Math Study Group with Industry must produce a report for each problem
 ### Follow-up research
 
 Promising problems and collaborations can continue after the Study Group through MSc or PhD projects, research visits, publications and longer-term research collaboration. The aim is therefore not only to solve problems during an intensive workshop, but also to create connections that can develop into sustained collaboration between mathematics and external partners.
+
+### Modelling Weeks
+
+[Modelling Weeks](https://ecmiindmath.org/education/modelling-weeks/) are a related educational component of the Industrial Mathematics programme. They give MSc students intensive experience of working collaboratively on open-ended real-world problems using mathematical modelling. Students work in groups, develop mathematical approaches, communicate their results and gain experience of modelling as a process rather than simply applying predetermined techniques. Modelling Weeks complement the Study Group activities but are not an integral stage in the Study Group process.
 
 ## Activities
 

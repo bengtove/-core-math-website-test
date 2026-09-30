@@ -16,7 +16,7 @@ Fellowship programmes at Uppsala University and the University of KwaZulu-Natal 
     <h3><a href="{{ '/programmes/core-math-fellowships/uppsala-university/' | relative_url }}">Uppsala University fellowships</a></h3>
   </div>
   <div class="fellowship-entry">
-    <h3><a href="{{ '/programmes/core-math-fellowships/' | relative_url }}">University of KwaZulu-Natal fellowships</a></h3>
+    <h3>University of KwaZulu-Natal fellowships</h3>
   </div>
 </div>
 

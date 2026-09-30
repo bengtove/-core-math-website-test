@@ -8,7 +8,6 @@ permalink: /projects/
 Programmes are continuing areas of CoRE-Math activity that bring together related activities over time. Projects are defined collaborations or initiatives with a particular purpose and scope, often carried out within a specific period.
 
 {% assign core_math_schools = site.programmes | where: "programme_id", "core-math-schools" | first %}
-{% assign core_math_fellowships = site.programmes | where: "programme_id", "core-math-fellowships" | first %}
 {% assign industry_mathematics = site.programmes | where: "programme_id", "study-groups-with-industry" | first %}
 {% assign women_in_math = site.projects | where: "title", "Women in Math" | first %}
 {% assign lake_victoria = site.projects | where: "project_id", "lake-victoria" | first %}
@@ -20,7 +19,7 @@ Programmes are continuing areas of CoRE-Math activity that bring together relate
 
 ## Programmes
 
-### [{{ core_math_fellowships.title }}]({{ core_math_fellowships.url | relative_url }})
+### CoRE-Math Fellowships
 
 Fellowship programmes at Uppsala University and the University of KwaZulu-Natal support research visits and mobility within the CoRE-Math network. They provide opportunities for postgraduate students and researchers to develop research collaborations, work with colleagues at other CoRE-Math institutions and strengthen connections across the network.
 

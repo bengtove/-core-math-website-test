@@ -28,7 +28,7 @@ Mathematics–Industry Contact Workshops bring mathematicians together with comp
 
 ### Reports
 
-Every CoRE-Math Study Group with Industry must produce a report for each problem studied. Reports should document the problem, the mathematical work undertaken and the results, and should be deposited in [Mathematics in Industry Reports (MIIR)](https://www.cambridge.org/engage/miir/public-dashboard), the international open repository hosted by Cambridge Open Engage.
+Every CoRE-Math Study Group with Industry must produce a report for each problem studied. Reports should document the problem, the mathematical work undertaken and the results, and should be deposited in [Mathematics in Industry Reports (MIIR)](https://www.cambridge.org/engage/miir/public-dashboard), the international open repository hosted by Cambridge Open Engage. Reports will also be linked from the relevant Study Group pages on the CoRE-Math website.
 
 ### Follow-up research
 

@@ -65,21 +65,19 @@ For full details, eligibility requirements and application procedures, please co
         <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}" target="_blank" rel="noopener noreferrer">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
-        <dl class="opportunity-meta">
-          <div class="opportunity-meta-item opportunity-meta-deadline">
-            <dt>Deadline</dt>
-            {% if opportunity.deadline != empty %}<dd class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</dd>{% endif %}
-            {% if opportunity.deadline_note != empty %}<dd class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</dd>{% endif %}
+        <div class="opportunity-meta">
+          <div class="opportunity-meta-row opportunity-meta-labels">
+            {% if opportunity.deadline != empty %}<span>Deadline</span>{% endif %}
+            <span>Support type</span>
+            <span>Career stage</span>
           </div>
-          <div class="opportunity-meta-item">
-            <dt>Support type</dt>
-            <dd>{{ opportunity.support_type | escape }}</dd>
+          <div class="opportunity-meta-row opportunity-meta-values">
+            {% if opportunity.deadline != empty %}<span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>{% endif %}
+            <span>{{ opportunity.support_type | escape }}</span>
+            <span>{{ opportunity.career_stage | escape }}</span>
           </div>
-          <div class="opportunity-meta-item">
-            <dt>Career stage</dt>
-            <dd>{{ opportunity.career_stage | escape }}</dd>
-          </div>
-        </dl>
+          {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
+        </div>
       </article>
     {% endfor %}
   </div>
@@ -100,21 +98,19 @@ For full details, eligibility requirements and application procedures, please co
         <h4>{% if opportunity.url != empty %}<a href="{{ opportunity.url | escape }}" target="_blank" rel="noopener noreferrer">{{ opportunity.programme | escape }}</a>{% else %}{{ opportunity.programme | escape }}{% endif %}</h4>
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
-        <dl class="opportunity-meta">
-          <div class="opportunity-meta-item opportunity-meta-deadline">
-            <dt>Deadline</dt>
-            {% if opportunity.deadline != empty %}<dd class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</dd>{% endif %}
-            {% if opportunity.deadline_note != empty %}<dd class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</dd>{% endif %}
+        <div class="opportunity-meta">
+          <div class="opportunity-meta-row opportunity-meta-labels">
+            {% if opportunity.deadline != empty %}<span>Deadline</span>{% endif %}
+            <span>Support type</span>
+            <span>Career stage</span>
           </div>
-          <div class="opportunity-meta-item">
-            <dt>Support type</dt>
-            <dd>{{ opportunity.support_type | escape }}</dd>
+          <div class="opportunity-meta-row opportunity-meta-values">
+            {% if opportunity.deadline != empty %}<span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>{% endif %}
+            <span>{{ opportunity.support_type | escape }}</span>
+            <span>{{ opportunity.career_stage | escape }}</span>
           </div>
-          <div class="opportunity-meta-item">
-            <dt>Career stage</dt>
-            <dd>{{ opportunity.career_stage | escape }}</dd>
-          </div>
-        </dl>
+          {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
+        </div>
       </article>
     {% endfor %}
   </div>

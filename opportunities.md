@@ -1,4 +1,3 @@
-/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 ---
 title: "Opportunities"
 permalink: /opportunities/
@@ -68,12 +67,18 @@ For full details, eligibility requirements and application procedures, please co
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
           <div class="opportunity-meta-grid">
-            <span class="opportunity-meta-label opportunity-meta-deadline">Deadline</span>
-            <span class="opportunity-meta-label opportunity-meta-support">Support type</span>
-            <span class="opportunity-meta-label opportunity-meta-career">Career stage</span>
-            <span class="opportunity-meta-value opportunity-meta-deadline opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
-            <span class="opportunity-meta-value opportunity-meta-support">{{ opportunity.support_type | escape }}</span>
-            <span class="opportunity-meta-value opportunity-meta-career">{{ opportunity.career_stage | escape }}</span>
+            <div class="opportunity-meta-column opportunity-meta-deadline">
+              <span class="opportunity-meta-label">Deadline</span>
+              <span class="opportunity-meta-value opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
+            </div>
+            <div class="opportunity-meta-column opportunity-meta-support">
+              <span class="opportunity-meta-label">Support type</span>
+              <span class="opportunity-meta-value">{{ opportunity.support_type | escape }}</span>
+            </div>
+            <div class="opportunity-meta-column opportunity-meta-career">
+              <span class="opportunity-meta-label">Career stage</span>
+              <span class="opportunity-meta-value">{{ opportunity.career_stage | escape }}</span>
+            </div>
           </div>
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>
@@ -99,12 +104,18 @@ For full details, eligibility requirements and application procedures, please co
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
           <div class="opportunity-meta-grid">
-            <span class="opportunity-meta-label opportunity-meta-deadline">Deadline</span>
-            <span class="opportunity-meta-label opportunity-meta-support">Support type</span>
-            <span class="opportunity-meta-label opportunity-meta-career">Career stage</span>
-            <span class="opportunity-meta-value opportunity-meta-deadline opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
-            <span class="opportunity-meta-value opportunity-meta-support">{{ opportunity.support_type | escape }}</span>
-            <span class="opportunity-meta-value opportunity-meta-career">{{ opportunity.career_stage | escape }}</span>
+            <div class="opportunity-meta-column opportunity-meta-deadline">
+              <span class="opportunity-meta-label">Deadline</span>
+              <span class="opportunity-meta-value opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
+            </div>
+            <div class="opportunity-meta-column opportunity-meta-support">
+              <span class="opportunity-meta-label">Support type</span>
+              <span class="opportunity-meta-value">{{ opportunity.support_type | escape }}</span>
+            </div>
+            <div class="opportunity-meta-column opportunity-meta-career">
+              <span class="opportunity-meta-label">Career stage</span>
+              <span class="opportunity-meta-value">{{ opportunity.career_stage | escape }}</span>
+            </div>
           </div>
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>

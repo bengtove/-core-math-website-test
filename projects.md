@@ -39,27 +39,27 @@ Women in Math is a cross-cutting area of work within CoRE-Math, aiming to increa
 
 ### [{{ earth_observation.title }}]({{ earth_observation.url | relative_url }})
 
-A Finland–Rwanda collaboration in applied mathematics for Earth observation involving LUT University, the University of Rwanda and AIMS Rwanda.
+A Finland–Rwanda collaboration using applied mathematics and Earth observation to address research questions connected with environmental and societal challenges. The project brings together LUT University, the University of Rwanda and AIMS Rwanda and supports research collaboration and researcher development.
 
 ### [FAME]({{ fame.url | relative_url }})
 
-An applied mathematics flagship programme supporting research collaboration between Finland and Africa, including doctoral and postdoctoral collaboration.
+FAME is a Finnish flagship programme in applied mathematics in which LUT University is a partner. Its collaboration with Africa supports joint research and the development of longer-term links between Finnish and African research environments, including doctoral and postdoctoral collaboration.
 
 ### [{{ lake_victoria.title }}]({{ lake_victoria.url | relative_url }})
 
-A developing CoRE-Math research collaboration around Lake Victoria.
+A developing CoRE-Math research collaboration bringing together mathematicians and researchers from other disciplines around challenges connected with the Lake Victoria region. The project aims to develop interdisciplinary research, regional collaboration and joint funding initiatives around problems where the mathematical sciences can make a contribution.
 
 ### [{{ math4sdg.title }}]({{ math4sdg.url | relative_url }})
 
-Math4SDG was funded through Norad’s NORHED II programme, with its closing conference held in Arusha in August 2026.
+Math4SDG was a NORHED II project strengthening mathematics and mathematics education through collaboration between universities in Africa and Norway. It supported PhD training, research collaboration and regional activities, and concluded with the African–Nordic Mathematics Conference in Arusha in August 2026.
 
 ### [{{ sida_collaboration.title }}]({{ sida_collaboration.url | relative_url }})
 
-Long-term bilateral and regional collaboration in mathematics, postgraduate education and research capacity development involving universities in Eastern Africa and Sweden.
+Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.
 
 ### [{{ spirit.title }}]({{ spirit.url | relative_url }})
 
-A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda.
+A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda. The project combines methodological research with doctoral training, researcher mobility and the development of statistical research capacity at the University of Rwanda.
 
 ## Previous projects
 

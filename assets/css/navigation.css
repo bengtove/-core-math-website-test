@@ -69,22 +69,27 @@
   display: grid;
   gap: 0.5rem;
   margin: 0;
+  text-align: left;
 }
 
 .opportunities-page .opportunity-meta-item {
   min-width: 0;
+  text-align: left;
 }
 
 .opportunities-page .opportunity-meta dt {
   margin: 0 0 0.1rem;
   color: #57606a;
-  font-size: 0.8em;
+  font-size: 0.95em;
+  font-style: normal;
   font-weight: 600;
+  text-align: left;
 }
 
 .opportunities-page .opportunity-meta dd {
   margin: 0;
-  font-size: 0.9em;
+  font-size: 1em;
+  text-align: left;
 }
 
 .opportunities-page .opportunity-deadline-value {
@@ -100,7 +105,7 @@
 .opportunities-page .opportunity-meta .opportunity-deadline-note {
   margin-top: 0.15rem;
   color: #57606a;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .opportunities-page .opportunity-filters {

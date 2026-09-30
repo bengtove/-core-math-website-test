@@ -1,4 +1,5 @@
 /opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
+/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 .site-navigation {
   margin: 1rem 0 2rem;
   padding: 0.75rem 0;
@@ -70,29 +71,30 @@
   text-align: left;
 }
 
-.opportunities-page .opportunity-meta-row {
-  display: flex;
-  flex-wrap: wrap;
+.opportunities-page .opportunity-meta-grid {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  column-gap: 1rem;
+  row-gap: 0.1rem;
   align-items: baseline;
-  margin: 0;
+  width: max-content;
+  max-width: 100%;
 }
 
-.opportunities-page .opportunity-meta-row span + span::before {
-  content: "|";
-  margin: 0 0.5rem;
-  color: #8c959f;
-  font-weight: 400;
+.opportunities-page .opportunity-meta-support,
+.opportunities-page .opportunity-meta-career {
+  padding-left: 1rem;
+  border-left: 1px solid #8c959f;
 }
 
-.opportunities-page .opportunity-meta-labels {
-  margin-bottom: 0.1rem;
+.opportunities-page .opportunity-meta-label {
   color: #57606a;
   font-size: 0.95em;
   font-style: normal;
   font-weight: 600;
 }
 
-.opportunities-page .opportunity-meta-values {
+.opportunities-page .opportunity-meta-value {
   font-size: 1em;
 }
 
@@ -142,5 +144,42 @@
 @media (min-width: 600px) {
   .opportunities-page .opportunity-filters {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .opportunities-page .opportunity-meta-grid {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .opportunities-page .opportunity-meta-support,
+  .opportunities-page .opportunity-meta-career {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .opportunities-page .opportunity-meta-label.opportunity-meta-deadline {
+    grid-row: 1;
+  }
+
+  .opportunities-page .opportunity-meta-value.opportunity-meta-deadline {
+    grid-row: 2;
+  }
+
+  .opportunities-page .opportunity-meta-label.opportunity-meta-support {
+    grid-row: 3;
+  }
+
+  .opportunities-page .opportunity-meta-value.opportunity-meta-support {
+    grid-row: 4;
+  }
+
+  .opportunities-page .opportunity-meta-label.opportunity-meta-career {
+    grid-row: 5;
+  }
+
+  .opportunities-page .opportunity-meta-value.opportunity-meta-career {
+    grid-row: 6;
   }
 }

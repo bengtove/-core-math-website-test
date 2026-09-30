@@ -1,3 +1,4 @@
+/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 ---
 title: "Opportunities"
 permalink: /opportunities/
@@ -66,15 +67,13 @@ For full details, eligibility requirements and application procedures, please co
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
-          <div class="opportunity-meta-row opportunity-meta-labels">
-            {% if opportunity.deadline != empty %}<span>Deadline</span>{% endif %}
-            <span>Support type</span>
-            <span>Career stage</span>
-          </div>
-          <div class="opportunity-meta-row opportunity-meta-values">
-            {% if opportunity.deadline != empty %}<span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>{% endif %}
-            <span>{{ opportunity.support_type | escape }}</span>
-            <span>{{ opportunity.career_stage | escape }}</span>
+          <div class="opportunity-meta-grid">
+            <span class="opportunity-meta-label opportunity-meta-deadline">Deadline</span>
+            <span class="opportunity-meta-label opportunity-meta-support">Support type</span>
+            <span class="opportunity-meta-label opportunity-meta-career">Career stage</span>
+            <span class="opportunity-meta-value opportunity-meta-deadline opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
+            <span class="opportunity-meta-value opportunity-meta-support">{{ opportunity.support_type | escape }}</span>
+            <span class="opportunity-meta-value opportunity-meta-career">{{ opportunity.career_stage | escape }}</span>
           </div>
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>
@@ -99,15 +98,13 @@ For full details, eligibility requirements and application procedures, please co
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
-          <div class="opportunity-meta-row opportunity-meta-labels">
-            {% if opportunity.deadline != empty %}<span>Deadline</span>{% endif %}
-            <span>Support type</span>
-            <span>Career stage</span>
-          </div>
-          <div class="opportunity-meta-row opportunity-meta-values">
-            {% if opportunity.deadline != empty %}<span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>{% endif %}
-            <span>{{ opportunity.support_type | escape }}</span>
-            <span>{{ opportunity.career_stage | escape }}</span>
+          <div class="opportunity-meta-grid">
+            <span class="opportunity-meta-label opportunity-meta-deadline">Deadline</span>
+            <span class="opportunity-meta-label opportunity-meta-support">Support type</span>
+            <span class="opportunity-meta-label opportunity-meta-career">Career stage</span>
+            <span class="opportunity-meta-value opportunity-meta-deadline opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
+            <span class="opportunity-meta-value opportunity-meta-support">{{ opportunity.support_type | escape }}</span>
+            <span class="opportunity-meta-value opportunity-meta-career">{{ opportunity.career_stage | escape }}</span>
           </div>
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>

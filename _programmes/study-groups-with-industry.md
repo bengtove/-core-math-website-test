@@ -16,23 +16,23 @@ This is the main Study Group process. Modelling Weeks are a separate educational
 
 ### Working with external partners
 
-Mathematics–Industry Contact Workshops and other interactions provide opportunities for mathematicians and external organisations to identify problems of mutual interest and explore possible collaboration.
+Mathematics–Industry Contact Workshops and other interactions bring mathematicians and external organisations together to identify problems of mutual interest. They may lead to problems being developed for a Study Group or to other forms of collaboration.
 
 ### Study Groups with Industry
 
-[Study Groups with Industry](https://ecmiindmath.org/study-groups/) are intensive workshops in which mathematicians and students work on problems proposed by companies, public organisations or other external partners.
+[Study Groups with Industry](https://ecmiindmath.org/study-groups/) are intensive workshops in which mathematicians and students analyse problems proposed by companies, public organisations or other external partners. The work is intended to develop mathematical formulations, methods and findings that can be documented and, where appropriate, investigated further.
 
 ### Reports
 
-Each CoRE-Math Study Group with Industry must produce a report for every problem studied. Reports document the problem, the mathematical work undertaken and the results, and should be deposited in [Mathematics in Industry Reports (MIIR)](https://www.cambridge.org/engage/miir/public-dashboard), the international open repository hosted by Cambridge Open Engage. They will also be linked from the relevant Study Group pages on the CoRE-Math website.
+Each CoRE-Math Study Group with Industry must produce a report for every problem studied. The report documents the problem, the mathematical work undertaken and the results, providing a record for the participating organisation and for possible further research. Reports should be deposited in [Mathematics in Industry Reports (MIIR)](https://www.cambridge.org/engage/miir/public-dashboard), the international open repository hosted by Cambridge Open Engage, and will also be linked from the relevant Study Group pages on the CoRE-Math website.
 
 ### Follow-up research
 
-Problems investigated during a Study Group may lead to continued collaboration or further research after the workshop.
+Problems investigated during a Study Group may continue through MSc or PhD projects, research visits or other joint research. This work may produce publications, further mathematical results or continued collaboration with the external organisation.
 
 ### Modelling Weeks
 
-[Modelling Weeks](https://ecmiindmath.org/education/modelling-weeks/) are educational activities in which students work in groups on mathematical modelling problems. They are particularly aimed at developing modelling, teamwork and communication skills and are separate from the Study Group process.
+[Modelling Weeks](https://ecmiindmath.org/education/modelling-weeks/) are educational activities in which students work in groups on mathematical modelling problems. Their purpose is to develop modelling, teamwork and communication skills through the preparation and presentation of a mathematical analysis. They are separate from the Study Group process.
 
 ## Activities
 

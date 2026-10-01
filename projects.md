@@ -52,7 +52,7 @@ A developing CoRE-Math research collaboration bringing together mathematicians a
 
 ### [{{ math4sdg.title }}]({{ math4sdg.url | relative_url }})
 
-Math4SDG was a NORHED II project strengthening mathematics and mathematics education through collaboration between universities in Africa and Norway. It supported PhD training, research collaboration and regional activities, and concluded with the African–Nordic Mathematics Conference in Arusha in August 2026.
+Math4SDG is a NORHED II project strengthening mathematics and mathematics education through collaboration between the University of Dar es Salaam, Makerere University and the University of Bergen. It supports PhD training, research collaboration, education and regional activities, including the African–Nordic Mathematics Conference held in Arusha in August 2026.
 
 ### [{{ sida_collaboration.title }}]({{ sida_collaboration.url | relative_url }})
 

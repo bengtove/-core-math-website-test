@@ -6,7 +6,11 @@ programme_id: "study-groups-with-industry"
 
 # Industrial Mathematics
 
-The CoRE-Math Industrial Mathematics programme organises activities involving mathematicians, students and external organisations. It builds on a long history of collaboration in applied and industrial mathematics in Africa and Europe.
+The CoRE-Math Industrial Mathematics programme brings mathematicians and students together with companies, public organisations and other external partners to work on problems where mathematics can contribute. Activities include Mathematics–Industry Contact Workshops, Modelling Weeks, Study Groups with Industry and follow-up research.
+
+The programme aims to develop research and collaboration around problems arising outside academia and to give students experience of mathematical modelling. Expected outcomes include problems developed into suitable topics for mathematical investigation, documented results from Study Groups, new research and student projects, and collaborations that continue beyond individual activities.
+
+The programme builds on a long history of collaboration in applied and industrial mathematics in Africa and Europe.
 
 ## How it works
 

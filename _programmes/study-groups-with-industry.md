@@ -6,33 +6,33 @@ programme_id: "study-groups-with-industry"
 
 # Industrial Mathematics
 
-Industrial Mathematics connects mathematicians and students with companies, public organisations and other partners to identify and work on problems where mathematics can contribute. Through contact workshops, Modelling Weeks, Study Groups with Industry and follow-up research, the programme creates pathways from real-world problems to mathematical research, student training and longer-term collaboration. It builds on a long history of collaboration in applied and industrial mathematics in Africa and Europe.
+The CoRE-Math Industrial Mathematics programme organises activities involving mathematicians, students and external organisations. It builds on a long history of collaboration in applied and industrial mathematics in Africa and Europe.
 
 ## How it works
 
 **Problem identification → Study Group with Industry → Report → Follow-up research**
 
-This pathway connects real-world problems with intensive mathematical work, documented results and opportunities for longer-term collaboration.
+This is the main Study Group process. Modelling Weeks are a separate educational activity.
 
 ### Working with external partners
 
-Mathematics–Industry Contact Workshops and other interactions bring mathematicians together with companies, public organisations and other stakeholders to identify problems where mathematics may contribute, establish contacts and develop potential collaborations. Contact workshops are one important way of identifying and developing suitable problems and building relationships with external partners, but they are not a prerequisite for every Study Group.
+Mathematics–Industry Contact Workshops and other interactions provide opportunities for mathematicians and external organisations to identify problems of mutual interest and explore possible collaboration.
 
 ### Study Groups with Industry
 
-[Study Groups with Industry](https://ecmiindmath.org/study-groups/) bring mathematicians, students and problem owners together for intensive work on problems originating in industry, public organisations or society. Problems are presented by the participating organisations and interdisciplinary groups work on them during an intensive workshop, developing mathematical formulations, approaches and possible solutions. Study Groups are an internationally established model for collaboration between mathematics and industry, with origins going back to Oxford in 1968.
+[Study Groups with Industry](https://ecmiindmath.org/study-groups/) are intensive workshops in which mathematicians and students work on problems proposed by companies, public organisations or other external partners.
 
 ### Reports
 
-Every CoRE-Math Study Group with Industry must produce a report for each problem studied. Reports should document the problem, the mathematical work undertaken and the results, and should be deposited in [Mathematics in Industry Reports (MIIR)](https://www.cambridge.org/engage/miir/public-dashboard), the international open repository hosted by Cambridge Open Engage. Reports will also be linked from the relevant Study Group pages on the CoRE-Math website.
+Each CoRE-Math Study Group with Industry must produce a report for every problem studied. Reports document the problem, the mathematical work undertaken and the results, and should be deposited in [Mathematics in Industry Reports (MIIR)](https://www.cambridge.org/engage/miir/public-dashboard), the international open repository hosted by Cambridge Open Engage. They will also be linked from the relevant Study Group pages on the CoRE-Math website.
 
 ### Follow-up research
 
-Promising problems and collaborations can continue after the Study Group through MSc or PhD projects, research visits, publications and longer-term research collaboration. The aim is therefore not only to solve problems during an intensive workshop, but also to create connections that can develop into sustained collaboration between mathematics and external partners.
+Problems investigated during a Study Group may lead to continued collaboration or further research after the workshop.
 
 ### Modelling Weeks
 
-[Modelling Weeks](https://ecmiindmath.org/education/modelling-weeks/) are a related educational component of the Industrial Mathematics programme. They give MSc students intensive experience of working collaboratively on open-ended real-world problems using mathematical modelling. Students work in groups, develop mathematical approaches, communicate their results and gain experience of modelling as a process rather than simply applying predetermined techniques. Modelling Weeks complement the Study Group activities but are not an integral stage in the Study Group process.
+[Modelling Weeks](https://ecmiindmath.org/education/modelling-weeks/) are educational activities in which students work in groups on mathematical modelling problems. They are particularly aimed at developing modelling, teamwork and communication skills and are separate from the Study Group process.
 
 ## Activities
 

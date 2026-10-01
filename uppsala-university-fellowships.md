@@ -29,22 +29,19 @@ In 2026, 35 applications were received and eight fellowships were awarded.
 
 ## Fellows 2025
 
-In 2025, 38 applications were received.
+In 2025, 38 applications were received and eight fellowships were awarded.
 
 <div class="fellowship-table" markdown="1">
 
-| Fellow | University | Category |
-| --- | --- | --- |
-| Amanuel Mamo Embato | Addis Ababa University | PhD |
-| Biadiglign Asmare | Addis Ababa University | PhD |
-| Gilbert Mutungi | Makerere University | PhD |
-| Markos Fisseha Yimer | Addis Ababa University | Postdoc |
-| Shabani Makwaru | University of Dar es Salaam | PhD |
-| Smegnsh Demelash Yeruk | Addis Ababa University | Postdoc |
+| Fellow | University | Category | Duration |
+| --- | --- | --- | --- |
+| Amanuel Mamo Embato | Addis Ababa University | PhD | 3 months |
+| Biadiglign Asmare | Addis Ababa University | PhD | 3 months |
+| Gilbert Mutungi | Makerere University | PhD | 3 months |
+| Markos Fisseha Yimer | Addis Ababa University | Postdoc | 1 month |
+| Shabani Makwaru | University of Dar es Salaam | PhD | 3 months |
+| Smegnsh Demelash Yeruk | Addis Ababa University | Postdoc | 1 month |
+| David Ssevviiri | Makerere University | Senior | up to 2 weeks |
+| Simo S. Methethwa | University of KwaZulu-Natal | Senior | up to 2 weeks |
 
 </div>
-
-Senior-researcher fellowships for visits of up to two weeks were also awarded to:
-
-- David Ssevviiri — Makerere University
-- Simo S. Methethwa — University of KwaZulu-Natal

@@ -16,6 +16,8 @@ collections:
   research_groups:
     output: true
     permalink: /research-groups/:name/
+  publications:
+    output: false
 
 defaults:
   - scope:

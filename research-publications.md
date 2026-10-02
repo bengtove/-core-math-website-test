@@ -17,18 +17,8 @@ The list is based on reported publications and is not intended as a complete bib
 {% for publication in publications %}
 <div class="publication">
 <p>
-{% if publication.url %}
-  {% if publication.url contains 'http' %}
-    <strong><a href="{{ publication.url }}">{{ publication.title }}</a></strong>
-  {% else %}
-    <strong><a href="https://doi.org/{{ publication.url }}">{{ publication.title }}</a></strong>
-  {% endif %}
-{% else %}
-  <strong>{{ publication.title }}</strong>
-{% endif %}
-<br>
-{{ publication.authors }}{% if publication.output %}. <em>{{ publication.output }}</em>{% endif %}.
-<br>
+<strong>{{ publication.title }}</strong><br>
+{{ publication.authors }}<br>
 <small>
 {{ publication.nodes | join: " · " }}
 {% if publication.research_groups %} · Research group: {{ publication.research_groups | join: ", " }}{% endif %}

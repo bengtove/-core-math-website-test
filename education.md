@@ -9,7 +9,7 @@ Education within CoRE-Math focuses primarily on postgraduate training in the mat
 
 ## Schools
 
-CoRE-Math Schools bring together postgraduate students and researchers for intensive study of mathematical topics. They expose students to topics and expertise that may not be available locally, provide opportunities to develop research contacts and networks, and can help students identify directions for thesis and research work.
+CoRE-Math Schools build on a series of postgraduate mathematics schools that started in 2004 and have been organised annually since then. The schools have been supported by ICTP, ISP and other funders, with CIMPA becoming an important partner in recent years. They bring together postgraduate students and researchers for intensive study of mathematical topics, exposing students to topics and expertise that may not be available locally and creating opportunities for research contacts, thesis topics and collaboration.
 
 {% for project in site.projects %}
   {% if project.sections contains "education" %}

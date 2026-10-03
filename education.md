@@ -27,21 +27,6 @@ Modelling Weeks are educational activities in which students work in groups on m
 
 Current PhD research at the African CoRE-Math nodes covers a broad range of mathematical sciences, from algebra, combinatorics and partial differential equations to mathematical modelling, optimisation and applications in health and other areas.
 
-The directory below presents current PhD students reported by the participating ISP-supported mathematics environments. Research topics are included where available.
+The directory presents current PhD students reported by the participating ISP-supported mathematics environments. Research topics are included where available.
 
-
-{% assign phd_institutions = "Addis Ababa University|Makerere University|University of Nairobi|University of Rwanda|University of Dar es Salaam|University of Zambia" | split: "|" %}
-
-{% for institution in phd_institutions %}
-### {{ institution }}
-
-{% assign students = site.data.phd_students | where: "institution", institution %}
-{% for student in students %}
-**{{ student.name }}**{% if student.topic %}  
-*{{ student.topic | newline_to_br }}*{% endif %}{% if student.start_year %}  
-Started {{ student.start_year }}{% endif %}{% if student.research_group %}  
-Research group: {{ student.research_group }}{% endif %}{% if student.collaboration %}  
-Collaboration: {{ student.collaboration }}{% endif %}
-
-{% endfor %}
-{% endfor %}
+[Current PhD students →]({{ "/education/phd-students/" | relative_url }})

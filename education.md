@@ -13,7 +13,7 @@ CoRE-Math Schools bring together postgraduate students and researchers for inten
 
 {% for project in site.projects %}
   {% if project.sections contains "education" %}
-- [{{ project.title }}]({{ project.url | relative_url }}){% if project.location %} — {{ project.location }}{% endif %}
+- [{{ project.title }}]({{ project.url | relative_url }}){% if project.dates %} — {{ project.dates }}{% endif %}{% if project.location %} · {{ project.location }}{% endif %}
   {% endif %}
 {% endfor %}
 

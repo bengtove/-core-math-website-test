@@ -5,6 +5,7 @@ project_id: "topological-data-analysis-summer-school-2027"
 programme: "core-math-schools"
 location: "Lusaka, Zambia"
 year: 2027
+dates: "19–30 July 2027"
 sections: [education]
 ---
 

@@ -25,4 +25,6 @@ Modelling Weeks are educational activities in which students work in groups on m
 
 ## Doctoral education
 
-CoRE-Math aims to strengthen doctoral education through collaboration between participating universities. This can include collaborative supervision, research visits and mobility, research-oriented workshops, and opportunities for PhD students to become part of wider research collaborations.
+Current PhD research at the African CoRE-Math nodes covers a broad range of mathematical sciences, from algebra, combinatorics and partial differential equations to mathematical modelling, optimisation and applications in health and other areas.
+
+The directory below presents current PhD students reported by the participating ISP-supported mathematics environments. Research topics are included where available.

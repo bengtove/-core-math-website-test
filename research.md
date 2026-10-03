@@ -9,10 +9,12 @@ Research within CoRE-Math brings together researchers across African and Europea
 
 ## Research groups
 
+CoRE-Math connects with several regional research groups that provide platforms for collaboration, postgraduate training and scientific exchange.
+
 {% for research_group in site.research_groups %}
 - [{{ research_group.title }}]({{ research_group.url | relative_url }})
 {% endfor %}
 
 ## Publications
 
-[Selected publications from CoRE-Math nodes]({{ '/research/publications/' | relative_url }}) — mathematical-sciences publications reported through the CoRE-Math annual surveys, with links to research groups, projects and collaborations where known.
+[Selected publications from CoRE-Math nodes]({{ '/research/publications/' | relative_url }}) — a curated collection of mathematical-sciences publications by researchers at the African CoRE-Math nodes, with links to research groups, projects and collaborations where known.

@@ -12,5 +12,8 @@ permalink: /news-events/
 ## {{ post_year }}
     {% assign current_year = post_year %}
   {% endif %}
-- {{ post.date | date: "%-d %B" }} — [{{ post.title }}]({{ post.url | relative_url }})
+<div style="display:grid;grid-template-columns:7.5rem 1fr;column-gap:1rem;margin:0.55rem 0;">
+  <div>{{ post.date | date: "%-d %B" }}</div>
+  <div><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+</div>
 {% endfor %}

@@ -5,12 +5,12 @@ permalink: /news-events/
 
 # News & Events
 
-Updates and events from across CoRE-Math.
-
+{% assign current_year = "" %}
 {% for post in site.posts %}
-## [{{ post.title }}]({{ post.url | relative_url }})
-
-**{{ post.date | date: "%-d %B %Y" }}{% if post.location %} · {{ post.location }}{% endif %}**
-
-{{ post.excerpt }}
+  {% assign post_year = post.date | date: "%Y" %}
+  {% if post_year != current_year %}
+## {{ post_year }}
+    {% assign current_year = post_year %}
+  {% endif %}
+- {{ post.date | date: "%-d %B" }} — [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}

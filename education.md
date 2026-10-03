@@ -5,9 +5,11 @@ permalink: /education/
 
 # Education
 
-Education and postgraduate training within CoRE-Math.
+Education within CoRE-Math focuses primarily on postgraduate training in the mathematical sciences. Through collaboration between universities in Africa and Europe, CoRE-Math creates opportunities for Master's and PhD students to broaden their mathematical training, engage with active research environments and build connections across institutions and countries. Activities include intensive schools, mathematical modelling training, research-oriented workshops and mobility.
 
 ## Schools
+
+CoRE-Math Schools bring together postgraduate students and researchers for intensive study of mathematical topics. They expose students to topics and expertise that may not be available locally, provide opportunities to develop research contacts and networks, and can help students identify directions for thesis and research work.
 
 {% for project in site.projects %}
   {% if project.sections contains "education" %}
@@ -19,8 +21,8 @@ Education and postgraduate training within CoRE-Math.
 
 ## Modelling Weeks
 
-**Planned:** Modelling Weeks for MSc students will provide intensive training in mathematical modelling, including activities connected to CoRE-Math Study Groups with Industry.
+Modelling Weeks are educational activities in which students work in groups on mathematical modelling problems. They are designed particularly for Master's students and develop skills in mathematical modelling, teamwork and communication. Modelling Weeks form part of CoRE-Math's [Industrial Mathematics programme]({{ "/programmes/study-groups-with-industry/" | relative_url }}).
 
-## PhD pipeline
+## Doctoral education
 
-**Planned:** This section will provide an overview of PhD students and doctoral research within CoRE-Math, including collaborative supervision across participating institutions. The data have not yet been added.
+CoRE-Math aims to strengthen doctoral education through collaboration between participating universities. This can include collaborative supervision, research visits and mobility, research-oriented workshops, and opportunities for PhD students to become part of wider research collaborations.

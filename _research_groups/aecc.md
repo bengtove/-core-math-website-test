@@ -33,7 +33,9 @@ Two major AECC activities are planned at Makerere University in 2027:
 
 The publications below are records in the CoRE-Math publication dataset explicitly connected with AECC or its predecessor CoRS.
 
-{% assign aecc_publications = site.data.publications | where_exp: "publication", "publication.research_groups contains 'AECC' or publication.research_groups contains 'CoRS'" %}
+{% assign aecc_publications = site.data.publications | where_exp: "publication", "publication.research_groups contains 'AECC'" %}
+{% assign cors_publications = site.data.publications | where_exp: "publication", "publication.research_groups contains 'CoRS'" %}
+{% assign aecc_publications = aecc_publications | concat: cors_publications %}
 {% assign years = aecc_publications | map: "year" | uniq | sort | reverse %}
 {% for year in years %}
 ### {{ year }}

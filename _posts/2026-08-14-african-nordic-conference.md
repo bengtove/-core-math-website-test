@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "The Second African-Nordic Conference in Mathematics"
 date: 2026-08-14
 location: "Arusha, Tanzania"

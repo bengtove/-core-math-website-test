@@ -5,6 +5,7 @@ project_id: "arithmetic-geometry-summer-school-2026"
 programme: "core-math-schools"
 location: "Addis Ababa, Ethiopia"
 year: 2026
+dates: "17–28 August 2026"
 sections: [education]
 ---
 

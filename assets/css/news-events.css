@@ -4,7 +4,7 @@
 
 .event-item {
   display: grid;
-  grid-template-columns: 18rem minmax(0, 1fr);
+  grid-template-columns: 21rem minmax(0, 1fr);
   gap: 1rem;
   padding: 0.8rem 0;
   border-bottom: 1px solid #eaecef;
@@ -14,6 +14,10 @@
 .news-date,
 .event-location {
   color: #586069;
+}
+
+.event-date {
+  white-space: nowrap;
 }
 
 .event-title {
@@ -83,6 +87,10 @@
   .news-archive-item {
     grid-template-columns: 1fr;
     gap: 0.15rem;
+  }
+
+  .event-date {
+    white-space: normal;
   }
 
   .latest-news {

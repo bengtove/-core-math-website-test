@@ -42,6 +42,14 @@ African Women in Algebra is an African research network for women working in alg
 
 AWMA is a pan-African organisation promoting the participation and development of women in mathematics through networking, mentoring and support for study and research careers.
 
+### [Women in Sage Africa](https://www.africanwomeninmath.org/activities/conference)
+
+Women in Sage Africa (WiS-Africa) is a recurring initiative bringing together African mathematicians, particularly women and early-career researchers, for collaborative research, training in SageMath, networking and mentoring. The workshops aim to develop research collaborations across countries while strengthening the participation and visibility of women in mathematics.
+
+WiS-Africa workshops have been held in:
+
+**Senegal (2021) · Nigeria (2022) · Uganda (2023) · Burundi (2024) · Tunisia (2025) · South Africa (2026)**
+
 ### [STEM MentHER](https://www.stemmenther.co.za/about)
 
 STEM MentHER is a South African mentoring initiative supporting female secondary-school learners interested in STEM and connecting them with women in academia and industry. It was founded by mathematician Cerene Rathilal, who is based at the University of KwaZulu-Natal.

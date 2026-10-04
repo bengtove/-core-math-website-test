@@ -11,6 +11,9 @@
     {% if page.layout == "post" %}
     <link rel="stylesheet" href="{{ "/assets/css/news-lightbox.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
+    {% if page.news_events or page.archive_year %}
+    <link rel="stylesheet" href="{{ "/assets/css/news-events.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% endif %}
     {% include head-custom.html %}
   </head>
   <body>

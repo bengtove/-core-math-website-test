@@ -16,6 +16,9 @@ collections:
   research_groups:
     output: true
     permalink: /research-groups/:name/
+  events:
+    output: true
+    permalink: /events/:name/
   publications:
     output: false
 
@@ -25,6 +28,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: event
   - scope:
       path: ""
     values:

@@ -13,8 +13,8 @@ CoRE-Math organises and supports mathematics competitions to stimulate young peo
 
 ## Schools and young people
 
-CoRE-Math partners work with schools and young people through school visits, mathematics camps and other activities that encourage interest in mathematics and further study in mathematics and science.
+CoRE-Math works with schools and young people through school visits, mathematics and science camps, career guidance and mentorship to encourage interest in mathematics and further study in mathematics and related disciplines. [Read more about schools and young people]({{ '/outreach/schools-and-young-people/' | relative_url }}).
 
-## Teacher and coach training
+## Teacher training
 
-Workshops and training activities support mathematics teachers and competition coaches, including the preparation of students for national, regional and international mathematics competitions.
+CoRE-Math partners support mathematics teachers through training and collaboration with schools and mathematical organisations. Activities include work with teachers to strengthen mathematics teaching and improve opportunities for students. Training for mathematics competition coaches is described under [Mathematics competitions]({{ '/outreach/mathematics-competitions/' | relative_url }}).

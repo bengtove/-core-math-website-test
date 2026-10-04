@@ -4,7 +4,7 @@
 
 .event-item {
   display: grid;
-  grid-template-columns: 14rem minmax(0, 1fr);
+  grid-template-columns: 16rem minmax(0, 1fr);
   gap: 1rem;
   padding: 0.8rem 0;
   border-bottom: 1px solid #eaecef;

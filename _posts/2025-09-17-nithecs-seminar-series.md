@@ -4,4 +4,4 @@ date: 2025-09-17
 type: news
 ---
 
-Check out the seminar series of the South African National Institute of Theoretical Computer Science: https://nithecs.ac.za/upcoming-events/ .
+Check out the [seminar series](https://nithecs.ac.za/upcoming-events/) of the South African National Institute of Theoretical Computer Science.

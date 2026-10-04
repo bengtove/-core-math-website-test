@@ -128,4 +128,4 @@ For full details, eligibility requirements and application procedures, please co
 
 </div>
 
-<script src="{{ '/assets/js/opportunities.js' | relative_url }}?v=funder-filter" defer></script>
+<script src="{{ '/assets/js/opportunities.js' | relative_url }}?v=deadline-filter" defer></script>

@@ -14,12 +14,12 @@ AECC builds on an earlier regional collaboration in enumerative combinatorics, t
 
 AECC organises a regular online seminar series in enumerative combinatorics, providing a meeting place for researchers and students across institutions and countries.
 
-## 2027 school and workshop
+## Events
 
 Two major AECC activities are planned at Makerere University in 2027:
 
-- **CIMPA Research School on Algebraic and Enumerative Combinatorics**, 19–30 July 2027.
-- **Pan-African AECC Research Workshop on Enumerative Combinatorics**, 2–6 August 2027.
+- **[CIMPA School on Algebraic and Enumerative Combinatorics]({{ "/events/2027-algebraic-enumerative-combinatorics/" | relative_url }})**, 19–30 July 2027.
+- **[Inaugural Pan-African AECC Research Workshop on Enumerative Combinatorics]({{ "/events/2027-pan-african-aecc-workshop/" | relative_url }})**, 2–6 August 2027.
 
 ## Committee
 

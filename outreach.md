@@ -9,7 +9,7 @@ CoRE-Math works with schools, teachers and mathematics organisations to promote 
 
 ## Mathematics competitions
 
-CoRE-Math partners organise and support national mathematics competitions and help talented students progress to regional and international competitions, including the East African Mathematical Olympiad (EAMO) and East African Junior Mathematical Olympiad (EAMO-J).
+CoRE-Math organises and supports mathematics competitions to stimulate young people's interest in mathematics, encourage further study—particularly in mathematics and related disciplines—and identify and develop mathematical talent. [Read more about mathematics competitions]({{ '/outreach/mathematics-competitions/' | relative_url }}).
 
 ## Schools and young people
 

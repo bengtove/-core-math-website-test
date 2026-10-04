@@ -1,4 +1,3 @@
-/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 ---
 title: "Seminar in \"Telescoping Physics of the Early Universe\" at the University of KwaZulu-Natal"
 date: 2026-02-03

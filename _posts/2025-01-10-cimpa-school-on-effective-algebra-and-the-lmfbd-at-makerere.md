@@ -1,4 +1,3 @@
-/opt/homebrew/Library/Homebrew/cmd/shellenv.sh: line 18: /bin/ps: Operation not permitted
 ---
 title: "CIMPA School on Effective Algebra and the LMFBD at Makerere"
 date: 2025-01-10

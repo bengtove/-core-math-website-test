@@ -4,4 +4,4 @@ date: 2026-01-30
 type: news
 ---
 
-The African Enumerative Combinatorics Community hosts monthly online seminars. Details about the schedule and topics can be found [here](https://african-enumerative-combinatorics.github.io/)
+The African Enumerative Combinatorics Community hosts monthly online seminars. Details about the schedule and topics can be found [here](https://african-enumerative-combinatorics.github.io/).

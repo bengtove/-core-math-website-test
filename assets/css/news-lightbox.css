@@ -1,3 +1,29 @@
+.news-post img {
+  display: block;
+  width: auto;
+  max-width: min(100%, 44rem);
+  height: auto;
+  max-height: min(34rem, 70vh);
+  margin: 1.25rem auto;
+  object-fit: contain;
+}
+
+.news-post figure {
+  margin: 1.25rem 0;
+}
+
+.news-post figure img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news-post figcaption {
+  margin: 0.5rem auto 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .news-post img[data-lightbox-ready] {
   cursor: zoom-in;
 }

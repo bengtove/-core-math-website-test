@@ -8,6 +8,4 @@ project: "kampala-sgi-2026"
 
 The 2026 CoRE-Math Study Group with Industry brought together mathematicians, students and industry partners in Kampala to work on problems originating outside academia.
 
-This is our first test news item.
-
 [View the Kampala SGI 2026 project]({{ "/projects/kampala-sgi-2026/" | relative_url }}).

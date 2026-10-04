@@ -46,6 +46,18 @@
     return item.dataset.programme || "";
   }
 
+  function hideExpiredOpenCalls() {
+    var now = new Date();
+    var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+
+    page.querySelectorAll('[data-opportunity-list="open"] [data-opportunity]').forEach(function (item) {
+      var deadline = deadlineValue(item.dataset.deadline || "");
+      if (deadline !== null && deadline < today) {
+        item.remove();
+      }
+    });
+  }
+
   function sortOpportunities() {
     var openList = page.querySelector('[data-opportunity-list="open"]');
     var rollingList = page.querySelector('[data-opportunity-list="rolling"]');
@@ -112,6 +124,7 @@
     noResults.hidden = visibleCount !== 0;
   }
 
+  hideExpiredOpenCalls();
   sortOpportunities();
   populateFilter(funderFilter, "funder");
   populateFilter(supportFilter, "supportType");

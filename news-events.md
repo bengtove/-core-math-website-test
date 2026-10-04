@@ -19,7 +19,7 @@ news_events: true
     <div class="event-item">
       <div class="event-date">
         {% if event.end_date %}
-          {{ event.start_date | date: "%-d %B %Y" }}–{{ event.end_date | date: "%-d %B %Y" }}
+          {{ event.start_date | date: "%-d %B %Y" }} – {{ event.end_date | date: "%-d %B %Y" }}
         {% else %}
           {{ event.start_date | date: "%-d %B %Y" }}
         {% endif %}

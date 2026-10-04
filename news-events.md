@@ -5,8 +5,6 @@ permalink: /news-events/
 
 # News & Events
 
-## News archive
-
 {% assign current_year = "" %}
 {% for post in site.posts %}
   {% assign post_year = post.date | date: "%Y" %}

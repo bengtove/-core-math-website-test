@@ -28,14 +28,36 @@
 }
 
 .news-card {
-  padding: 1rem;
+  overflow: hidden;
   border: 1px solid #e1e4e8;
   border-radius: 6px;
+  background: #fff;
+}
+
+.news-card-image-link {
+  display: block;
+}
+
+.news-card-image {
+  display: block;
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.news-card-content {
+  padding: 1rem;
 }
 
 .news-card h3 {
-  margin: 0.25rem 0 0;
+  margin: 0.25rem 0 0.55rem;
   font-size: 1.05rem;
+}
+
+.news-excerpt {
+  margin: 0;
+  color: #444d56;
+  line-height: 1.5;
 }
 
 .news-archive-years {

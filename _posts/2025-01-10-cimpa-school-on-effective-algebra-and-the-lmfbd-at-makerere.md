@@ -5,3 +5,5 @@ type: news
 ---
 
 Starting from Januray 13 2025 there will be a CIMPA School at Makerere University dedicated to Effective Algebra and the LMFBD. Makerere CIMPA School 2025 Group Photo Read more about the school [here](https://math.mak.ac.ug/cimpa_uganda/).
+
+![Participants at the CIMPA School at Makerere University]({{ "/assets/images/news/560c14_07f7ae2d9b984d03b9b112e02c9e2468~mv2.jpg.avif" | relative_url }})

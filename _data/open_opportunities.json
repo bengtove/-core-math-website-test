@@ -12,18 +12,6 @@
     "url": "https://www.ictp.it/home/scientific-calendar"
   },
   {
-    "programme": "CIMPA Courses",
-    "funder": "CIMPA",
-    "description": "Funding for a guest lecturer at Master’s level",
-    "status": "Open",
-    "deadline": "30 September 2026",
-    "deadline_note": "Four calls per year, September call",
-    "support_type": "Teaching",
-    "career_stage": "Institutional",
-    "region": "Global South",
-    "url": "https://www.cimpa.info/index.php/en/node/59"
-  },
-  {
     "programme": "CIMPA Fellowships",
     "funder": "CIMPA",
     "description": "Funding for young mathematicians from the Global South for thematic stays in research centres",
@@ -82,18 +70,6 @@
     "career_stage": "Postdoc",
     "region": "Global",
     "url": "https://www.leverhulme.ac.uk/early-career-fellowships/"
-  },
-  {
-    "programme": "Early Career Fellowships",
-    "funder": "LMS",
-    "description": "Early-career fellowships supporting research time and collaboration",
-    "status": "Open",
-    "deadline": "1 October 2026",
-    "deadline_note": "Annual call, typically October",
-    "support_type": "Research visits",
-    "career_stage": "Postdoc",
-    "region": "UK linked",
-    "url": "https://www.lms.ac.uk/grants"
   },
   {
     "programme": "Emmy Noether Fellowships",
@@ -180,18 +156,6 @@
     "url": "https://www.lms.ac.uk/grants"
   },
   {
-    "programme": "Grants for Conference Organizers",
-    "funder": "IMU–CDC",
-    "description": "Funding for travel and accommodation of speakers and participants from developing countries at mathematical conferences and research schools",
-    "status": "Open",
-    "deadline": "1 October 2026",
-    "deadline_note": "Four calls per year, October call",
-    "support_type": "Event organisation",
-    "career_stage": "Faculty",
-    "region": "Global South",
-    "url": "https://www.mathunion.org/cdc/grants/overview-funding-opportunities"
-  },
-  {
     "programme": "Horizon Europe",
     "funder": "European Commission",
     "description": "Large-scale funding programme supporting international research and innovation, including collaborative opportunities involving African institutions",
@@ -202,18 +166,6 @@
     "career_stage": "Faculty, Institutional",
     "region": "Global",
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/"
-  },
-  {
-    "programme": "IMU-Simons Research Fellowship Program for Developing Countries",
-    "funder": "IMU–CDC",
-    "description": "Funding for research visits of up to three months for mathematicians based in eligible developing countries",
-    "status": "Open",
-    "deadline": "1 October 2026",
-    "deadline_note": "Four calls per year, October call",
-    "support_type": "Research visits",
-    "career_stage": "Faculty, Postdoc",
-    "region": "Global South",
-    "url": "https://www.mathunion.org/cdc/grants/SRF"
   },
   {
     "programme": "Inclusion and Diversity Fund",
@@ -238,18 +190,6 @@
     "career_stage": "Faculty",
     "region": "Global",
     "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/international-cooperation/initiation-international-collaboration"
-  },
-  {
-    "programme": "Joint Research Groups",
-    "funder": "LMS",
-    "description": "Funding for sustained collaborative research between groups",
-    "status": "Open",
-    "deadline": "30 September 2026",
-    "deadline_note": "Annual call, typically September",
-    "support_type": "Institutional capacity building",
-    "career_stage": "Faculty",
-    "region": "UK linked",
-    "url": "https://www.lms.ac.uk/grants"
   },
   {
     "programme": "Knowledge Exchange Event Fund",
@@ -432,18 +372,6 @@
     "url": "https://www.icms.org.uk/research-groups"
   },
   {
-    "programme": "Schools in Partnership",
-    "funder": "CIMPA",
-    "description": "Funding for organising Bachelor’s- and Master’s-level mathematics schools in partnership with continental mathematical organisations.",
-    "status": "Open",
-    "deadline": "1 October 2026",
-    "deadline_note": "Annual call, typically October",
-    "support_type": "Event organisation",
-    "career_stage": "Faculty",
-    "region": "Global South",
-    "url": "https://www.cimpa.info/index.php/en/node/61"
-  },
-  {
     "programme": "Seed Grants for Intra-Africa Collaborative Research Projects",
     "funder": "NRF, SASUF",
     "description": "Seed funding for new multilateral research collaborations between universities in Sweden, South Africa and other participating African countries",
@@ -463,30 +391,6 @@
     "deadline": "29 October 2026",
     "deadline_note": "Annual call; Letter of Intent required",
     "support_type": "Research funding",
-    "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://www.simonsfoundation.org"
-  },
-  {
-    "programme": "Simons Fellows in Mathematics",
-    "funder": "Simons Foundation",
-    "description": "Funding to support extended sabbatical research leave for mathematicians",
-    "status": "Open",
-    "deadline": "1 October 2026",
-    "deadline_note": "Annual call, typically 1 October",
-    "support_type": "Research visits",
-    "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://www.simonsfoundation.org/grant/simons-fellows-in-mathematics"
-  },
-  {
-    "programme": "Simons Symposia",
-    "funder": "Simons Foundation",
-    "description": "Funding for organising a series of up to three research symposia in mathematics, theoretical physics or theoretical computer science",
-    "status": "Open",
-    "deadline": "30 September 2026",
-    "deadline_note": "Annual call, typically 30 September",
-    "support_type": "Event organisation",
     "career_stage": "Faculty",
     "region": "Global",
     "url": "https://www.simonsfoundation.org"
@@ -516,18 +420,6 @@
     "url": "https://icms.ac.uk/fundings/strategic-workshops/"
   },
   {
-    "programme": "Targeted Grants to Institutes",
-    "funder": "Simons Foundation",
-    "description": "Multi-year funding for established mathematical institutes and centres to strengthen research activities and international collaboration",
-    "status": "Open",
-    "deadline": "30 September 2026",
-    "deadline_note": "Annual call, typically 30 September",
-    "support_type": "Institutional capacity building",
-    "career_stage": "Institutional",
-    "region": "Global",
-    "url": "https://www.simonsfoundation.org/grant/targeted-grants-to-institutes"
-  },
-  {
     "programme": "Travel Grants",
     "funder": "IMU–CDC",
     "description": "Funding for research travel to support collaboration with internationally renowned mathematical institutions",
@@ -538,30 +430,6 @@
     "career_stage": "Early-career, Faculty",
     "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants/research-travel-grants"
-  },
-  {
-    "programme": "Travel Grants for Women",
-    "funder": "EWM",
-    "description": "Funding for conference travel for women mathematicians",
-    "status": "Open",
-    "deadline": "1 October 2026",
-    "deadline_note": "Two calls per year, October call",
-    "support_type": "Event participation",
-    "career_stage": "Early-career, Faculty",
-    "region": "Global",
-    "url": "https://www.europeanwomeninmaths.org/travel-grants/"
-  },
-  {
-    "programme": "UNESCO/Japan Young Researchers’ Fellowships Programme",
-    "funder": "UNESCO / Government of Japan",
-    "description": "Research fellowships in Japan for young researchers from eligible countries in areas including AI, sustainable development and environmental modelling",
-    "status": "Open",
-    "deadline": "30 September 2026",
-    "deadline_note": "2026 call",
-    "support_type": "Research visits",
-    "career_stage": "Early-career",
-    "region": "Global",
-    "url": "https://www.unesco.org/en/fellowships/keizo-obuchi?utm_source=chatgpt.com"
   },
   {
     "programme": "Volunteer Lecturer Program",

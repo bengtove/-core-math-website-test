@@ -11,7 +11,7 @@ CoRE-Math engages with schools, teachers, industry, public organisations and wid
 
 CoRE-Math organises and supports mathematics competitions to stimulate young people's interest in mathematics, encourage further study—particularly in mathematics and related disciplines—and identify and develop mathematical talent.
 
-[Read more about mathematics competitions]({{ '/outreach/mathematics-competitions/' | relative_url }})
+[Read more about Mathematics Competitions]({{ '/programmes/mathematics-competitions/' | relative_url }})
 
 ## Schools and young people
 

@@ -15,6 +15,18 @@ CoRE-Math connects with several regional research groups that provide platforms 
 - [{{ research_group.title }}]({{ research_group.url | relative_url }})
 {% endfor %}
 
+## Research projects and collaborations
+
+Research within CoRE-Math also develops through projects and collaborations between participating universities and their partners. These connect mathematical research with areas including statistics, Earth observation, health, sustainable development and renewable energy, while creating opportunities for postgraduate researchers and longer-term collaboration between research environments.
+
+- **Applied Mathematics for Earth Observation** — a Finland–Rwanda collaboration using applied mathematics and Earth observation to address environmental and societal challenges.
+- **Health Data Synergy: Bridging Medicine and Mathematics** — connects mathematics and medicine around the use and analysis of health data.
+- **Lake Victoria project** — a developing interdisciplinary research collaboration around challenges connected with the Lake Victoria region.
+- **Mathematics for Sustainable Development (Math4SDG)** — supports research collaboration, PhD training and mathematics education through the University of Dar es Salaam, Makerere University and the University of Bergen.
+- **SPIRIT** — a University of Geneva–University of Rwanda collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda.
+
+[View projects and collaborations →]({{ "/projects/" | relative_url }})
+
 ## Publications
 
 [Selected publications from CoRE-Math nodes]({{ '/research/publications/' | relative_url }}) — a curated collection of mathematical-sciences publications by researchers at the African CoRE-Math nodes, with links to research groups, projects and collaborations where known.

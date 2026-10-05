@@ -5,12 +5,14 @@ homepage: true
 <section class="home-hero">
   <div class="home-hero-copy">
     <p class="home-kicker">CoRE-Math</p>
-    <h1>Africa–Europe collaboration in the mathematical sciences</h1>
-    <p class="home-lead">CoRE-Math brings together universities, research groups, networks and partner organisations in Africa and Europe to strengthen research, postgraduate education and the contribution of mathematics to society.</p>
-    <p><a class="home-text-link" href="{{ '/about/' | relative_url }}">About CoRE-Math →</a></p>
+    <h1>Africa–Europe collaboration<br>in the mathematical sciences</h1>
   </div>
   <div class="home-hero-image">
-    <img src="{{ '/assets/images/news/560c14_574ae92fac3f4e6da79ed0326d46f997~mv2.jpeg.avif' | relative_url }}" alt="Young participant working on a mathematics problem at the board">
+    <img src="{{ '/assets/images/news/560c14_574ae92fac3f4e6da79ed0326d46f997~mv2.jpeg.avif' | relative_url }}" alt="Young people taking part in a mathematics competition">
+  </div>
+  <div class="home-hero-intro">
+    <p class="home-lead">CoRE-Math brings together universities, research groups, networks and partner organisations in Africa and Europe to strengthen research, postgraduate education and the contribution of mathematics to society.</p>
+    <p><a class="home-text-link" href="{{ '/about/' | relative_url }}">About CoRE-Math →</a></p>
   </div>
 </section>
 

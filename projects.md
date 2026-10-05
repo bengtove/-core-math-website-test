@@ -1,6 +1,7 @@
 ---
 title: "Programmes & Projects"
 permalink: /projects/
+projects_page: true
 ---
 
 # Programmes & Projects
@@ -19,39 +20,94 @@ Programmes are continuing areas of CoRE-Math activity that bring together relate
 {% assign spirit = site.projects | where: "project_id", "spirit" | first %}
 {% assign earth_observation = site.projects | where: "project_id", "applied-mathematics-for-earth-observation" | first %}
 
+<div class="programme-section">
+
 ## Programmes
+
+<div class="programme-grid">
+
+<article class="programme-entry">
+
+</article>
+
+<article class="project-entry">
 
 ### {{ core_math_fellowships.title }}
 
 CoRE-Math Fellowships support research visits by postgraduate students and researchers from CoRE-Math universities to Uppsala University and the University of KwaZulu-Natal. The fellowships provide opportunities to develop research collaborations with researchers at the two host universities and strengthen connections across the CoRE-Math network.
 
-[Read more]({{ core_math_fellowships.url | relative_url }})
+[Read more →]({{ core_math_fellowships.url | relative_url }})
+
+</article>
+
+<article class="programme-entry">
+
+</article>
+
+<article class="project-entry">
 
 ### {{ core_math_schools.title }}
 
 Annual mathematics schools have been organised without interruption since 2004, in long-standing collaboration with ICTP. The schools bring together postgraduate students and researchers for intensive study of mathematical topics, with international lecturers and opportunities for research interaction and networking.
 
-[Read more]({{ core_math_schools.url | relative_url }})
+[Read more →]({{ core_math_schools.url | relative_url }})
+
+</article>
+
+<article class="programme-entry">
+
+</article>
+
+<article class="project-entry">
 
 ### {{ industry_mathematics.title }}
 
 Industrial Mathematics connects mathematics with problems from industry and society through contact workshops, Modelling Weeks, Study Groups with Industry and follow-up research.
 
-[Read more]({{ industry_mathematics.url | relative_url }})
+[Read more →]({{ industry_mathematics.url | relative_url }})
+
+</article>
+
+<article class="programme-entry">
+
+</article>
+
+<article class="project-entry">
 
 ### {{ mathematics_competitions.title }}
 
 Mathematics Competitions connects and strengthens national and regional competition activities across the CoRE-Math network, supports cooperation and capacity development, and encourages young people to continue their studies in mathematics and related disciplines.
 
-[Read more]({{ mathematics_competitions.url | relative_url }})
+[Read more →]({{ mathematics_competitions.url | relative_url }})
+
+</article>
+
+<article class="programme-entry">
+
+</article>
+
+<article class="project-entry">
 
 ### {{ women_in_math.title }}
 
 Women in Math is a cross-cutting area of work within CoRE-Math, aiming to increase participation and opportunities for women in the mathematical sciences and strengthen inclusion across CoRE-Math activities.
 
-[Read more]({{ women_in_math.url | relative_url }})
+[Read more →]({{ women_in_math.url | relative_url }})
+
+</article>
+
+</div>
+</div>
+
+<div class="project-section">
 
 ## Projects and collaborations
+
+<div class="project-list">
+
+</article>
+
+<article class="project-entry">
 
 ### {{ earth_observation.title }}
 
@@ -61,11 +117,19 @@ A Finland–Rwanda collaboration using applied mathematics and Earth observation
 
 [Read more]({{ earth_observation.url | relative_url }})
 
+</article>
+
+<article class="project-entry">
+
 ### Bergen–Makerere–UDSM mobility and postgraduate collaboration
 
 Collaboration between the University of Bergen, Makerere University and the University of Dar es Salaam supports postgraduate education, student and staff mobility, research visits and research collaboration. The collaboration builds on the universities' wider cooperation in mathematics and mathematics education.
 
 **Funders:** Erasmus+ and NORSTIP
+
+</article>
+
+<article class="project-entry">
 
 ### Collaborative Research – Renewable Energy
 
@@ -74,9 +138,17 @@ A forthcoming research collaboration within the Zambia–Sweden bilateral resear
 **Funder:** Sida
 
 
+</article>
+
+<article class="project-entry">
+
 ### Data Skills and Industry Readiness Training Program
 
 A long-term training initiative launched by the University of Rwanda Department of Mathematics in June 2026. The programme works with students in Years 2–4 to strengthen data skills and preparation for employment and collaboration with industry.
+
+</article>
+
+<article class="project-entry">
 
 ### FAME
 
@@ -86,11 +158,19 @@ FAME is a Finnish flagship programme in applied mathematics in which LUT Univers
 
 [Visit the FAME Flagship website](https://fameflagship.fi/)
 
+</article>
+
+<article class="project-entry">
+
 ### Health Data Synergy: Bridging Medicine and Mathematics
 
 A University of Bergen initiative connecting mathematics and medicine around the use and analysis of health data. Related CoRE-Math activities have included collaboration with Makerere University and work on health data analysis.
 
 **Funder:** University of Bergen, Institute for Global Challenges
+
+</article>
+
+<article class="project-entry">
 
 ### {{ lake_victoria.title }}
 
@@ -99,17 +179,29 @@ A developing CoRE-Math research collaboration bringing together mathematicians a
 **External support:** NORHED II / Math4SDG (project-development workshop)
 
 
+</article>
+
+<article class="project-entry">
+
 ### Makerere–Groningen mobility and research collaboration
 
 An Erasmus+ collaboration between Makerere University and the University of Groningen supporting doctoral mobility and research visits. Activities have included visits by Makerere PhD students to Groningen and research visits from Groningen to Makerere.
 
 **Funder:** Erasmus+
 
+</article>
+
+<article class="project-entry">
+
 ### Mathematics Capacity Building in Rwanda
 
 A capacity-building project at the University of Rwanda supporting the development of mathematics activities, including work connected with mathematics education and outreach.
 
 **Funder:** International Centre for Mathematical Sciences (ICMS)
+
+</article>
+
+<article class="project-entry">
 
 ### {{ math4sdg.title }}
 
@@ -119,6 +211,10 @@ Math4SDG is a NORHED II project strengthening mathematics and mathematics educat
 
 [Read more]({{ math4sdg.url | relative_url }})
 
+</article>
+
+<article class="project-entry">
+
 ### {{ sida_collaboration.title }}
 
 Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.
@@ -126,6 +222,10 @@ Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have stre
 **Funder:** Sida
 
 [Read more]({{ sida_collaboration.url | relative_url }})
+
+</article>
+
+<article class="project-entry">
 
 ### {{ spirit.title }}
 
@@ -136,11 +236,20 @@ A University of Geneva–University of Rwanda research collaboration developing 
 [Read more]({{ spirit.url | relative_url }})
 
 
+</article>
+
+<article class="project-entry">
+
 ### Waterproof: from Proof Assistant to Educational Tool
 
 Waterproof develops and tests an educational proof assistant designed to help students learn how to write mathematical proofs. The project supports the use of proof-assistant technology in university mathematics education.
 
 **Funder:** Netherlands Initiative for Education Research (NRO)
+</article>
+
+</div>
+</div>
+
 ## Previous projects
 
 [View previous projects →]({{ "/projects/previous/" | relative_url }})

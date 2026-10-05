@@ -61,14 +61,6 @@ A Finland–Rwanda collaboration using applied mathematics and Earth observation
 
 [Read more]({{ earth_observation.url | relative_url }})
 
-### FAME
-
-FAME is a Finnish flagship programme in applied mathematics in which LUT University is a partner. Its collaboration with Africa supports joint research and the development of longer-term links between Finnish and African research environments, including doctoral and postdoctoral collaboration.
-
-**Funder:** Research Council of Finland
-
-[Visit the FAME Flagship website](https://fameflagship.fi/)
-
 ### {{ lake_victoria.title }}
 
 A developing CoRE-Math research collaboration bringing together mathematicians and researchers from other disciplines around challenges connected with the Lake Victoria region. The project aims to develop interdisciplinary research, regional collaboration and joint funding initiatives around problems where the mathematical sciences can make a contribution.
@@ -101,39 +93,11 @@ A University of Geneva–University of Rwanda research collaboration developing 
 [Read more]({{ spirit.url | relative_url }})
 
 
-### Waterproof: from Proof Assistant to Educational Tool
-
-Waterproof develops and tests an educational proof assistant designed to help students learn how to write mathematical proofs. The project supports the use of proof-assistant technology in university mathematics education.
-
-**Funder:** Netherlands Initiative for Education Research (NRO)
-
-### Health Data Synergy: Bridging Medicine and Mathematics
-
-A University of Bergen initiative connecting mathematics and medicine around the use and analysis of health data. Related CoRE-Math activities have included collaboration with Makerere University and work on health data analysis.
-
-**Funder:** University of Bergen, Institute for Global Challenges
-
-### Mathematics Capacity Building in Rwanda
-
-A capacity-building project at the University of Rwanda supporting the development of mathematics activities, including work connected with mathematics education and outreach.
-
-**Funder:** International Centre for Mathematical Sciences (ICMS)
-
-### Data Skills and Industry Readiness Training Program
-
-A long-term training initiative launched by the University of Rwanda Department of Mathematics in June 2026. The programme works with students in Years 2–4 to strengthen data skills and preparation for employment and collaboration with industry.
-
 ### Bergen–Makerere–UDSM mobility and postgraduate collaboration
 
 Collaboration between the University of Bergen, Makerere University and the University of Dar es Salaam supports postgraduate education, student and staff mobility, research visits and research collaboration. The collaboration builds on the universities' wider cooperation in mathematics and mathematics education.
 
 **Funders:** Erasmus+ and NORSTIP
-
-### Makerere–Groningen mobility and research collaboration
-
-An Erasmus+ collaboration between Makerere University and the University of Groningen supporting doctoral mobility and research visits. Activities have included visits by Makerere PhD students to Groningen and research visits from Groningen to Makerere.
-
-**Funder:** Erasmus+
 
 ### Collaborative Research – Renewable Energy
 
@@ -141,6 +105,42 @@ A forthcoming research collaboration within the Zambia–Sweden bilateral resear
 
 **Funder:** Sida
 
+
+### Data Skills and Industry Readiness Training Program
+
+A long-term training initiative launched by the University of Rwanda Department of Mathematics in June 2026. The programme works with students in Years 2–4 to strengthen data skills and preparation for employment and collaboration with industry.
+
+### FAME
+
+FAME is a Finnish flagship programme in applied mathematics in which LUT University is a partner. Its collaboration with Africa supports joint research and the development of longer-term links between Finnish and African research environments, including doctoral and postdoctoral collaboration.
+
+**Funder:** Research Council of Finland
+
+[Visit the FAME Flagship website](https://fameflagship.fi/)
+
+### Health Data Synergy: Bridging Medicine and Mathematics
+
+A University of Bergen initiative connecting mathematics and medicine around the use and analysis of health data. Related CoRE-Math activities have included collaboration with Makerere University and work on health data analysis.
+
+**Funder:** University of Bergen, Institute for Global Challenges
+
+### Makerere–Groningen mobility and research collaboration
+
+An Erasmus+ collaboration between Makerere University and the University of Groningen supporting doctoral mobility and research visits. Activities have included visits by Makerere PhD students to Groningen and research visits from Groningen to Makerere.
+
+**Funder:** Erasmus+
+
+### Mathematics Capacity Building in Rwanda
+
+A capacity-building project at the University of Rwanda supporting the development of mathematics activities, including work connected with mathematics education and outreach.
+
+**Funder:** International Centre for Mathematical Sciences (ICMS)
+
+### Waterproof: from Proof Assistant to Educational Tool
+
+Waterproof develops and tests an educational proof assistant designed to help students learn how to write mathematical proofs. The project supports the use of proof-assistant technology in university mathematics education.
+
+**Funder:** Netherlands Initiative for Education Research (NRO)
 ## Previous projects
 
 [View previous projects →]({{ "/projects/previous/" | relative_url }})

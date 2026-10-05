@@ -27,6 +27,28 @@ Research within CoRE-Math also develops through projects and collaborations betw
 
 [View projects and collaborations →]({{ "/projects/" | relative_url }})
 
+## Seminars and webinars
+
+Recurring online seminars and webinar series provide opportunities for researchers and postgraduate students to follow current research, present their work and build connections across institutions and countries.
+
+### African Mathematics Seminar (AfMS)
+
+An Africa-wide online mathematics seminar established in 2020 to connect mathematicians across the continent and provide a platform for African mathematical research. The series is currently inactive.
+
+[African Mathematics Seminar →](https://sites.google.com/view/africa-math-seminar/home)
+
+### AECC Online Seminar Series
+
+The African Enumerative Combinatorics Community (AECC) organises an online seminar series bringing together researchers in enumerative and algebraic combinatorics.
+
+[AECC seminars →](https://african-enumerative-combinatorics.github.io/)
+
+### NITheCS seminars and colloquia
+
+The National Institute for Theoretical and Computational Sciences (NITheCS) runs online and hybrid seminars, webinars and colloquia across the mathematical and computational sciences.
+
+[NITheCS events →](https://nithecs.ac.za/events/upcoming-events)
+
 ## Publications
 
 [Selected publications from CoRE-Math nodes]({{ '/research/publications/' | relative_url }}) — a curated collection of mathematical-sciences publications by researchers at the African CoRE-Math nodes, with links to research groups, projects and collaborations where known.

@@ -21,7 +21,7 @@ CoRE-Math works with schools and young people through school visits, mathematics
 
 ## Teacher training
 
-CoRE-Math partners support mathematics teachers through training and collaboration with schools and mathematical organisations. Activities include work with teachers to strengthen mathematics teaching and improve opportunities for students. Training for mathematics competition coaches is described under [Mathematics competitions]({{ '/outreach/mathematics-competitions/' | relative_url }}).
+CoRE-Math partners support mathematics teachers through training and collaboration with schools and mathematical organisations. Activities include work with teachers to strengthen mathematics teaching and improve opportunities for students.
 
 ## Mathematics in industry and society
 

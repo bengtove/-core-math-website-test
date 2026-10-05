@@ -15,7 +15,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 <div class="node-grid">
 
 <article class="node-card node-card-network">
-  <div class="node-card-image node-card-placeholder">CoRE-Math</div>
+  <div class="node-card-image"><img src="{{ '/assets/images/Mark.png' | relative_url }}" alt="CoRE-Math mark"></div>
   <div class="node-card-body">
     <p class="node-card-country">Africa & Europe</p>
     <h3>One network, 17 universities</h3>
@@ -87,7 +87,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="https://blog.loopfront.com/hubfs/UIB%20blogpost.png" alt="University of Bergen"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/Bergen.jpg' | relative_url }}" alt="Bergen"></div>
   <div class="node-card-body">
     <p class="node-card-country">Norway</p>
     <h3><a href="https://www4.uib.no/en">University of Bergen</a></h3>

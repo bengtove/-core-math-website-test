@@ -5,7 +5,7 @@ permalink: /outreach/
 
 # Outreach
 
-CoRE-Math works with schools, teachers and mathematics organisations to promote mathematics and identify and support mathematical talent.
+CoRE-Math engages with schools, teachers, industry, public organisations and wider society to strengthen the connections between mathematics, education and societal needs. Outreach activities promote interest in mathematics, support mathematics education, and create opportunities for mathematical knowledge and methods to contribute to challenges outside academia.
 
 ## Mathematics competitions
 
@@ -22,3 +22,11 @@ CoRE-Math works with schools and young people through school visits, mathematics
 ## Teacher training
 
 CoRE-Math partners support mathematics teachers through training and collaboration with schools and mathematical organisations. Activities include work with teachers to strengthen mathematics teaching and improve opportunities for students. Training for mathematics competition coaches is described under [Mathematics competitions]({{ '/outreach/mathematics-competitions/' | relative_url }}).
+
+## Mathematics in industry and society
+
+CoRE-Math connects mathematicians with companies, public organisations and other external partners so that mathematical knowledge and methods can contribute to problems arising outside academia. This includes collaboration around problems from industry and the public sector, professional training and opportunities for mathematicians to contribute expertise to government and other organisations.
+
+Industrial Mathematics is one important part of this work. Its contact workshops and Study Groups with Industry bring external organisations and mathematicians together around concrete problems, while follow-up activities can lead to further research and longer-term collaboration.
+
+[Read more about Industrial Mathematics]({{ '/programmes/study-groups-with-industry/' | relative_url }})

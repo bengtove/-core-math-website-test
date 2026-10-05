@@ -11,13 +11,17 @@ body {
 }
 
 .site-header {
-  border-top: 4px solid #1f5f8b;
+  border-top: 9px solid #1f5f8b;
   border-bottom: 1px solid #d8e0e5;
   background: #fff;
 }
 
 .site-header-inner {
-  padding-top: 1.15rem;
+  padding-top: 1.65rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 2.5rem;
 }
 
 .site-brand {
@@ -29,8 +33,8 @@ body {
 }
 
 .site-brand-mark {
-  width: 52px;
-  height: 52px;
+  width: 62px;
+  height: 62px;
   object-fit: contain;
 }
 
@@ -53,8 +57,16 @@ body {
   line-height: 1.25;
 }
 
+.site-core-identity img {
+  display: block;
+  width: 235px;
+  max-height: 68px;
+  object-fit: contain;
+}
+
 .site-navigation {
-  margin: 1rem 0 0;
+  grid-column: 1 / -1;
+  margin: 1.35rem 0 0;
   padding: .8rem 0 .9rem;
   border-top: 1px solid #e2e7ea;
   border-bottom: 0;
@@ -186,7 +198,9 @@ body {
 
 @media (max-width: 767px) {
   .site-shell { width: min(100% - 28px, 1180px); }
-  .site-brand-mark { width:44px; height:44px; }
+  .site-header-inner { grid-template-columns:1fr; padding-top:1.15rem; }
+  .site-brand-mark { width:50px; height:50px; }
+  .site-core-identity { display:none; }
   .site-brand-text strong { font-size:1.4rem; }
   .site-brand-text span { font-size:.7rem; max-width:18rem; }
   .site-navigation ul { gap:.45rem 1rem; }

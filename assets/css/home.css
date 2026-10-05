@@ -1,15 +1,29 @@
-.home-hero {
-  margin: 2.5rem 0 5rem;
+.home-hero { margin: 2.5rem 0 5rem; }
+.home-hero-image { position: relative; width: 100%; margin-bottom: 1.6rem; }
+.home-hero-image img { width: 100%; height: auto; display: block; }
+.home-hero-identity {
+  position: absolute;
+  left: 0;
+  bottom: 2rem;
+  width: min(31rem, 52%);
+  box-sizing: border-box;
+  padding: 1.5rem 1.8rem 1.6rem;
+  background: rgba(22, 76, 116, .92);
+  color: #fff;
 }
-.home-hero-copy {
-  max-width: 58rem;
-  margin-bottom: 2rem;
+.home-hero-name {
+  margin: 0 0 .45rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -.035em;
 }
-.home-hero-copy h1 {
-  font-size: clamp(2.25rem, 4vw, 3.8rem);
-  line-height: 1.08;
-  letter-spacing: -.03em;
-  margin: .35rem 0 0;
+.home-hero-fullname {
+  margin: 0;
+  max-width: 26rem;
+  font-size: clamp(1rem, 1.7vw, 1.3rem);
+  line-height: 1.35;
+  font-weight: 500;
 }
 .home-kicker,.home-eyebrow {
   color: #1f5f8b;
@@ -19,23 +33,8 @@
   text-transform: uppercase;
   margin: 0 0 .4rem;
 }
-.home-hero-image {
-  width: 100%;
-  margin-bottom: 1.6rem;
-}
-.home-hero-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.home-hero-intro {
-  max-width: 48rem;
-}
-.home-lead {
-  font-size: 1.14rem;
-  line-height: 1.65;
-  margin-top: 0;
-}
+.home-hero-intro { max-width: 48rem; }
+.home-lead { font-size: 1.14rem; line-height: 1.65; margin-top: 0; }
 .home-text-link { font-weight: 600; text-decoration: none; }
 .home-section { margin: 0 0 5rem; }
 .home-section-heading { max-width: 48rem; margin-bottom: 1.6rem; }
@@ -65,7 +64,7 @@
 }
 @media (max-width: 760px) {
   .home-hero { margin-bottom:3.5rem; }
-  .home-hero-copy h1 br { display:none; }
+  .home-hero-identity { left:0; bottom:0; width:100%; padding:1rem 1.2rem 1.1rem; background:rgba(22,76,116,.94); }
   .home-focus-grid,.home-news-grid,.home-event-grid,.home-projects { grid-template-columns:1fr; }
   .home-heading-row { align-items:start; flex-direction:column; gap:.5rem; }
   .home-section { margin-bottom:3.5rem; }

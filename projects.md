@@ -5,7 +5,7 @@ permalink: /projects/
 
 # Programmes & Projects
 
-Programmes are continuing areas of CoRE-Math activity that bring together related activities over time. Projects are defined collaborations or initiatives with a particular purpose and scope, often carried out within a specific period.
+Programmes are continuing areas of CoRE-Math activity that bring together related activities over time. Externally funded projects are defined collaborations or initiatives supported through external project funding, sometimes combining several funding sources or developing towards larger funding applications.
 
 {% assign core_math_schools = site.programmes | where: "programme_id", "core-math-schools" | first %}
 {% assign core_math_fellowships = site.programmes | where: "programme_id", "core-math-fellowships" | first %}
@@ -41,7 +41,7 @@ Mathematics Competitions connects and strengthens national and regional competit
 
 Women in Math is a cross-cutting area of work within CoRE-Math, aiming to increase participation and opportunities for women in the mathematical sciences and strengthen inclusion across CoRE-Math activities.
 
-## Ongoing projects
+## Externally funded projects
 
 ### [{{ earth_observation.title }}]({{ earth_observation.url | relative_url }})
 

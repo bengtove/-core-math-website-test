@@ -188,6 +188,10 @@ ECMI and CoRE-Math collaborate in industrial mathematics, including links betwee
 
 The partnership with ICIAM connects CoRE-Math with the international industrial and applied mathematics community and supports the development and visibility of applied mathematics in Africa.
 
+### [International Science Programme (ISP)](https://www.uu.se/en/centre/international-science-programme)
+
+ISP at Uppsala University is a formal partner of CoRE-Math. Through agreements with six of the African member universities, ISP supports long-term development of mathematical research and postgraduate education. Its engagement also builds on decades of collaboration through EAUMP and support to Addis Ababa University, and ISP contributes to the coordination and development of CoRE-Math.
+
 ## Partners
 
 ### [Centre International de Mathématiques Pures et Appliquées (CIMPA)](https://www.cimpa.info/en)
@@ -199,10 +203,6 @@ CoRE-Math collaborates with CIMPA particularly through research schools, bringin
 ### [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it/)
 
 ICTP has collaborated for many years with universities and networks that now participate in CoRE-Math. The collaboration includes schools and other activities supporting research and postgraduate education in mathematics.
-
-### [International Science Programme (ISP)](https://www.uu.se/en/centre/international-science-programme)
-
-ISP at Uppsala University has supported the development of mathematical research and postgraduate education in Africa for decades, including through EAUMP and long-term support to Addis Ababa University. ISP is a partner in CoRE-Math and contributes to the Cluster's coordination, network development and collaborative activities.
 
 ### [National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))](https://www.up.ac.za/nga-mass)
 

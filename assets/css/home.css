@@ -64,7 +64,18 @@
 }
 @media (max-width: 760px) {
   .home-hero { margin-bottom:3.5rem; }
-  .home-hero-identity { left:0; bottom:0; width:100%; padding:1rem 1.2rem 1.1rem; background:rgba(22,76,116,.94); }
+  .home-hero-image { margin-bottom: 0; }
+  .home-hero-identity {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: 100%;
+    padding: 1rem 1.2rem 1.1rem;
+    background: #164c74;
+  }
+  .home-hero-name { font-size: 2rem; }
+  .home-hero-fullname { font-size: 1rem; }
+  .home-hero-intro { margin-top: 1.6rem; }
   .home-focus-grid,.home-news-grid,.home-event-grid,.home-projects { grid-template-columns:1fr; }
   .home-heading-row { align-items:start; flex-direction:column; gap:.5rem; }
   .home-section { margin-bottom:3.5rem; }

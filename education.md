@@ -7,6 +7,14 @@ permalink: /education/
 
 Education within CoRE-Math focuses primarily on postgraduate training in the mathematical sciences. Through collaboration between universities in Africa and Europe, CoRE-Math creates opportunities for Master's and PhD students to broaden their mathematical training, engage with active research environments and build connections across institutions and countries. Activities include intensive schools, mathematical modelling training, research-oriented workshops and mobility.
 
+## Doctoral education
+
+Current PhD research at the African CoRE-Math nodes covers a broad range of mathematical sciences, from algebra, combinatorics and partial differential equations to mathematical modelling, optimisation and applications in health and other areas.
+
+The directory presents current PhD students reported by the participating ISP-supported mathematics environments. Research topics are included where available.
+
+[Current PhD students →]({{ "/education/phd-students/" | relative_url }})
+
 ## Schools
 
 CoRE-Math Schools build on a series of postgraduate mathematics schools that started in 2004 and have been organised annually since then. The schools have been supported by ICTP, ISP and other funders, with CIMPA becoming an important partner in recent years. They bring together postgraduate students and researchers for intensive study of mathematical topics, exposing students to topics and expertise that may not be available locally and creating opportunities for research contacts, thesis topics and collaboration.
@@ -42,11 +50,3 @@ Erasmus+ and NORSTIP support postgraduate education, student and staff mobility,
 ### Makerere–Groningen mobility and research collaboration
 
 Erasmus+ supports doctoral mobility and research visits between Makerere University and the University of Groningen.
-
-## Doctoral education
-
-Current PhD research at the African CoRE-Math nodes covers a broad range of mathematical sciences, from algebra, combinatorics and partial differential equations to mathematical modelling, optimisation and applications in health and other areas.
-
-The directory presents current PhD students reported by the participating ISP-supported mathematics environments. Research topics are included where available.
-
-[Current PhD students →]({{ "/education/phd-students/" | relative_url }})

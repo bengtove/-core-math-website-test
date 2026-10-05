@@ -21,7 +21,27 @@ CoRE-Math Schools build on a series of postgraduate mathematics schools that sta
 
 ## Modelling Weeks
 
-Modelling Weeks are educational activities in which students work in groups on mathematical modelling problems. They are designed particularly for Master's students and develop skills in mathematical modelling, teamwork and communication. Modelling Weeks form part of CoRE-Math's [Industrial Mathematics programme]({{ "/programmes/study-groups-with-industry/" | relative_url }}).
+Modelling Weeks are educational activities in which students work in groups on mathematical modelling problems. They are designed particularly for Master's students and develop skills in mathematical modelling, teamwork and communication.
+
+[Industrial Mathematics programme →]({{ "/programmes/study-groups-with-industry/" | relative_url }})
+
+## Mobility and fellowships
+
+Mobility and fellowships give postgraduate students and researchers opportunities to spend time in other academic environments, take part in research and training, and develop longer-term collaboration between institutions. CoRE-Math universities participate in several externally funded mobility and fellowship programmes connecting universities in Africa and Europe.
+
+### CoRE-Math Fellowships
+
+The CoRE-Math Fellowships support research visits and mobility between participating universities, strengthening research collaboration and providing opportunities for researchers at different career stages.
+
+[CoRE-Math Fellowships →]({{ "/programmes/core-math-fellowships/" | relative_url }})
+
+### Bergen–Makerere–UDSM mobility and postgraduate collaboration
+
+Erasmus+ and NORSTIP support postgraduate education, student and staff mobility, research visits and research collaboration between the University of Bergen, Makerere University and the University of Dar es Salaam.
+
+### Makerere–Groningen mobility and research collaboration
+
+Erasmus+ supports doctoral mobility and research visits between Makerere University and the University of Groningen.
 
 ## Doctoral education
 

@@ -10,6 +10,7 @@ Programmes are continuing areas of CoRE-Math activity that bring together relate
 {% assign core_math_schools = site.programmes | where: "programme_id", "core-math-schools" | first %}
 {% assign core_math_fellowships = site.programmes | where: "programme_id", "core-math-fellowships" | first %}
 {% assign industry_mathematics = site.programmes | where: "programme_id", "study-groups-with-industry" | first %}
+{% assign mathematics_competitions = site.programmes | where: "programme_id", "mathematics-competitions" | first %}
 {% assign women_in_math = site.projects | where: "title", "Women in Math" | first %}
 {% assign lake_victoria = site.projects | where: "project_id", "lake-victoria" | first %}
 {% assign math4sdg = site.projects | where: "project_id", "math4sdg" | first %}
@@ -31,6 +32,10 @@ Annual mathematics schools have been organised without interruption since 2004, 
 ### [{{ industry_mathematics.title }}]({{ industry_mathematics.url | relative_url }})
 
 Industrial Mathematics connects mathematics with problems from industry and society through contact workshops, Modelling Weeks, Study Groups with Industry and follow-up research.
+
+### [{{ mathematics_competitions.title }}]({{ mathematics_competitions.url | relative_url }})
+
+Mathematics Competitions connects and strengthens national and regional competition activities across the CoRE-Math network, supports cooperation and capacity development, and encourages young people to continue their studies in mathematics and related disciplines.
 
 ### [{{ women_in_math.title }}]({{ women_in_math.url | relative_url }})
 

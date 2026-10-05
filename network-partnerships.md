@@ -198,7 +198,9 @@ ISP at Uppsala University is a formal partner of CoRE-Math. Through agreements w
 
 CoRE-Math collaborates with CIMPA particularly through research schools, bringing international researchers together with postgraduate students and early-career mathematicians in Africa.
 
-### [Centre of Excellence for Mathematical and Statistical Sciences (CoE-MaSS)](https://www.coe-mass.ac.za/)
+### [Centre of Excellence in Mathematical and Statistical Sciences (CoE-MaSS)](https://www.coe-mass.ac.za/)
+
+The DSTI–NRF Centre of Excellence in Mathematical and Statistical Sciences (CoE-MaSS), hosted by the University of the Witwatersrand, is a national network bringing together researchers in pure mathematics, applied mathematics and statistics across South Africa. Established in 2014, it supports collaborative research, postgraduate training, researcher development and scientific networking. CoRE-Math's collaboration with CoE-MaSS strengthens connections with the wider South African mathematical sciences community and creates opportunities for joint research, postgraduate activities, schools and workshops, mobility and network development.
 
 ### [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it/)
 
@@ -206,4 +208,4 @@ ICTP has collaborated for many years with universities and networks that now par
 
 ### [National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))](https://www.up.ac.za/nga-mass)
 
-CoRE-Math is developing collaboration with CoE-MaSS and NGA(MaSS) in research and networking, postgraduate education, industrial mathematics, schools and workshops, early-career development, and joint funding initiatives.
+CoRE-Math is developing collaboration with NGA(MaSS) in postgraduate education, research and networking, industrial mathematics, schools and workshops, early-career development, and joint funding initiatives.

@@ -27,50 +27,11 @@ CoRE-Math connects researchers and research environments across Africa and Europ
 
 The Cluster also supports institutional development, develops partnerships and networks, connects mathematics with industry and society, and works to strengthen gender and inclusion. Through communication, conferences and outreach, CoRE-Math shares results and increases the visibility of mathematical research and collaboration.
 
-## Member universities
+## Network and partnerships
 
-CoRE-Math currently brings together eight African and nine European universities.
+CoRE-Math brings together eight African and nine European universities and works with mathematical organisations, networks and other strategic partners.
 
-<div class="member-columns">
-  <section>
-    <h3>African members</h3>
-    <ul>
-      <li><a href="https://www.aau.edu.et/">Addis Ababa University</a></li>
-      <li><a href="https://mak.ac.ug/">Makerere University</a></li>
-      <li><a href="https://www.su.ac.za/en">Stellenbosch University</a></li>
-      <li><a href="https://udsm.ac.tz/">University of Dar es Salaam</a></li>
-      <li><a href="https://www.ukzn.ac.za/">University of KwaZulu-Natal</a></li>
-      <li><a href="https://www.uonbi.ac.ke/">University of Nairobi</a></li>
-      <li><a href="https://ur.ac.rw/">University of Rwanda</a></li>
-      <li><a href="https://www.unza.zm/">University of Zambia</a></li>
-    </ul>
-  </section>
-  <section>
-    <h3>European members</h3>
-    <ul>
-      <li><a href="https://liu.se/en/">Linköping University</a></li>
-      <li><a href="https://www.lut.fi/en">LUT University</a></li>
-      <li><a href="https://www.su.se/english/">Stockholm University</a></li>
-      <li><a href="https://www.uva.nl/en">University of Amsterdam</a></li>
-      <li><a href="https://www4.uib.no/en">University of Bergen</a></li>
-      <li><a href="https://www.rug.nl/about-ug/?lang=en">University of Groningen</a></li>
-      <li><a href="https://www.uio.no/english/">University of Oslo</a></li>
-      <li><a href="https://www.univie.ac.at/en/">University of Vienna</a></li>
-      <li><a href="https://www.uu.se/en/">Uppsala University</a></li>
-    </ul>
-  </section>
-</div>
-
-## Formal partners
-
-CoRE-Math has formal partnerships with mathematical organisations and networks that complement the university network and support collaboration in research, education and applications of mathematics.
-
-- [European Consortium for Mathematics in Industry (ECMI)](https://ecmiindmath.org/)
-- [International Council for Industrial and Applied Mathematics (ICIAM)](https://www.iciam.org/)
-- [Centre of Excellence in Mathematical and Statistical Sciences (CoE-MaSS)](https://www.coe-mass.ac.za/)
-- [National Graduate Academy in the Mathematical and Statistical Sciences (NGA-MaSS)](https://www.up.ac.za/nga-mass)
-
-Read more about CoRE-Math's [network and partnerships]({{ "/network-partnerships/" | relative_url }}).
+[Explore the CoRE-Math network and partnerships →]({{ "/network-partnerships/" | relative_url }})
 
 ## Organisation
 

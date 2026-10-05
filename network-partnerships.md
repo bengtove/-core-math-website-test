@@ -1,6 +1,7 @@
 ---
 title: "Network & Partnerships"
 permalink: /network-partnerships/
+network_partnerships: true
 ---
 
 # Network & Partnerships
@@ -9,36 +10,172 @@ CoRE-Math consists of 17 member universities and works with mathematical organis
 
 ## Member universities
 
-The member universities form the nodes of CoRE-Math. Each node connects its researchers, students and activities with the wider Cluster.
+The 17 member universities form the nodes of CoRE-Math. The network brings together long-standing collaborations and newer connections in research, postgraduate education, mobility and engagement with society.
 
-<div class="member-columns">
-  <section>
-    <h3>African members</h3>
-    <ul>
-      <li><a href="https://www.aau.edu.et/">Addis Ababa University</a></li>
-      <li><a href="https://mak.ac.ug/">Makerere University</a></li>
-      <li><a href="https://www.su.ac.za/en">Stellenbosch University</a></li>
-      <li><a href="https://udsm.ac.tz/">University of Dar es Salaam</a></li>
-      <li><a href="https://www.ukzn.ac.za/">University of KwaZulu-Natal</a></li>
-      <li><a href="https://www.uonbi.ac.ke/">University of Nairobi</a></li>
-      <li><a href="https://ur.ac.rw/">University of Rwanda</a></li>
-      <li><a href="https://www.unza.zm/">University of Zambia</a></li>
-    </ul>
-  </section>
-  <section>
-    <h3>European members</h3>
-    <ul>
-      <li><a href="https://liu.se/en/">Linköping University</a></li>
-      <li><a href="https://www.lut.fi/en">LUT University</a></li>
-      <li><a href="https://www.su.se/english/">Stockholm University</a></li>
-      <li><a href="https://www.uva.nl/en">University of Amsterdam</a></li>
-      <li><a href="https://www4.uib.no/en">University of Bergen</a></li>
-      <li><a href="https://www.rug.nl/about-ug/?lang=en">University of Groningen</a></li>
-      <li><a href="https://www.uio.no/english/">University of Oslo</a></li>
-      <li><a href="https://www.univie.ac.at/en/">University of Vienna</a></li>
-      <li><a href="https://www.uu.se/en/">Uppsala University</a></li>
-    </ul>
-  </section>
+<div class="node-grid">
+
+<article class="node-card node-card-network">
+  <div class="node-card-image node-card-placeholder">CoRE-Math</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Africa & Europe</p>
+    <h3>One network, 17 universities</h3>
+    <p>CoRE-Math connects eight African and nine European universities. Some relationships go back several decades; others are developing through the Cluster. Together they create a platform for research collaboration, postgraduate education, mobility, schools, industry engagement and joint initiatives across institutions and countries.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Ethiopia</p>
+    <h3><a href="https://www.aau.edu.et/">Addis Ababa University</a></h3>
+    <p>Addis Ababa University brings a long-established mathematical research environment to CoRE-Math. Mathematics at AAU has received long-term support through ISP since 2005 and has developed extensive international links. Within CoRE-Math, Addis contributes particularly to research collaboration and postgraduate education, including international schools and connections with researchers across the African and European nodes.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Uganda</p>
+    <h3><a href="https://mak.ac.ug/">Makerere University</a></h3>
+    <p>Makerere is an African co-lead of CoRE-Math and a long-standing member of the Eastern Africa Universities Mathematics Programme. Its collaborations include postgraduate training and mobility with Bergen and Groningen, Math4SDG with Bergen and Dar es Salaam, and industrial mathematics activities. Makerere provides an important link between CoRE-Math's regional East African foundations and its wider Africa–Europe network.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">South Africa</p>
+    <h3><a href="https://www.su.ac.za/en">Stellenbosch University</a></h3>
+    <p>Stellenbosch joined CoRE-Math in 2026, strengthening the Cluster's South African connections and broadening its research base. Its participation creates new opportunities for collaboration with other African and European nodes and for closer links with the wider South African mathematical sciences community. Research collaboration and network development are important parts of its emerging role in CoRE-Math.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Tanzania</p>
+    <h3><a href="https://udsm.ac.tz/">University of Dar es Salaam</a></h3>
+    <p>Dar es Salaam is a long-standing member of EAUMP and has extensive Nordic collaboration in mathematics. It participates with Makerere and Bergen in Math4SDG and in postgraduate mobility with Bergen, while Sida-supported collaboration has contributed to research and doctoral training. UDSM connects these established partnerships with wider CoRE-Math research, education and regional collaboration.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">South Africa</p>
+    <h3><a href="https://www.ukzn.ac.za/">University of KwaZulu-Natal</a></h3>
+    <p>UKZN strengthens CoRE-Math's links with the South African mathematical sciences community. The university supports CoRE-Math fellowships for early-career researchers from other African member universities and contributes to developing research and postgraduate collaboration across the network. Its position also creates connections with national structures and partners in mathematical and statistical sciences in South Africa.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Kenya</p>
+    <h3><a href="https://www.uonbi.ac.ke/">University of Nairobi</a></h3>
+    <p>The University of Nairobi is part of CoRE-Math's long-standing East African foundation through EAUMP. It contributes to regional research and postgraduate collaboration and provides an important connection to Kenya's wider mathematics community. Nairobi has also been part of regional outreach and competition activities, including the East African Mathematics Olympiad, linking research environments with the development of future mathematical talent.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Rwanda</p>
+    <h3><a href="https://ur.ac.rw/">University of Rwanda</a></h3>
+    <p>The University of Rwanda has extensive international collaboration in mathematics, including long-term Sida-supported work with Linköping and Stockholm and newer collaboration with LUT. Current activities span research, PhD and Master's training, Earth observation, statistics, industrial mathematics and outreach. UR also participates in the SPIRIT research project with Geneva and is a major hub for CoRE-Math activities in Rwanda.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Zambia</p>
+    <h3><a href="https://www.unza.zm/">University of Zambia</a></h3>
+    <p>The University of Zambia extends CoRE-Math's network in Southern Africa and contributes to developing postgraduate education and research collaboration. A CoRE-Math school is planned in Lusaka, and mathematicians are expected to participate in the new Zambia–Sweden bilateral programme in renewable energy. These activities create opportunities for stronger links with both African nodes and Swedish universities.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Sweden</p>
+    <h3><a href="https://liu.se/en/">Linköping University</a></h3>
+    <p>Linköping has a long history of mathematics collaboration in East Africa. Its partnership with the University of Rwanda began in 2007 and has included postgraduate education, PhD training, research and institutional development, with Stockholm joining the collaboration later. Linköping has also participated in Sida-supported mathematics collaboration in Tanzania and Uganda, providing established relationships on which CoRE-Math can build.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Finland</p>
+    <h3><a href="https://www.lut.fi/en">LUT University</a></h3>
+    <p>LUT connects CoRE-Math with Finnish expertise in applied mathematics and computational science. Its collaboration with the University of Rwanda includes applied mathematics for Earth observation, while the Finnish FAME flagship creates wider opportunities for research collaboration and doctoral and postdoctoral links. LUT therefore contributes both bilateral experience and access to a broader Finnish mathematical research environment.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Sweden</p>
+    <h3><a href="https://www.su.se/english/">Stockholm University</a></h3>
+    <p>Stockholm University has participated in long-term Sida-supported mathematics collaboration with the University of Rwanda, joining the Swedish partnership in 2012. The collaboration has supported research, postgraduate training and the development of mathematical research environments. Through CoRE-Math, this established relationship becomes part of a wider network connecting researchers and postgraduate education across African and European universities.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Netherlands</p>
+    <h3><a href="https://www.uva.nl/en">University of Amsterdam</a></h3>
+    <p>The University of Amsterdam contributes to CoRE-Math through research collaboration, postgraduate activities and network development. Researchers at the Korteweg-de Vries Institute participate in the Cluster's scientific and educational activities, while the university has supported CoRE-Math schools and wider academic collaboration with African partners. Amsterdam also contributes directly to the development and coordination of the network.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Norway</p>
+    <h3><a href="https://www4.uib.no/en">University of Bergen</a></h3>
+    <p>Bergen has substantial collaboration with East African CoRE-Math nodes. It works with Makerere and Dar es Salaam through Math4SDG and through postgraduate mobility supported by Erasmus+ and NORSTIP. Collaboration with Makerere also connects mathematics and medicine through the Health Data Synergy initiative. Bergen's partnerships combine research, postgraduate education, mobility and interdisciplinary applications of mathematics.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Netherlands</p>
+    <h3><a href="https://www.rug.nl/about-ug/?lang=en">University of Groningen</a></h3>
+    <p>Groningen contributes to CoRE-Math through research collaboration and postgraduate mobility, including Erasmus+ links with Makerere University. Doctoral research visits in both directions strengthen connections between research groups and create opportunities for longer-term collaboration. Groningen researchers also contribute to CoRE-Math educational activities, including international schools, linking individual research partnerships with the wider Cluster.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Norway</p>
+    <h3><a href="https://www.uio.no/english/">University of Oslo</a></h3>
+    <p>The University of Oslo broadens CoRE-Math's Nordic research network and contributes expertise in the mathematical sciences to the Cluster. Its participation supports the development of research connections, postgraduate collaboration and mobility across African and European member universities. As the network develops, Oslo provides an additional bridge between established Nordic–African relationships and new collaborations emerging through CoRE-Math.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Austria</p>
+    <h3><a href="https://www.univie.ac.at/en/">University of Vienna</a></h3>
+    <p>The University of Vienna contributes to CoRE-Math's research and postgraduate education activities and strengthens the Cluster's links with the wider European mathematics community. Vienna researchers have supported international educational activities within the network, including CoRE-Math schools. The university's participation creates further opportunities for research visits, postgraduate collaboration and connections between African researchers and European research environments.</p>
+  </div>
+</article>
+
+<article class="node-card">
+  <div class="node-card-image node-card-placeholder">Photo</div>
+  <div class="node-card-body">
+    <p class="node-card-country">Sweden</p>
+    <h3><a href="https://www.uu.se/en/">Uppsala University</a></h3>
+    <p>Uppsala is a European co-lead of CoRE-Math through the International Science Programme. ISP's long-term support for mathematics in Africa includes EAUMP and Addis Ababa University and provides an important foundation for the Cluster. Uppsala also funds CoRE-Math fellowships, supporting mobility and research collaboration between participating universities, and contributes to the overall coordination and development of the network.</p>
+  </div>
+</article>
+
 </div>
 
 ## Formal partners

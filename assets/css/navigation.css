@@ -98,7 +98,12 @@ body {
 
 .site-navigation a:hover {
   color: #1f5f8b;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.site-navigation a.is-current {
+  color: #1f5f8b;
+  font-weight: 700;
 }
 
 .site-main {
@@ -205,7 +210,9 @@ body {
   .site-core-identity { display:none; }
   .site-brand-text strong { font-size:1.4rem; }
   .site-brand-text span { font-size:.7rem; max-width:18rem; }
-  .site-navigation ul { justify-content:flex-start; gap:.45rem 1rem; }
+  .site-navigation { padding:.7rem 0 .75rem; }
+  .site-navigation ul { justify-content:flex-start; column-gap:1.35rem; row-gap:.55rem; }
+  .site-navigation a { font-size:.92rem; }
   .site-footer-grid { grid-template-columns:1fr; gap:1.6rem; }
   .opportunities-page .opportunity-meta-grid { grid-template-columns:minmax(0,1fr); width:100%; }
   .opportunities-page .opportunity-meta-support,

@@ -51,7 +51,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="https://news.mak.ac.ug/wp-content/uploads/2019/01/field_image_Makerere-Main-Building-Freedom-Square-CHUSS-Aerial-2018-Story.jpg" alt="Makerere University"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/Visit-Makerere-02.jpg' | relative_url }}" alt="Makerere University campus"></div>
   <div class="node-card-body">
     <p class="node-card-country">Uganda</p>
     <h3><a href="https://mak.ac.ug/">Makerere University</a></h3>
@@ -150,7 +150,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="https://event.univie.ac.at/fileadmin/_processed_/csm_Flaggen_Hauptgebaeude_Alex_Schuppich_1_rs_a71178f9b1.jpg" alt="University of Vienna"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/Universitaet_Wien_Hauptgebaeude_Facade_1.jpg' | relative_url }}" alt="University of Vienna Main Building"></div>
   <div class="node-card-body">
     <p class="node-card-country">Austria</p>
     <h3><a href="https://www.univie.ac.at/en/">University of Vienna</a></h3>
@@ -168,7 +168,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="https://mnd-assets-bunny.mynewsdesk.com/image/upload/c_fill%2Cdpr_auto%2Cf_auto%2Cg_auto%2Cq_auto%3Agood%2Cw_1782/g9fzqxjox6tpd22mw2pdg6?fmt=jpeg" alt="Uppsala University"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/Uppsala.jpeg' | relative_url }}" alt="Ångström Laboratory, Uppsala University"></div>
   <div class="node-card-body">
     <p class="node-card-country">Sweden</p>
     <h3><a href="https://www.uu.se/en/">Uppsala University</a></h3>

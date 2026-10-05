@@ -1,15 +1,15 @@
 .home-hero {
-  display: grid;
-  grid-template-columns: minmax(0, .92fr) minmax(0, 1.35fr);
-  gap: 3rem;
-  align-items: center;
-  margin: 2.25rem 0 5rem;
+  margin: 2.5rem 0 5rem;
+}
+.home-hero-copy {
+  max-width: 58rem;
+  margin-bottom: 2rem;
 }
 .home-hero-copy h1 {
-  font-size: clamp(2.25rem, 4.2vw, 4.2rem);
-  line-height: 1.03;
-  letter-spacing: -.035em;
-  margin: .35rem 0 1.35rem;
+  font-size: clamp(2.25rem, 4vw, 3.8rem);
+  line-height: 1.08;
+  letter-spacing: -.03em;
+  margin: .35rem 0 0;
 }
 .home-kicker,.home-eyebrow {
   color: #1f5f8b;
@@ -19,9 +19,23 @@
   text-transform: uppercase;
   margin: 0 0 .4rem;
 }
-.home-lead { font-size: 1.14rem; line-height: 1.65; }
-.home-hero-image { aspect-ratio: 4 / 3; overflow: hidden; }
-.home-hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.home-hero-image {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+.home-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.home-hero-intro {
+  max-width: 48rem;
+}
+.home-lead {
+  font-size: 1.14rem;
+  line-height: 1.65;
+  margin-top: 0;
+}
 .home-text-link { font-weight: 600; text-decoration: none; }
 .home-section { margin: 0 0 5rem; }
 .home-section-heading { max-width: 48rem; margin-bottom: 1.6rem; }
@@ -50,8 +64,8 @@
   display:grid; grid-template-columns:.8fr 1.2fr; gap:3rem;
 }
 @media (max-width: 760px) {
-  .home-hero { grid-template-columns:1fr; gap:1.5rem; margin-bottom:3.5rem; }
-  .home-hero-image { order:-1; aspect-ratio:16/10; }
+  .home-hero { margin-bottom:3.5rem; }
+  .home-hero-copy h1 br { display:none; }
   .home-focus-grid,.home-news-grid,.home-event-grid,.home-projects { grid-template-columns:1fr; }
   .home-heading-row { align-items:start; flex-direction:column; gap:.5rem; }
   .home-section { margin-bottom:3.5rem; }

@@ -159,7 +159,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/University_of_Zambia_in_2024_3.jpg" alt="University of Zambia"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/news/560c14_52e533c218eb46da90083aefb203f782~mv2.jpg.avif' | relative_url }}" alt="University of Zambia MSc graduates"></div>
   <div class="node-card-body">
     <p class="node-card-country">Zambia</p>
     <h3><a href="https://www.unza.zm/">University of Zambia</a></h3>

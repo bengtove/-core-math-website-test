@@ -218,3 +218,7 @@ body {
   .opportunities-page .opportunity-meta-support,
   .opportunities-page .opportunity-meta-career { padding-left:0; border-left:0; }
 }
+
+
+/* Programmes & Projects */
+.programme-section,.project-section{margin-top:3.5rem}.programme-section>h2,.project-section>h2{margin-bottom:1.5rem;padding-top:.75rem;border-top:4px solid #1f5f8b;border-bottom:0}.programme-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 3.5rem}.programme-entry{padding:1.15rem 0 1.5rem;border-top:1px solid #d8e0e5}.programme-entry:nth-child(-n+2){border-top:0}.programme-entry h3,.project-entry h3{margin:0 0 .65rem;line-height:1.25}.programme-entry p,.project-entry p{max-width:52rem}.programme-entry a,.project-entry a{font-weight:600}.project-list{max-width:62rem}.project-entry{padding:1.45rem 0 1.6rem;border-top:1px solid #d8e0e5}.project-entry:first-child{border-top:0;padding-top:.35rem}.project-entry p{margin:.55rem 0;line-height:1.55}.project-entry p strong:first-child{color:#65747e;font-size:.78rem;letter-spacing:.055em;text-transform:uppercase}@media(max-width:720px){.programme-grid{grid-template-columns:1fr}.programme-entry:nth-child(2){border-top:1px solid #d8e0e5}.programme-section,.project-section{margin-top:2.6rem}}

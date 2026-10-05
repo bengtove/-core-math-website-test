@@ -11,7 +11,7 @@ body {
 }
 
 .site-header {
-  border-top: 9px solid #1f5f8b;
+  border-top: 12px solid #1f5f8b;
   border-bottom: 1px solid #d8e0e5;
   background: #fff;
 }
@@ -66,16 +66,18 @@ body {
 
 .site-navigation {
   grid-column: 1 / -1;
+  width: 100%;
   margin: 1.35rem 0 0;
-  padding: .8rem 0 .9rem;
-  border-top: 1px solid #e2e7ea;
+  padding: .85rem 0 .95rem;
+  border-top: 3px solid #1f5f8b;
   border-bottom: 0;
 }
 
 .site-navigation ul {
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem 1.35rem;
+  justify-content: space-between;
+  gap: .5rem 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -203,7 +205,7 @@ body {
   .site-core-identity { display:none; }
   .site-brand-text strong { font-size:1.4rem; }
   .site-brand-text span { font-size:.7rem; max-width:18rem; }
-  .site-navigation ul { gap:.45rem 1rem; }
+  .site-navigation ul { justify-content:flex-start; gap:.45rem 1rem; }
   .site-footer-grid { grid-template-columns:1fr; gap:1.6rem; }
   .opportunities-page .opportunity-meta-grid { grid-template-columns:minmax(0,1fr); width:100%; }
   .opportunities-page .opportunity-meta-support,

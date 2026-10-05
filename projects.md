@@ -75,7 +75,6 @@ A developing CoRE-Math research collaboration bringing together mathematicians a
 
 **External support:** NORHED II / Math4SDG (project-development workshop)
 
-[Read more]({{ lake_victoria.url | relative_url }})
 
 ### {{ math4sdg.title }}
 

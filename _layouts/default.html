@@ -11,6 +11,9 @@
     {% if page.layout == "post" %}
     <link rel="stylesheet" href="{{ "/assets/css/news-lightbox.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
+    {% if page.homepage %}
+    <link rel="stylesheet" href="{{ "/assets/css/home.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% endif %}
     {% if page.network_partnerships %}
     <link rel="stylesheet" href="{{ "/assets/css/network-partnerships.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}

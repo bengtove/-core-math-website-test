@@ -61,38 +61,6 @@ A Finland–Rwanda collaboration using applied mathematics and Earth observation
 
 [Read more]({{ earth_observation.url | relative_url }})
 
-### {{ lake_victoria.title }}
-
-A developing CoRE-Math research collaboration bringing together mathematicians and researchers from other disciplines around challenges connected with the Lake Victoria region. The project aims to develop interdisciplinary research, regional collaboration and joint funding initiatives around problems where the mathematical sciences can make a contribution.
-
-**External support:** NORHED II / Math4SDG (project-development workshop)
-
-
-### {{ math4sdg.title }}
-
-Math4SDG is a NORHED II project strengthening mathematics and mathematics education through collaboration between the University of Dar es Salaam, Makerere University and the University of Bergen. It supports PhD training, research collaboration, education and regional activities, including the African–Nordic Mathematics Conference held in Arusha in August 2026.
-
-**Funder:** Norad, NORHED II
-
-[Read more]({{ math4sdg.url | relative_url }})
-
-### {{ sida_collaboration.title }}
-
-Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.
-
-**Funder:** Sida
-
-[Read more]({{ sida_collaboration.url | relative_url }})
-
-### {{ spirit.title }}
-
-A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda. The project combines methodological research with doctoral training, researcher mobility and the development of statistical research capacity at the University of Rwanda.
-
-**Funder:** Swiss National Science Foundation (SNSF), SPIRIT programme
-
-[Read more]({{ spirit.url | relative_url }})
-
-
 ### Bergen–Makerere–UDSM mobility and postgraduate collaboration
 
 Collaboration between the University of Bergen, Makerere University and the University of Dar es Salaam supports postgraduate education, student and staff mobility, research visits and research collaboration. The collaboration builds on the universities' wider cooperation in mathematics and mathematics education.
@@ -124,6 +92,13 @@ A University of Bergen initiative connecting mathematics and medicine around the
 
 **Funder:** University of Bergen, Institute for Global Challenges
 
+### {{ lake_victoria.title }}
+
+A developing CoRE-Math research collaboration bringing together mathematicians and researchers from other disciplines around challenges connected with the Lake Victoria region. The project aims to develop interdisciplinary research, regional collaboration and joint funding initiatives around problems where the mathematical sciences can make a contribution.
+
+**External support:** NORHED II / Math4SDG (project-development workshop)
+
+
 ### Makerere–Groningen mobility and research collaboration
 
 An Erasmus+ collaboration between Makerere University and the University of Groningen supporting doctoral mobility and research visits. Activities have included visits by Makerere PhD students to Groningen and research visits from Groningen to Makerere.
@@ -135,6 +110,31 @@ An Erasmus+ collaboration between Makerere University and the University of Gron
 A capacity-building project at the University of Rwanda supporting the development of mathematics activities, including work connected with mathematics education and outreach.
 
 **Funder:** International Centre for Mathematical Sciences (ICMS)
+
+### {{ math4sdg.title }}
+
+Math4SDG is a NORHED II project strengthening mathematics and mathematics education through collaboration between the University of Dar es Salaam, Makerere University and the University of Bergen. It supports PhD training, research collaboration, education and regional activities, including the African–Nordic Mathematics Conference held in Arusha in August 2026.
+
+**Funder:** Norad, NORHED II
+
+[Read more]({{ math4sdg.url | relative_url }})
+
+### {{ sida_collaboration.title }}
+
+Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.
+
+**Funder:** Sida
+
+[Read more]({{ sida_collaboration.url | relative_url }})
+
+### {{ spirit.title }}
+
+A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda. The project combines methodological research with doctoral training, researcher mobility and the development of statistical research capacity at the University of Rwanda.
+
+**Funder:** Swiss National Science Foundation (SNSF), SPIRIT programme
+
+[Read more]({{ spirit.url | relative_url }})
+
 
 ### Waterproof: from Proof Assistant to Educational Tool
 

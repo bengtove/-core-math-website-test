@@ -4,11 +4,6 @@
   --education-muted: #596873;
 }
 
-.education-intro,
-.education-section {
-  max-width: 52rem;
-}
-
 .education-intro h1 {
   margin-top: 0;
 }

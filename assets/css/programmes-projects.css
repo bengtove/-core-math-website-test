@@ -1,0 +1,150 @@
+.programmes-projects-page {
+  --projects-blue: #1f5f8b;
+  --projects-rule: #d8e0e5;
+  --projects-muted: #596873;
+}
+
+.programmes-projects-intro {
+  max-width: 52rem;
+}
+
+.programmes-projects-intro h1 {
+  margin-top: 0;
+}
+
+.programmes-projects-intro p {
+  max-width: 48rem;
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+
+.programmes-section,
+.projects-section,
+.previous-projects-section {
+  margin-top: 4.75rem;
+}
+
+.programmes-section > h2,
+.projects-section > h2,
+.previous-projects-section > h2 {
+  margin: 0 0 2rem;
+  padding-top: 1rem;
+  border-top: 3px solid var(--projects-blue);
+  font-size: clamp(1.7rem, 2.5vw, 2.35rem);
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+
+.programmes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.75rem 4rem;
+}
+
+.programme-entry {
+  padding-top: 1rem;
+  border-top: 2px solid var(--projects-blue);
+}
+
+.programme-entry h3,
+.project-entry h3 {
+  margin: 0 0 .65rem;
+  color: #20262b;
+  line-height: 1.25;
+}
+
+.programme-entry h3 {
+  font-size: 1.38rem;
+}
+
+.programme-entry p {
+  max-width: 34rem;
+  margin: .6rem 0;
+  line-height: 1.6;
+}
+
+.entry-link {
+  margin-top: .85rem !important;
+}
+
+.entry-link a {
+  font-weight: 600;
+}
+
+.projects-list {
+  max-width: 59rem;
+  border-top: 1px solid var(--projects-rule);
+}
+
+.project-entry {
+  padding: 1.65rem 0 1.8rem;
+  border-bottom: 1px solid var(--projects-rule);
+}
+
+.project-entry h3 {
+  max-width: 48rem;
+  font-size: 1.25rem;
+}
+
+.project-entry .entry-description {
+  max-width: 52rem;
+  margin: .55rem 0;
+  line-height: 1.6;
+}
+
+.project-meta {
+  max-width: 52rem;
+  margin: .7rem 0 0;
+  color: var(--projects-muted);
+  font-size: .92rem;
+  line-height: 1.5;
+}
+
+.project-meta span {
+  font-weight: 600;
+}
+
+.project-entry .entry-link {
+  margin-bottom: 0;
+}
+
+.previous-projects-section {
+  max-width: 59rem;
+}
+
+.previous-projects-section > h2 {
+  margin-bottom: .75rem;
+}
+
+.previous-projects-section p {
+  margin: 0;
+}
+
+.previous-projects-section a {
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .programmes-section,
+  .projects-section,
+  .previous-projects-section {
+    margin-top: 3.5rem;
+  }
+
+  .programmes-section > h2,
+  .projects-section > h2,
+  .previous-projects-section > h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .programmes-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .programme-entry p,
+  .project-entry .entry-description,
+  .project-meta {
+    max-width: none;
+  }
+}

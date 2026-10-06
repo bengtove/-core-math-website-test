@@ -1,16 +1,18 @@
 :root {
-  --prose-measure: 68ch;
+  --prose-measure: 52rem;
   --prose-line-height: 1.6;
 }
 
 /* Ordinary page prose remains aligned with the full-width page structure. */
-.site-main > p,
+.site-main:not(.network-partnerships-page) > p,
 .site-main > blockquote,
 .long-form-content > p,
 .long-form-content > blockquote,
 .news-post > p,
 .news-post > blockquote,
-.opportunities-page > p {
+.opportunities-page > p,
+.network-partnerships-page > h1 + p,
+.network-partnerships-page > h2:first-of-type + p {
   max-width: var(--prose-measure);
   line-height: var(--prose-line-height);
 }

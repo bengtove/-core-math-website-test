@@ -46,7 +46,7 @@
       </div>
     </header>
 
-    <main class="site-shell site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}">
+    <main class="site-shell site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}">
       {{ content }}
     </main>
 

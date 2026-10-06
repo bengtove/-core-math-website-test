@@ -9,7 +9,7 @@
 }
 
 .education-intro p {
-  max-width: 64rem;
+  max-width: var(--prose-measure);
   font-size: 1.08rem;
   line-height: 1.65;
 }
@@ -28,8 +28,8 @@
 }
 
 .education-prose {
-  max-width: 64rem;
-  line-height: 1.6;
+  max-width: var(--prose-measure);
+  line-height: var(--prose-line-height);
 }
 
 .education-link {

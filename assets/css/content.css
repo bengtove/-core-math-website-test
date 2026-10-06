@@ -1,0 +1,31 @@
+:root {
+  --prose-measure: 68ch;
+  --prose-line-height: 1.6;
+}
+
+/* Ordinary page prose remains aligned with the full-width page structure. */
+.site-main > p,
+.site-main > blockquote,
+.long-form-content > p,
+.long-form-content > blockquote,
+.news-post > p,
+.news-post > blockquote,
+.opportunities-page > p {
+  max-width: var(--prose-measure);
+  line-height: var(--prose-line-height);
+}
+
+/* Lists in these long-form page types are part of the sustained narrative. */
+.long-form-content > ul,
+.long-form-content > ol,
+.news-post > ul,
+.news-post > ol {
+  max-width: var(--prose-measure);
+  line-height: var(--prose-line-height);
+}
+
+@media (max-width: 767px) {
+  .site-main h1 {
+    font-size: 1.875rem;
+  }
+}

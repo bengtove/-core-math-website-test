@@ -8,6 +8,7 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/navigation.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/content.css?v=" | append: site.github.build_revision | relative_url }}">
     {% if page.layout == "post" %}
     <link rel="stylesheet" href="{{ "/assets/css/news-lightbox.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
@@ -45,7 +46,7 @@
       </div>
     </header>
 
-    <main class="site-shell site-main markdown-body">
+    <main class="site-shell site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}">
       {{ content }}
     </main>
 

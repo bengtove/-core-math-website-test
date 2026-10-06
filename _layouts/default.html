@@ -23,6 +23,9 @@
     {% if page.programmes_projects %}
     <link rel="stylesheet" href="{{ "/assets/css/programmes-projects.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
+    {% if page.education_page %}
+    <link rel="stylesheet" href="{{ "/assets/css/education.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% endif %}
     {% include head-custom.html %}
   </head>
   <body>

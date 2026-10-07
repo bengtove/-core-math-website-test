@@ -20,7 +20,7 @@ body {
 
 .site-frame {
   display: grid;
-  grid-template-columns: 10.75rem minmax(0, 1fr);
+  grid-template-columns: 172px minmax(0, 1fr);
   gap: 2.5rem;
   background: #fff;
 }
@@ -104,7 +104,7 @@ body {
   position: absolute;
   z-index: -1;
   top: 0;
-  right: -.75rem;
+  right: 0;
   bottom: 0;
   left: 0;
   background: #f7f9fa;

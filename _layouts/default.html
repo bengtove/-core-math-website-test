@@ -30,11 +30,14 @@
     {% if page.research_page %}
     <link rel="stylesheet" href="{{ "/assets/css/research.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
+    {% if page.about_page %}
+    <link rel="stylesheet" href="{{ "/assets/css/about.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% endif %}
     {% include head-custom.html %}
   </head>
   <body>
     <header class="site-header">
-      <div class="site-shell site-header-inner">
+      <div class="site-frame-shell site-header-inner">
         <a class="site-brand" href="{{ "/" | relative_url }}" aria-label="CoRE-Math home">
           <img class="site-brand-mark" src="{{ '/assets/images/Mark.png' | relative_url }}" alt="">
           <span class="site-brand-text">
@@ -45,13 +48,23 @@
         <div class="site-core-identity">
           <img src="{{ '/assets/images/Africa-Europe CoRE logo/Africa-Europe CoRE logo package/Africa-Europe CoRE logo/Logo_Horizontal/Logo Horizontal_Transparent.svg' | relative_url }}" alt="Africa–Europe Clusters of Research Excellence">
         </div>
-        {% include site-navigation.html %}
+        <details class="site-mobile-menu">
+          <summary>Menu</summary>
+          <div class="site-mobile-navigation">
+            {% include site-navigation.html %}
+          </div>
+        </details>
       </div>
     </header>
 
-    <main class="site-shell site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}">
-      {{ content }}
-    </main>
+    <div class="site-frame">
+      <aside class="site-nav-rail">
+        {% include site-navigation.html %}
+      </aside>
+      <main class="site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}">
+        {{ content }}
+      </main>
+    </div>
 
     <footer class="site-footer">
       <div class="site-shell site-footer-grid">

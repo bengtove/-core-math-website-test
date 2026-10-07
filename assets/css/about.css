@@ -1,0 +1,92 @@
+.about-page > h1 { margin-top: 0; }
+
+.about-introduction,
+.about-background { max-width: 52rem; }
+
+.about-introduction p,
+.about-background p,
+.about-activity p,
+.about-gateway p { line-height: 1.6; }
+
+.about-page section,
+.about-gateway-grid { margin-top: 3.75rem; }
+
+.about-page h2 {
+  margin: 0 0 1.15rem;
+  padding: 0;
+  border: 0;
+}
+
+.about-section-link { margin-top: 1rem; }
+
+.about-goal-statement {
+  max-width: 52rem;
+  padding: 1.6rem 1.75rem 1.75rem;
+  background: #f3f7f9;
+}
+
+.about-goal-statement p {
+  margin: 0;
+  color: #274d68;
+  font-size: 1.45rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.about-activity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 64rem;
+  gap: 1.5rem 2.25rem;
+}
+
+.about-activity {
+  padding-top: .9rem;
+  border-top: 1px solid #cbd6dc;
+}
+
+.about-activity h3,
+.about-gateway h2 {
+  margin: 0 0 .45rem;
+  color: #315d7b;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.about-activity p,
+.about-gateway p { margin: .35rem 0 0; }
+
+.about-gateway-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  max-width: 52rem;
+  gap: .8rem;
+}
+
+.about-gateway-grid .about-gateway {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 1rem 1.1rem 1.15rem;
+  background: #f3f7f9;
+}
+
+.about-gateway-link {
+  margin-top: auto !important;
+  padding-top: .75rem;
+  font-size: .95em;
+  font-weight: 600;
+}
+
+@media (max-width: 860px) {
+  .about-page section,
+  .about-gateway-grid { margin-top: 3rem; }
+
+  .about-activity-grid,
+  .about-gateway-grid { grid-template-columns: 1fr; }
+
+  .about-goal-statement { padding: 1.35rem 1.25rem 1.45rem; }
+  .about-goal-statement p { font-size: 1.3rem; }
+}

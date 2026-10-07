@@ -15,7 +15,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 <div class="node-grid">
 
 <article class="node-card node-card-network">
-  <div class="node-card-image"><img src="{{ '/assets/images/Mark.png' | relative_url }}" alt="CoRE-Math mark"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/branding/core-math-mark.png' | relative_url }}" alt="CoRE-Math mark"></div>
   <div class="node-card-body">
     <p class="node-card-country">Africa & Europe</p>
     <h3>One network, 17 universities</h3>
@@ -51,7 +51,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="{{ '/assets/images/Visit-Makerere-02.jpg' | relative_url }}" alt="Makerere University campus"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/members/makerere-university-campus.webp' | relative_url }}" alt="Makerere University campus"></div>
   <div class="node-card-body">
     <p class="node-card-country">Uganda</p>
     <h3><a href="https://mak.ac.ug/">Makerere University</a></h3>
@@ -87,7 +87,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="{{ '/assets/images/Bergen.jpg' | relative_url }}" alt="Bergen"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/members/university-of-bergen.jpg' | relative_url }}" alt="Bergen"></div>
   <div class="node-card-body">
     <p class="node-card-country">Norway</p>
     <h3><a href="https://www4.uib.no/en">University of Bergen</a></h3>
@@ -150,7 +150,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="{{ '/assets/images/Universitaet_Wien_Hauptgebaeude_Facade_1.jpg' | relative_url }}" alt="University of Vienna Main Building"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/members/university-of-vienna-main-building.jpg' | relative_url }}" alt="University of Vienna Main Building"></div>
   <div class="node-card-body">
     <p class="node-card-country">Austria</p>
     <h3><a href="https://www.univie.ac.at/en/">University of Vienna</a></h3>
@@ -168,7 +168,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 <article class="node-card">
-  <div class="node-card-image"><img src="{{ '/assets/images/Uppsala.jpeg' | relative_url }}" alt="Ångström Laboratory, Uppsala University"></div>
+  <div class="node-card-image"><img src="{{ '/assets/images/members/uppsala-university-angstrom-laboratory.jpeg' | relative_url }}" alt="Ångström Laboratory, Uppsala University"></div>
   <div class="node-card-body">
     <p class="node-card-country">Sweden</p>
     <h3><a href="https://www.uu.se/en/">Uppsala University</a></h3>

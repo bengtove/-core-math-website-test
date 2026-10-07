@@ -25,13 +25,17 @@
 
 .about-goal-statement {
   max-width: 64rem;
+  padding: 1.6rem 1.75rem 1.75rem;
+  background: #f3f7f9;
 }
 
 .about-goal-statement p {
+  max-width: 43rem;
   margin: 0;
-  font-size: 1.45rem;
+  color: #274d68;
+  font-size: 1.35rem;
   font-weight: 500;
-  line-height: 1.45;
+  line-height: 1.4;
 }
 
 .about-activity-grid {
@@ -87,5 +91,6 @@
   .about-activity-grid,
   .about-gateway-grid { grid-template-columns: 1fr; }
 
-  .about-goal-statement p { font-size: 1.3rem; }
+  .about-goal-statement { padding: 1.35rem 1.25rem 1.45rem; }
+  .about-goal-statement p { font-size: 1.2rem; }
 }

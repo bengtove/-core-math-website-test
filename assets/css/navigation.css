@@ -112,6 +112,7 @@ body {
 }
 
 .site-nav-rail .site-navigation {
+  z-index: 1;
   position: sticky;
   top: 2.25rem;
   padding-top: .2rem;

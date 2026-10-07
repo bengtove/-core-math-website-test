@@ -89,6 +89,21 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .about-goal-statement {
+    width: 50rem;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-activity-grid,
+  .about-gateway-grid {
+    width: calc(100% - 2.5rem);
+    max-width: none;
+  }
+}
+
 @media (max-width: 860px) {
   .about-page section,
   .about-gateway-grid { margin-top: 3rem; }

@@ -115,6 +115,7 @@ body {
   z-index: 1;
   position: sticky;
   top: 2.25rem;
+  padding-left: .875rem;
   padding-top: .2rem;
 }
 

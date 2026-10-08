@@ -41,8 +41,8 @@ homepage: true
 </section>
 
 <section class="home-section">
-  <div class="home-section-heading home-heading-row">
-    <div>
+  <div class="home-section-intro">
+    <div class="home-section-heading">
       <p class="home-eyebrow">Across Africa and Europe</p>
       <h2>One network, 17 universities</h2>
     </div>
@@ -52,8 +52,8 @@ homepage: true
 </section>
 
 <section class="home-section">
-  <div class="home-section-heading home-heading-row">
-    <div>
+  <div class="home-section-intro">
+    <div class="home-section-heading">
       <p class="home-eyebrow">From the network</p>
       <h2>Latest news</h2>
     </div>
@@ -67,19 +67,20 @@ homepage: true
       {% endif %}
       <p class="home-news-meta">{{ post.date | date: "%-d %B %Y" }}{% if post.location %} · {{ post.location }}{% endif %}</p>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+      {% assign post_summary = post.home_excerpt | default: post.excerpt %}
+      <p>{{ post_summary | strip_html | truncatewords: 28 }}</p>
     </article>
     {% endfor %}
   </div>
 </section>
 
 <section class="home-section home-upcoming">
-  <div class="home-section-heading home-heading-row">
-    <div>
+  <div class="home-section-intro">
+    <div class="home-section-heading">
       <p class="home-eyebrow">Looking ahead</p>
-      <h2>Upcoming</h2>
+      <h2>Upcoming events</h2>
     </div>
-    <a class="home-text-link" href="{{ '/programmes/core-math-schools/' | relative_url }}">More upcoming schools →</a>
+    <a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More events →</a>
   </div>
   <div class="home-event-grid">
     <article>
@@ -94,12 +95,14 @@ homepage: true
 </section>
 
 <section class="home-section home-projects">
-  <div>
-    <p class="home-eyebrow">Working together</p>
-    <h2>Programmes & Projects</h2>
-  </div>
-  <div>
+  <div class="home-projects-column">
+    <h2>Working together</h2>
     <p>Schools, fellowships, industrial mathematics, research projects and institutional collaborations turn the network into concrete activity.</p>
     <a class="home-text-link" href="{{ '/projects/' | relative_url }}">Explore programmes and projects →</a>
+  </div>
+  <div class="home-projects-column">
+    <h2>Opportunities</h2>
+    <p>Explore funding opportunities, fellowships, research visits and other possibilities for collaboration and professional development.</p>
+    <a class="home-text-link" href="{{ '/opportunities/' | relative_url }}">Explore opportunities →</a>
   </div>
 </section>

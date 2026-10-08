@@ -5,6 +5,7 @@ date: 2026-10-08
 location: "Amsterdam, the Netherlands"
 category: "Research"
 image: "https://www.uva.nl/binaries/_ht_1717663662062/700x0-jpg/content/gallery/subsites/amsterdam-school-of-economics/2018-redesign/herobanners/rec-e-plein-hoofdingang.jpg"
+home_excerpt: "Diletta Martinelli, Jim Portegies and Michael Oyengo are working together on an IAS fellowship exploring emerging technologies for mathematics education in the Global South."
 ---
 
 [Read more on the University of Amsterdam Institute for Advanced Study website →](https://ias.uva.nl/content/events/2026/10/fellowship-event-diletta-martinelli-jim-portegies-michael-oyengo-21.10.2026.html)

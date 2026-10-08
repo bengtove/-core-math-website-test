@@ -25,16 +25,16 @@
 
 .about-goal-statement {
   max-width: 47rem;
-  padding: 1.6rem 1.75rem 1.75rem;
-  background: #f3f7f9;
+  padding: 1.5rem 1.65rem 1.65rem;
+  background: #f6f8f9;
 }
 
 .about-goal-statement p {
   margin: 0;
-  color: #274d68;
-  font-size: 1.35rem;
+  color: #315d7b;
+  font-size: 1.28rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 .about-activity-grid,
@@ -63,24 +63,19 @@
 .about-gateway p { margin: .35rem 0 0; }
 
 .about-gateway-grid .about-gateway {
-  display: flex;
-  flex-direction: column;
   margin-top: 0;
-  padding: 1rem 1.1rem 1.15rem;
-  background: #f3f7f9;
+  padding-top: .9rem;
+  border-top: 1px solid #cbd6dc;
 }
 
 .about-gateway-link {
-  margin-top: auto !important;
-  padding-top: .75rem;
+  padding-top: .35rem;
   font-size: .95em;
   font-weight: 600;
 }
 
 @media (min-width: 861px) {
-  .about-gateway-grid .about-gateway {
-    padding: 1.25rem 1.35rem 1.35rem;
-  }
+  .about-nav-rail .site-navigation { padding-left: .875rem; }
 }
 
 @media (min-width: 1280px) {

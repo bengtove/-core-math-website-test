@@ -47,7 +47,7 @@ about_page: true
       </div>
       <div class="about-activity">
         <h3>Gender and inclusion</h3>
-        <p>It works to strengthen gender and inclusion.</p>
+        <p>CoRE-Math works to broaden participation and strengthen gender equality and inclusion in research, education and network activities.</p>
       </div>
       <div class="about-activity">
         <h3>Communication, conferences and outreach</h3>

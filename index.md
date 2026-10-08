@@ -46,9 +46,9 @@ homepage: true
       <p class="home-eyebrow">Across Africa and Europe</p>
       <h2>One network, 17 universities</h2>
     </div>
-    <a class="home-text-link" href="{{ '/network-partnerships/' | relative_url }}">Meet the network →</a>
   </div>
   <p class="home-network-copy">CoRE-Math connects eight African and nine European universities, building on long-standing partnerships and creating new connections in research, postgraduate education, mobility and engagement with society.</p>
+  <p class="home-section-link"><a class="home-text-link" href="{{ '/network-partnerships/' | relative_url }}">Meet the network →</a></p>
 </section>
 
 <section class="home-section">
@@ -57,7 +57,6 @@ homepage: true
       <p class="home-eyebrow">From the network</p>
       <h2>Latest news</h2>
     </div>
-    <a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More news →</a>
   </div>
   <div class="home-news-grid">
     {% for post in site.posts limit:3 %}
@@ -72,6 +71,7 @@ homepage: true
     </article>
     {% endfor %}
   </div>
+  <p class="home-section-link"><a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More news →</a></p>
 </section>
 
 <section class="home-section home-upcoming">
@@ -80,7 +80,6 @@ homepage: true
       <p class="home-eyebrow">Looking ahead</p>
       <h2>Upcoming events</h2>
     </div>
-    <a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More events →</a>
   </div>
   <div class="home-event-grid">
     <article>
@@ -92,6 +91,7 @@ homepage: true
       <h3><a href="https://cimpa.info/en/ecoles/algebraic-and-enumerative-combinatorics">Algebraic and Enumerative Combinatorics</a></h3>
     </article>
   </div>
+  <p class="home-section-link"><a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More events →</a></p>
 </section>
 
 <section class="home-section home-projects">

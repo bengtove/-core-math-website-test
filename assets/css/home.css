@@ -40,7 +40,7 @@
 .home-section-heading { max-width: 48rem; margin-bottom: 1.6rem; }
 .home-section-intro { margin-bottom: 1.6rem; }
 .home-section-intro .home-section-heading { margin-bottom: .45rem; }
-.home-section-intro .home-text-link { display: inline-block; }
+.home-section-link { margin: 1.25rem 0 0; }
 .home-section-heading h2,.home-projects h2 {
   font-size: clamp(1.75rem, 2.6vw, 2.55rem);
   line-height: 1.12; letter-spacing: -.02em; margin: .2rem 0;

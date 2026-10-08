@@ -4,6 +4,7 @@ date: 2026-09-21
 location: "Kampala, Uganda"
 category: "Industry and Society"
 project: "kampala-sgi-2026"
+image: "/assets/images/members/makerere-university-campus.webp"
 ---
 
 The 2026 CoRE-Math Study Group with Industry brought together mathematicians, students and industry partners in Kampala to work on problems originating outside academia.

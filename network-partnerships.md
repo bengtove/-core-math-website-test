@@ -180,32 +180,38 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 
 ## Formal partners
 
-### [European Consortium for Mathematics in Industry (ECMI)](https://ecmiindmath.org/)
+<div class="partner-grid">
+  <article class="partner-card">
+    <h3><a href="https://ecmiindmath.org/">European Consortium for Mathematics in Industry (ECMI)</a></h3>
+    <p>ECMI and CoRE-Math collaborate in industrial mathematics, including links between mathematics and industry, Study Groups with Industry, and related education and research activities. The partnership connects CoRE-Math with European industrial mathematics networks and supports exchange among researchers, students and external partners.</p>
+  </article>
+  <article class="partner-card">
+    <h3><a href="https://www.iciam.org/">International Council for Industrial and Applied Mathematics (ICIAM)</a></h3>
+    <p>ICIAM connects CoRE-Math with the international industrial and applied mathematics community. The partnership supports the development and visibility of applied mathematics in Africa and provides an international context for CoRE-Math’s work in industrial mathematics, research and education.</p>
+  </article>
+  <article class="partner-card">
+    <h3><a href="https://www.uu.se/en/centre/international-science-programme">International Science Programme (ISP)</a></h3>
+    <p>ISP at Uppsala University is a formal partner of CoRE-Math. Through agreements with six African member universities, it supports long-term development of mathematical research and postgraduate education, building on decades of collaboration through EAUMP and support to Addis Ababa University, and contributing to CoRE-Math’s coordination and development.</p>
+  </article>
+</div>
 
-ECMI and CoRE-Math collaborate in industrial mathematics, including links between mathematics and industry, Study Groups with Industry, and related education and research activities.
+## Other partners
 
-### [International Council for Industrial and Applied Mathematics (ICIAM)](https://www.iciam.org/)
-
-The partnership with ICIAM connects CoRE-Math with the international industrial and applied mathematics community and supports the development and visibility of applied mathematics in Africa.
-
-### [International Science Programme (ISP)](https://www.uu.se/en/centre/international-science-programme)
-
-ISP at Uppsala University is a formal partner of CoRE-Math. Through agreements with six of the African member universities, ISP supports long-term development of mathematical research and postgraduate education. Its engagement also builds on decades of collaboration through EAUMP and support to Addis Ababa University, and ISP contributes to the coordination and development of CoRE-Math.
-
-## Partners
-
-### [Centre International de Mathématiques Pures et Appliquées (CIMPA)](https://www.cimpa.info/en)
-
-CoRE-Math collaborates with CIMPA particularly through research schools, bringing international researchers together with postgraduate students and early-career mathematicians in Africa.
-
-### [Centre of Excellence in Mathematical and Statistical Sciences (CoE-MaSS)](https://www.coe-mass.ac.za/)
-
-The DSTI–NRF Centre of Excellence in Mathematical and Statistical Sciences (CoE-MaSS), hosted by the University of the Witwatersrand, is a national network bringing together researchers in pure mathematics, applied mathematics and statistics across South Africa. Established in 2014, it supports collaborative research, postgraduate training, researcher development and scientific networking. CoRE-Math's collaboration with CoE-MaSS strengthens connections with the wider South African mathematical sciences community and creates opportunities for joint research, postgraduate activities, schools and workshops, mobility and network development.
-
-### [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it/)
-
-ICTP has collaborated for many years with universities and networks that now participate in CoRE-Math. The collaboration includes schools and other activities supporting research and postgraduate education in mathematics.
-
-### [National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))](https://www.up.ac.za/nga-mass)
-
-CoRE-Math is developing collaboration with NGA(MaSS) in postgraduate education, research and networking, industrial mathematics, schools and workshops, early-career development, and joint funding initiatives.
+<div class="partner-grid">
+  <article class="partner-card">
+    <h3><a href="https://www.cimpa.info/en">Centre International de Mathématiques Pures et Appliquées (CIMPA)</a></h3>
+    <p>CoRE-Math collaborates with CIMPA through research schools that bring international researchers together with postgraduate students and early-career mathematicians in Africa. These activities support advanced study, research interaction and the development of regional mathematical communities, while strengthening links across institutions and countries.</p>
+  </article>
+  <article class="partner-card">
+    <h3><a href="https://www.coe-mass.ac.za/">Centre of Excellence in Mathematical and Statistical Sciences (CoE-MaSS)</a></h3>
+    <p>CoE-MaSS is a South African network for pure mathematics, applied mathematics and statistics, hosted by the University of the Witwatersrand. CoRE-Math is developing collaboration with CoE-MaSS in research, postgraduate education, industrial mathematics, schools and workshops, early-career development and scientific networking.</p>
+  </article>
+  <article class="partner-card">
+    <h3><a href="https://www.ictp.it/">International Centre for Theoretical Physics (ICTP)</a></h3>
+    <p>ICTP has long collaborated with universities and networks that now participate in CoRE-Math. The collaboration includes schools and other activities supporting research and postgraduate education in mathematics, bringing international researchers together with students and early-career mathematicians from across Africa and Europe.</p>
+  </article>
+  <article class="partner-card">
+    <h3><a href="https://www.up.ac.za/nga-mass">National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))</a></h3>
+    <p>CoRE-Math is developing collaboration with NGA(MaSS) in postgraduate education, research and networking, industrial mathematics, schools and workshops, early-career development and joint funding initiatives. The collaboration remains a developing partnership and is not described as a formal agreement.</p>
+  </article>
+</div>

@@ -84,11 +84,13 @@ homepage: true
   <div class="home-event-grid">
     <article>
       <p class="home-news-meta">19–30 July 2027 · Lusaka, Zambia</p>
-      <h3><a href="https://indico.ictp.it/event/11447">Summer School on Topological Data Analysis and Applications</a></h3>
+      <h3><a href="{{ '/events/2027-topological-data-analysis-lusaka/' | relative_url }}">Summer School on Topological Data Analysis and Applications</a></h3>
+      <p>An intensive two-week school introducing topological data analysis and its applications, bringing together postgraduate students and researchers.</p>
     </article>
     <article>
       <p class="home-news-meta">19–30 July 2027 · Kampala, Uganda</p>
-      <h3><a href="https://cimpa.info/en/ecoles/algebraic-and-enumerative-combinatorics">Algebraic and Enumerative Combinatorics</a></h3>
+      <h3><a href="{{ '/events/2027-algebraic-enumerative-combinatorics/' | relative_url }}">School on Algebraic and Enumerative Combinatorics</a></h3>
+      <p>A two-week school exploring algebraic and enumerative combinatorics, with lectures and opportunities for interaction among postgraduate students and researchers.</p>
     </article>
   </div>
   <p class="home-section-link"><a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More events →</a></p>

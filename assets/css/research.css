@@ -1,7 +1,7 @@
 .research-layout {
   display: block;
-  max-width: 52rem;
-  margin-top: 3rem;
+  max-width: none;
+  margin-top: 2.5rem;
 }
 
 .research-toc {
@@ -41,7 +41,7 @@
 }
 
 .research-content section + section {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .research-content h2 {
@@ -56,6 +56,11 @@
   line-height: 1.6;
 }
 
+/* Keep explanatory copy readable while allowing the research grids to use the shared page width. */
+.research-content > section > p {
+  max-width: var(--prose-measure);
+}
+
 .research-tile-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -66,6 +71,11 @@
 .research-groups-grid {
   padding: 0;
   list-style: none;
+}
+
+/* Project entries retain their natural heights rather than stretching to their row peer. */
+.research-project-list {
+  align-items: start;
 }
 
 .research-tile {
@@ -153,13 +163,29 @@
 }
 
 @media (min-width: 1280px) {
+  .site-frame-research {
+    column-gap: 0;
+  }
+
+  .research-page {
+    padding-right: 2.75rem;
+    padding-left: 2.75rem;
+  }
+
   .research-series-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
+@media (min-width: 861px) and (max-width: 1279px) {
+  .research-page {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
 @media (max-width: 860px) {
-  .research-layout { margin-top: 2.5rem; }
+  .research-layout { margin-top: 2rem; }
 
   .research-tile-grid { grid-template-columns: 1fr; }
 }

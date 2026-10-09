@@ -3,6 +3,20 @@
   --prose-line-height: 1.6;
 }
 
+/* Ordinary body copy uses a slightly smaller shared size; component metadata keeps its own type scale. */
+:where(.site-main.markdown-body) p:not([class]),
+:where(.site-main.markdown-body) .education-prose,
+:where(.site-main.markdown-body) .entry-description,
+:where(.site-main.markdown-body) .opportunity-description {
+  font-size: 17px;
+}
+
+/* News and event date/location lines are metadata rather than body copy. */
+.news-post > p:first-of-type,
+.event-page > p:first-of-type {
+  font-size: 1.125rem;
+}
+
 /* Ordinary page prose remains aligned with the full-width page structure. */
 .site-main:not(.network-partnerships-page) > p,
 .site-main > blockquote,

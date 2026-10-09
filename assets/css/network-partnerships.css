@@ -102,10 +102,21 @@
   line-height: 1.6;
 }
 
-@media (min-width: 861px) {
+@media (min-width: 861px) and (max-width: 1279px) {
   .network-partnerships-page {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .site-frame-network-partnerships {
+    column-gap: 0;
+  }
+
+  .network-partnerships-page {
+    padding-right: 2.75rem;
+    padding-left: 2.75rem;
   }
 }
 

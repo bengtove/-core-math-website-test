@@ -39,11 +39,11 @@ about_page: true
       </div>
       <div class="about-activity">
         <h3>Institutional development and partnerships</h3>
-        <p>The Cluster supports institutional development and develops partnerships and networks.</p>
+        <p>The Cluster supports institutional development through collaboration among member universities and develops partnerships and networks across Africa and Europe.</p>
       </div>
       <div class="about-activity">
         <h3>Mathematics in industry and society</h3>
-        <p>It connects mathematics with industry and society.</p>
+        <p>It connects mathematicians and students with external organisations to explore problems where mathematics can contribute to industry and society.</p>
       </div>
       <div class="about-activity">
         <h3>Gender and inclusion</h3>

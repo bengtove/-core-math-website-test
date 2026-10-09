@@ -17,6 +17,17 @@
   font-size: 1.125rem;
 }
 
+/* Compact, bullet-free directories used for institutional listings. */
+.organisation-directory {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.organisation-directory li + li {
+  margin-top: .4rem;
+}
+
 /* Ordinary page prose remains aligned with the full-width page structure. */
 .site-main:not(.network-partnerships-page) > p,
 .site-main > blockquote,

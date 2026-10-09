@@ -7,7 +7,7 @@ permalink: /about/organisation/
 
 CoRE-Math is a collaborative cluster of universities in Africa and Europe. Its governance structure provides shared strategic direction while keeping the coordination of ongoing activities relatively light.
 
-## Co-Leads
+## Co-leads
 
 CoRE-Math is co-led by Makerere University and Uppsala University. The current Co-Leads are John Magero Mango, Makerere University, and Bengt Ove Turesson, International Science Programme (ISP), Uppsala University. The Co-Leads lead the Cluster and coordinate its overall development.
 
@@ -22,7 +22,7 @@ Each member university has a node coordinator who serves as a main point of cont
 <div class="member-columns">
   <section>
     <h3>African members</h3>
-    <ul>
+    <ul class="organisation-directory">
       <li><a href="https://www.aau.edu.et/">Addis Ababa University</a>: Tilahun Abebaw</li>
       <li><a href="https://mak.ac.ug/">Makerere University</a>: Alex Behakanira Tumwesi</li>
       <li><a href="https://www.su.ac.za/en">Stellenbosch University</a>: Gareth Boxall, Zurab Janelidze</li>
@@ -35,7 +35,7 @@ Each member university has a node coordinator who serves as a main point of cont
   </section>
   <section>
     <h3>European members</h3>
-    <ul>
+    <ul class="organisation-directory">
       <li><a href="https://liu.se/en/">Linköping University</a>: Martin Singull</li>
       <li><a href="https://www.lut.fi/en">LUT University</a>: Lassi Roininen</li>
       <li><a href="https://www.su.se/english/">Stockholm University</a>: Tom Britton</li>
@@ -51,8 +51,22 @@ Each member university has a node coordinator who serves as a main point of cont
 
 ## Management Team
 
-The Management Team coordinates the ongoing work of CoRE-Math across its activities, partnerships and strategic priorities. The current Management Team consists of Alex Behakanira Tumwesi, Barbara Brena, Bengt Ove Turesson, John Magero Mango and Matti Heiliö.
+The Management Team coordinates the ongoing work of CoRE-Math across its activities, partnerships and strategic priorities.
+
+<ul class="organisation-directory">
+  <li>Alex Behakanira Tumwesi</li>
+  <li>Barbara Brena</li>
+  <li>Bengt Ove Turesson</li>
+  <li>John Magero Mango</li>
+  <li>Matti Heilö</li>
+</ul>
 
 ## Working groups
 
-Working groups bring together participants from across the network to develop particular areas of CoRE-Math’s work. CoRE-Math currently has working groups for Communication, Industrial Mathematics and Schools.
+Working groups bring together participants from across the network to develop particular areas of CoRE-Math’s work.
+
+<ul class="organisation-directory">
+  <li>Communication</li>
+  <li>Industrial Mathematics</li>
+  <li>Schools</li>
+</ul>

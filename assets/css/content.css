@@ -20,8 +20,12 @@
 /* Compact, bullet-free directories used for institutional listings. */
 .organisation-directory {
   margin: 1rem 0;
-  padding: 0;
   list-style: none;
+}
+
+.member-columns .organisation-directory {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .organisation-directory li + li {

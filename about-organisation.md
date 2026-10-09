@@ -53,7 +53,7 @@ Each member university has a node coordinator who serves as a main point of cont
 
 The Management Team coordinates the ongoing work of CoRE-Math across its activities, partnerships and strategic priorities.
 
-<ul class="organisation-directory">
+<ul>
   <li>Alex Behakanira Tumwesi</li>
   <li>Barbara Brena</li>
   <li>Bengt Ove Turesson</li>
@@ -65,7 +65,7 @@ The Management Team coordinates the ongoing work of CoRE-Math across its activit
 
 Working groups bring together participants from across the network to develop particular areas of CoRE-Math’s work.
 
-<ul class="organisation-directory">
+<ul>
   <li>Communication</li>
   <li>Industrial Mathematics</li>
   <li>Schools</li>

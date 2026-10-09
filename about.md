@@ -31,27 +31,27 @@ about_page: true
     <div class="about-activity-grid">
       <div class="about-activity">
         <h3>Research collaboration</h3>
-        <p>CoRE-Math connects researchers and research environments across Africa and Europe through research groups, fellowships, research visits, workshops and collaborative projects.</p>
+        <p>CoRE-Math connects researchers and research environments across Africa and Europe through research groups, fellowships, research visits, workshops, joint publications and collaborative projects.</p>
       </div>
       <div class="about-activity">
         <h3>Postgraduate education and training</h3>
-        <p>It supports postgraduate education through schools, mobility and collaboration in MSc, PhD and postdoctoral training.</p>
+        <p>It supports postgraduate education through schools, fellowships, mobility and collaboration in MSc, PhD and postdoctoral training, including shared supervision and research exchange.</p>
       </div>
       <div class="about-activity">
         <h3>Institutional development and partnerships</h3>
-        <p>The Cluster supports institutional development through collaboration among member universities and develops partnerships and networks across Africa and Europe.</p>
+        <p>The Cluster supports institutional development through collaboration among member universities, exchange of experience, and partnerships and networks across Africa and Europe.</p>
       </div>
       <div class="about-activity">
         <h3>Mathematics in industry and society</h3>
-        <p>It connects mathematicians and students with external organisations to explore problems where mathematics can contribute to industry and society.</p>
+        <p>It connects mathematicians and students with external organisations through contact workshops, Modelling Weeks and Study Groups with Industry to explore problems where mathematics can contribute.</p>
       </div>
       <div class="about-activity">
         <h3>Gender and inclusion</h3>
-        <p>CoRE-Math works to broaden participation and strengthen gender equality and inclusion in research, education and network activities.</p>
+        <p>CoRE-Math works to broaden participation and strengthen gender equality and inclusion in research, education and network activities, with particular attention to women in the mathematical sciences.</p>
       </div>
       <div class="about-activity">
         <h3>Communication, conferences and outreach</h3>
-        <p>Through communication, conferences and outreach, CoRE-Math shares results and increases the visibility of mathematical research and collaboration.</p>
+        <p>Through communication, conferences and outreach, CoRE-Math shares results, supports exchange across the network, and increases the visibility of mathematical research and collaboration.</p>
       </div>
     </div>
   </section>

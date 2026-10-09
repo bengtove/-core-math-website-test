@@ -212,6 +212,6 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
   </article>
   <article class="partner-card">
     <h3><a href="https://www.up.ac.za/nga-mass">National Graduate Academy for Mathematical and Statistical Sciences (NGA(MaSS))</a></h3>
-    <p>CoRE-Math is developing collaboration with NGA(MaSS) in postgraduate education, research and networking, industrial mathematics, schools and workshops, early-career development and joint funding initiatives. The collaboration remains a developing partnership and is not described as a formal agreement.</p>
+    <p>CoRE-Math is developing collaboration with NGA(MaSS) in postgraduate education, research and networking, industrial mathematics, schools and workshops, early-career development and joint funding initiatives.</p>
   </article>
 </div>

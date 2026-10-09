@@ -103,14 +103,9 @@
 }
 
 @media (min-width: 861px) {
-  .network-partnerships-page > h1,
-  .network-partnerships-page > h2,
-  .network-partnerships-page > p,
-  .network-partnerships-page > .node-grid,
-  .network-partnerships-page > .partner-grid {
-    width: calc(100% - 3rem);
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+  .network-partnerships-page {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 }
 

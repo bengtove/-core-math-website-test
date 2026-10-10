@@ -92,6 +92,9 @@
     </footer>
 
     <script src="{{ "/assets/js/external-links.js" | relative_url }}"></script>
+    {% if page.network_partnerships %}
+    <script src="{{ "/assets/js/member-universities.js?v=" | append: site.github.build_revision | relative_url }}"></script>
+    {% endif %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4u6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>

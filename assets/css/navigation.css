@@ -231,6 +231,11 @@ body {
 }
 
 @media (min-width: 1280px) {
+  /* The desktop rail-to-content gap establishes the left content inset; mirror it on generic pages. */
+  .site-main {
+    padding-right: var(--site-column-gap);
+  }
+
   .site-footer .site-shell {
     width: min(var(--site-frame-width), calc(100% - var(--site-gutter)));
   }

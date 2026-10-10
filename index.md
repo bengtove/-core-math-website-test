@@ -22,17 +22,17 @@ homepage: true
     <h2>Mathematics across universities, countries and generations</h2>
   </div>
   <div class="home-focus-grid">
-    <article>
+    <article class="home-editorial-entry">
       <h3><a href="{{ '/research/' | relative_url }}">Research</a></h3>
       <p>Connecting research groups and researchers across Africa and Europe through collaboration, projects, seminars and scientific exchange.</p>
       <a class="home-text-link action-link" href="{{ '/research/' | relative_url }}">Explore research<span class="link-arrow">&nbsp;→</span></a>
     </article>
-    <article>
+    <article class="home-editorial-entry">
       <h3><a href="{{ '/education/' | relative_url }}">Education</a></h3>
       <p>Strengthening postgraduate education through doctoral collaboration, schools, fellowships, mobility and shared supervision.</p>
       <a class="home-text-link action-link" href="{{ '/education/' | relative_url }}">Explore education<span class="link-arrow">&nbsp;→</span></a>
     </article>
-    <article>
+    <article class="home-editorial-entry">
       <h3><a href="{{ '/outreach/' | relative_url }}">Outreach</a></h3>
       <p>Connecting mathematics with young people, teachers, competitions, industry and wider society.</p>
       <a class="home-text-link action-link" href="{{ '/outreach/' | relative_url }}">Explore outreach<span class="link-arrow">&nbsp;→</span></a>
@@ -51,7 +51,7 @@ homepage: true
   <p class="home-section-link"><a class="home-text-link action-link" href="{{ '/network-partnerships/' | relative_url }}">Meet the network<span class="link-arrow">&nbsp;→</span></a></p>
 </section>
 
-<section class="home-section">
+<section class="home-section home-news">
   <div class="home-section-intro">
     <div class="home-section-heading">
       <p class="home-eyebrow">From the network</p>
@@ -60,7 +60,7 @@ homepage: true
   </div>
   <div class="home-news-grid">
     {% for post in site.posts limit:3 %}
-    <article class="home-news-item">
+    <article class="home-news-item home-editorial-entry">
       {% if post.image %}
       <a class="home-news-image" href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt=""></a>
       {% endif %}
@@ -82,12 +82,12 @@ homepage: true
     </div>
   </div>
   <div class="home-event-grid">
-    <article>
+    <article class="home-editorial-entry">
       <p class="home-news-meta">19–30 July 2027 · Lusaka, Zambia</p>
       <h3><a href="{{ '/events/2027-topological-data-analysis-lusaka/' | relative_url }}">Summer School on Topological Data Analysis and Applications</a></h3>
       <p>An intensive two-week school introducing topological data analysis and its applications, bringing together postgraduate students and researchers.</p>
     </article>
-    <article>
+    <article class="home-editorial-entry">
       <p class="home-news-meta">19–30 July 2027 · Kampala, Uganda</p>
       <h3><a href="{{ '/events/2027-algebraic-enumerative-combinatorics/' | relative_url }}">School on Algebraic and Enumerative Combinatorics</a></h3>
       <p>A two-week school exploring algebraic and enumerative combinatorics, with lectures and opportunities for interaction among postgraduate students and researchers.</p>
@@ -99,12 +99,12 @@ homepage: true
 <section class="home-section home-projects">
   <p class="home-eyebrow">Working together</p>
   <div class="home-projects-grid">
-    <div class="home-projects-column">
+    <div class="home-projects-column home-editorial-entry">
       <h2>Programmes &amp; Projects</h2>
       <p>Schools, fellowships, industrial mathematics, research projects and institutional collaborations turn the network into concrete activity.</p>
       <a class="home-text-link action-link" href="{{ '/projects/' | relative_url }}">Explore programmes and projects<span class="link-arrow">&nbsp;→</span></a>
     </div>
-    <div class="home-projects-column">
+    <div class="home-projects-column home-editorial-entry">
       <h2>Opportunities</h2>
       <p>Explore funding opportunities, fellowships, research visits and other possibilities for collaboration and professional development.</p>
       <a class="home-text-link action-link" href="{{ '/opportunities/' | relative_url }}">Explore opportunities<span class="link-arrow">&nbsp;→</span></a>

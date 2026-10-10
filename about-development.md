@@ -21,7 +21,7 @@ A separate Norwegian collaboration focused on mathematical modelling. The Southe
 
 The Eastern Africa Universities Mathematics Programme (EAUMP) was established in 2002 by Makerere University, the University of Dar es Salaam and the University of Nairobi. Supported by the International Science Programme (ISP) at Uppsala University, EAUMP created a regional network between mathematics environments that ISP had supported individually for many years.
 
-The network expanded when the Kigali Institute of Science and Technology (KIST) in Rwanda joined in 2007 and the University of Zambia in 2008. Following the establishment of the University of Rwanda in 2013, the Rwandan participation and ISP support continued through the new university.
+The EAUMP background records the Rwandan member—described retrospectively as the University of Rwanda and its predecessor institutions, including the Kigali Institute of Science and Technology (KIST)—as part of the network from 2008. It records the University of Zambia as joining from 2009. Following the establishment of the University of Rwanda in 2013, the Rwandan participation and ISP support continued through the new university.
 
 [Regional summer schools]({{ "/education/schools/" | relative_url }}) became one of EAUMP's most sustained activities and have been organised regularly since 2004. They have been supported by ISP and other organisations, with ICTP involved from the beginning. The schools bring together postgraduate students and lecturers from different universities and give students access to advanced mathematical topics that may not be available at their home institutions. EAUMP has also provided a framework for conferences, workshops, scientific contacts and other forms of regional interaction.
 
@@ -117,3 +117,14 @@ The establishment of the new Cluster marked a significant broadening of the coll
 At its establishment, CoRE-Math brought together six African universities—Makerere University, Addis Ababa University, the University of Dar es Salaam, the University of Nairobi, the University of Rwanda and the University of Zambia—and eight European universities: Uppsala University, the University of Amsterdam, the University of Bergen, the University of Groningen, LUT University, Linköping University, the University of Oslo and Stockholm University.
 
 CoRE-Math thus represents both continuity and a new departure. It builds on relationships and activities developed through EAUMP, ISP support to individual universities, bilateral research programmes and long-standing Nordic and international partnerships. At the same time, the Africa-Europe Cluster provides a framework for extending that collaboration across Africa and Europe and for bringing research, postgraduate education, institutional development and engagement with industry and society into a broader common platform.
+
+## Sources and further reading
+
+- [EAUMP background and member universities](https://eaump.wordpress.com/background/) — historical overview of EAUMP and its member universities.
+- [ISP: former EAUMP mathematics network](https://www.uu.se/en/centre/international-science-programme-isp/isp-core-programme/isp-mathematics/former-collaboration/former-math-network) — ISP's account of its support for EAUMP.
+- [ISP: CoRE-Math network](https://www.uu.se/en/centre/international-science-programme-isp/isp-core-programme/isp-mathematics/networks/core-math) — information about the establishment of CoRE-Math and its relationship to EAUMP.
+- [University of Bergen–Makerere collaboration](https://www.uib.no/en/makerere/128502/three-decades-collaboration) — history of the wider Bergen–Makerere partnership.
+- [Linköping University: mathematics and statistics collaboration in Tanzania](https://liu.se/en/research/research-collaboration-in-mathematics-and-statistics-tanzania) — account of the Tanzania–Sweden bilateral collaboration.
+- [ECMI: industrial mathematics collaboration in Africa](https://ecmiindmath.org/2016/11/05/building-knowledge-base-for-industrial-mathematics-in-africa/) — overview of the East Africa Technomathematics collaboration.
+- [ICTP: Harmonic Analysis in Eastern Africa](https://www.ictp.it/news/2025/8/harmonic-analysis-eastern-africa) — recent account of the annual EAUMP–ICTP school programme.
+- [Nairobi Algebraic Geometry Workshops](https://sites.google.com/site/nairobiagworkshop/) — record of research workshops in algebraic geometry.

@@ -99,12 +99,12 @@ homepage: true
 <section class="home-section home-projects">
   <p class="home-eyebrow">Working together</p>
   <div class="home-projects-grid">
-    <div class="home-projects-column home-editorial-entry">
+    <div class="home-projects-column">
       <h2>Programmes &amp; Projects</h2>
       <p>Schools, fellowships, industrial mathematics, research projects and institutional collaborations turn the network into concrete activity.</p>
       <a class="home-text-link action-link" href="{{ '/projects/' | relative_url }}">Explore programmes and projects<span class="link-arrow">&nbsp;→</span></a>
     </div>
-    <div class="home-projects-column home-editorial-entry">
+    <div class="home-projects-column">
       <h2>Opportunities</h2>
       <p>Explore funding opportunities, fellowships, research visits and other possibilities for collaboration and professional development.</p>
       <a class="home-text-link action-link" href="{{ '/opportunities/' | relative_url }}">Explore opportunities<span class="link-arrow">&nbsp;→</span></a>

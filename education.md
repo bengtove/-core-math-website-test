@@ -15,7 +15,7 @@ education_page: true
     <div class="education-prose">
       <p>Current PhD research at the African CoRE-Math nodes covers a broad range of mathematical sciences, from algebra, combinatorics and partial differential equations to mathematical modelling, optimisation and applications in health and other areas.</p>
       <p>The directory presents current PhD students reported by the participating ISP-supported mathematics environments. Research topics are included where available.</p>
-      <p class="education-link"><a href="{{ "/education/phd-students/" | relative_url }}">Current PhD students →</a></p>
+      <p class="education-link"><a class="action-link" href="{{ "/education/phd-students/" | relative_url }}">Current PhD students<span class="link-arrow">&nbsp;→</span></a></p>
     </div>
   </section>
 
@@ -34,14 +34,14 @@ education_page: true
     {% endfor %}
     </div>
 
-    <p class="education-link"><a href="{{ "/education/schools/" | relative_url }}">View previous schools →</a></p>
+    <p class="education-link"><a class="action-link" href="{{ "/education/schools/" | relative_url }}">View previous schools<span class="link-arrow">&nbsp;→</span></a></p>
   </section>
 
   <section class="education-section" aria-labelledby="modelling-weeks-heading">
     <h2 id="modelling-weeks-heading">Modelling Weeks</h2>
     <div class="education-prose">
       <p>Modelling Weeks are educational activities in which students work in groups on mathematical modelling problems. They are designed particularly for Master's students and develop skills in mathematical modelling, teamwork and communication.</p>
-      <p class="education-link"><a href="{{ "/programmes/study-groups-with-industry/" | relative_url }}">Industrial Mathematics programme →</a></p>
+      <p class="education-link"><a class="action-link" href="{{ "/programmes/study-groups-with-industry/" | relative_url }}">Industrial Mathematics programme<span class="link-arrow">&nbsp;→</span></a></p>
     </div>
   </section>
 
@@ -53,7 +53,7 @@ education_page: true
       <article class="mobility-entry">
         <h3>CoRE-Math Fellowships</h3>
         <p>The CoRE-Math Fellowships support research visits and mobility between participating universities, strengthening research collaboration and providing opportunities for researchers at different career stages.</p>
-        <p class="education-link"><a href="{{ "/programmes/core-math-fellowships/" | relative_url }}">CoRE-Math Fellowships →</a></p>
+        <p class="education-link"><a class="action-link" href="{{ "/programmes/core-math-fellowships/" | relative_url }}">CoRE-Math Fellowships<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
 
       <article class="mobility-entry">

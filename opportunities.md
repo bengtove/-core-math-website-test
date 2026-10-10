@@ -1,6 +1,7 @@
 ---
 title: "Opportunities"
 permalink: /opportunities/
+opportunities_page: true
 ---
 
 # Opportunities

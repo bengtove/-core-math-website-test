@@ -32,4 +32,4 @@ The school will explore modern Partial Differential Equations theory and applica
 
 CoRE-Math and its predecessor networks have organised international mathematics schools since 2004.
 
-[View previous schools →]({{ "/education/schools/" | relative_url }})
+[View previous schools<span class="link-arrow">&nbsp;→</span>]({{ "/education/schools/" | relative_url }})

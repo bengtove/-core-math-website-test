@@ -6,13 +6,13 @@ homepage: true
   <div class="home-hero-image">
     <img src="{{ '/assets/images/news/560c14_574ae92fac3f4e6da79ed0326d46f997~mv2.jpeg.avif' | relative_url }}" alt="Young people taking part in a mathematics competition">
     <div class="home-hero-identity">
-      <p class="home-hero-name">CoRE-Math</p>
+      <h1 class="home-hero-name">CoRE-Math</h1>
       <p class="home-hero-fullname">Africa–Europe Cluster of Research Excellence in Mathematics</p>
     </div>
   </div>
   <div class="home-hero-intro">
     <p class="home-lead">CoRE-Math brings together universities, research groups, networks and partner organisations in Africa and Europe to strengthen research, postgraduate education and the contribution of mathematics to society.</p>
-    <p><a class="home-text-link" href="{{ '/about/' | relative_url }}">About CoRE-Math →</a></p>
+    <p><a class="home-text-link action-link" href="{{ '/about/' | relative_url }}">About CoRE-Math<span class="link-arrow">&nbsp;→</span></a></p>
   </div>
 </section>
 
@@ -25,17 +25,17 @@ homepage: true
     <article>
       <h3><a href="{{ '/research/' | relative_url }}">Research</a></h3>
       <p>Connecting research groups and researchers across Africa and Europe through collaboration, projects, seminars and scientific exchange.</p>
-      <a class="home-text-link" href="{{ '/research/' | relative_url }}">Explore research →</a>
+      <a class="home-text-link action-link" href="{{ '/research/' | relative_url }}">Explore research<span class="link-arrow">&nbsp;→</span></a>
     </article>
     <article>
       <h3><a href="{{ '/education/' | relative_url }}">Education</a></h3>
       <p>Strengthening postgraduate education through doctoral collaboration, schools, fellowships, mobility and shared supervision.</p>
-      <a class="home-text-link" href="{{ '/education/' | relative_url }}">Explore education →</a>
+      <a class="home-text-link action-link" href="{{ '/education/' | relative_url }}">Explore education<span class="link-arrow">&nbsp;→</span></a>
     </article>
     <article>
       <h3><a href="{{ '/outreach/' | relative_url }}">Outreach</a></h3>
       <p>Connecting mathematics with young people, teachers, competitions, industry and wider society.</p>
-      <a class="home-text-link" href="{{ '/outreach/' | relative_url }}">Explore outreach →</a>
+      <a class="home-text-link action-link" href="{{ '/outreach/' | relative_url }}">Explore outreach<span class="link-arrow">&nbsp;→</span></a>
     </article>
   </div>
 </section>
@@ -48,7 +48,7 @@ homepage: true
     </div>
   </div>
   <p class="home-network-copy">CoRE-Math connects eight African and nine European universities, building on long-standing partnerships and creating new connections in research, postgraduate education, mobility and engagement with society.</p>
-  <p class="home-section-link"><a class="home-text-link" href="{{ '/network-partnerships/' | relative_url }}">Meet the network →</a></p>
+  <p class="home-section-link"><a class="home-text-link action-link" href="{{ '/network-partnerships/' | relative_url }}">Meet the network<span class="link-arrow">&nbsp;→</span></a></p>
 </section>
 
 <section class="home-section">
@@ -71,7 +71,7 @@ homepage: true
     </article>
     {% endfor %}
   </div>
-  <p class="home-section-link"><a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More news →</a></p>
+  <p class="home-section-link"><a class="home-text-link action-link" href="{{ '/news-events/' | relative_url }}">More news<span class="link-arrow">&nbsp;→</span></a></p>
 </section>
 
 <section class="home-section home-upcoming">
@@ -93,7 +93,7 @@ homepage: true
       <p>A two-week school exploring algebraic and enumerative combinatorics, with lectures and opportunities for interaction among postgraduate students and researchers.</p>
     </article>
   </div>
-  <p class="home-section-link"><a class="home-text-link" href="{{ '/news-events/' | relative_url }}">More events →</a></p>
+  <p class="home-section-link"><a class="home-text-link action-link" href="{{ '/news-events/' | relative_url }}">More events<span class="link-arrow">&nbsp;→</span></a></p>
 </section>
 
 <section class="home-section home-projects">
@@ -102,12 +102,12 @@ homepage: true
     <div class="home-projects-column">
       <h2>Programmes &amp; Projects</h2>
       <p>Schools, fellowships, industrial mathematics, research projects and institutional collaborations turn the network into concrete activity.</p>
-      <a class="home-text-link" href="{{ '/projects/' | relative_url }}">Explore programmes and projects →</a>
+      <a class="home-text-link action-link" href="{{ '/projects/' | relative_url }}">Explore programmes and projects<span class="link-arrow">&nbsp;→</span></a>
     </div>
     <div class="home-projects-column">
       <h2>Opportunities</h2>
       <p>Explore funding opportunities, fellowships, research visits and other possibilities for collaboration and professional development.</p>
-      <a class="home-text-link" href="{{ '/opportunities/' | relative_url }}">Explore opportunities →</a>
+      <a class="home-text-link action-link" href="{{ '/opportunities/' | relative_url }}">Explore opportunities<span class="link-arrow">&nbsp;→</span></a>
     </div>
   </div>
 </section>

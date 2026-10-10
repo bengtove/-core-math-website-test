@@ -65,7 +65,7 @@
 .about-gateway-grid .about-gateway {
   margin-top: 0;
   padding: 1.15rem 1.25rem 1.25rem;
-  background: #f3f7f9;
+  background: var(--content-surface);
 }
 
 .about-gateway-link {

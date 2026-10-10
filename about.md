@@ -16,7 +16,7 @@ about_page: true
   <section class="about-background" aria-labelledby="about-background-heading">
     <h2 id="about-background-heading">Background</h2>
     <p>CoRE-Math was established in 2024 as an ARUA–The Guild Cluster of Research Excellence. It builds on more than three decades of collaboration in mathematics between African and European universities, including the Eastern Africa Universities Mathematics Programme (EAUMP), long-term ISP support, Sida-supported bilateral research programmes, and Nordic–African university partnerships.</p>
-    <p class="about-section-link"><strong><a href="{{ '/about/development/' | relative_url }}">Read more: The development of CoRE-Math →</a></strong></p>
+    <p class="about-section-link"><strong><a class="action-link" href="{{ '/about/development/' | relative_url }}">Read more: The development of CoRE-Math<span class="link-arrow">&nbsp;→</span></a></strong></p>
   </section>
 
   <section class="about-goal" aria-labelledby="about-goal-heading">
@@ -60,12 +60,12 @@ about_page: true
     <section class="about-gateway" aria-labelledby="about-network-heading">
       <h2 id="about-network-heading">Network and partnerships</h2>
       <p>CoRE-Math brings together eight African and nine European universities and works with mathematical organisations, networks and other strategic partners.</p>
-      <p class="about-gateway-link"><a href="{{ '/network-partnerships/' | relative_url }}">Explore the CoRE-Math network and partnerships →</a></p>
+      <p class="about-gateway-link"><a class="action-link" href="{{ '/network-partnerships/' | relative_url }}">Explore the CoRE-Math network and partnerships<span class="link-arrow">&nbsp;→</span></a></p>
     </section>
     <section class="about-gateway" aria-labelledby="about-organisation-heading">
       <h2 id="about-organisation-heading">Organisation</h2>
       <p>CoRE-Math is co-led by Makerere University and Uppsala University. The Steering Committee consists of the Co-Leads and node coordinators and is responsible for major decisions. A smaller Management Team coordinates ongoing activities, supported by working groups in specific areas.</p>
-      <p class="about-gateway-link"><a href="{{ '/about/organisation/' | relative_url }}">Read more about the CoRE-Math organisation and governance →</a></p>
+      <p class="about-gateway-link"><a class="action-link" href="{{ '/about/organisation/' | relative_url }}">Read more about the CoRE-Math organisation and governance<span class="link-arrow">&nbsp;→</span></a></p>
     </section>
   </div>
 </div>

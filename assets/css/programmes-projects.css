@@ -1,6 +1,6 @@
 .programmes-projects-page {
   --projects-blue: #1f5f8b;
-  --projects-rule: #d8e0e5;
+  --projects-rule: var(--content-rule);
   --projects-muted: #596873;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .project-entry {
-  padding: 1.1rem 0 1.2rem;
+  padding: var(--catalogue-entry-padding);
 }
 
 .project-entry + .project-entry {
@@ -120,7 +120,7 @@
   max-width: 50rem;
   margin: .45rem 0 0;
   color: var(--projects-muted);
-  font-size: .9rem;
+  font-size: var(--metadata-text-size);
   line-height: 1.45;
 }
 
@@ -162,15 +162,15 @@
   }
 
   .programmes-projects-main {
-    padding-right: 2.75rem;
-    padding-left: 2.75rem;
+    padding-right: var(--structured-content-padding);
+    padding-left: var(--structured-content-padding);
   }
 }
 
 @media (min-width: 861px) and (max-width: 1279px) {
   .programmes-projects-main {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: var(--structured-content-padding-tablet);
+    padding-left: var(--structured-content-padding-tablet);
   }
 }
 

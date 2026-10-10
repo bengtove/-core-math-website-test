@@ -66,7 +66,7 @@ Research within CoRE-Math brings together researchers across African and Europea
         </article>
       </div>
 
-      <p><a href="{{ "/projects/" | relative_url }}">View projects and collaborations →</a></p>
+      <p><a class="action-link" href="{{ "/projects/" | relative_url }}">View projects and collaborations<span class="link-arrow">&nbsp;→</span></a></p>
     </section>
 
     <section aria-labelledby="seminars-and-webinars">
@@ -79,17 +79,17 @@ Research within CoRE-Math brings together researchers across African and Europea
           <h3 id="african-mathematics-seminar-afms">African Mathematics Seminar (AfMS)</h3>
           <p>An Africa-wide online mathematics seminar established in 2020 to connect mathematicians across the continent and provide a platform for African mathematical research.</p>
           <p class="research-series-status">The series is currently inactive.</p>
-          <p class="research-entry-link"><a href="https://sites.google.com/view/africa-math-seminar/home">African Mathematics Seminar<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a class="action-link" href="https://sites.google.com/view/africa-math-seminar/home">African Mathematics Seminar<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
           <h3 id="aecc-online-seminar-series">AECC Online Seminar Series</h3>
           <p>The African Enumerative Combinatorics Community (AECC) organises an online seminar series bringing together researchers in enumerative and algebraic combinatorics.</p>
-          <p class="research-entry-link"><a href="https://african-enumerative-combinatorics.github.io/">AECC seminars<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a class="action-link" href="https://african-enumerative-combinatorics.github.io/">AECC seminars<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
           <h3 id="nithecs-seminars-and-colloquia">NITheCS seminars and colloquia</h3>
           <p>The National Institute for Theoretical and Computational Sciences (NITheCS) runs online and hybrid seminars, webinars and colloquia across the mathematical and computational sciences.</p>
-          <p class="research-entry-link"><a href="https://nithecs.ac.za/events/upcoming-events">NITheCS events<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a class="action-link" href="https://nithecs.ac.za/events/upcoming-events">NITheCS events<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
       </div>
     </section>
@@ -99,7 +99,7 @@ Research within CoRE-Math brings together researchers across African and Europea
 
       <div class="research-publication-reference">
         <p>A curated collection of mathematical-sciences publications by researchers at the African CoRE-Math nodes, with links to research groups, projects and collaborations where known.</p>
-        <p class="research-entry-link"><a href="{{ '/research/publications/' | relative_url }}">View selected publications →</a></p>
+        <p class="research-entry-link"><a class="action-link" href="{{ '/research/publications/' | relative_url }}">View selected publications<span class="link-arrow">&nbsp;→</span></a></p>
       </div>
     </section>
   </div>

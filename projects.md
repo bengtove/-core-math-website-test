@@ -28,31 +28,31 @@ programmes_projects: true
       <article class="programme-entry">
         <h3>{{ core_math_fellowships.title }}</h3>
         <p>CoRE-Math Fellowships support research visits by postgraduate students and researchers from CoRE-Math universities to Uppsala University and the University of KwaZulu-Natal. The fellowships provide opportunities to develop research collaborations with researchers at the two host universities and strengthen connections across the CoRE-Math network.</p>
-        <p class="entry-link"><a href="{{ core_math_fellowships.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a class="action-link" href="{{ core_math_fellowships.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
 
       <article class="programme-entry">
         <h3>{{ core_math_schools.title }}</h3>
         <p>Annual mathematics schools have been organised without interruption since 2004, in long-standing collaboration with ICTP. The schools bring together postgraduate students and researchers for intensive study of mathematical topics, with international lecturers and opportunities for research interaction and networking.</p>
-        <p class="entry-link"><a href="{{ core_math_schools.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a class="action-link" href="{{ core_math_schools.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
 
       <article class="programme-entry">
         <h3>{{ industry_mathematics.title }}</h3>
         <p>Industrial Mathematics connects mathematics with problems from industry and society through contact workshops, Modelling Weeks, Study Groups with Industry and follow-up research.</p>
-        <p class="entry-link"><a href="{{ industry_mathematics.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a class="action-link" href="{{ industry_mathematics.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
 
       <article class="programme-entry">
         <h3>{{ mathematics_competitions.title }}</h3>
         <p>Mathematics Competitions connects and strengthens national and regional competition activities across the CoRE-Math network, supports cooperation and capacity development, and encourages young people to continue their studies in mathematics and related disciplines.</p>
-        <p class="entry-link"><a href="{{ mathematics_competitions.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a class="action-link" href="{{ mathematics_competitions.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
 
       <article class="programme-entry">
         <h3>{{ women_in_math.title }}</h3>
         <p>Women in Math is a cross-cutting area of work within CoRE-Math, aiming to increase participation and opportunities for women in the mathematical sciences and strengthen inclusion across CoRE-Math activities.</p>
-        <p class="entry-link"><a href="{{ women_in_math.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a class="action-link" href="{{ women_in_math.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
     </div>
   </section>
@@ -66,7 +66,7 @@ programmes_projects: true
           <h4>{{ earth_observation.title }}</h4>
           <p class="entry-description">A Finland–Rwanda collaboration using applied mathematics and Earth observation to address research questions connected with environmental and societal challenges. The project brings together LUT University, the University of Rwanda and AIMS Rwanda and supports research collaboration and researcher development.</p>
           <p class="project-meta"><span>Funder:</span> Finnish National Agency for Education (EDUFI), TFK programme</p>
-          <p class="entry-link"><a href="{{ earth_observation.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="entry-link"><a class="action-link" href="{{ earth_observation.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
 
         <article class="project-entry">
@@ -79,7 +79,7 @@ programmes_projects: true
           <h4>FAME</h4>
           <p class="entry-description">FAME is a Finnish flagship programme in applied mathematics in which LUT University is a partner. Its collaboration with Africa supports joint research and the development of longer-term links between Finnish and African research environments, including doctoral and postdoctoral collaboration.</p>
           <p class="project-meta"><span>Funder:</span> Research Council of Finland</p>
-          <p class="entry-link"><a href="https://fameflagship.fi/">Visit FAME website<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="entry-link"><a class="action-link" href="https://fameflagship.fi/">Visit FAME website<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
 
         <article class="project-entry">
@@ -98,7 +98,7 @@ programmes_projects: true
           <h4>{{ spirit.title }}</h4>
           <p class="entry-description">A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda. The project combines methodological research with doctoral training, researcher mobility and the development of statistical research capacity at the University of Rwanda.</p>
           <p class="project-meta"><span>Funder:</span> Swiss National Science Foundation (SNSF), SPIRIT programme</p>
-          <p class="entry-link"><a href="{{ spirit.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="entry-link"><a class="action-link" href="{{ spirit.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
       </div>
     </section>
@@ -144,14 +144,14 @@ programmes_projects: true
           <h4>{{ math4sdg.title }}</h4>
           <p class="entry-description">Math4SDG is a NORHED II project strengthening mathematics and mathematics education through collaboration between the University of Dar es Salaam, Makerere University and the University of Bergen. It supports PhD training, research collaboration, education and regional activities, including the African–Nordic Mathematics Conference held in Arusha in August 2026.</p>
           <p class="project-meta"><span>Funder:</span> Norad, NORHED II</p>
-          <p class="entry-link"><a href="{{ math4sdg.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="entry-link"><a class="action-link" href="{{ math4sdg.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
 
         <article class="project-entry">
           <h4>{{ sida_collaboration.title }}</h4>
           <p class="entry-description">Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.</p>
           <p class="project-meta"><span>Funder:</span> Sida</p>
-          <p class="entry-link"><a href="{{ sida_collaboration.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="entry-link"><a class="action-link" href="{{ sida_collaboration.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
       </div>
     </section>
@@ -159,6 +159,6 @@ programmes_projects: true
 
   <section class="previous-projects-section" aria-labelledby="previous-projects-heading">
     <h3 id="previous-projects-heading">Previous projects</h3>
-    <p><a href="{{ "/projects/previous/" | relative_url }}">View previous projects<span class="link-arrow">&nbsp;→</span></a></p>
+    <p><a class="action-link" href="{{ "/projects/previous/" | relative_url }}">View previous projects<span class="link-arrow">&nbsp;→</span></a></p>
   </section>
 </div>

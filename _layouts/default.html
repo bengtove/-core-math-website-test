@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/navigation.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/content.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% if page.opportunities_page %}
+    <link rel="stylesheet" href="{{ "/assets/css/opportunities.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% endif %}
     {% if page.layout == "post" %}
     <link rel="stylesheet" href="{{ "/assets/css/news-lightbox.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}

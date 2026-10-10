@@ -77,8 +77,8 @@
 
 .partner-card {
   min-width: 0;
-  padding: 1.25rem;
-  background: #f3f7f9;
+  padding: var(--content-surface-padding-generous);
+  background: var(--content-surface);
 }
 
 .partner-card h3 {
@@ -104,8 +104,8 @@
 
 @media (min-width: 861px) and (max-width: 1279px) {
   .network-partnerships-page {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: var(--structured-content-padding-tablet);
+    padding-left: var(--structured-content-padding-tablet);
   }
 }
 
@@ -115,8 +115,8 @@
   }
 
   .network-partnerships-page {
-    padding-right: 2.75rem;
-    padding-left: 2.75rem;
+    padding-right: var(--structured-content-padding);
+    padding-left: var(--structured-content-padding);
   }
 }
 

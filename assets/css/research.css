@@ -68,14 +68,13 @@
   margin-top: 1.5rem;
 }
 
-.research-groups-grid {
-  padding: 0;
+.research-content .research-groups-grid {
+  padding-left: 0;
   list-style: none;
 }
 
-/* Project entries retain their natural heights rather than stretching to their row peer. */
-.research-project-list {
-  align-items: start;
+.research-project-list + p {
+  margin-top: 1.25rem;
 }
 
 .research-tile {

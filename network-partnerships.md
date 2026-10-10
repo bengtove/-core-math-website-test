@@ -45,11 +45,13 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
   <dialog class="member-portrait-dialog" id="member-portrait-{{ forloop.index }}" aria-labelledby="member-portrait-heading-{{ forloop.index }}">
     <div class="member-portrait-dialog__surface">
       <header class="member-portrait-dialog__header">
-        <button class="member-portrait-dialog__close" type="button" data-member-portrait-close>Close</button>
+        <div>
+          <p class="member-portrait-dialog__country">{{ member.country }}</p>
+          <h2 id="member-portrait-heading-{{ forloop.index }}">{{ member.name }}</h2>
+        </div>
+        <button class="member-portrait-dialog__close" type="button" aria-label="Close" data-member-portrait-close>&times;</button>
       </header>
       <div class="member-portrait-dialog__content">
-        <p class="member-portrait-dialog__country">{{ member.country }}</p>
-        <h2 id="member-portrait-heading-{{ forloop.index }}">{{ member.name }}</h2>
         <p>{{ member.portrait }}</p>
         <p class="member-portrait-dialog__link"><a class="action-link" href="{{ member.url }}">Visit {{ member.name }} website<span class="link-arrow">&nbsp;→</span></a></p>
       </div>

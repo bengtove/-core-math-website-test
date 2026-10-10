@@ -7,7 +7,7 @@ education_page: true
 <div class="education-page">
   <header class="education-intro">
     <h1>Education</h1>
-    <p>Education within CoRE-Math focuses primarily on postgraduate training in the mathematical sciences. Through collaboration between universities in Africa and Europe, CoRE-Math creates opportunities for Master's and PhD students to broaden their mathematical training, engage with active research environments and build connections across institutions and countries. Activities include intensive schools, mathematical modelling training, research-oriented workshops and mobility.</p>
+    <p>Education within CoRE-Math focuses primarily on postgraduate training in the mathematical sciences. Through collaboration between universities in Africa and Europe, CoRE-Math creates opportunities for Master’s and PhD students to broaden their mathematical training, engage with active research environments and build international connections. Activities include intensive schools, mathematical modelling training, research-oriented workshops and mobility.</p>
   </header>
 
   <section class="education-section" aria-labelledby="doctoral-education-heading">
@@ -24,7 +24,7 @@ education_page: true
     <p class="education-prose">CoRE-Math Schools build on a series of postgraduate mathematics schools that started in 2004 and have been organised annually since then. The schools have been supported by ICTP, ISP and other funders, with CIMPA becoming an important partner in recent years. They bring together postgraduate students and researchers for intensive study of mathematical topics, exposing students to topics and expertise that may not be available locally and creating opportunities for research contacts, thesis topics and collaboration.</p>
 
     <div class="school-list">
-    {% for project in site.projects %}
+    {% for project in site.projects reversed %}
       {% if project.sections contains "education" %}
       <article class="school-entry">
         <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>

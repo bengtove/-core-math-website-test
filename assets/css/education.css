@@ -15,13 +15,13 @@
 }
 
 .education-section {
-  margin-top: 4.25rem;
+  margin-top: 3rem;
 }
 
 .education-section > h2 {
-  margin: 0 0 1.2rem;
-  padding-top: 1rem;
-  border-top: 2px solid var(--education-blue);
+  margin: 0 0 1.15rem;
+  padding-bottom: .45rem;
+  border-bottom: 1px solid var(--education-rule);
   font-size: clamp(1.55rem, 2.2vw, 2rem);
   line-height: 1.2;
   letter-spacing: -.015em;
@@ -76,21 +76,37 @@
 }
 
 .mobility-list {
-  max-width: 49rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .8rem;
+  max-width: none;
   margin-top: 1.5rem;
-  margin-left: 1.75rem;
-  border-top: 1px solid var(--education-rule);
+  margin-left: 0;
 }
 
 .mobility-entry {
-  padding: 1rem 0 1.1rem;
-  border-bottom: 1px solid var(--education-rule);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 1rem 1.1rem 1.15rem;
+  background: #f3f7f9;
+}
+
+.mobility-entry h3 {
+  margin: 0 0 .35rem;
+  font-size: 1.15em;
+  line-height: 1.35;
 }
 
 .mobility-entry > p:not(.education-meta):not(.education-link) {
-  max-width: 47rem;
-  margin: .4rem 0;
-  line-height: 1.55;
+  max-width: none;
+  margin: .35rem 0 0;
+  line-height: 1.6;
+}
+
+.mobility-entry .education-link {
+  margin-top: auto !important;
+  padding-top: .35rem;
 }
 
 .education-meta {
@@ -100,13 +116,27 @@
   line-height: 1.45;
 }
 
-@media (max-width: 760px) {
-  .education-section {
-    margin-top: 3.25rem;
+@media (min-width: 1280px) {
+  .site-frame-education {
+    column-gap: 0;
   }
 
+  .education-main {
+    padding-right: 2.75rem;
+    padding-left: 2.75rem;
+  }
+}
+
+@media (min-width: 861px) and (max-width: 1279px) {
+  .education-main {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 760px) {
   .mobility-list {
-    margin-left: 0;
+    grid-template-columns: 1fr;
   }
 
   .school-meta {

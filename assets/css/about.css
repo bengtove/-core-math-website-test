@@ -34,7 +34,10 @@
 
 .about-activity {
   padding-top: .9rem;
-  /* Matches the shared editorial-entry rule used on the homepage. */
+}
+
+/* The first row introduces the activity grid with the shared editorial rule. */
+.about-activity:nth-child(-n + 2) {
   border-top: 2px solid #1f5f8b;
 }
 

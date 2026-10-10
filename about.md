@@ -56,7 +56,7 @@ about_page: true
 
   <div class="about-gateway-grid">
     <section class="about-gateway" aria-labelledby="about-network-heading">
-      <h2 id="about-network-heading">Network and partnerships</h2>
+      <h2 id="about-network-heading">Network &amp; Partnerships</h2>
       <p>CoRE-Math brings together eight African and nine European universities and works with mathematical organisations, networks and other strategic partners.</p>
       <p class="about-gateway-link"><a class="action-link" href="{{ '/network-partnerships/' | relative_url }}">Explore the CoRE-Math network and partnerships<span class="link-arrow">&nbsp;→</span></a></p>
     </section>

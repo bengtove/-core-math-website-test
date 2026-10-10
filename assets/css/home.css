@@ -45,7 +45,6 @@
   font-size: clamp(1.75rem, 2.6vw, 2.55rem);
   line-height: 1.12; letter-spacing: -.02em; margin: .2rem 0;
 }
-.home-focus { border-top: 1px solid #d8e0e5; padding-top: 1.3rem; }
 .home-focus-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 2rem; }
 .home-news-grid {
   display: grid;

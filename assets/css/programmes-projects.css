@@ -35,10 +35,15 @@
   letter-spacing: -.015em;
 }
 
+.programmes-section > h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
 .programmes-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 2.75rem 4rem;
+  gap: 2.25rem 4rem;
 }
 
 .programme-entry {
@@ -115,6 +120,7 @@
 }
 
 .previous-projects-section {
+  margin-top: 2.5rem;
   max-width: 59rem;
 }
 
@@ -159,7 +165,7 @@
 
   .programmes-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.7rem;
   }
 
   .programme-entry p,

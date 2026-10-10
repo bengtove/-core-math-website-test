@@ -88,7 +88,7 @@ programmes_projects: true
         <h3>FAME</h3>
         <p class="entry-description">FAME is a Finnish flagship programme in applied mathematics in which LUT University is a partner. Its collaboration with Africa supports joint research and the development of longer-term links between Finnish and African research environments, including doctoral and postdoctoral collaboration.</p>
         <p class="project-meta"><span>Funder:</span> Research Council of Finland</p>
-        <p class="entry-link"><a href="https://fameflagship.fi/">Visit FAME Flagship website<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a href="https://fameflagship.fi/">Visit FAME website<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
 
       <article class="project-entry">

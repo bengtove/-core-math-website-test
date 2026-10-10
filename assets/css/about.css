@@ -10,7 +10,8 @@
 .about-introduction p,
 .about-background p,
 .about-activity p,
-.about-gateway p { line-height: 1.6; }
+.about-gateway p,
+.about-goal > p { line-height: 1.6; }
 
 .about-page section,
 .about-gateway-grid { margin-top: 3.75rem; }
@@ -22,20 +23,6 @@
 }
 
 .about-section-link { margin-top: 1rem; }
-
-.about-goal-statement {
-  max-width: 47rem;
-  padding: 1.5rem 1.65rem 1.65rem;
-  background: #f6f8f9;
-}
-
-.about-goal-statement p {
-  margin: 0;
-  color: #315d7b;
-  font-size: 1.28rem;
-  font-weight: 500;
-  line-height: 1.45;
-}
 
 .about-activity-grid,
 .about-gateway-grid {
@@ -50,8 +37,7 @@
   border-top: 1px solid #cbd6dc;
 }
 
-.about-activity h3,
-.about-gateway h2 {
+.about-activity h3 {
   margin: 0 0 .45rem;
   color: #315d7b;
   font-size: 1.15em;
@@ -59,33 +45,48 @@
   line-height: 1.35;
 }
 
-.about-activity p,
-.about-gateway p { margin: .35rem 0 0; }
+.about-activity p { margin: .35rem 0 0; }
 
 .about-gateway-grid .about-gateway {
   margin-top: 0;
-  padding: 1.15rem 1.25rem 1.25rem;
-  background: var(--content-surface);
+  padding: 0;
+  background: none;
+}
+
+.about-gateway h2 {
+  margin: 0 0 1rem;
+  padding-bottom: .65rem;
+  border-bottom: 1px solid #cdd7dd;
+  color: inherit;
+  font-size: clamp(1.75rem, 2.6vw, 2.55rem);
+  line-height: 1.12;
+  letter-spacing: -.02em;
+}
+
+.about-gateway p {
+  max-width: 32rem;
+  margin: 0;
 }
 
 .about-gateway-link {
-  padding-top: .35rem;
-  font-size: .95em;
+  margin-top: 1rem !important;
+}
+
+.about-gateway-link a {
   font-weight: 600;
+  text-decoration: none;
 }
 
 @media (min-width: 1280px) {
-  .about-goal-statement {
-    width: 50rem;
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .about-activity-grid,
-  .about-gateway-grid {
+  .about-activity-grid {
     width: calc(100% - 2.5rem);
     max-width: none;
+  }
+
+  .about-gateway-grid {
+    width: 100%;
+    max-width: none;
+    gap: 2.25rem;
   }
 }
 
@@ -96,6 +97,4 @@
   .about-activity-grid,
   .about-gateway-grid { grid-template-columns: 1fr; }
 
-  .about-goal-statement { padding: 1.35rem 1.25rem 1.45rem; }
-  .about-goal-statement p { font-size: 1.2rem; }
 }

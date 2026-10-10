@@ -21,9 +21,7 @@ about_page: true
 
   <section class="about-goal" aria-labelledby="about-goal-heading">
     <h2 id="about-goal-heading">Our goal</h2>
-    <div class="about-goal-statement">
-      <p>Building sustainable and internationally connected environments for research and higher education in the mathematical sciences through long-term Africa–Europe collaboration.</p>
-    </div>
+    <p>Building sustainable and internationally connected environments for research and higher education in the mathematical sciences through long-term Africa–Europe collaboration.</p>
   </section>
 
   <section class="about-activities" aria-labelledby="about-activities-heading">

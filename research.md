@@ -79,17 +79,17 @@ Research within CoRE-Math brings together researchers across African and Europea
           <h3 id="african-mathematics-seminar-afms">African Mathematics Seminar (AfMS)</h3>
           <p>An Africa-wide online mathematics seminar established in 2020 to connect mathematicians across the continent and provide a platform for African mathematical research.</p>
           <p class="research-series-status">The series is currently inactive.</p>
-          <p class="research-entry-link"><a href="https://sites.google.com/view/africa-math-seminar/home">African Mathematics Seminar<span class="research-link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a href="https://sites.google.com/view/africa-math-seminar/home">African Mathematics Seminar<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
           <h3 id="aecc-online-seminar-series">AECC Online Seminar Series</h3>
           <p>The African Enumerative Combinatorics Community (AECC) organises an online seminar series bringing together researchers in enumerative and algebraic combinatorics.</p>
-          <p class="research-entry-link"><a href="https://african-enumerative-combinatorics.github.io/">AECC seminars<span class="research-link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a href="https://african-enumerative-combinatorics.github.io/">AECC seminars<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
           <h3 id="nithecs-seminars-and-colloquia">NITheCS seminars and colloquia</h3>
           <p>The National Institute for Theoretical and Computational Sciences (NITheCS) runs online and hybrid seminars, webinars and colloquia across the mathematical and computational sciences.</p>
-          <p class="research-entry-link"><a href="https://nithecs.ac.za/events/upcoming-events">NITheCS events<span class="research-link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a href="https://nithecs.ac.za/events/upcoming-events">NITheCS events<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
       </div>
     </section>

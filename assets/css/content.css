@@ -3,6 +3,11 @@
   --prose-line-height: 1.6;
 }
 
+/* Keeps an inline directional arrow with the final word without preventing normal link wrapping. */
+.link-arrow {
+  white-space: nowrap;
+}
+
 /* Ordinary body copy uses a slightly smaller shared size; component metadata keeps its own type scale. */
 :where(.site-main.markdown-body) p:not([class]),
 :where(.site-main.markdown-body) .education-prose,

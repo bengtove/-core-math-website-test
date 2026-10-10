@@ -64,7 +64,8 @@
 .research-tile-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: .8rem;
+  align-items: start;
+  gap: 1.5rem 2.25rem;
   margin-top: 1.5rem;
 }
 
@@ -81,8 +82,8 @@
   display: flex;
   flex-direction: column;
   margin: 0 !important;
-  padding: var(--content-surface-padding);
-  background: var(--content-surface);
+  padding: 0;
+  background: none;
 }
 
 .research-group-tile {
@@ -91,10 +92,30 @@
 
 .research-group-tile > a {
   display: block;
-  min-height: 100%;
-  padding: var(--content-surface-padding);
+  padding: 0;
   color: inherit;
   text-decoration: none;
+}
+
+/* Open editorial columns: the blue rule introduces only the first row. */
+.research-groups-grid .research-group-tile:nth-child(-n + 2),
+.research-project-list .research-tile:nth-child(-n + 2),
+.research-series-list .research-tile {
+  padding-top: .9rem;
+  border-top: 2px solid #1f5f8b;
+}
+
+/* Projects retain their natural heights; seminars keep aligned links within their row. */
+.research-project-list .research-tile {
+  align-self: start;
+}
+
+.research-series-list {
+  align-items: stretch;
+}
+
+.research-series-list .research-tile {
+  height: 100%;
 }
 
 .research-groups-grid a:hover .research-group-acronym,

@@ -57,11 +57,11 @@
       </div>
     </header>
 
-    <div class="site-frame{% if page.network_partnerships %} site-frame-network-partnerships{% endif %}{% if page.research_page %} site-frame-research{% endif %}{% if page.education_page %} site-frame-education{% endif %}">
+    <div class="site-frame{% if page.network_partnerships %} site-frame-network-partnerships{% endif %}{% if page.research_page %} site-frame-research{% endif %}{% if page.education_page %} site-frame-education{% endif %}{% if page.programmes_projects %} site-frame-programmes-projects{% endif %}">
       <aside class="site-nav-rail">
         {% include site-navigation.html %}
       </aside>
-      <main class="site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}{% if page.research_page %} research-page{% endif %}{% if page.education_page %} education-main{% endif %}">
+      <main class="site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}{% if page.research_page %} research-page{% endif %}{% if page.education_page %} education-main{% endif %}{% if page.programmes_projects %} programmes-projects-main{% endif %}">
         {{ content }}
       </main>
     </div>

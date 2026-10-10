@@ -26,7 +26,7 @@
 
 .programmes-section > h2,
 .projects-section > h2,
-.previous-projects-section > h2 {
+.previous-projects-section > h3 {
   margin: 0 0 1.15rem;
   padding-bottom: .45rem;
   border-bottom: 1px solid var(--projects-rule);
@@ -78,12 +78,14 @@
 
 .projects-list {
   max-width: 52rem;
-  border-top: 1px solid var(--projects-rule);
 }
 
 .project-entry {
   padding: 1.1rem 0 1.2rem;
-  border-bottom: 1px solid var(--projects-rule);
+}
+
+.project-entry + .project-entry {
+  border-top: 1px solid var(--projects-rule);
 }
 
 .project-entry h3 {
@@ -159,7 +161,7 @@
 
   .programmes-section > h2,
   .projects-section > h2,
-  .previous-projects-section > h2 {
+  .previous-projects-section > h3 {
     margin-bottom: 1.5rem;
   }
 

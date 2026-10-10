@@ -145,7 +145,7 @@ programmes_projects: true
   </section>
 
   <section class="previous-projects-section" aria-labelledby="previous-projects-heading">
-    <h2 id="previous-projects-heading">Previous projects</h2>
+    <h3 id="previous-projects-heading">Previous projects</h3>
     <p><a href="{{ "/projects/previous/" | relative_url }}">View previous projects<span class="link-arrow">&nbsp;→</span></a></p>
   </section>
 </div>

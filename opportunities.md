@@ -13,19 +13,23 @@ opportunities_page: true
 Fellowship programmes at Uppsala University and the University of KwaZulu-Natal support research visits and mobility within the CoRE-Math network. They provide opportunities for postgraduate students and researchers to develop research collaborations, work with colleagues at other CoRE-Math institutions and strengthen connections across the network.
 
 <div class="fellowship-list">
-  <div class="fellowship-entry">
+  <section class="fellowship-entry">
     <h3><a href="{{ '/programmes/core-math-fellowships/uppsala-university/' | relative_url }}">Uppsala University fellowships</a></h3>
-  </div>
-  <div class="fellowship-entry">
+    <p>Research visits and mobility with Uppsala University for postgraduate students and researchers from CoRE-Math universities.</p>
+  </section>
+  <section class="fellowship-entry">
     <h3>University of KwaZulu-Natal fellowships</h3>
-  </div>
+    <p>Further information about the University of KwaZulu-Natal fellowship scheme will be added when it is available.</p>
+  </section>
 </div>
 
 ## Funding opportunities
 
-The opportunities below are current funding opportunities selected from the ISP Mathematics Funding Database. They are intended as a starting point for postgraduate students, researchers and institutions looking for funding for research, mobility, training and collaboration. The <a href="https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C" target="_blank" rel="noopener noreferrer">full ISP Mathematics Funding Database</a> also includes programmes for which there is currently no open call and provides a broader overview of funding possibilities.
+The opportunities below are selected from the ISP Mathematics Funding Database and are intended for postgraduate students, researchers and institutions seeking support for research, mobility, training and collaboration. The full database also includes programmes without currently open calls.
 
-For full details, eligibility requirements and application procedures, please consult the funder's website using the links below. Deadlines and other information may change, so applicants should always verify the current information with the funder.
+Deadlines and conditions may change. Always verify the information on the funder's website before applying.
+
+<p class="opportunity-database-link"><a class="action-link" href="https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C" target="_blank" rel="noopener noreferrer">Explore the full ISP Mathematics Funding Database<span class="link-arrow">&nbsp;→</span></a></p>
 
 <div class="opportunity-filters" aria-label="Filter funding opportunities">
   <label for="funder-filter">
@@ -67,20 +71,8 @@ For full details, eligibility requirements and application procedures, please co
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
-          <div class="opportunity-meta-grid">
-            <div class="opportunity-meta-column opportunity-meta-deadline">
-              <span class="opportunity-meta-label">Deadline</span>
-              <span class="opportunity-meta-value opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
-            </div>
-            <div class="opportunity-meta-column opportunity-meta-support">
-              <span class="opportunity-meta-label">Support type</span>
-              <span class="opportunity-meta-value">{{ opportunity.support_type | escape }}</span>
-            </div>
-            <div class="opportunity-meta-column opportunity-meta-career">
-              <span class="opportunity-meta-label">Career stage</span>
-              <span class="opportunity-meta-value">{{ opportunity.career_stage | escape }}</span>
-            </div>
-          </div>
+          {% if opportunity.deadline != empty %}<p class="opportunity-deadline"><span class="opportunity-meta-label">Deadline:</span> <span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span></p>{% endif %}
+          {% if opportunity.support_type != empty or opportunity.career_stage != empty %}<p class="opportunity-details">{% if opportunity.support_type != empty %}<span><span class="opportunity-meta-label">Support type:</span> {{ opportunity.support_type | escape }}</span>{% endif %}{% if opportunity.career_stage != empty %}{% if opportunity.support_type != empty %} <span aria-hidden="true">·</span> {% endif %}<span><span class="opportunity-meta-label">Career stage:</span> {{ opportunity.career_stage | escape }}</span>{% endif %}</p>{% endif %}
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>
       </article>
@@ -104,20 +96,8 @@ For full details, eligibility requirements and application procedures, please co
         {% if opportunity.funder != empty %}<p class="opportunity-funder">{{ opportunity.funder | escape }}</p>{% endif %}
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
-          <div class="opportunity-meta-grid">
-            <div class="opportunity-meta-column opportunity-meta-deadline">
-              <span class="opportunity-meta-label">Deadline</span>
-              <span class="opportunity-meta-value opportunity-deadline-value">{{ opportunity.deadline | escape }}</span>
-            </div>
-            <div class="opportunity-meta-column opportunity-meta-support">
-              <span class="opportunity-meta-label">Support type</span>
-              <span class="opportunity-meta-value">{{ opportunity.support_type | escape }}</span>
-            </div>
-            <div class="opportunity-meta-column opportunity-meta-career">
-              <span class="opportunity-meta-label">Career stage</span>
-              <span class="opportunity-meta-value">{{ opportunity.career_stage | escape }}</span>
-            </div>
-          </div>
+          {% if opportunity.deadline != empty %}<p class="opportunity-deadline"><span class="opportunity-meta-label">Deadline:</span> <span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span></p>{% endif %}
+          {% if opportunity.support_type != empty or opportunity.career_stage != empty %}<p class="opportunity-details">{% if opportunity.support_type != empty %}<span><span class="opportunity-meta-label">Support type:</span> {{ opportunity.support_type | escape }}</span>{% endif %}{% if opportunity.career_stage != empty %}{% if opportunity.support_type != empty %} <span aria-hidden="true">·</span> {% endif %}<span><span class="opportunity-meta-label">Career stage:</span> {{ opportunity.career_stage | escape }}</span>{% endif %}</p>{% endif %}
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>
       </article>

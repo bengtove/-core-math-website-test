@@ -59,6 +59,59 @@ programmes_projects: true
 
   <section class="projects-section" aria-labelledby="projects-heading">
     <h2 id="projects-heading">Projects and collaborations</h2>
+    <section class="project-category" aria-labelledby="capacity-building-projects-heading">
+      <h3 id="capacity-building-projects-heading">Capacity-building projects</h3>
+      <div class="projects-list">
+        <article class="project-entry">
+          <h4>Mathematics Capacity Building in Rwanda</h4>
+          <p class="entry-description">A capacity-building project at the University of Rwanda supporting the development of mathematics activities, including work connected with mathematics education and outreach.</p>
+          <p class="project-meta"><span>Funder:</span> International Centre for Mathematical Sciences (ICMS)</p>
+        </article>
+
+        <article class="project-entry">
+          <h4>{{ math4sdg.title }}</h4>
+          <p class="entry-description">Math4SDG is a NORHED II project strengthening mathematics and mathematics education through collaboration between the University of Dar es Salaam, Makerere University and the University of Bergen. It supports PhD training, research collaboration, education and regional activities, including the African–Nordic Mathematics Conference held in Arusha in August 2026.</p>
+          <p class="project-meta"><span>Funder:</span> Norad, NORHED II</p>
+          <p class="entry-link"><a class="action-link" href="{{ math4sdg.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        </article>
+
+        <article class="project-entry">
+          <h4>{{ sida_collaboration.title }}</h4>
+          <p class="entry-description">Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.</p>
+          <p class="project-meta"><span>Funder:</span> Sida</p>
+          <p class="entry-link"><a class="action-link" href="{{ sida_collaboration.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="project-category" aria-labelledby="educational-projects-heading">
+      <h3 id="educational-projects-heading">Educational projects</h3>
+      <div class="projects-list">
+        <article class="project-entry">
+          <h4>Bergen–Makerere–UDSM mobility and postgraduate collaboration</h4>
+          <p class="entry-description">Collaboration between the University of Bergen, Makerere University and the University of Dar es Salaam supports postgraduate education, student and staff mobility, research visits and research collaboration. The collaboration builds on the universities' wider cooperation in mathematics and mathematics education.</p>
+          <p class="project-meta"><span>Funders:</span> Erasmus+ and NORSTIP</p>
+        </article>
+
+        <article class="project-entry">
+          <h4>Data Skills and Industry Readiness Training Program</h4>
+          <p class="entry-description">A long-term training initiative launched by the University of Rwanda Department of Mathematics in June 2026. The programme works with students in Years 2–4 to strengthen data skills and preparation for employment and collaboration with industry.</p>
+        </article>
+
+        <article class="project-entry">
+          <h4>Makerere–Groningen mobility and research collaboration</h4>
+          <p class="entry-description">An Erasmus+ collaboration between Makerere University and the University of Groningen supporting doctoral mobility and research visits. Activities have included visits by Makerere PhD students to Groningen and research visits from Groningen to Makerere.</p>
+          <p class="project-meta"><span>Funder:</span> Erasmus+</p>
+        </article>
+
+        <article class="project-entry">
+          <h4>Waterproof: from Proof Assistant to Educational Tool</h4>
+          <p class="entry-description">Waterproof develops and tests an educational proof assistant designed to help students learn how to write mathematical proofs. The project supports the use of proof-assistant technology in university mathematics education.</p>
+          <p class="project-meta"><span>Funder:</span> Netherlands Initiative for Education Research (NRO)</p>
+        </article>
+      </div>
+    </section>
+
     <section class="project-category" aria-labelledby="research-projects-heading">
       <h3 id="research-projects-heading">Research projects</h3>
       <div class="projects-list">
@@ -99,59 +152,6 @@ programmes_projects: true
           <p class="entry-description">A University of Geneva–University of Rwanda research collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda. The project combines methodological research with doctoral training, researcher mobility and the development of statistical research capacity at the University of Rwanda.</p>
           <p class="project-meta"><span>Funder:</span> Swiss National Science Foundation (SNSF), SPIRIT programme</p>
           <p class="entry-link"><a class="action-link" href="{{ spirit.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
-        </article>
-      </div>
-    </section>
-
-    <section class="project-category" aria-labelledby="educational-projects-heading">
-      <h3 id="educational-projects-heading">Educational projects</h3>
-      <div class="projects-list">
-        <article class="project-entry">
-          <h4>Bergen–Makerere–UDSM mobility and postgraduate collaboration</h4>
-          <p class="entry-description">Collaboration between the University of Bergen, Makerere University and the University of Dar es Salaam supports postgraduate education, student and staff mobility, research visits and research collaboration. The collaboration builds on the universities' wider cooperation in mathematics and mathematics education.</p>
-          <p class="project-meta"><span>Funders:</span> Erasmus+ and NORSTIP</p>
-        </article>
-
-        <article class="project-entry">
-          <h4>Data Skills and Industry Readiness Training Program</h4>
-          <p class="entry-description">A long-term training initiative launched by the University of Rwanda Department of Mathematics in June 2026. The programme works with students in Years 2–4 to strengthen data skills and preparation for employment and collaboration with industry.</p>
-        </article>
-
-        <article class="project-entry">
-          <h4>Makerere–Groningen mobility and research collaboration</h4>
-          <p class="entry-description">An Erasmus+ collaboration between Makerere University and the University of Groningen supporting doctoral mobility and research visits. Activities have included visits by Makerere PhD students to Groningen and research visits from Groningen to Makerere.</p>
-          <p class="project-meta"><span>Funder:</span> Erasmus+</p>
-        </article>
-
-        <article class="project-entry">
-          <h4>Waterproof: from Proof Assistant to Educational Tool</h4>
-          <p class="entry-description">Waterproof develops and tests an educational proof assistant designed to help students learn how to write mathematical proofs. The project supports the use of proof-assistant technology in university mathematics education.</p>
-          <p class="project-meta"><span>Funder:</span> Netherlands Initiative for Education Research (NRO)</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="project-category" aria-labelledby="capacity-building-projects-heading">
-      <h3 id="capacity-building-projects-heading">Capacity-building projects</h3>
-      <div class="projects-list">
-        <article class="project-entry">
-          <h4>Mathematics Capacity Building in Rwanda</h4>
-          <p class="entry-description">A capacity-building project at the University of Rwanda supporting the development of mathematics activities, including work connected with mathematics education and outreach.</p>
-          <p class="project-meta"><span>Funder:</span> International Centre for Mathematical Sciences (ICMS)</p>
-        </article>
-
-        <article class="project-entry">
-          <h4>{{ math4sdg.title }}</h4>
-          <p class="entry-description">Math4SDG is a NORHED II project strengthening mathematics and mathematics education through collaboration between the University of Dar es Salaam, Makerere University and the University of Bergen. It supports PhD training, research collaboration, education and regional activities, including the African–Nordic Mathematics Conference held in Arusha in August 2026.</p>
-          <p class="project-meta"><span>Funder:</span> Norad, NORHED II</p>
-          <p class="entry-link"><a class="action-link" href="{{ math4sdg.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
-        </article>
-
-        <article class="project-entry">
-          <h4>{{ sida_collaboration.title }}</h4>
-          <p class="entry-description">Long-term bilateral research programmes in Rwanda, Tanzania and Uganda have strengthened mathematical research and postgraduate education through collaboration with Swedish universities. Activities have included PhD and postdoctoral training, research collaboration, curriculum and programme development, conferences and links between the participating research environments.</p>
-          <p class="project-meta"><span>Funder:</span> Sida</p>
-          <p class="entry-link"><a class="action-link" href="{{ sida_collaboration.url | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
       </div>
     </section>

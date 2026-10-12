@@ -1,0 +1,54 @@
+.outreach-page > h1 {
+  margin-top: 0;
+}
+
+.outreach-introduction {
+  max-width: var(--prose-measure);
+  line-height: var(--prose-line-height);
+}
+
+.outreach-activity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 1.5rem 2.25rem;
+  max-width: 64rem;
+  margin-top: 3rem;
+}
+
+.outreach-activity {
+  padding: 0;
+}
+
+/* Open editorial columns: the blue rule introduces only the first row. */
+.outreach-activity:nth-child(-n + 2) {
+  padding-top: .9rem;
+  border-top: 2px solid #1f5f8b;
+}
+
+.outreach-activity h2 {
+  margin: 0 0 .45rem;
+  color: #20262b;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.outreach-activity p {
+  margin: .35rem 0 0;
+  line-height: var(--prose-line-height);
+}
+
+.outreach-link {
+  margin-top: .85rem !important;
+}
+
+.outreach-link a {
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .outreach-activity-grid {
+    grid-template-columns: 1fr;
+  }
+}

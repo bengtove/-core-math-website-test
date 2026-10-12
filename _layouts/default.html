@@ -95,6 +95,9 @@
     </footer>
 
     <script src="{{ "/assets/js/external-links.js" | relative_url }}"></script>
+    {% if page.homepage %}
+    <script src="{{ "/assets/js/home-events.js?v=" | append: site.github.build_revision | relative_url }}"></script>
+    {% endif %}
     {% if page.network_partnerships %}
     <script src="{{ "/assets/js/member-universities.js?v=" | append: site.github.build_revision | relative_url }}"></script>
     {% endif %}

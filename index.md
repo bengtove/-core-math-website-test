@@ -82,17 +82,38 @@ homepage: true
     </div>
   </div>
   <div class="home-event-grid">
-    <article class="home-editorial-entry">
-      <p class="home-news-meta">19–30 July 2027 · Lusaka, Zambia</p>
-      <h3><a href="{{ '/events/2027-topological-data-analysis-lusaka/' | relative_url }}">Summer School on Topological Data Analysis and Applications</a></h3>
-      <p>An intensive two-week school introducing topological data analysis and its applications, bringing together postgraduate students and researchers.</p>
-    </article>
-    <article class="home-editorial-entry">
-      <p class="home-news-meta">19–30 July 2027 · Kampala, Uganda</p>
-      <h3><a href="{{ '/events/2027-algebraic-enumerative-combinatorics/' | relative_url }}">School on Algebraic and Enumerative Combinatorics</a></h3>
-      <p>A two-week school exploring algebraic and enumerative combinatorics, with lectures and opportunities for interaction among postgraduate students and researchers.</p>
-    </article>
+    {% assign today = site.time | date: "%Y%m%d" %}
+    {% assign events_by_date = site.events | sort: "start_date" %}
+    {% assign upcoming_event_count = 0 %}
+    {% for event in events_by_date %}
+      {% assign event_end = event.end_date | default: event.start_date | date: "%Y%m%d" %}
+      {% if event_end >= today %}
+        {% assign upcoming_event_count = upcoming_event_count | plus: 1 %}
+        {% assign start_month = event.start_date | date: "%B" %}
+        {% assign start_year = event.start_date | date: "%Y" %}
+        {% assign end_month = event.end_date | default: event.start_date | date: "%B" %}
+        {% assign end_year = event.end_date | default: event.start_date | date: "%Y" %}
+        {% assign event_description = event.content | split: "\n\n" | first | markdownify | strip_html | strip_newlines %}
+        <article class="home-editorial-entry" data-home-event data-start-date="{{ event.start_date | date: '%Y-%m-%d' }}" data-end-date="{{ event.end_date | default: event.start_date | date: '%Y-%m-%d' }}"{% if upcoming_event_count > 2 %} hidden{% endif %}>
+          <p class="home-news-meta">
+            {% if event.end_date %}
+              {% if start_month == end_month and start_year == end_year %}
+                {{ event.start_date | date: "%-d" }}–{{ event.end_date | date: "%-d %B %Y" }}
+              {% else %}
+                {{ event.start_date | date: "%-d %B %Y" }} – {{ event.end_date | date: "%-d %B %Y" }}
+              {% endif %}
+            {% else %}
+              {{ event.start_date | date: "%-d %B %Y" }}
+            {% endif %}
+            {% if event.location %} · {{ event.location }}{% endif %}
+          </p>
+          <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
+          <p>{{ event_description }}</p>
+        </article>
+      {% endif %}
+    {% endfor %}
   </div>
+  <p data-home-events-empty{% if upcoming_event_count > 0 %} hidden{% endif %}>No upcoming events have been added yet.</p>
   <p class="home-section-link"><a class="home-text-link action-link" href="{{ '/news-events/' | relative_url }}">More events<span class="link-arrow">&nbsp;→</span></a></p>
 </section>
 

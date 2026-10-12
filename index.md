@@ -93,7 +93,7 @@ homepage: true
         {% assign start_year = event.start_date | date: "%Y" %}
         {% assign end_month = event.end_date | default: event.start_date | date: "%B" %}
         {% assign end_year = event.end_date | default: event.start_date | date: "%Y" %}
-        {% assign event_description = event.content | split: "\n\n" | first | markdownify | strip_html | strip_newlines %}
+        {% assign event_description = event.content | markdownify | split: "</p>" | first | strip_html | strip_newlines %}
         <article class="home-editorial-entry" data-home-event data-start-date="{{ event.start_date | date: '%Y-%m-%d' }}" data-end-date="{{ event.end_date | default: event.start_date | date: '%Y-%m-%d' }}"{% if upcoming_event_count > 2 %} hidden{% endif %}>
           <p class="home-news-meta">
             {% if event.end_date %}

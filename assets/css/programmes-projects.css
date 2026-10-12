@@ -205,6 +205,13 @@
     grid-template-columns: 1fr;
   }
 
+  /* A stacked list has one opening rule rather than a former desktop row. */
+  .programme-entry:nth-child(n + 2),
+  .projects-list .project-entry:nth-child(n + 2) {
+    padding-top: 0;
+    border-top: 0;
+  }
+
   .programme-entry p,
   .project-entry .entry-description,
   .project-meta {

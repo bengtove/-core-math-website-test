@@ -36,18 +36,6 @@
     "url": "https://belmontforum.org/open-opportunities/?utm_source=chatgpt.com"
   },
   {
-    "programme": "Conference and workshop organisation",
-    "funder": "Compositio Foundation",
-    "description": "Funding for conferences and workshops.",
-    "status": "Open",
-    "deadline": "1 November 2026",
-    "deadline_note": "Two calls per year, November call",
-    "support_type": "Event organisation",
-    "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://compositio.nl/foundation"
-  },
-  {
     "programme": "Early Career Fellowships",
     "funder": "Leverhulme Trust",
     "description": "Three-year fellowships for early-career researchers to undertake a significant programme of original research at a UK university",
@@ -382,6 +370,42 @@
     "career_stage": "Faculty",
     "region": "Global",
     "url": "https://icms.ac.uk/fundings/strategic-workshops/"
+  },
+  {
+    "programme": "Support for scientific meetings",
+    "funder": "ICTP",
+    "description": "Partial funding of up to €5,000 for conferences, workshops and schools in eligible developing countries, mainly supporting regional participants’ travel, with limited support for board and lodging",
+    "status": "Open",
+    "deadline": "30 September 2027",
+    "deadline_note": "Three calls per year, September round for meetings starting from December onwards",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty",
+    "region": "Global",
+    "url": "https://www.ictp.it/home/other-opportunities-institutes"
+  },
+  {
+    "programme": "Support for scientific meetings",
+    "funder": "ICTP",
+    "description": "Partial funding of up to €5,000 for conferences, workshops and schools in eligible developing countries, mainly supporting regional participants’ travel, with limited support for board and lodging",
+    "status": "Open",
+    "deadline": "31 January 2027",
+    "deadline_note": "Three calls per year; January round for meetings starting from April onwards",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty",
+    "region": "Global",
+    "url": "https://www.ictp.it/home/other-opportunities-institutes"
+  },
+  {
+    "programme": "Support for scientific meetings",
+    "funder": "ICTP",
+    "description": "Partial funding of up to €5,000 for conferences, workshops and schools in eligible developing countries, mainly supporting regional participants’ travel, with limited support for board and lodging",
+    "status": "Open",
+    "deadline": "31 May 2027",
+    "deadline_note": "Three calls per year, May round for meetings starting from August onwards",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty",
+    "region": "Global",
+    "url": "https://www.ictp.it/home/other-opportunities-institutes"
   },
   {
     "programme": "Travel Grants",

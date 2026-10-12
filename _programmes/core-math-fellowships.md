@@ -12,6 +12,4 @@ CoRE-Math Fellowships support research visits by postgraduate students and resea
 
 ### [Uppsala University fellowships]({{ "/programmes/core-math-fellowships/uppsala-university/" | relative_url }})
 
-### University of KwaZulu-Natal fellowships
-
-Further information about the University of KwaZulu-Natal fellowship scheme will be added when it is available.
+### [University of KwaZulu-Natal fellowships]({{ "/programmes/core-math-fellowships/university-of-kwazulu-natal/" | relative_url }})

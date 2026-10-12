@@ -46,10 +46,21 @@
     return item.dataset.programme || "";
   }
 
-  function hideExpiredOpenCalls() {
+  function todayTimestamp() {
     var now = new Date();
-    var today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    return Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  }
 
+  function updateFellowshipDeadlines(today) {
+    page.querySelectorAll("[data-fellowship-deadline]").forEach(function (item) {
+      var deadline = deadlineValue(item.dataset.fellowshipDeadline || "");
+      if (deadline !== null && deadline < today) {
+        item.querySelector(".fellowship-deadline-status").textContent = "Applications closed — deadline:";
+      }
+    });
+  }
+
+  function hideExpiredOpenCalls(today) {
     page.querySelectorAll('[data-opportunity-list="open"] [data-opportunity]').forEach(function (item) {
       var deadline = deadlineValue(item.dataset.deadline || "");
       if (deadline !== null && deadline < today) {
@@ -124,7 +135,9 @@
     noResults.hidden = visibleCount !== 0;
   }
 
-  hideExpiredOpenCalls();
+  var today = todayTimestamp();
+  updateFellowshipDeadlines(today);
+  hideExpiredOpenCalls(today);
   sortOpportunities();
   populateFilter(funderFilter, "funder");
   populateFilter(supportFilter, "supportType");

@@ -21,9 +21,26 @@
   line-height: 1.6;
 }
 
-.opportunities-page .fellowship-entry a,
 .opportunities-page .opportunity-entry h4 a {
   color: #1f5f8b;
+}
+
+.opportunities-page .fellowship-entry .entry-link {
+  margin: .75rem 0 0;
+}
+
+.opportunities-page .fellowship-entry .entry-link a {
+  color: #1f5f8b;
+  font-weight: 600;
+}
+
+.opportunities-page .fellowship-deadline {
+  margin-top: .6rem;
+  color: #57606a;
+}
+
+.opportunities-page .fellowship-deadline-status {
+  font-weight: 600;
 }
 
 .opportunities-page .opportunity-database-link {

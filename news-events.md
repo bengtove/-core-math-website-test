@@ -19,9 +19,17 @@ news_events: true
     <div class="event-item">
       <div class="event-date">
         {% if event.end_date %}
-          {{ event.start_date | date: "%-d %B %Y" }} – {{ event.end_date | date: "%-d %B %Y" }}
+          {% assign start_month = event.start_date | date: "%b" %}
+          {% assign start_year = event.start_date | date: "%Y" %}
+          {% assign end_month = event.end_date | date: "%b" %}
+          {% assign end_year = event.end_date | date: "%Y" %}
+          {% if start_month == end_month and start_year == end_year %}
+            {{ event.start_date | date: "%-d" }}–{{ event.end_date | date: "%-d %b %Y" }}
+          {% else %}
+            {{ event.start_date | date: "%-d %b %Y" }} – {{ event.end_date | date: "%-d %b %Y" }}
+          {% endif %}
         {% else %}
-          {{ event.start_date | date: "%-d %B %Y" }}
+          {{ event.start_date | date: "%-d %b %Y" }}
         {% endif %}
       </div>
       <div>
@@ -55,7 +63,7 @@ news_events: true
 {% endfor %}
 </div>
 
-## Archive
+## News archive
 
 <div class="news-archive-years">
   <a href="{{ "/news/archive/2026/" | relative_url }}">2026</a>

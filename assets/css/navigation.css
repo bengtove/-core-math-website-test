@@ -54,9 +54,8 @@ body {
 
 .site-header-inner {
   position: relative;
-  border-top: 12px solid #1f5f8b;
-  padding-top: 1.35rem;
-  padding-bottom: 1.35rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background: #fff;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -73,8 +72,8 @@ body {
 }
 
 .site-brand-mark {
-  width: 62px;
-  height: 62px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
 }
 
@@ -85,7 +84,7 @@ body {
 
 .site-brand-text strong {
   color: #1f5f8b;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 1.05;
   letter-spacing: -.025em;
 }
@@ -99,8 +98,8 @@ body {
 
 .site-core-identity img {
   display: block;
-  width: 235px;
-  max-height: 68px;
+  width: 205px;
+  max-height: 58px;
   object-fit: contain;
 }
 
@@ -268,8 +267,8 @@ body {
 
   .site-header-inner {
     grid-template-columns: minmax(0, 1fr) auto auto;
-    padding-top: 1.15rem;
-    padding-bottom: 1.15rem;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
   }
 
   .site-nav-rail {
@@ -308,6 +307,17 @@ body {
 
   .site-mobile-navigation .site-navigation a {
     font-size: .95rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .site-header-inner {
+    column-gap: 1.25rem;
+  }
+
+  .site-core-identity img {
+    width: 185px;
+    max-height: 52px;
   }
 }
 

@@ -23,16 +23,43 @@ education_page: true
     <h2 id="schools-heading">Schools</h2>
     <p class="education-prose">CoRE-Math Schools build on a series of postgraduate mathematics schools that started in 2004 and have been organised annually since then. The schools have been supported by ICTP, ISP and other funders, with CIMPA becoming an important partner in recent years. They bring together postgraduate students and researchers for intensive study of mathematical topics, exposing students to topics and expertise that may not be available locally and creating opportunities for research contacts, thesis topics and collaboration.</p>
 
+    <h3 class="education-subheading">Upcoming schools</h3>
     <div class="school-list">
-    {% for project in site.projects reversed %}
-      {% if project.sections contains "education" %}
+    {% assign today = site.time | date: "%Y%m%d" %}
+    {% assign school_events = site.events | where: "type", "school" | sort: "start_date" %}
+    {% assign upcoming_school_count = 0 %}
+    {% for event in school_events %}
+      {% assign event_end = event.end_date | default: event.start_date | date: "%Y%m%d" %}
+      {% if event_end >= today %}
+        {% assign upcoming_school_count = upcoming_school_count | plus: 1 %}
+        {% if upcoming_school_count <= 3 %}
       <article class="school-entry">
-        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-        <p class="school-meta">{% if project.dates %}<span><strong>Date:</strong> {{ project.dates }}</span>{% endif %}{% if project.location %}<span><strong>Location:</strong> {{ project.location }}</span>{% endif %}</p>
+        <h4><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h4>
+        <p class="school-meta">
+          {% if event.end_date %}
+            {% assign start_month = event.start_date | date: "%B" %}
+            {% assign start_year = event.start_date | date: "%Y" %}
+            {% assign end_month = event.end_date | date: "%B" %}
+            {% assign end_year = event.end_date | date: "%Y" %}
+            {% if start_month == end_month and start_year == end_year %}
+              {{ event.start_date | date: "%-d" }}–{{ event.end_date | date: "%-d %B %Y" }}
+            {% else %}
+              {{ event.start_date | date: "%-d %B %Y" }} – {{ event.end_date | date: "%-d %B %Y" }}
+            {% endif %}
+          {% else %}
+            {{ event.start_date | date: "%-d %B %Y" }}
+          {% endif %}
+          {% if event.location %}<span aria-hidden="true"> · </span>{{ event.location }}{% endif %}
+        </p>
       </article>
+        {% endif %}
       {% endif %}
     {% endfor %}
     </div>
+
+    {% if upcoming_school_count == 0 %}
+    <p class="education-prose">No upcoming schools have been added yet.</p>
+    {% endif %}
 
     <p class="education-link"><a class="action-link" href="{{ "/education/schools/" | relative_url }}">View previous schools<span class="link-arrow">&nbsp;→</span></a></p>
   </section>

@@ -15,6 +15,7 @@ CoRE-Math is coordinated by a Management Team representing participating univers
     <article class="contact-entry">
       <h3>Bengt Ove Turesson</h3>
       <p class="contact-affiliation">International Science Programme, Uppsala University</p>
+      <p class="contact-email"><a href="mailto:bengtove.turesson@isp.uu.se">bengtove.turesson@isp.uu.se</a></p>
     </article>
     <article class="contact-entry">
       <h3>John Mango</h3>

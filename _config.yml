@@ -1,6 +1,11 @@
 title: CoRE-Math
 description: Africa–Europe collaboration in the mathematical sciences
 
+# GitHub Pages has been supplying Primer's base stylesheet implicitly. Pin the
+# theme explicitly so that the generated /assets/css/style.css dependency is
+# reproducible and remains available to the custom site styles.
+theme: jekyll-theme-primer
+
 baseurl: "/-core-math-website-test"
 url: "https://bengtove.github.io"
 

@@ -39,6 +39,9 @@
     {% if page.about_page %}
     <link rel="stylesheet" href="{{ "/assets/css/about.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
+    {% if page.contact_page %}
+    <link rel="stylesheet" href="{{ "/assets/css/contact.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% endif %}
     {% include head-custom.html %}
   </head>
   <body>
@@ -67,7 +70,7 @@
       <aside class="site-nav-rail">
         {% include site-navigation.html %}
       </aside>
-      <main class="site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}{% if page.research_page %} research-page{% endif %}{% if page.education_page %} education-main{% endif %}{% if page.programmes_projects %} programmes-projects-main{% endif %}">
+      <main class="site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}{% if page.research_page %} research-page{% endif %}{% if page.education_page %} education-main{% endif %}{% if page.programmes_projects %} programmes-projects-main{% endif %}{% if page.contact_page %} contact-page{% endif %}">
         {{ content }}
       </main>
     </div>
@@ -77,16 +80,16 @@
         <div class="site-footer-identity">
           <strong>CoRE-Math</strong>
           <p>Africa–Europe Cluster of Research Excellence in Mathematics</p>
-          <p>An ARUA–The Guild Cluster of Research Excellence.</p>
+          <p>An ARUA–The Guild Cluster of Research Excellence</p>
         </div>
         <div class="site-footer-links">
           <strong>Connect</strong>
-          <a href="{{ '/about/' | relative_url }}">About CoRE-Math</a>
-          <a href="mailto:core-math@isp.uu.se">Contact us</a>
-          <a href="https://www.linkedin.com/company/core-math/" rel="noopener">LinkedIn</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact us →</a>
+          <a href="https://www.linkedin.com/groups/9898198" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
         <div class="site-footer-links">
           <strong>Explore</strong>
+          <a href="{{ '/about/' | relative_url }}">About CoRE-Math</a>
           <a href="{{ '/network-partnerships/' | relative_url }}">Network &amp; Partnerships</a>
           <a href="{{ '/projects/' | relative_url }}">Programmes &amp; Projects</a>
           <a href="{{ '/news-events/' | relative_url }}">News &amp; Events</a>

@@ -1,0 +1,60 @@
+.contact-page {
+  max-width: 64rem;
+}
+
+.contact-page > h1 {
+  margin-top: 0;
+}
+
+.contact-section {
+  margin-top: 3.25rem;
+}
+
+.contact-section h2 {
+  margin: 0 0 1.15rem;
+  padding-bottom: .6rem;
+  border-bottom: 1px solid var(--content-rule);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem 2.5rem;
+}
+
+.contact-entry {
+  padding-top: .85rem;
+  border-top: 1px solid var(--content-rule);
+}
+
+.contact-entry h3 {
+  margin: 0;
+  color: #20262b;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.contact-entry p {
+  margin: .35rem 0 0;
+}
+
+.contact-affiliation {
+  color: #596873;
+  font-size: .95em;
+  line-height: 1.45;
+}
+
+.contact-email a {
+  color: #315d7b;
+}
+
+@media (max-width: 767px) {
+  .contact-section {
+    margin-top: 2.75rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

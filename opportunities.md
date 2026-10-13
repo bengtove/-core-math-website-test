@@ -108,6 +108,7 @@ Deadlines and conditions may change. Always verify the information on the funder
   </div>
 </section>
 
+<p class="visually-hidden" data-opportunity-filter-status role="status" aria-live="polite" aria-atomic="true"></p>
 <p class="opportunity-no-results" data-opportunity-no-results hidden>No opportunities match these filters.</p>
 
 </div>

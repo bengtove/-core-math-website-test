@@ -4,38 +4,6 @@
   margin-top: 2.5rem;
 }
 
-.research-toc {
-  display: none;
-}
-
-.research-toc-title {
-  margin: 0 0 .75rem;
-  color: #20262b;
-  font-weight: 600;
-}
-
-.research-toc ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.research-toc li + li {
-  margin-top: .55rem;
-}
-
-.research-toc a {
-  color: #315d7b;
-  text-decoration: none;
-  line-height: 1.35;
-}
-
-.research-toc a:hover,
-.research-toc a:focus-visible {
-  color: #1f5f8b;
-  text-decoration: underline;
-}
-
 .research-content {
   min-width: 0;
 }

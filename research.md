@@ -9,16 +9,6 @@ research_page: true
 Research within CoRE-Math brings together researchers across African and European universities through research groups, collaborative projects and international partnerships. Several regional research groups provide established platforms for collaboration in areas including algebra, combinatorics, applied probability and partial differential equations. Research collaboration is developed through workshops, research visits, joint publications and postgraduate research, strengthening existing research environments and creating opportunities for new collaborations across institutions and countries.
 
 <div class="research-layout">
-  <nav class="research-toc" aria-labelledby="research-toc-heading">
-    <p class="research-toc-title" id="research-toc-heading">On this page</p>
-    <ul>
-      <li><a href="#research-groups">Research groups</a></li>
-      <li><a href="#research-projects-and-collaborations">Research projects and collaborations</a></li>
-      <li><a href="#seminars-and-webinars">Seminars and webinars</a></li>
-      <li><a href="#publications">Publications</a></li>
-    </ul>
-  </nav>
-
   <div class="research-content">
     <section aria-labelledby="research-groups">
       <h2 id="research-groups">Research groups</h2>

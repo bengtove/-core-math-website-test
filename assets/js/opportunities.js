@@ -115,6 +115,7 @@
   var supportFilter = page.querySelector("#support-type-filter");
   var careerFilter = page.querySelector("#career-stage-filter");
   var noResults = page.querySelector("[data-opportunity-no-results]");
+  var filterStatus = page.querySelector("[data-opportunity-filter-status]");
 
   function applyFilters() {
     var visibleCount = 0;
@@ -133,6 +134,11 @@
     });
 
     noResults.hidden = visibleCount !== 0;
+    if (filterStatus) {
+      filterStatus.textContent = visibleCount === 1
+        ? "1 funding opportunity shown."
+        : visibleCount + " funding opportunities shown.";
+    }
   }
 
   var today = todayTimestamp();

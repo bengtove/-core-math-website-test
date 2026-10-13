@@ -21,6 +21,23 @@
   white-space: nowrap;
 }
 
+/* A consistent, high-contrast focus treatment for keyboard users. */
+:where(a, button, summary, select, input, textarea):focus-visible {
+  outline: 3px solid #1f5f8b;
+  outline-offset: 3px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Ordinary body copy uses a slightly smaller shared size; component metadata keeps its own type scale. */
 :where(.site-main.markdown-body) p:not([class]),
 :where(.site-main.markdown-body) .education-prose,

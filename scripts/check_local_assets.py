@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_SUFFIXES = {".css", ".html", ".js", ".json", ".md", ".svg", ".yaml", ".yml"}
-ASSET_PATTERN = re.compile(r"/assets/(?:images|documents)/[^\s\"'<>|})]+")
+ASSET_PATTERN = re.compile(r"/assets/(?:images|documents)/[^\s\"'`<>|})]+")
 IGNORED_PARTS = {".git", "_site", "vendor"}
 
 

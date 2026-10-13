@@ -35,7 +35,7 @@ education_page: true
         {% if upcoming_school_count <= 3 %}
       <article class="school-entry">
         <h4><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h4>
-        <p class="school-meta">
+        <p class="school-meta"><span>
           {% if event.end_date %}
             {% assign start_month = event.start_date | date: "%B" %}
             {% assign start_year = event.start_date | date: "%Y" %}
@@ -49,8 +49,8 @@ education_page: true
           {% else %}
             {{ event.start_date | date: "%-d %B %Y" }}
           {% endif %}
-          {% if event.location %}<span aria-hidden="true"> · </span>{{ event.location }}{% endif %}
-        </p>
+          {% if event.location %} · {{ event.location }}{% endif %}
+        </span></p>
       </article>
         {% endif %}
       {% endif %}

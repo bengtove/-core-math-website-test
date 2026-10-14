@@ -1,7 +1,14 @@
 {% assign publication = include.publication %}
+{% assign journal = publication.journal | default: "" | strip %}
+{% assign volume = publication.volume | default: "" | strip %}
+{% assign issue = publication.issue | default: "" | strip %}
+{% assign pages = publication.pages | default: "" | strip %}
+{% assign article_number = publication.article_number | default: "" | strip %}
+{% assign doi = publication.doi | default: "" | strip | remove_first: "https://doi.org/" | remove_first: "http://doi.org/" | remove_first: "doi:" | strip %}
+{% assign arxiv = publication.arxiv | default: "" | strip %}
 <div class="publication-listing">
   <p class="publication-listing__citation">
-    {{ publication.authors }} ({{ publication.year }}). {{ publication.title }}.{% if publication.journal %} <em>{{ publication.journal }}</em>{% endif %}{% if publication.volume %}, <strong>{{ publication.volume }}</strong>{% if publication.issue %}({{ publication.issue }}){% endif %}{% elsif publication.issue %}, no. {{ publication.issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% elsif publication.article_number %}, {{ publication.article_number }}{% endif %}.{% if publication.doi %} <a href="https://doi.org/{{ publication.doi }}">DOI: {{ publication.doi }}</a>{% elsif publication.arxiv %} <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv: {{ publication.arxiv }}</a>{% endif %}
+    {{ publication.authors }} ({{ publication.year }}). {{ publication.title }}{% if journal != "" %}. <em>{{ journal }}</em>{% endif %}{% if volume != "" %}{% if journal != "" %}, {% else %}. {% endif %}<strong>{{ volume }}</strong>{% if issue != "" %}({{ issue }}){% endif %}{% elsif issue != "" %}{% if journal != "" %}, {% else %}. {% endif %}no. {{ issue }}{% endif %}{% if pages != "" %}{% if journal != "" or volume != "" or issue != "" %}, {% else %}. {% endif %}{{ pages }}{% elsif article_number != "" %}{% if journal != "" or volume != "" or issue != "" %}, {% else %}. {% endif %}{{ article_number }}{% endif %}.{% if doi != "" and doi contains "10." %} <a href="https://doi.org/{{ doi }}">DOI: {{ doi }}</a>{% elsif arxiv != "" %} <a href="https://arxiv.org/abs/{{ arxiv }}">arXiv: {{ arxiv }}</a>{% endif %}
   </p>
   {% unless include.show_meta == false %}
     {% assign has_meta = false %}

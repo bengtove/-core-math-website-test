@@ -2,6 +2,7 @@
 layout: default
 title: "EAALG – Eastern Africa Algebra Research Group"
 research_group_id: eaalg
+render_related_events: false
 ---
 
 # EAALG – Eastern Africa Algebra Research Group
@@ -17,11 +18,9 @@ EAALG organises research workshops and connects researchers and graduate student
 - **2024 — 3rd EAALG Workshop: Some Topics in Algebra and Geometry.** Makerere University, Uganda, 25–29 November 2024.
 - **2025 — EAALG Workshop and 10th Anniversary Nairobi Workshop in Algebraic Geometry.** Nairobi and Masai Mara, Kenya, 11–19 September 2025.
 
-## Related collaborations and activities
+## Related collaborations
 
-Researchers in EAALG also participate in regional and international collaborations in algebra, algebraic geometry and related fields. These include the Africa-UniNet-supported Uganda–Austria Collaboration in Algebra and Geometry, running from October 2024 to September 2027, and the [Austria–Uganda workshop on geometry and representation theory](https://homepage.univie.ac.at/balazs.szendroi/?page_id=864), held at the University of Vienna on 22–23 July 2025.
-
-The 2025 Nairobi Workshop in Algebraic Geometry was organised in partnership with EAALG.
+Researchers in EAALG also participate in regional and international collaborations in algebra, algebraic geometry and related fields. These include the Africa-UniNet-supported Uganda–Austria Collaboration in Algebra and Geometry, running from October 2024 to September 2027.
 
 ## Coordinators
 
@@ -34,6 +33,8 @@ The 2025 Nairobi Workshop in Algebraic Geometry was organised in partnership wit
 - Iara Goncalves — Universidade Eduardo Mondlane
 - Celestin Kurujyibwami — University of Rwanda
 - Adson Banda — University of Zambia
+
+{% include related-events.html relationship="research_group" identifier=page.research_group_id %}
 
 ## Selected publications
 

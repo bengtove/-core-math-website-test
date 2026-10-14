@@ -77,7 +77,7 @@
           {% include related-events.html relationship="programme" identifier=page.programme_id %}
         {% elsif page.collection == "projects" and page.project_id %}
           {% include related-events.html relationship="project" identifier=page.project_id %}
-        {% elsif page.collection == "research_groups" and page.research_group_id %}
+        {% elsif page.collection == "research_groups" and page.research_group_id and page.render_related_events != false %}
           {% include related-events.html relationship="research_group" identifier=page.research_group_id %}
         {% endif %}
       </main>

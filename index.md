@@ -23,17 +23,17 @@ homepage: true
   </div>
   <div class="home-focus-grid">
     <article class="home-editorial-entry">
-      <h3><a href="{{ '/research/' | relative_url }}">Research</a></h3>
+      <h3>Research</h3>
       <p>Connecting research groups and researchers across Africa and Europe through collaboration, projects, seminars and scientific exchange.</p>
       <a class="home-text-link action-link" href="{{ '/research/' | relative_url }}">Explore research<span class="link-arrow">&nbsp;→</span></a>
     </article>
     <article class="home-editorial-entry">
-      <h3><a href="{{ '/education/' | relative_url }}">Education</a></h3>
+      <h3>Education</h3>
       <p>Strengthening postgraduate education through doctoral collaboration, schools, fellowships, mobility and shared supervision.</p>
       <a class="home-text-link action-link" href="{{ '/education/' | relative_url }}">Explore education<span class="link-arrow">&nbsp;→</span></a>
     </article>
     <article class="home-editorial-entry">
-      <h3><a href="{{ '/outreach/' | relative_url }}">Outreach</a></h3>
+      <h3>Outreach</h3>
       <p>Connecting mathematics with young people, teachers, competitions, industry and wider society.</p>
       <a class="home-text-link action-link" href="{{ '/outreach/' | relative_url }}">Explore outreach<span class="link-arrow">&nbsp;→</span></a>
     </article>

@@ -34,24 +34,28 @@ Research within CoRE-Math brings together researchers across African and Europea
 
       <div class="research-tile-grid research-project-list">
         <article class="research-tile">
-          <h3><a href="{{ '/projects/applied-mathematics-for-earth-observation/' | relative_url }}">Applied Mathematics for Earth Observation</a></h3>
+          <h3>Applied Mathematics for Earth Observation</h3>
           <p>A Finland–Rwanda collaboration using applied mathematics and Earth observation to address environmental and societal challenges.</p>
+          <p class="research-entry-link"><a class="action-link" href="{{ '/projects/applied-mathematics-for-earth-observation/' | relative_url }}" aria-label="About the project: Applied Mathematics for Earth Observation">About the project<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
           <h3>Health Data Synergy: Bridging Medicine and Mathematics</h3>
           <p>Connects mathematics and medicine around the use and analysis of health data.</p>
         </article>
         <article class="research-tile">
-          <h3><a href="{{ '/projects/lake-victoria/' | relative_url }}">Lake Victoria project</a></h3>
+          <h3>Lake Victoria project</h3>
           <p>A developing interdisciplinary research collaboration around challenges connected with the Lake Victoria region.</p>
+          <p class="research-entry-link"><a class="action-link" href="{{ '/projects/lake-victoria/' | relative_url }}" aria-label="About the project: Lake Victoria project">About the project<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
-          <h3><a href="{{ '/projects/math4sdg/' | relative_url }}">Mathematics for Sustainable Development (Math4SDG)</a></h3>
+          <h3>Mathematics for Sustainable Development (Math4SDG)</h3>
           <p>Supports research collaboration, PhD training and mathematics education through the University of Dar es Salaam, Makerere University and the University of Bergen.</p>
+          <p class="research-entry-link"><a class="action-link" href="{{ '/projects/math4sdg/' | relative_url }}" aria-label="About the project: Mathematics for Sustainable Development (Math4SDG)">About the project<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
-          <h3><a href="{{ '/projects/spirit/' | relative_url }}">SPIRIT</a></h3>
+          <h3>SPIRIT</h3>
           <p>A University of Geneva–University of Rwanda collaboration developing statistical methods for Small Area Estimation, with applications to gender disparities in Rwanda.</p>
+          <p class="research-entry-link"><a class="action-link" href="{{ '/projects/spirit/' | relative_url }}" aria-label="About the project: SPIRIT">About the project<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
       </div>
 

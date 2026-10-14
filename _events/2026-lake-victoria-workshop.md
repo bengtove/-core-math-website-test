@@ -8,5 +8,3 @@ project: lake-victoria
 ---
 
 A CoRE-Math workshop developing interdisciplinary research collaboration around challenges connected with the Lake Victoria region.
-
-[View the Lake Victoria project]({{ "/projects/lake-victoria/" | relative_url }}).

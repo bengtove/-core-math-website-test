@@ -16,13 +16,13 @@ Fellowship programmes at Uppsala University and the University of KwaZulu-Natal 
   <section class="fellowship-entry">
     <h3>Uppsala University fellowships</h3>
     <p>Research visits and mobility with Uppsala University for postgraduate students and researchers from CoRE-Math universities.</p>
-    <p class="entry-link"><a class="action-link" href="{{ '/programmes/core-math-fellowships/uppsala-university/' | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+    <p class="entry-link"><a class="action-link" href="{{ '/programmes/core-math-fellowships/uppsala-university/' | relative_url }}" aria-label="About the Uppsala University fellowship scheme">About the fellowship scheme<span class="link-arrow">&nbsp;→</span></a></p>
   </section>
   <section class="fellowship-entry">
     <h3>University of KwaZulu-Natal fellowships</h3>
     <p>Four fully funded fellowships are available for PhD students, postdoctoral researchers and senior researchers from African CoRE-Math universities to undertake research visits of up to three months at the University of KwaZulu-Natal in 2027.</p>
     <p class="fellowship-deadline" data-fellowship-deadline="31 October 2026"><span class="fellowship-deadline-status">Application deadline:</span> <time datetime="2026-10-31">31 October 2026</time></p>
-    <p class="entry-link"><a class="action-link" href="{{ '/programmes/core-math-fellowships/university-of-kwazulu-natal/' | relative_url }}">Read more<span class="link-arrow">&nbsp;→</span></a></p>
+    <p class="entry-link"><a class="action-link" href="{{ '/programmes/core-math-fellowships/university-of-kwazulu-natal/' | relative_url }}" aria-label="About the University of KwaZulu-Natal fellowship scheme">About the fellowship scheme<span class="link-arrow">&nbsp;→</span></a></p>
   </section>
 </div>
 

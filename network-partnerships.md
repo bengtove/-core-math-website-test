@@ -34,7 +34,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
       <p class="node-card-country">{{ member.country }}</p>
       <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
       <p>{{ member.introduction }}</p>
-      <button class="node-card-more" type="button" aria-haspopup="dialog" aria-controls="member-portrait-{{ forloop.index }}" data-member-portrait-trigger="member-portrait-{{ forloop.index }}">Read more<span class="link-arrow">&nbsp;→</span></button>
+      <button class="node-card-more" type="button" aria-label="University profile: {{ member.name }}" aria-haspopup="dialog" aria-controls="member-portrait-{{ forloop.index }}" data-member-portrait-trigger="member-portrait-{{ forloop.index }}">University profile<span class="link-arrow">&nbsp;→</span></button>
     </div>
   </article>
 {% endfor %}

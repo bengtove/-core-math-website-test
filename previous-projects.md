@@ -1,6 +1,8 @@
 ---
 title: "Previous projects"
 permalink: /projects/previous/
+parent_context_url: /projects/
+parent_context_label: Programmes & Projects
 ---
 
 # Previous projects

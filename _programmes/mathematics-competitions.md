@@ -14,6 +14,18 @@ Mathematics competitions have a long history in several CoRE-Math countries. Sou
 
 A central figure in these newer Africa–Europe initiatives has been **Paul Vaderlind of Stockholm University**, who initiated the collaboration and has worked with mathematicians in the participating African countries to develop competitions and regional cooperation. Paul continues to serve as an adviser to EAMO.
 
+<nav class="local-contents" aria-label="On this page">
+<strong>On this page</strong>
+<ul>
+  <li><a href="#national-competitions">National competitions</a></li>
+  <li><a href="#the-rwanda-mathematics-competition">Rwanda Mathematics Competition</a></li>
+  <li><a href="#new-africaeurope-initiatives">New Africa–Europe initiatives</a></li>
+  <li><a href="#east-african-mathematical-olympiad">East African Mathematical Olympiad</a></li>
+  <li><a href="#developing-mathematical-talent">Developing mathematical talent</a></li>
+  <li><a href="#resources">Resources</a></li>
+</ul>
+</nav>
+
 ## National competitions
 
 National mathematics competitions vary considerably across the CoRE-Math network, both in their history and scale.
@@ -64,4 +76,3 @@ Developing this capacity within Africa is therefore an important part of CoRE-Ma
 - [South African Mathematics Olympiad (SAMO)](https://samf.ac.za/en/sa-mathematics-olympiad)
 - [Pan African Mathematics Olympiad (PAMO)](https://samf.ac.za/en/pan-african-mathematics-olympiad)
 - [SAMF mathematics and olympiad publications](https://www.samf.ac.za/en/mathematics-publications)
-

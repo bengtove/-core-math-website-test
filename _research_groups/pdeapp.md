@@ -2,6 +2,7 @@
 layout: default
 title: "PDEAPP – Partial Differential Equations and Applications"
 type: research-group
+research_group_id: pdeapp
 ---
 
 # PDEAPP – Partial Differential Equations and Applications

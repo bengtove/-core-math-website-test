@@ -1,0 +1,29 @@
+{% assign related_events = site.events | where: include.relationship, include.identifier | sort: "start_date" %}
+{% if related_events.size > 0 %}
+<section class="related-content related-events" aria-labelledby="related-events-heading">
+  <h2 id="related-events-heading">Related events</h2>
+  <ul>
+  {% for event in related_events %}
+    <li>
+      <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+      <span class="related-event-meta">
+        {% if event.end_date %}
+          {% assign start_month = event.start_date | date: "%B" %}
+          {% assign start_year = event.start_date | date: "%Y" %}
+          {% assign end_month = event.end_date | date: "%B" %}
+          {% assign end_year = event.end_date | date: "%Y" %}
+          {% if start_month == end_month and start_year == end_year %}
+            — {{ event.start_date | date: "%-d" }}–{{ event.end_date | date: "%-d %B %Y" }}
+          {% else %}
+            — {{ event.start_date | date: "%-d %B %Y" }} – {{ event.end_date | date: "%-d %B %Y" }}
+          {% endif %}
+        {% else %}
+          — {{ event.start_date | date: "%-d %B %Y" }}
+        {% endif %}
+        {% if event.location %} · {{ event.location }}{% endif %}
+      </span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+{% endif %}

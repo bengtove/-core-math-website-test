@@ -19,10 +19,9 @@ Research within CoRE-Math brings together researchers across African and Europea
       {% for research_group in site.research_groups %}
         {% assign group_title = research_group.title | split: " – " %}
         <li class="research-tile research-group-tile">
-          <a href="{{ research_group.url | relative_url }}">
-            <span class="research-group-acronym">{{ group_title[0] }}</span>
-            <span class="research-group-name">{{ group_title[1] }}</span>
-          </a>
+          <span class="research-group-acronym">{{ group_title[0] }}</span>
+          <span class="research-group-name">{{ group_title[1] }}</span>
+          <p class="research-entry-link"><a class="action-link" href="{{ research_group.url | relative_url }}" aria-label="About the research group: {{ research_group.title }}">About the research group<span class="link-arrow">&nbsp;→</span></a></p>
         </li>
       {% endfor %}
       </ul>

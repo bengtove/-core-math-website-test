@@ -38,6 +38,80 @@
   border: 0;
 }
 
+/* Quiet, reusable orientation for detail pages within a collection. */
+.parent-context {
+  margin: 0 0 1.1rem;
+  font-size: var(--metadata-text-size);
+  line-height: 1.4;
+}
+
+.parent-context a {
+  color: #596873;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.parent-context a:hover,
+.parent-context a:focus-visible {
+  color: #1f5f8b;
+  text-decoration: underline;
+}
+
+/* Related material is intentionally lighter than the detail-page body. */
+.related-content {
+  max-width: var(--prose-measure);
+  margin-top: 3rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--content-rule);
+}
+
+.related-content h2 {
+  margin: 0 0 .75rem;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.related-content ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.related-content li + li {
+  margin-top: .45rem;
+}
+
+.related-content li > span,
+.related-event-meta {
+  color: #596873;
+  font-size: var(--metadata-text-size);
+}
+
+.local-contents {
+  max-width: var(--prose-measure);
+  margin: 1.5rem 0 2.25rem;
+  padding: .85rem 0;
+  border-top: 1px solid var(--content-rule);
+  border-bottom: 1px solid var(--content-rule);
+}
+
+.local-contents strong {
+  display: block;
+  margin-bottom: .35rem;
+  color: #596873;
+  font-size: var(--label-text-size);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.local-contents ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem 1.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* Ordinary body copy uses a slightly smaller shared size; component metadata keeps its own type scale. */
 :where(.site-main.markdown-body) p:not([class]),
 :where(.site-main.markdown-body) .education-prose,

@@ -5,6 +5,7 @@ end_date: 2027-07-30
 location: "Makerere University, Kampala, Uganda"
 type: school
 programme: core-math-schools
+research_group: aecc
 ---
 
 The CIMPA School introduces graduate students and early-career researchers to modern developments in algebraic and enumerative combinatorics and related areas.

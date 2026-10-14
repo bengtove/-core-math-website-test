@@ -1,0 +1,15 @@
+{% assign context_url = page.parent_context_url %}
+{% assign context_label = page.parent_context_label %}
+{% if page.collection == "programmes" %}
+  {% assign context_url = "/projects/" %}
+  {% assign context_label = "Programmes & Projects" %}
+{% elsif page.collection == "projects" %}
+  {% assign context_url = "/projects/" %}
+  {% assign context_label = "Programmes & Projects" %}
+{% elsif page.collection == "research_groups" %}
+  {% assign context_url = "/research/" %}
+  {% assign context_label = "Research groups" %}
+{% endif %}
+{% if context_url and context_label %}
+<p class="parent-context"><a href="{{ context_url | relative_url }}"><span aria-hidden="true">←</span> {{ context_label }}</a></p>
+{% endif %}

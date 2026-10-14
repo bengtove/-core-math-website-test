@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Women in Math"
-id: gender-and-inclusion
+project_id: gender-and-inclusion
 type: project
 section: projects
 ---

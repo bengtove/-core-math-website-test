@@ -1,6 +1,8 @@
 ---
 title: "Publications"
 permalink: /research/publications/
+parent_context_url: /research/
+parent_context_label: Research
 ---
 
 # Selected publications

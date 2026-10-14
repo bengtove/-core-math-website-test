@@ -10,23 +10,25 @@ CoRE-Math Schools bring together postgraduate students and researchers for inten
 
 ## Upcoming schools
 
-### [Summer School on Topological Data Analysis and Applications](https://indico.ictp.it/event/11447)
+{% assign today = site.time | date: "%Y%m%d" %}
+{% assign school_events = site.events | where: "type", "school" | sort: "start_date" %}
+{% assign upcoming_school_count = 0 %}
+{% for event in school_events %}
+  {% assign event_end = event.end_date | default: event.start_date | date: "%Y%m%d" %}
+  {% if event_end >= today %}
+    {% assign upcoming_school_count = upcoming_school_count | plus: 1 %}
+### [{{ event.title }}]({{ event.url | relative_url }})
 
-**19–30 July 2027 · Lusaka, Zambia**
+**{% if event.end_date %}{{ event.start_date | date: "%-d %B %Y" }} – {{ event.end_date | date: "%-d %B %Y" }}{% else %}{{ event.start_date | date: "%-d %B %Y" }}{% endif %}{% if event.location %} · {{ event.location }}{% endif %}**
 
-The 2027 school will focus on Topological Data Analysis and its applications. The school will bring together students and researchers for intensive study of mathematical methods connecting topology, data analysis and applications.
+{{ event.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}
 
-### [Algebraic and Enumerative Combinatorics](https://cimpa.info/en/ecoles/algebraic-and-enumerative-combinatorics)
+{% endif %}
+{% endfor %}
 
-**19–30 July 2027 · Makerere University, Kampala, Uganda**
-
-The school will introduce graduate students and early-career researchers to modern developments in algebraic and enumerative combinatorics and their connections to other areas of mathematics and computer science.
-
-### [Modern Perspectives on Partial Differential Equations: Theory and Applications](https://cimpa.info/en/ecoles/modern-perspectives-partial-differential-equations-theory-and-applications)
-
-**26 July–6 August 2027 · Addis Ababa University, Ethiopia**
-
-The school will explore modern Partial Differential Equations theory and applications, combining theoretical foundations with analytical, numerical and computational perspectives.
+{% if upcoming_school_count == 0 %}
+No upcoming schools have been added yet.
+{% endif %}
 
 ## Previous schools
 

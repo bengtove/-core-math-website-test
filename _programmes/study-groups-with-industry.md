@@ -12,6 +12,16 @@ The programme aims to develop research and collaboration around problems arising
 
 The programme builds on a long history of collaboration in applied and industrial mathematics in Africa and Europe.
 
+<nav class="local-contents" aria-label="On this page">
+<strong>On this page</strong>
+<ul>
+  <li><a href="#how-it-works">How it works</a></li>
+  <li><a href="#activities">Activities</a></li>
+  <li><a href="#history">History</a></li>
+  <li><a href="#resources-and-links">Resources and links</a></li>
+</ul>
+</nav>
+
 ## How it works
 
 **Problem identification → Study Group with Industry → Report → Follow-up research**

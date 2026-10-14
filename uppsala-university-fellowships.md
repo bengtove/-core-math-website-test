@@ -2,6 +2,8 @@
 layout: default
 title: "CoRE-Math Fellowships at Uppsala University"
 permalink: /programmes/core-math-fellowships/uppsala-university/
+parent_context_url: /programmes/core-math-fellowships/
+parent_context_label: CoRE-Math Fellowships
 ---
 
 # CoRE-Math Fellowships at Uppsala University

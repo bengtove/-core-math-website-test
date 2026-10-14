@@ -2,6 +2,7 @@
 layout: default
 title: "APREA – Applied Probability Research in Eastern Africa"
 type: research-group
+research_group_id: aprea
 ---
 
 # APREA – Applied Probability Research in Eastern Africa

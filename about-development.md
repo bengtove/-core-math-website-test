@@ -1,6 +1,8 @@
 ---
 title: "The development of CoRE-Math"
 permalink: /about/development/
+parent_context_url: /about/
+parent_context_label: About CoRE-Math
 ---
 
 # The development of CoRE-Math
@@ -8,6 +10,20 @@ permalink: /about/development/
 CoRE-Math builds on more than three decades of collaboration in mathematics between universities in Africa and Europe. It did not develop from a single project or programme. Several strands grew in parallel: support to mathematics departments and postgraduate training, regional networks, bilateral research programmes, research collaboration, scientific mobility, and efforts to connect mathematics more closely with industry and society.
 
 The Eastern Africa Universities Mathematics Programme (EAUMP) became an important regional network, while long-term collaborations with universities in Sweden, Norway and Finland brought additional partners, activities and approaches. International organisations, particularly the Abdus Salam International Centre for Theoretical Physics (ICTP), also contributed to this development. These different strands provided the foundation from which CoRE-Math emerged.
+
+<nav class="local-contents" aria-label="On this page">
+<strong>On this page</strong>
+<ul>
+  <li><a href="#early-africannordic-collaboration">Early African–Nordic collaboration</a></li>
+  <li><a href="#eaump-and-regional-collaboration">EAUMP and regional collaboration</a></li>
+  <li><a href="#sida-supported-bilateral-research-collaboration">Sida-supported collaboration</a></li>
+  <li><a href="#developing-research-collaboration">Developing research collaboration</a></li>
+  <li><a href="#finnish-collaboration-and-industrial-mathematics">Finnish collaboration and industrial mathematics</a></li>
+  <li><a href="#mathematics-for-sustainable-development">Mathematics for Sustainable Development</a></li>
+  <li><a href="#mathematics-competitions-and-outreach">Mathematics competitions and outreach</a></li>
+  <li><a href="#the-establishment-of-core-math">The establishment of CoRE-Math</a></li>
+</ul>
+</nav>
 
 ## Early African–Nordic collaboration
 

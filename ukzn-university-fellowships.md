@@ -2,6 +2,8 @@
 layout: default
 title: "CoRE-Math Fellowships at the University of KwaZulu-Natal"
 permalink: /programmes/core-math-fellowships/university-of-kwazulu-natal/
+parent_context_url: /programmes/core-math-fellowships/
+parent_context_label: CoRE-Math Fellowships
 ---
 
 # CoRE-Math Fellowships at the University of KwaZulu-Natal

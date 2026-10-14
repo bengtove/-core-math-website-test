@@ -71,7 +71,15 @@
         {% include site-navigation.html %}
       </aside>
       <main class="site-main markdown-body{% if page.collection == "programmes" or page.collection == "projects" or page.collection == "research_groups" %} long-form-content{% endif %}{% if page.network_partnerships %} network-partnerships-page{% endif %}{% if page.research_page %} research-page{% endif %}{% if page.education_page %} education-main{% endif %}{% if page.programmes_projects %} programmes-projects-main{% endif %}{% if page.contact_page %} contact-page{% endif %}">
+        {% include detail-context.html %}
         {{ content }}
+        {% if page.collection == "programmes" and page.programme_id != "core-math-schools" %}
+          {% include related-events.html relationship="programme" identifier=page.programme_id %}
+        {% elsif page.collection == "projects" and page.project_id %}
+          {% include related-events.html relationship="project" identifier=page.project_id %}
+        {% elsif page.collection == "research_groups" and page.research_group_id %}
+          {% include related-events.html relationship="research_group" identifier=page.research_group_id %}
+        {% endif %}
       </main>
     </div>
 

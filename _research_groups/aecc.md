@@ -2,6 +2,7 @@
 layout: default
 title: "AECC – African Enumerative Combinatorics Community"
 type: research-group
+research_group_id: aecc
 ---
 
 # AECC – African Enumerative Combinatorics Community
@@ -13,13 +14,6 @@ AECC builds on an earlier regional collaboration in enumerative combinatorics, t
 ## Seminar series
 
 AECC organises a regular online seminar series in enumerative combinatorics, providing a meeting place for researchers and students across institutions and countries.
-
-## Events
-
-Two major AECC activities are planned at Makerere University in 2027:
-
-- **[CIMPA School on Algebraic and Enumerative Combinatorics]({{ "/events/2027-algebraic-enumerative-combinatorics/" | relative_url }})**, 19–30 July 2027.
-- **[Inaugural Pan-African AECC Research Workshop on Enumerative Combinatorics]({{ "/events/2027-pan-african-aecc-workshop/" | relative_url }})**, 2–6 August 2027.
 
 ## Committee
 

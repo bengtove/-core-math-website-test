@@ -3,6 +3,7 @@ layout: default
 ---
 
 <article class="event-page">
+  <p class="parent-context"><a href="{{ '/news-events/' | relative_url }}"><span aria-hidden="true">←</span> News &amp; Events</a></p>
   <h1>{{ page.title }}</h1>
   <p><strong>
     {% if page.end_date %}
@@ -14,4 +15,18 @@ layout: default
   </strong></p>
 
   {{ content }}
+
+  {% assign related_programme = site.programmes | where: "programme_id", page.programme | first %}
+  {% assign related_project = site.projects | where: "project_id", page.project | first %}
+  {% assign related_research_group = site.research_groups | where: "research_group_id", page.research_group | first %}
+  {% if related_programme or related_project or related_research_group %}
+  <section class="related-content event-relationships" aria-labelledby="event-relationships-heading">
+    <h2 id="event-relationships-heading">Related CoRE-Math activity</h2>
+    <ul>
+      {% if related_programme %}<li><span>Programme:</span> <a href="{{ related_programme.url | relative_url }}">{{ related_programme.title }}</a></li>{% endif %}
+      {% if related_project %}<li><span>Project:</span> <a href="{{ related_project.url | relative_url }}">{{ related_project.title }}</a></li>{% endif %}
+      {% if related_research_group %}<li><span>Research group:</span> <a href="{{ related_research_group.url | relative_url }}">{{ related_research_group.title }}</a></li>{% endif %}
+    </ul>
+  </section>
+  {% endif %}
 </article>

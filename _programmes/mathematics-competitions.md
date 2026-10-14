@@ -16,14 +16,18 @@ A central figure in these newer Africa–Europe initiatives has been **Paul Vade
 
 <nav class="local-contents" aria-label="On this page">
 <strong>On this page</strong>
+<div class="local-contents__columns">
 <ul>
   <li><a href="#national-competitions">National competitions</a></li>
   <li><a href="#the-rwanda-mathematics-competition">Rwanda Mathematics Competition</a></li>
   <li><a href="#new-africaeurope-initiatives">New Africa–Europe initiatives</a></li>
+</ul>
+<ul>
   <li><a href="#east-african-mathematical-olympiad">East African Mathematical Olympiad</a></li>
   <li><a href="#developing-mathematical-talent">Developing mathematical talent</a></li>
   <li><a href="#resources">Resources</a></li>
 </ul>
+</div>
 </nav>
 
 ## National competitions

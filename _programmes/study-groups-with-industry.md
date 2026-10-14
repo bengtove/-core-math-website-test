@@ -14,12 +14,16 @@ The programme builds on a long history of collaboration in applied and industria
 
 <nav class="local-contents" aria-label="On this page">
 <strong>On this page</strong>
+<div class="local-contents__columns">
 <ul>
   <li><a href="#how-it-works">How it works</a></li>
   <li><a href="#activities">Activities</a></li>
+</ul>
+<ul>
   <li><a href="#history">History</a></li>
   <li><a href="#resources-and-links">Resources and links</a></li>
 </ul>
+</div>
 </nav>
 
 ## How it works

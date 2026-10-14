@@ -89,9 +89,6 @@
 .local-contents {
   max-width: var(--prose-measure);
   margin: 1.5rem 0 2.25rem;
-  padding: .85rem 0;
-  border-top: 1px solid var(--content-rule);
-  border-bottom: 1px solid var(--content-rule);
 }
 
 .local-contents strong {
@@ -103,13 +100,27 @@
   text-transform: uppercase;
 }
 
+.local-contents__columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .35rem 2.25rem;
+}
+
 .local-contents ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .35rem 1.1rem;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.local-contents li + li {
+  margin-top: .35rem;
+}
+
+@media (max-width: 767px) {
+  .local-contents__columns {
+    grid-template-columns: 1fr;
+    gap: .35rem;
+  }
 }
 
 /* Ordinary body copy uses a slightly smaller shared size; component metadata keeps its own type scale. */

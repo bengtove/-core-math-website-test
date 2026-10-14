@@ -13,16 +13,20 @@ The Eastern Africa Universities Mathematics Programme (EAUMP) became an importan
 
 <nav class="local-contents" aria-label="On this page">
 <strong>On this page</strong>
+<div class="local-contents__columns">
 <ul>
   <li><a href="#early-africannordic-collaboration">Early African–Nordic collaboration</a></li>
   <li><a href="#eaump-and-regional-collaboration">EAUMP and regional collaboration</a></li>
   <li><a href="#sida-supported-bilateral-research-collaboration">Sida-supported collaboration</a></li>
   <li><a href="#developing-research-collaboration">Developing research collaboration</a></li>
+</ul>
+<ul>
   <li><a href="#finnish-collaboration-and-industrial-mathematics">Finnish collaboration and industrial mathematics</a></li>
   <li><a href="#mathematics-for-sustainable-development">Mathematics for Sustainable Development</a></li>
   <li><a href="#mathematics-competitions-and-outreach">Mathematics competitions and outreach</a></li>
   <li><a href="#the-establishment-of-core-math">The establishment of CoRE-Math</a></li>
 </ul>
+</div>
 </nav>
 
 ## Early African–Nordic collaboration

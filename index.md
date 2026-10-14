@@ -95,6 +95,7 @@ homepage: true
         {% assign end_year = event.end_date | default: event.start_date | date: "%Y" %}
         {% assign event_description = event.content | markdownify | split: "</p>" | first | strip_html | strip_newlines %}
         <article class="home-editorial-entry" data-home-event data-start-date="{{ event.start_date | date: '%Y-%m-%d' }}" data-end-date="{{ event.end_date | default: event.start_date | date: '%Y-%m-%d' }}"{% if upcoming_event_count > 2 %} hidden{% endif %}>
+          <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
           <p class="home-news-meta">
             {% if event.end_date %}
               {% if start_month == end_month and start_year == end_year %}
@@ -107,7 +108,6 @@ homepage: true
             {% endif %}
             {% if event.location %} · {{ event.location }}{% endif %}
           </p>
-          <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
           <p>{{ event_description }}</p>
         </article>
       {% endif %}

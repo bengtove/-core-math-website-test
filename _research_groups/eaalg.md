@@ -37,6 +37,10 @@ The 2025 Nairobi Workshop in Algebraic Geometry was organised in partnership wit
 
 ## Selected publications
 
+The publications below are a selection of work by researchers associated with EAALG.
+
+<p><a class="action-link" href="https://sites.google.com/view/eaalg/home">EAALG website<span class="link-arrow">&nbsp;→</span></a></p>
+
 {% assign eaalg_publications = site.data.publications | where_exp: "publication", "publication.research_groups contains 'EAALG'" %}
 {% assign years = eaalg_publications | map: "year" | uniq | sort | reverse %}
 {% for year in years %}
@@ -44,8 +48,6 @@ The 2025 Nairobi Workshop in Algebraic Geometry was organised in partnership wit
 
 {% assign publications = eaalg_publications | where: "year", year | sort: "sort_author" %}
 {% for publication in publications %}
-{% include publication-listing.html publication=publication suppress_research_group=true %}
+{% include publication-listing.html publication=publication suppress_research_group=true suppress_node=true %}
 {% endfor %}
 {% endfor %}
-
-Visit the [EAALG website](https://sites.google.com/view/eaalg/home) for further information and the group’s broader publication record.

@@ -5,16 +5,21 @@
   </p>
   {% unless include.show_meta == false %}
     {% assign has_meta = false %}
-    {% if publication.institutions.size > 0 or publication.projects_programmes.size > 0 or publication.collaborations.size > 0 or publication.support.size > 0 %}
+    {% if publication.projects_programmes.size > 0 or publication.collaborations.size > 0 or publication.support.size > 0 %}
       {% assign has_meta = true %}
     {% endif %}
+    {% unless include.suppress_node == true %}
+      {% if publication.institutions.size > 0 %}{% assign has_meta = true %}{% endif %}
+    {% endunless %}
     {% unless include.suppress_research_group == true %}
       {% if publication.research_groups.size > 0 %}{% assign has_meta = true %}{% endif %}
     {% endunless %}
     {% if has_meta %}
       <p class="publication-listing__meta">
         {% assign meta_started = false %}
-        {% if publication.institutions.size > 0 %}<strong>CoRE-Math node:</strong> {{ publication.institutions | join: "; " }}{% assign meta_started = true %}{% endif %}
+        {% unless include.suppress_node == true %}
+          {% if publication.institutions.size > 0 %}<strong>CoRE-Math node:</strong> {{ publication.institutions | join: "; " }}{% assign meta_started = true %}{% endif %}
+        {% endunless %}
         {% unless include.suppress_research_group == true %}
           {% if publication.research_groups.size > 0 %}{% if meta_started %}<br>{% endif %}<strong>Research group:</strong> {{ publication.research_groups | join: "; " }}{% assign meta_started = true %}{% endif %}
         {% endunless %}

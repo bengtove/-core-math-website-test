@@ -16,6 +16,10 @@ layout: default
 
   {{ content }}
 
+  {% if page.external_url %}
+  <p><a href="{{ page.external_url }}">{{ page.external_label | default: "External website" }}<span class="link-arrow">&nbsp;→</span></a></p>
+  {% endif %}
+
   {% assign related_programme = nil %}
   {% assign related_project = nil %}
   {% assign related_research_group = nil %}

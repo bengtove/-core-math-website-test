@@ -36,11 +36,7 @@ The publications below are records in the CoRE-Math publication dataset explicit
 
 {% assign publications = aecc_publications | where: "year", year | sort: "sort_author" %}
 {% for publication in publications %}
-<div class="publication" style="margin-bottom: 1.35rem;">
-<p style="margin-bottom: .25rem;">
-{{ publication.authors }} ({{ publication.year }}). {{ publication.title }}. {% if publication.journal %}<em>{{ publication.journal }}</em>{% endif %}{% if publication.volume %}, <strong>{{ publication.volume }}</strong>{% if publication.issue %}({{ publication.issue }}){% endif %}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% elsif publication.article_number %}, {{ publication.article_number }}{% endif %}.{% if publication.doi %} <a href="https://doi.org/{{ publication.doi }}">https://doi.org/{{ publication.doi }}</a>{% elsif publication.arxiv %} <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
-</p>
-</div>
+{% include publication-listing.html publication=publication show_meta=false %}
 {% endfor %}
 {% endfor %}
 

@@ -1,0 +1,27 @@
+{% assign publication = include.publication %}
+<div class="publication-listing">
+  <p class="publication-listing__citation">
+    {{ publication.authors }} ({{ publication.year }}). {{ publication.title }}.{% if publication.journal %} <em>{{ publication.journal }}</em>{% endif %}{% if publication.volume %}, <strong>{{ publication.volume }}</strong>{% if publication.issue %}({{ publication.issue }}){% endif %}{% elsif publication.issue %}, no. {{ publication.issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% elsif publication.article_number %}, {{ publication.article_number }}{% endif %}.{% if publication.doi %} <a href="https://doi.org/{{ publication.doi }}">DOI: {{ publication.doi }}</a>{% elsif publication.arxiv %} <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv: {{ publication.arxiv }}</a>{% endif %}
+  </p>
+  {% unless include.show_meta == false %}
+    {% assign has_meta = false %}
+    {% if publication.institutions.size > 0 or publication.projects_programmes.size > 0 or publication.collaborations.size > 0 or publication.support.size > 0 %}
+      {% assign has_meta = true %}
+    {% endif %}
+    {% unless include.suppress_research_group == true %}
+      {% if publication.research_groups.size > 0 %}{% assign has_meta = true %}{% endif %}
+    {% endunless %}
+    {% if has_meta %}
+      <p class="publication-listing__meta">
+        {% assign meta_started = false %}
+        {% if publication.institutions.size > 0 %}<strong>CoRE-Math node:</strong> {{ publication.institutions | join: "; " }}{% assign meta_started = true %}{% endif %}
+        {% unless include.suppress_research_group == true %}
+          {% if publication.research_groups.size > 0 %}{% if meta_started %}<br>{% endif %}<strong>Research group:</strong> {{ publication.research_groups | join: "; " }}{% assign meta_started = true %}{% endif %}
+        {% endunless %}
+        {% if publication.projects_programmes.size > 0 %}{% if meta_started %}<br>{% endif %}<strong>Project/programme:</strong> {{ publication.projects_programmes | join: "; " }}{% assign meta_started = true %}{% endif %}
+        {% if publication.collaborations.size > 0 %}{% if meta_started %}<br>{% endif %}<strong>Collaboration:</strong> {{ publication.collaborations | join: "; " }}{% assign meta_started = true %}{% endif %}
+        {% if publication.support.size > 0 %}{% if meta_started %}<br>{% endif %}<strong>Support/activity:</strong> {{ publication.support | join: "; " }}{% endif %}
+      </p>
+    {% endif %}
+  {% endunless %}
+</div>

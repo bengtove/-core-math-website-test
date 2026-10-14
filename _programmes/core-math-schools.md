@@ -23,6 +23,9 @@ CoRE-Math Schools bring together postgraduate students and researchers for inten
 
 {{ event.content | markdownify | remove: '<p>' | remove: '</p>' | strip }}
 
+<p><a href="{{ event.url | relative_url }}">Event details<span class="link-arrow">&nbsp;→</span></a></p>
+{% if event.external_url %}<p><a href="{{ event.external_url }}">{{ event.external_label | default: "External school website" }}<span class="link-arrow">&nbsp;→</span></a></p>{% endif %}
+
 {% endif %}
 {% endfor %}
 

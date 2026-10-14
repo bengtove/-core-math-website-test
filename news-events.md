@@ -44,6 +44,10 @@ news_events: true
 <p>No upcoming events have been added yet.</p>
 {% endif %}
 
+## Past events
+
+<p><a class="action-link" href="{{ '/events/archive/' | relative_url }}">Browse past events<span class="link-arrow">&nbsp;→</span></a></p>
+
 ## Latest News
 
 <div class="latest-news">

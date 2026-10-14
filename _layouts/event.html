@@ -16,6 +16,9 @@ layout: default
 
   {{ content }}
 
+  {% assign related_programme = nil %}
+  {% assign related_project = nil %}
+  {% assign related_research_group = nil %}
   {% if page.programme %}{% assign related_programme = site.programmes | where: "programme_id", page.programme | first %}{% endif %}
   {% if page.project %}{% assign related_project = site.projects | where: "project_id", page.project | first %}{% endif %}
   {% if page.research_group %}{% assign related_research_group = site.research_groups | where: "research_group_id", page.research_group | first %}{% endif %}

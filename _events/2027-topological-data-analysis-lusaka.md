@@ -5,7 +5,6 @@ end_date: 2027-07-30
 location: "Lusaka, Zambia"
 type: school
 programme: core-math-schools
-project: topological-data-analysis-summer-school-2027
 external_url: https://indico.ictp.it/event/11447
 external_label: "School website"
 ---

@@ -8,7 +8,7 @@ programmes_projects: true
 {% assign core_math_fellowships = site.programmes | where: "programme_id", "core-math-fellowships" | first %}
 {% assign industry_mathematics = site.programmes | where: "programme_id", "study-groups-with-industry" | first %}
 {% assign mathematics_competitions = site.programmes | where: "programme_id", "mathematics-competitions" | first %}
-{% assign women_in_math = site.projects | where: "title", "Women in Math" | first %}
+{% assign women_in_math = site.programmes | where: "programme_id", "women-in-math" | first %}
 {% assign lake_victoria = site.projects | where: "project_id", "lake-victoria" | first %}
 {% assign math4sdg = site.projects | where: "project_id", "math4sdg" | first %}
 {% assign fame = site.projects | where: "project_id", "fame" | first %}
@@ -52,7 +52,7 @@ programmes_projects: true
       <article class="programme-entry">
         <h3>{{ women_in_math.title }}</h3>
         <p>Women in Math is a cross-cutting area of work within CoRE-Math, aiming to increase participation and opportunities for women in the mathematical sciences and strengthen inclusion across CoRE-Math activities.</p>
-        <p class="entry-link"><a class="action-link" href="{{ women_in_math.url | relative_url }}" aria-label="About the project: {{ women_in_math.title }}">About the project<span class="link-arrow">&nbsp;→</span></a></p>
+        <p class="entry-link"><a class="action-link" href="{{ women_in_math.url | relative_url }}" aria-label="About the programme: {{ women_in_math.title }}">About the programme<span class="link-arrow">&nbsp;→</span></a></p>
       </article>
     </div>
   </section>

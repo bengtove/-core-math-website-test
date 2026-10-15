@@ -22,6 +22,16 @@ Use the available information to provide, in this order where relevant:
 
 Existing historical content should be preserved. A short record does not need invented sections merely to match a richer page.
 
+## Contextual navigation
+
+Programme, project and research-group pages generated from their respective collections receive a parent-context link automatically. This returns visitors to Programmes & Projects or Research groups, as appropriate.
+
+Standalone detail pages outside these collections should specify both `parent_context_url` and `parent_context_label` in their front matter so that they provide the same clear route back to their parent area.
+
+### CoRE-Math Schools
+
+CoRE-Math Schools is an intentional exception to the generic related-events listing. Its programme page uses dedicated Upcoming schools and Previous schools navigation instead, linking to the same Event records and to the historical schools archive. This avoids duplicating school listings on the programme page.
+
 ## Links
 
 Use explicit action labels on their own line when linking from a catalogue or editorial entry:

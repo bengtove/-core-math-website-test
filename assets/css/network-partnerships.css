@@ -173,20 +173,16 @@
 
 /* Partner organisations follow the editorial grid used by the About gateways. */
 .partner-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
-  gap: 1.5rem 2.25rem;
   margin: 1.25rem 0 3rem;
 }
 
 .partner-card {
   min-width: 0;
-  padding-top: .9rem;
+  padding-top: var(--editorial-entry-padding);
 }
 
 .partner-card:nth-child(-n + 2) {
-  border-top: 2px solid #1f5f8b;
+  border-top: var(--editorial-entry-rule);
 }
 
 .partner-card h3 {
@@ -211,32 +207,12 @@
   line-height: 1.6;
 }
 
-@media (min-width: 861px) and (max-width: 1279px) {
-  .network-partnerships-page {
-    padding-right: var(--structured-content-padding-tablet);
-    padding-left: var(--structured-content-padding-tablet);
-  }
-}
-
-@media (min-width: 1280px) {
-  .site-frame-network-partnerships {
-    column-gap: 0;
-  }
-
-  .network-partnerships-page {
-    padding-right: var(--structured-content-padding);
-    padding-left: var(--structured-content-padding);
-  }
-}
-
 @media (max-width: 850px) {
   .node-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 700px) {
   .partner-grid { grid-template-columns: 1fr; }
-
-  .partner-card:nth-child(2) { border-top: 0; }
 
   .member-portrait-dialog__header { padding: 1rem 1.25rem .85rem; }
 

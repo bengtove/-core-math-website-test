@@ -7,8 +7,8 @@
 }
 
 .opportunities-page .fellowship-entry {
-  padding-top: .9rem;
-  border-top: 2px solid #1f5f8b;
+  padding-top: var(--editorial-entry-padding);
+  border-top: var(--editorial-entry-rule);
 }
 
 .opportunities-page .fellowship-entry h3,

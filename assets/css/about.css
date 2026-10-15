@@ -26,24 +26,21 @@
 
 .about-activity-grid,
 .about-gateway-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 64rem;
-  gap: 1.5rem 2.25rem;
 }
 
 .about-activity {
-  padding-top: .9rem;
+  padding-top: var(--editorial-entry-padding);
 }
 
 /* The first row introduces the activity grid with the shared editorial rule. */
 .about-activity:nth-child(-n + 2) {
-  border-top: 2px solid #1f5f8b;
+  border-top: var(--editorial-entry-rule);
 }
 
 .about-activity h3 {
   margin: 0 0 .45rem;
-  color: #315d7b;
+  color: var(--editorial-link);
   font-size: 1.15em;
   font-weight: 700;
   line-height: 1.35;

@@ -235,8 +235,34 @@ body {
     padding-right: var(--site-column-gap);
   }
 
+  /* Structured landing pages share the same frame-to-content inset. */
+  .site-frame-research,
+  .site-frame-education,
+  .site-frame-programmes-projects,
+  .site-frame-network-partnerships {
+    column-gap: 0;
+  }
+
+  .research-page,
+  .education-main,
+  .programmes-projects-main,
+  .network-partnerships-page {
+    padding-right: var(--structured-content-padding);
+    padding-left: var(--structured-content-padding);
+  }
+
   .site-footer .site-shell {
     width: min(var(--site-frame-width), calc(100% - var(--site-gutter)));
+  }
+}
+
+@media (min-width: 861px) and (max-width: 1279px) {
+  .research-page,
+  .education-main,
+  .programmes-projects-main,
+  .network-partnerships-page {
+    padding-right: var(--structured-content-padding-tablet);
+    padding-left: var(--structured-content-padding-tablet);
   }
 }
 

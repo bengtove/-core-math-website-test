@@ -14,8 +14,6 @@
 
 .research-content h2 {
   margin: 0 0 1.15rem;
-  padding-bottom: .45rem;
-  border-bottom: 1px solid var(--content-rule);
   scroll-margin-top: 1rem;
 }
 
@@ -30,10 +28,6 @@
 }
 
 .research-tile-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
-  gap: 1.5rem 2.25rem;
   margin-top: 1.5rem;
 }
 
@@ -62,8 +56,8 @@
 .research-groups-grid .research-group-tile:nth-child(-n + 2),
 .research-project-list .research-tile:nth-child(-n + 2),
 .research-series-list .research-tile {
-  padding-top: .9rem;
-  border-top: 2px solid #1f5f8b;
+  padding-top: var(--editorial-entry-padding);
+  border-top: var(--editorial-entry-rule);
 }
 
 /* Projects retain their natural heights; seminars keep aligned links within their row. */
@@ -138,24 +132,8 @@
 }
 
 @media (min-width: 1280px) {
-  .site-frame-research {
-    column-gap: 0;
-  }
-
-  .research-page {
-    padding-right: var(--structured-content-padding);
-    padding-left: var(--structured-content-padding);
-  }
-
   .research-series-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 861px) and (max-width: 1279px) {
-  .research-page {
-    padding-right: var(--structured-content-padding-tablet);
-    padding-left: var(--structured-content-padding-tablet);
   }
 }
 

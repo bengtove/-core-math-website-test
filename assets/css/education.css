@@ -1,9 +1,3 @@
-.education-page {
-  --education-blue: #1f5f8b;
-  --education-rule: var(--content-rule);
-  --education-muted: #596873;
-}
-
 .education-intro h1 {
   margin-top: 0;
 }
@@ -20,8 +14,6 @@
 
 .education-section > h2 {
   margin: 0 0 1.15rem;
-  padding-bottom: .45rem;
-  border-bottom: 1px solid var(--education-rule);
   font-size: clamp(1.55rem, 2.2vw, 2rem);
   line-height: 1.2;
   letter-spacing: -.015em;
@@ -49,10 +41,8 @@
 }
 
 .school-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
-  column-gap: 2.25rem;
+  grid-template-columns: var(--editorial-grid-columns);
+  column-gap: var(--editorial-grid-column-gap);
   row-gap: 2rem;
   max-width: none;
   margin-top: 0;
@@ -60,14 +50,14 @@
 
 /* Open editorial grids use the blue rule to introduce their first desktop row. */
 .school-entry:nth-child(-n + 2) {
-  padding-top: .9rem;
-  border-top: 2px solid var(--education-blue);
+  padding-top: var(--editorial-entry-padding);
+  border-top: var(--editorial-entry-rule);
 }
 
 /* Each school remains a distinct editorial entry. */
 .mobility-entry:nth-child(-n + 2) {
-  padding-top: .9rem;
-  border-top: 2px solid var(--education-blue);
+  padding-top: var(--editorial-entry-padding);
+  border-top: var(--editorial-entry-rule);
 }
 
 .school-entry h4,
@@ -79,11 +69,11 @@
 }
 
 .school-entry h4 {
-  color: var(--education-blue);
+  color: var(--editorial-blue);
 }
 
 .school-entry h4 a {
-  color: var(--education-blue);
+  color: var(--editorial-blue);
   text-decoration: none;
 }
 
@@ -97,7 +87,7 @@
   flex-wrap: wrap;
   gap: .2rem 1.25rem;
   margin: .4rem 0 0;
-  color: var(--education-muted);
+  color: var(--editorial-muted);
   font-size: .92rem;
   line-height: 1.45;
 }
@@ -108,10 +98,6 @@
 }
 
 .mobility-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: start;
-  gap: 1.5rem 2.25rem;
   max-width: none;
   margin-top: 1.5rem;
   margin-left: 0;
@@ -145,27 +131,9 @@
 
 .education-meta {
   margin: .45rem 0 0;
-  color: var(--education-muted);
+  color: var(--editorial-muted);
   font-size: var(--metadata-text-size);
   line-height: 1.45;
-}
-
-@media (min-width: 1280px) {
-  .site-frame-education {
-    column-gap: 0;
-  }
-
-  .education-main {
-    padding-right: var(--structured-content-padding);
-    padding-left: var(--structured-content-padding);
-  }
-}
-
-@media (min-width: 861px) and (max-width: 1279px) {
-  .education-main {
-    padding-right: var(--structured-content-padding-tablet);
-    padding-left: var(--structured-content-padding-tablet);
-  }
 }
 
 @media (max-width: 760px) {

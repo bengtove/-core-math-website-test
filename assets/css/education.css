@@ -78,17 +78,16 @@
 }
 
 .school-entry h4 {
-  color: #315d7b;
+  color: var(--education-blue);
 }
 
 .school-entry h4 a {
-  color: inherit;
+  color: var(--education-blue);
   text-decoration: none;
 }
 
 .school-entry h4 a:hover,
 .school-entry h4 a:focus-visible {
-  color: var(--education-blue);
   text-decoration: underline;
 }
 

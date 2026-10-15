@@ -32,6 +32,7 @@
 .research-tile-grid,
 .outreach-activity-grid,
 .projects-list,
+.school-list,
 .mobility-list,
 .partner-grid {
   display: grid;

@@ -58,7 +58,8 @@
   margin-top: 0;
 }
 
-.school-entry {
+/* Open editorial grids use the blue rule to introduce their first desktop row. */
+.school-entry:nth-child(-n + 2) {
   padding-top: .9rem;
   border-top: 2px solid var(--education-blue);
 }

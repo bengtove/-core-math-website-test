@@ -10,4 +10,4 @@ section: projects
 
 FAME is a Research Council of Finland Flagship in applied mathematics for 2024–2031. LUT University is one of the participating institutions. The collaboration relevant to CoRE-Math includes developing Africa–Finland research collaboration and opportunities for doctoral and postdoctoral researchers.
 
-**[Visit the FAME Flagship website](https://fameflagship.fi/)**
+<p><a class="action-link" href="https://fameflagship.fi/">Visit FAME website<span class="link-arrow">&nbsp;→</span></a></p>

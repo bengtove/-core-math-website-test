@@ -36,4 +36,4 @@ No upcoming schools have been added yet.
 
 CoRE-Math and its predecessor networks have organised international mathematics schools since 2004.
 
-[View previous schools<span class="link-arrow">&nbsp;→</span>]({{ "/education/schools/" | relative_url }})
+<p><a class="action-link" href="{{ "/education/schools/" | relative_url }}">View previous schools<span class="link-arrow">&nbsp;→</span></a></p>

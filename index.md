@@ -62,7 +62,7 @@ homepage: true
     {% for post in site.posts limit:3 %}
     <article class="home-news-item home-editorial-entry">
       {% if post.image %}
-      <a class="home-news-image" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}"><img src="{{ post.image | relative_url }}" alt=""></a>
+      <a class="home-news-image" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ post.image | relative_url }}" alt=""></a>
       {% endif %}
       <p class="home-news-meta">{{ post.date | date: "%-d %B %Y" }}{% if post.location %} · {{ post.location }}{% endif %}</p>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

@@ -40,4 +40,4 @@ The publications below are records in the CoRE-Math publication dataset explicit
 {% endfor %}
 {% endfor %}
 
-**[Visit the AECC website for further information](https://african-enumerative-combinatorics.github.io/)**
+<p><a class="action-link" href="https://african-enumerative-combinatorics.github.io/">Visit the AECC website<span class="link-arrow">&nbsp;→</span></a></p>

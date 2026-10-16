@@ -1,11 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const menu = document.querySelector(".site-mobile-menu");
-  const summary = menu?.querySelector("summary");
+  const button = document.querySelector(".site-mobile-menu");
+  const navigation = document.querySelector(".site-mobile-navigation");
 
-  if (!menu || !summary) return;
+  if (!button || !navigation) return;
 
-  summary.addEventListener("click", (event) => {
-    event.preventDefault();
-    menu.open = !menu.open;
+  button.addEventListener("click", () => {
+    const isOpen = button.getAttribute("aria-expanded") === "true";
+    button.setAttribute("aria-expanded", String(!isOpen));
+    navigation.hidden = isOpen;
   });
 });

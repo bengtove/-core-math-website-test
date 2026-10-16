@@ -307,8 +307,12 @@ body {
     margin-left: 1.5rem;
   }
 
-  .site-mobile-menu summary {
+  .site-mobile-menu {
+    padding: 0;
+    border: 0;
+    background: transparent;
     color: #315d7b;
+    font: inherit;
     font-weight: 600;
     cursor: pointer;
   }

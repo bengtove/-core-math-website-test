@@ -57,12 +57,10 @@
         <a class="site-core-identity" href="https://www.the-guild.eu/africa-europe-core/" aria-label="Africa–Europe Clusters of Research Excellence website">
           <img src="{{ '/assets/images/branding/africa-europe-core-logo-horizontal-transparent.svg' | relative_url }}" alt="Africa–Europe Clusters of Research Excellence">
         </a>
-        <details class="site-mobile-menu">
-          <summary>Menu</summary>
-          <div class="site-mobile-navigation">
-            {% include site-navigation.html %}
-          </div>
-        </details>
+        <button class="site-mobile-menu" type="button" aria-expanded="false" aria-controls="site-mobile-navigation">Menu</button>
+        <div id="site-mobile-navigation" class="site-mobile-navigation" hidden>
+          {% include site-navigation.html %}
+        </div>
       </div>
     </header>
 
@@ -106,7 +104,7 @@
     </footer>
 
     <script src="{{ "/assets/js/external-links.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/mobile-navigation.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/mobile-navigation.js?v=" | append: site.github.build_revision | relative_url }}"></script>
     {% if page.homepage %}
     <script src="{{ "/assets/js/home-events.js?v=" | append: site.github.build_revision | relative_url }}"></script>
     {% endif %}

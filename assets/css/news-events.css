@@ -40,7 +40,8 @@
   margin: 0.75rem 0 2.5rem;
 }
 
-.news-card {
+/* Open editorial grids use the blue rule to introduce their first desktop row. */
+.news-card:nth-child(-n + 2) {
   padding-top: 1rem;
   border-top: 2px solid #1f5f8b;
 }

@@ -11,7 +11,7 @@
   background: rgba(22, 76, 116, .92);
   color: #fff;
 }
-.home-hero-name {
+.site-main.markdown-body .home-hero-name {
   margin: 0 0 .45rem;
   color: #fff;
   font-size: clamp(2rem, 4vw, 3.5rem);

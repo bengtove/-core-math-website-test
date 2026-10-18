@@ -80,7 +80,7 @@
 
 .research-group-acronym,
 .research-tile h3 {
-  color: #315d7b;
+  color: var(--editorial-link);
   font-size: 1.15em;
   font-weight: 700;
   line-height: 1.35;
@@ -88,13 +88,13 @@
 
 .research-group-name {
   margin-top: .2rem;
-  color: #596873;
+  color: var(--editorial-muted);
   line-height: 1.4;
 }
 
 .research-tile h3 {
   margin: 0 0 .35rem;
-  color: #20262b;
+  color: var(--editorial-heading);
 }
 
 .research-tile h3 a {
@@ -104,7 +104,7 @@
 
 .research-tile h3 a:hover,
 .research-tile h3 a:focus-visible {
-  color: #1f5f8b;
+  color: var(--editorial-blue);
   text-decoration: underline;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .research-series-status {
-  color: #596873;
+  color: var(--editorial-muted);
 }
 
 .research-entry-link {

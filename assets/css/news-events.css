@@ -3,7 +3,7 @@
   gap: 1.35rem;
   margin: 0.75rem 0 2.5rem;
   padding-top: 1rem;
-  border-top: 2px solid #1f5f8b;
+  border-top: var(--editorial-entry-rule);
 }
 
 .event-item {
@@ -15,7 +15,7 @@
 .event-date,
 .news-date,
 .event-location {
-  color: #586069;
+  color: var(--editorial-muted);
 }
 
 .event-date {
@@ -25,7 +25,7 @@
 
 .event-title {
   display: inline-block;
-  color: #1f5f8b;
+  color: var(--editorial-link);
   font-weight: 600;
 }
 
@@ -43,7 +43,7 @@
 /* Open editorial grids use the blue rule to introduce their first desktop row. */
 .news-card:nth-child(-n + 2) {
   padding-top: 1rem;
-  border-top: 2px solid #1f5f8b;
+  border-top: var(--editorial-entry-rule);
 }
 
 .news-card-image-link {
@@ -67,12 +67,12 @@
 }
 
 .news-card h3 a {
-  color: #1f5f8b;
+  color: var(--editorial-link);
 }
 
 .news-excerpt {
   margin: 0;
-  color: #444d56;
+  color: var(--site-text);
   line-height: 1.5;
 }
 

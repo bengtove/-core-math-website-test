@@ -1,26 +1,53 @@
 :root {
+  /* Refined warm-neutral palette: blue remains functional; terracotta is editorial. */
+  --site-outer: #e8e4dd;
+  --site-surface: #fcfaf6;
+  --site-rail: #f0ece5;
+  --site-rail-rule: #d9d3c9;
+  --site-footer: #e8e4dd;
+  --site-text: #302b28;
+  --site-navigation-text: #403d38;
+  --site-control-border: #8a8379;
+  --site-surface-hover: #e7e2da;
+  --brand-blue-deep: #164c74;
   --prose-measure: 52rem;
   --prose-line-height: 1.6;
   --body-text-size: 17px;
   --metadata-text-size: .9rem;
   --label-text-size: .8rem;
-  --content-rule: #d8e0e5;
-  --content-surface: #f3f7f9;
+  --content-rule: #d4cec4;
+  --content-surface: #f4f0e9;
   --content-surface-padding: 1rem 1.1rem 1.15rem;
   --content-surface-padding-generous: 1.25rem;
   --catalogue-entry-padding: 1.1rem 0 1.2rem;
   --editorial-blue: #1f5f8b;
-  --editorial-heading: #20262b;
+  --editorial-accent: #874432;
+  --editorial-heading: #302b28;
   --editorial-link: #315d7b;
-  --editorial-muted: #596873;
+  --editorial-muted: #625d57;
   --editorial-entry-padding: .9rem;
-  --editorial-entry-rule: 2px solid var(--editorial-blue);
+  --editorial-entry-rule: 2px solid var(--editorial-accent);
   --editorial-section-rule-offset: .45rem;
   --editorial-section-rule: 1px solid var(--content-rule);
   --editorial-grid-columns: repeat(2, minmax(0, 1fr));
   --editorial-grid-column-gap: 2.25rem;
   --editorial-grid-row-gap: 1.5rem;
   --editorial-grid-gap: var(--editorial-grid-row-gap) var(--editorial-grid-column-gap);
+}
+
+/* Primer supplies the base document styles; these semantic overrides keep the
+ * site palette explicit and make warm surfaces consistent across templates. */
+body,
+.site-main.markdown-body {
+  color: var(--site-text);
+}
+
+.site-main.markdown-body :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--editorial-heading);
+}
+
+.site-main.markdown-body a {
+  color: var(--editorial-link);
 }
 
 /*
@@ -62,7 +89,7 @@
 
 /* A consistent, high-contrast focus treatment for keyboard users. */
 :where(a, button, summary, select, input, textarea):focus-visible {
-  outline: 3px solid #1f5f8b;
+  outline: 3px solid var(--editorial-blue);
   outline-offset: 3px;
 }
 
@@ -85,14 +112,14 @@
 }
 
 .parent-context a {
-  color: #596873;
+  color: var(--editorial-muted);
   font-weight: 600;
   text-decoration: none;
 }
 
 .parent-context a:hover,
 .parent-context a:focus-visible {
-  color: #1f5f8b;
+  color: var(--editorial-blue);
   text-decoration: underline;
 }
 
@@ -121,7 +148,7 @@
 
 .related-content li > span,
 .related-event-meta {
-  color: #596873;
+  color: var(--editorial-muted);
   font-size: var(--metadata-text-size);
 }
 
@@ -133,7 +160,7 @@
 .local-contents strong {
   display: block;
   margin-bottom: .35rem;
-  color: #596873;
+  color: var(--editorial-accent);
   font-size: var(--label-text-size);
   letter-spacing: .04em;
   text-transform: uppercase;
@@ -233,7 +260,7 @@
 
 .publication-listing__meta {
   margin-top: 0;
-  color: #555;
+  color: var(--editorial-muted);
   font-size: .92em;
 }
 

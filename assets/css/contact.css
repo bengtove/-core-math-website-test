@@ -22,7 +22,7 @@
 
 .contact-entry h3 {
   margin: 0;
-  color: #20262b;
+  color: var(--editorial-heading);
   font-size: 1.15rem;
   line-height: 1.35;
 }
@@ -32,13 +32,13 @@
 }
 
 .contact-affiliation {
-  color: #596873;
+  color: var(--editorial-muted);
   font-size: .95em;
   line-height: 1.45;
 }
 
 .contact-email a {
-  color: #315d7b;
+  color: var(--editorial-link);
 }
 
 @media (max-width: 767px) {

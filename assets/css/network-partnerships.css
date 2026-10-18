@@ -7,8 +7,8 @@
 }
 
 .node-card {
-  border-top: 3px solid #1f5f8b;
-  background: #fff;
+  border-top: 3px solid var(--editorial-accent);
+  background: var(--site-surface);
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -31,8 +31,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eef3f6;
-  color: #667681;
+  background: var(--content-surface);
+  color: var(--editorial-muted);
   font-size: .85rem;
   letter-spacing: .04em;
   text-transform: uppercase;
@@ -53,7 +53,7 @@
 
 .node-card-country {
   margin: 0 0 .25rem;
-  color: #667681;
+  color: var(--editorial-muted);
   font-size: .8rem;
   font-weight: 600;
   letter-spacing: .06em;
@@ -76,7 +76,7 @@
   padding: 0;
   border: 0;
   background: transparent;
-  color: #315d7b;
+  color: var(--editorial-link);
   cursor: pointer;
   font: inherit;
   font-weight: 600;
@@ -89,7 +89,7 @@
 
 .node-card-more:focus-visible,
 .member-portrait-dialog__close:focus-visible {
-  outline: 2px solid #1f5f8b;
+  outline: 2px solid var(--editorial-blue);
   outline-offset: 3px;
 }
 
@@ -99,7 +99,7 @@
   max-height: calc(100dvh - 2rem);
   padding: 0;
   border: 0;
-  background: #fff;
+  background: var(--site-surface);
   color: inherit;
 }
 
@@ -121,8 +121,8 @@
   justify-content: space-between;
   gap: 1rem;
   padding: 1.2rem 2rem 1rem;
-  border-bottom: 1px solid #1f5f8b;
-  background: #eef3f6;
+  border-bottom: 1px solid var(--editorial-accent);
+  background: var(--content-surface);
 }
 
 .member-portrait-dialog__close {
@@ -134,14 +134,14 @@
   padding: 0;
   border: 0;
   background: transparent;
-  color: #315d7b;
+  color: var(--editorial-link);
   cursor: pointer;
   font-size: 1.7rem;
   line-height: 1;
 }
 
 .member-portrait-dialog__close:hover {
-  background: #dfe9ee;
+  background: var(--site-surface-hover);
 }
 
 .member-portrait-dialog__content {
@@ -151,7 +151,7 @@
 
 .member-portrait-dialog__country {
   margin: 0 0 .4rem;
-  color: #667681;
+  color: var(--editorial-muted);
   font-size: .8rem;
   font-weight: 600;
   letter-spacing: .06em;
@@ -160,7 +160,7 @@
 
 .member-portrait-dialog__header h2 {
   margin: 0;
-  color: #315d7b;
+  color: var(--editorial-link);
 }
 
 .member-portrait-dialog__content p {
@@ -187,7 +187,7 @@
 
 .partner-card h3 {
   margin: 0 0 .45rem;
-  color: #315d7b;
+  color: var(--editorial-link);
   font-size: 1.15em;
   font-weight: 700;
   line-height: 1.35;

@@ -57,7 +57,7 @@
 .about-gateway h2 {
   margin: 0 0 1rem;
   padding-bottom: .65rem;
-  border-bottom: 1px solid #cdd7dd;
+  border-bottom: 1px solid var(--content-rule);
   color: inherit;
   font-size: clamp(1.75rem, 2.6vw, 2.55rem);
   line-height: 1.12;

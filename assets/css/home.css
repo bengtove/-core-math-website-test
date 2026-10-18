@@ -13,6 +13,7 @@
 }
 .home-hero-name {
   margin: 0 0 .45rem;
+  color: #fff;
   font-size: clamp(2rem, 4vw, 3.5rem);
   line-height: 1;
   font-weight: 700;

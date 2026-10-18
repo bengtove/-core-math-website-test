@@ -13,4 +13,4 @@ In **Uganda**, mathematics camps, school visits and mentorship activities have b
 
 In **Tanzania**, the mathematics network has collaborated with other science partners on activities for school students. In 2024, a five-day Female Science Camp brought together about 60 advanced-level girls from seven secondary schools in Dar es Salaam for activities in mathematics and physics aimed at preparing them for university-level study.
 
-These activities complement [mathematics competitions]({{ '/outreach/mathematics-competitions/' | relative_url }}) by reaching a broader group of young people and showing how mathematics can lead to further study, scientific careers and applications in other fields.
+These activities complement [mathematics competitions]({{ '/programmes/mathematics-competitions/' | relative_url }}) by reaching a broader group of young people and showing how mathematics can lead to further study, scientific careers and applications in other fields.

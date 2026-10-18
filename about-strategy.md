@@ -7,27 +7,27 @@ parent_context_label: About CoRE-Math
 
 <div class="strategy-page">
 
-# CoRE-Math Strategy
+<h1>CoRE-Math Strategy</h1>
 
-## Introduction
+<h2>Introduction</h2>
 
-CoRE-Math is one of the Clusters of Research Excellence established by the African Research Universities Alliance (ARUA) and The Guild of European Research-Intensive Universities. Building on more than three decades of Africa–Europe collaboration in the mathematical sciences, CoRE-Math brings together universities, research groups, and partner organisations to strengthen research, higher education, and institutional capacity in Africa through collaboration and shared expertise.
+<p>CoRE-Math is one of the Clusters of Research Excellence established by the African Research Universities Alliance (ARUA) and The Guild of European Research-Intensive Universities. Building on more than three decades of Africa–Europe collaboration in the mathematical sciences, CoRE-Math brings together universities, research groups, and partner organisations to strengthen research, higher education, and institutional capacity in Africa through collaboration and shared expertise.</p>
 
-This Strategy sets out the long-term direction of CoRE-Math. It is implemented through rolling action plans and will be reviewed and updated periodically to reflect the cluster's development and priorities.
+<p>This Strategy sets out the long-term direction of CoRE-Math. It is implemented through rolling action plans and will be reviewed and updated periodically to reflect the cluster's development and priorities.</p>
 
-## Overall Objective
+<h2>Overall Objective</h2>
 
-*To build sustainable and internationally connected environments for research and higher education in the mathematical sciences through long-term Africa–Europe collaboration.*
+<p><em>To build sustainable and internationally connected environments for research and higher education in the mathematical sciences through long-term Africa–Europe collaboration.</em></p>
 
-## Role
+<h2>Role</h2>
 
-CoRE-Math is a platform for collaboration between mathematics departments, research groups, networks, and partner organisations in Africa and Europe. It strengthens research, postgraduate education, institutional development, and mathematics’s contribution to industry and society through collaboration among people, institutions, and initiatives.
+<p>CoRE-Math is a platform for collaboration between mathematics departments, research groups, networks, and partner organisations in Africa and Europe. It strengthens research, postgraduate education, institutional development, and mathematics’s contribution to industry and society through collaboration among people, institutions, and initiatives.</p>
 
-CoRE-Math develops partnerships, mobilises funding and other resources, and facilitates collaborative activities, including research visits, fellowships, schools, workshops, conferences, and joint funding applications. As a Cluster of Research Excellence, CoRE-Math seeks to build and strengthen research environments in which excellent mathematical research can develop, promoting high scientific standards while creating opportunities for collaboration and researcher development.
+<p>CoRE-Math develops partnerships, mobilises funding and other resources, and facilitates collaborative activities, including research visits, fellowships, schools, workshops, conferences, and joint funding applications. As a Cluster of Research Excellence, CoRE-Math seeks to build and strengthen research environments in which excellent mathematical research can develop, promoting high scientific standards while creating opportunities for collaboration and researcher development.</p>
 
-## Strategic Areas and Objectives
+<h2>Strategic Areas and Objectives</h2>
 
-The following strategic areas guide the long-term development of CoRE-Math and its activities.
+<p>The following strategic areas guide the long-term development of CoRE-Math and its activities.</p>
 
 <div class="strategy-table-wrapper">
   <table class="strategy-table">

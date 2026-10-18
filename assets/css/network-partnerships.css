@@ -27,6 +27,11 @@
   display: block;
 }
 
+/* Crop embedded side margins from source photographs without changing cards. */
+.node-card-image--crop-sides img {
+  transform: scale(1.125);
+}
+
 .node-card-placeholder {
   display: flex;
   align-items: center;

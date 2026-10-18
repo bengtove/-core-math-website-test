@@ -29,7 +29,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
     {% assign member_image = member_image | relative_url %}
   {% endunless %}
   <article class="node-card">
-    <div class="node-card-image"><img src="{{ member_image }}" alt="{{ member.image_alt }}"></div>
+    <div class="node-card-image{% if member.image_crop %} node-card-image--{{ member.image_crop }}{% endif %}"><img src="{{ member_image }}" alt="{{ member.image_alt }}"></div>
     <div class="node-card-body">
       <p class="node-card-country">{{ member.country }}</p>
       <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>

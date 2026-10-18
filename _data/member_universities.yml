@@ -57,6 +57,7 @@
 - name: University of Dar es Salaam
   country: Tanzania
   image: https://www.thecitizen.co.tz/resource/image/5219890/landscape_ratio3x2/1620/1080/fb700ea2e3b74e59f544126af1dbb1a2/uL/udsm-pic.jpg
+  image_crop: crop-sides
   image_alt: University of Dar es Salaam
   url: https://udsm.ac.tz/
   introduction: A founding member of EAUMP with long-standing Nordic collaboration in mathematics. Dar es Salaam contributes to modelling, industrial mathematics, regional schools and Math4SDG.

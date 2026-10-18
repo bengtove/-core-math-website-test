@@ -221,6 +221,55 @@ body,
   margin-top: .4rem;
 }
 
+/* Strategy tables are deliberately editorial: readable on wide screens and
+ * scrollable rather than compressed on the narrowest viewports. */
+.strategy-page {
+  max-width: 64rem;
+}
+
+.strategy-page > p {
+  max-width: var(--prose-measure);
+  line-height: var(--prose-line-height);
+}
+
+.strategy-page > h2 {
+  margin-top: 3rem;
+}
+
+.strategy-table-wrapper {
+  max-width: 64rem;
+  margin-top: 1.5rem;
+  overflow-x: auto;
+}
+
+.strategy-table {
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: collapse;
+  font-size: var(--body-text-size);
+  line-height: var(--prose-line-height);
+}
+
+.strategy-table th,
+.strategy-table td {
+  padding: .9rem 1rem;
+  border-bottom: 1px solid var(--content-rule);
+  text-align: left;
+  vertical-align: top;
+}
+
+.strategy-table thead th {
+  color: var(--editorial-muted);
+  font-size: var(--metadata-text-size);
+  font-weight: 600;
+}
+
+.strategy-table tbody th {
+  width: 34%;
+  color: var(--editorial-heading);
+  font-weight: 700;
+}
+
 /* Ordinary page prose remains aligned with the full-width page structure. */
 .site-main:not(.network-partnerships-page) > p,
 .site-main > blockquote,

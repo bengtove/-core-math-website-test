@@ -348,18 +348,6 @@
     "url": "https://www.simonsfoundation.org"
   },
   {
-    "programme": "Starting Grant",
-    "funder": "European Research Council",
-    "description": "Major grants for early-career researchers of any nationality to establish independent research programmes at institutions in the EU or associated countries",
-    "status": "Open",
-    "deadline": "14 October 2026",
-    "deadline_note": "Annual call, 2027 competition",
-    "support_type": "Postdoc funding",
-    "career_stage": "Early-career",
-    "region": "Global",
-    "url": "https://erc.europa.eu/apply-grant/starting-grant"
-  },
-  {
     "programme": "Strategic Workshops",
     "funder": "ICMS",
     "description": "Funding for workshops addressing emerging, interdisciplinary or strategically important areas of the mathematical sciences",
@@ -418,18 +406,6 @@
     "career_stage": "Early-career, Faculty",
     "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants/research-travel-grants"
-  },
-  {
-    "programme": "Volunteer Lecturer Program",
-    "funder": "IMU–CDC",
-    "description": "Funding for teaching visits to offer courses in the Global South",
-    "status": "Open",
-    "deadline": "15 October 2026",
-    "deadline_note": "Three calls per year, October call",
-    "support_type": "Teaching",
-    "career_stage": "Faculty",
-    "region": "Global South",
-    "url": "https://www.mathunion.org/cdc/grants/volunteer-lecturer-program"
   },
   {
     "programme": "Wellcome Career Development Awards",

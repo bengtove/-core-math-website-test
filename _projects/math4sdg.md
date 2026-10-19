@@ -43,7 +43,7 @@ Math4SDG predates CoRE-Math and is funded and administered through NORHED II and
 
 - [Math4SDG project website — University of Dar es Salaam](https://math4sdg.udsm.ac.tz/)
 - [University of Bergen: Math4SDG](https://www4.uib.no/en/research/research-groups/fluid-mechanics)
-- [Norad: NORHED II portfolio 2021–2026](https://www.norad.no/contentassets/33039772c5f340b8883c1c3147cdbd54/norhed-ii-portfolio-for-2021-2026.pdf)
+- [Norad: NORHED II (2021–2026)](https://www.norad.no/innsikt/tematiske-omrader/utdanning-og-forsking/hoyere-utdanning--sentralt-for-ethvert-lands-utvikling/norhed-ii-2021-2026/)
 
 ## Related news
 

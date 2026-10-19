@@ -71,7 +71,7 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
     <p>ICIAM connects CoRE-Math with the international industrial and applied mathematics community. The partnership supports the development and visibility of applied mathematics in Africa and provides an international context for CoRE-Math’s work in industrial mathematics, research and education.</p>
   </article>
   <article class="partner-card">
-    <h3><a href="https://www.uu.se/en/centre/international-science-programme">International Science Programme (ISP)</a></h3>
+    <h3><a href="https://www.uu.se/en/centre/international-science-programme-isp/about-isp">International Science Programme (ISP)</a></h3>
     <p>ISP at Uppsala University is a formal partner of CoRE-Math. Through agreements with six African member universities, it supports long-term development of mathematical research and postgraduate education, building on decades of collaboration through EAUMP and support to Addis Ababa University, and contributing to CoRE-Math’s coordination and development.</p>
   </article>
 </div>

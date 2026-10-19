@@ -6,6 +6,11 @@ description: Africa–Europe collaboration in the mathematical sciences
 # reproducible and remains available to the custom site styles.
 theme: jekyll-theme-primer
 
+# GitHub Pages supports this plugin. It generates a canonical sitemap from the
+# configured site URL, base URL, pages, posts and output collections.
+plugins:
+  - jekyll-sitemap
+
 baseurl: "/-core-math-website-test"
 url: "https://bengtove.github.io"
 

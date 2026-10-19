@@ -1,6 +1,6 @@
 # CoRE-Math technical design specification
 
-This reference describes the implementation on `main` as of October 2026. It documents the approved warm-neutral and terracotta palette, not the earlier experimental palette studies. It is a maintenance reference: it does not create new design rules.
+This reference describes the implementation on `main` as of October 2026. It documents the approved warm-neutral and terracotta palette, not the earlier experimental palette studies. It is a maintenance reference: it does not create new design rules. For open consistency decisions, see [the design-consistency audit](design-consistency-audit.md).
 
 ## CSS architecture
 
@@ -68,9 +68,9 @@ Terracotta is intentionally limited to editorial orientation labels and entry ru
 - Sustained prose line-height is `1.6`; specific introductions may use `1.65`.
 - Major structured landing-page sections generally use `3rem` to `3.75rem` vertical separation. Page-specific styles retain purposeful variations.
 - The shared two-column editorial grid has a `2.25rem` column gap and `1.5rem` row gap (`--editorial-grid-gap`). Components may use a different row gap when their content needs it.
-- A quiet section divider is `1px solid var(--content-rule)`. It appears beneath selected structured-section headings through shared selectors; narrative headings do not automatically receive a rule.
+- A quiet section divider is `1px solid var(--content-rule)`. It appears beneath selected structured-section headings through shared selectors; narrative headings and headings that immediately introduce an editorial grid do not automatically receive a rule.
 - An editorial entry rule is `2px solid var(--editorial-accent)` with `.9rem` opening padding. It is terracotta in the current palette, despite older documentation referring to it as blue.
-- In multi-row editorial grids, entry rules normally appear only on the original desktop first row. Later rows use whitespace. Full details are in [editorial-grid conventions](editorial-grid-conventions.md).
+- In multi-row editorial grids, entry rules normally appear only on the first row of the component's widest standard layout. Later rows use whitespace. The original entry assignment persists at narrower breakpoints. Full details are in [editorial-grid conventions](editorial-grid-conventions.md).
 
 ## Links and interactive states
 
@@ -108,7 +108,7 @@ Do not treat every repeated item as an editorial grid. Tables, chronological eve
 
 ### Homepage
 
-The homepage combines a full-width photograph with an opaque blue identity overlay, introductory copy, and a sequence of editorial entry points. It uses:
+The homepage combines a full-width photograph with a dark-blue identity overlay, introductory copy, and a sequence of editorial entry points. At desktop widths the overlay is translucent (`rgba(22, 76, 116, .92)`); at `760px` and below it becomes an opaque `--brand-blue-deep` panel. It uses:
 
 - three-column `What we do` and Latest News grids at desktop;
 - two-column upcoming-events and working-together grids;
@@ -120,7 +120,7 @@ Homepage section links sit after the relevant content. Headings introducing gene
 
 ### Section landing pages
 
-About, Research, Education, Outreach, Programmes & Projects and Network & Partnerships use the shared site frame but select the component appropriate to their content. Introductory prose is narrower than the structured content area. Open editorial columns use a first-row terracotta rule and whitespace for later rows. Section heading rules appear only where the page’s established pattern calls for them.
+About, Research, Education, Outreach, Programmes & Projects and Network & Partnerships use the shared site frame but select the component appropriate to their content. Introductory prose is narrower than the structured content area. Open editorial columns use a first-row terracotta rule and whitespace for later rows. Section heading rules appear only where the page’s established pattern calls for them; a grey rule is not a universal H2 treatment.
 
 The About page is narrative with a two-column activity grid and gateway links. Network & Partnerships uses a three-column image directory for universities and two-column open partner grids. Research uses group, project and seminar grids, but keeps Publications quieter. Education distinguishes its school/event list and mobility entries. Programmes & Projects retains categories and metadata-rich entries. Outreach uses a concise two-column activity grid.
 
@@ -170,3 +170,4 @@ These are documentation/maintenance observations, not proposals for a current vi
 - The shared editorial-entry token is terracotta, while some older comments and documentation used the word “blue.” This document and `editorial-grid-conventions.md` now describe the implemented palette.
 - The news lightbox has its own high-contrast overlay/control colours (`#0969da`, `#58a6ff`, white and dark translucent surfaces). It is an interaction-specific exception to the palette tokens and should be reviewed only as part of a dedicated lightbox change.
 - Some components use their own responsive thresholds (`600px`, `700px`, `850px`) and row gaps. They reflect specialised content density and should not be globally consolidated without visual verification.
+- The member-university directory uses a `3px` terracotta top marker on every image card. It is a specialised image directory rather than an open editorial grid; whether that exception should remain is recorded as an unresolved design decision in [the design-consistency audit](design-consistency-audit.md).

@@ -272,8 +272,7 @@
     "deadline_note": "Programme-specific deadlines",
     "support_type": "Research collaboration",
     "career_stage": "Faculty",
-    "region": "Global South, Nordic",
-    "url": "https://www.nordforsk.org/funding"
+    "region": "Global South, Nordic"
   },
   {
     "programme": "Research Programs",
@@ -464,7 +463,6 @@
     "deadline_note": "Rolling applications",
     "support_type": "Event organisation",
     "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://www.cirm-math.fr/en/programmes.html"
+    "region": "Global"
   }
 ]

@@ -16,7 +16,7 @@ about_page: true
   <section class="about-background" aria-labelledby="about-background-heading">
     <h2 id="about-background-heading">Background</h2>
     <p>CoRE-Math was established in 2024 as an ARUA–The Guild Cluster of Research Excellence. It builds on more than three decades of collaboration in mathematics between African and European universities, including the Eastern Africa Universities Mathematics Programme (EAUMP), long-term ISP support, Sida-supported bilateral research programmes, and Nordic–African university partnerships.</p>
-    <p class="about-section-link"><strong><a class="action-link" href="{{ '/about/development/' | relative_url }}">Read more: The development of CoRE-Math<span class="link-arrow">&nbsp;→</span></a></strong></p>
+    <p class="about-section-link"><a class="action-link" href="{{ '/about/development/' | relative_url }}">Read more: The development of CoRE-Math<span class="link-arrow">&nbsp;→</span></a></p>
   </section>
 
   <section class="about-goal" aria-labelledby="about-goal-heading">

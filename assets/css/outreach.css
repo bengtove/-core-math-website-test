@@ -49,4 +49,10 @@
   .outreach-activity-grid {
     grid-template-columns: 1fr;
   }
+
+  /* In the single-column layout, every activity begins an entry. */
+  .outreach-activity {
+    padding-top: var(--editorial-entry-padding);
+    border-top: var(--editorial-entry-rule);
+  }
 }

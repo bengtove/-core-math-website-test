@@ -142,6 +142,13 @@
     grid-template-columns: 1fr;
   }
 
+  /* Each stacked school or mobility programme is an editorial entry. */
+  .school-entry,
+  .mobility-entry {
+    padding-top: var(--editorial-entry-padding);
+    border-top: var(--editorial-entry-rule);
+  }
+
   .school-meta {
     display: grid;
     gap: .15rem;

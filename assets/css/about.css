@@ -85,4 +85,9 @@
   .about-activity-grid,
   .about-gateway-grid { grid-template-columns: 1fr; }
 
+  /* The activities become individual editorial entries on small screens. */
+  .about-activity {
+    border-top: var(--editorial-entry-rule);
+  }
+
 }

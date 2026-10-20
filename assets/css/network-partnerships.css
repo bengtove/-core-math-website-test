@@ -219,6 +219,9 @@
 @media (max-width: 700px) {
   .partner-grid { grid-template-columns: 1fr; }
 
+  /* Partner entries are individually introduced once this grid stacks. */
+  .partner-card { border-top: var(--editorial-entry-rule); }
+
   .member-portrait-dialog__header { padding: 1rem 1.25rem .85rem; }
 
   .member-portrait-dialog__content { padding: 1.25rem 1.25rem 1.5rem; }

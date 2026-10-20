@@ -141,4 +141,12 @@
   .research-layout { margin-top: 2rem; }
 
   .research-tile-grid { grid-template-columns: 1fr; }
+
+  /* Once entries stack, each needs its own editorial boundary. */
+  .research-groups-grid .research-group-tile,
+  .research-project-list .research-tile,
+  .research-series-list .research-tile {
+    padding-top: var(--editorial-entry-padding);
+    border-top: var(--editorial-entry-rule);
+  }
 }

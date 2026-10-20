@@ -173,6 +173,13 @@
     grid-template-columns: 1fr;
   }
 
+  /* Preserve an entry boundary for each item once the grids stack. */
+  .programme-entry,
+  .projects-list .project-entry {
+    padding-top: var(--editorial-entry-padding);
+    border-top: var(--editorial-entry-rule);
+  }
+
   .programme-entry p,
   .project-entry .entry-description,
   .project-meta {

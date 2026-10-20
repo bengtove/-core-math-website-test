@@ -5,6 +5,7 @@ date: 2026-10-07
 location: "KwaZulu-Natal, South Africa"
 category: "Fellowships"
 image: "/assets/images/news/ukzn-fellowships-2027.png"
+card_excerpt: "Four fully funded CoRE-Math fellowships will support research visits to the University of KwaZulu-Natal in 2027, enabling collaboration between African researchers and UKZN mathematicians across fields."
 ---
 
 CoRE-Math is offering four fully funded fellowships for research visits to the University of KwaZulu-Natal (UKZN) in South Africa in 2027.

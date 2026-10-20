@@ -1,0 +1,22 @@
+{%- assign supplied_excerpt = include.post.card_excerpt | default: include.post.home_excerpt -%}
+{%- if supplied_excerpt -%}
+  {{- supplied_excerpt | markdownify | strip_html | strip_newlines | strip -}}
+{%- else -%}
+  {%- assign source_excerpt = include.post.excerpt | markdownify | strip_html | strip_newlines | strip -%}
+  {%- assign sentence_parts = source_excerpt | split: ". " -%}
+  {%- assign first_sentence = sentence_parts | first -%}
+  {%- if sentence_parts.size > 1 -%}
+    {%- assign first_sentence = first_sentence | append: "." -%}
+  {%- endif -%}
+  {%- assign first_word_count = first_sentence | number_of_words -%}
+  {%- assign card_excerpt = first_sentence -%}
+  {%- if first_word_count < 25 and sentence_parts.size > 1 -%}
+    {%- assign second_sentence = sentence_parts[1] -%}
+    {%- assign two_sentence_excerpt = first_sentence | append: " " | append: second_sentence -%}
+    {%- assign two_sentence_word_count = two_sentence_excerpt | number_of_words -%}
+    {%- if two_sentence_word_count <= 30 -%}
+      {%- assign card_excerpt = two_sentence_excerpt -%}
+    {%- endif -%}
+  {%- endif -%}
+  {{- card_excerpt | truncatewords: 30, "" | strip -}}
+{%- endif -%}

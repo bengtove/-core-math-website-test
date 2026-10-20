@@ -5,6 +5,7 @@ date: 2026-10-19
 location: "Uppsala, Sweden"
 category: "Fellowships"
 image: "/assets/images/news/core-math-fellows-uppsala-2026.jpg"
+card_excerpt: "Five CoRE-Math fellows visiting Uppsala University met hosts and ISP, mathematics and statistics staff, highlighting research visits that strengthen partnerships and professional development across participating African and European universities."
 ---
 
 Five researchers visiting Uppsala University through the [CoRE-Math Fellowship Programme]({{ '/programmes/core-math-fellowships/' | relative_url }}) met with their hosts and staff from the International Science Programme (ISP), the Department of Mathematics and the Department of Statistics for an informal lunch at the Ångström Laboratory.

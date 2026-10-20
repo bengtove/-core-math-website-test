@@ -66,8 +66,7 @@ homepage: true
       {% endif %}
       <p class="home-news-meta">{{ post.date | date: "%-d %B %Y" }}{% if post.location %} · {{ post.location }}{% endif %}</p>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      {% assign post_summary = post.home_excerpt | default: post.excerpt %}
-      <p>{{ post_summary | strip_html | truncatewords: 28 }}</p>
+      <p>{% include news-card-excerpt.html post=post %}</p>
     </article>
     {% endfor %}
   </div>

@@ -61,7 +61,7 @@ news_events: true
     <div class="news-card-content">
       <div class="news-date">{{ post.date | date: "%-d %B %Y" }}</div>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p class="news-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncatewords: 28 }}</p>
+      <p class="news-excerpt">{% include news-card-excerpt.html post=post %}</p>
     </div>
   </article>
 {% endfor %}

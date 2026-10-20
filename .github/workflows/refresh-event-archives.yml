@@ -1,0 +1,27 @@
+name: Refresh event archives daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Allow the final day of an event to finish in UTC before rebuilding.
+    - cron: "17 0 * * *"
+
+permissions:
+  pages: write
+
+concurrency:
+  group: daily-event-pages-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-pages:
+    name: Request GitHub Pages rebuild
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Trigger Pages build without committing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+        run: |
+          gh api --method POST "repos/${GH_REPOSITORY}/pages/builds" --silent

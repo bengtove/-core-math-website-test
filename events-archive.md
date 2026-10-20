@@ -11,11 +11,23 @@ parent_context_label: News & Events
 {% assign today = site.time | date: "%Y%m%d" %}
 {% assign events_by_date = site.events | sort: "start_date" | reverse %}
 {% assign past_event_count = 0 %}
-<div class="event-list">
+{% assign current_year = "" %}
+<div class="past-events">
 {% for event in events_by_date %}
   {% assign event_end = event.end_date | default: event.start_date | date: "%Y%m%d" %}
   {% if event_end < today %}
     {% assign past_event_count = past_event_count | plus: 1 %}
+    {% assign event_year = event.start_date | date: "%Y" %}
+    {% if current_year != event_year %}
+      {% if current_year != "" %}
+      </div>
+    </section>
+      {% endif %}
+      {% assign current_year = event_year %}
+    <section class="past-events-year" aria-labelledby="past-events-{{ event_year }}">
+      <h2 id="past-events-{{ event_year }}">{{ event_year }}</h2>
+      <div class="event-list event-list--year">
+    {% endif %}
     <div class="event-item">
       <div class="event-date">
         {% if event.end_date %}
@@ -39,6 +51,10 @@ parent_context_label: News & Events
     </div>
   {% endif %}
 {% endfor %}
+{% if past_event_count > 0 %}
+</div>
+</section>
+{% endif %}
 </div>
 {% if past_event_count == 0 %}
 <p>No past events have been added yet.</p>

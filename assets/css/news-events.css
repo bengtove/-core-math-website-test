@@ -6,6 +6,25 @@
   border-top: var(--editorial-entry-rule);
 }
 
+.past-events {
+  margin-bottom: 2.5rem;
+}
+
+.past-events-year + .past-events-year {
+  margin-top: 2.5rem;
+}
+
+.past-events-year > h2 {
+  padding-bottom: var(--editorial-section-rule-offset);
+  border-bottom: var(--editorial-section-rule);
+}
+
+.event-list--year {
+  margin: .75rem 0 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .event-item {
   display: grid;
   grid-template-columns: minmax(0, 25%) minmax(0, 1fr);

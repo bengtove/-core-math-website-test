@@ -1,6 +1,7 @@
 ---
 title: "Study Group with Industry in Kampala"
 start_date: 2026-09-21
+end_date: 2026-09-25
 location: "Kampala, Uganda"
 type: study-group-with-industry
 programme: study-groups-with-industry

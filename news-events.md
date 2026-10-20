@@ -76,3 +76,7 @@ news_events: true
   <span aria-hidden="true">·</span>
   <a href="{{ "/news/archive/2024/" | relative_url }}">2024</a>
 </div>
+
+## External Coverage
+
+<p><a class="action-link" href="{{ '/news/external-coverage/' | relative_url }}">Browse external coverage<span class="link-arrow">&nbsp;→</span></a></p>

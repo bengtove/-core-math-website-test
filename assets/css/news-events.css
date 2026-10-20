@@ -94,9 +94,49 @@
   margin: 0.55rem 0;
 }
 
+/* External coverage is a chronological archive with its source kept visible. */
+.external-coverage-list {
+  margin-top: 1.25rem;
+}
+
+.external-coverage-item {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr) minmax(11rem, .8fr);
+  gap: 1rem;
+  padding: .9rem 0;
+  border-bottom: 1px solid var(--content-rule);
+}
+
+.external-coverage-item:first-child {
+  border-top: 1px solid var(--content-rule);
+}
+
+.external-coverage-date,
+.external-coverage-source {
+  color: var(--editorial-muted);
+}
+
+.external-coverage-title > a {
+  color: var(--editorial-link);
+  font-weight: 600;
+}
+
+.external-coverage-title p {
+  margin: .35rem 0 0;
+}
+
+.external-coverage-source span {
+  display: block;
+}
+
+.external-coverage-source span + span {
+  margin-top: .25rem;
+}
+
 @media (max-width: 600px) {
   .event-item,
-  .news-archive-item {
+  .news-archive-item,
+  .external-coverage-item {
     grid-template-columns: 1fr;
     gap: 0.25rem;
   }

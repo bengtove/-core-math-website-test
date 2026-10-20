@@ -72,3 +72,16 @@ The following should not receive duplicate records.
 3. Reconcile the Kampala SGI Event record’s missing end date with the documented 21–25 September 2026 duration. This is a metadata-completeness issue, not a missing Event.
 4. Establish an authoring check for future news posts: when a post reports a dated, significant activity, decide at publication time whether an Events record is also required and record the relationship metadata then.
 5. Keep the Previous schools archive as the comprehensive pre-2024 history. Use the Events collection for selected historical records only when they are needed for a current programme, project or research-group timeline.
+
+## Follow-up verification — 20 October 2026
+
+Five further records were verified and added to the Events collection: the 2025 Rwanda Mathematics Competition provincial second stage; the Makerere–CIMPA School on Effective Algebra and the LMFDB (13–24 January 2025); Kenya Pi Day competitions (15 March 2025); the Austria–Uganda Workshop in Geometry and Representation Theory (22–23 July 2025, Vienna); and the Joint African–Nordic Conference in Mathematics (1–4 August 2023, Makerere University).
+
+The original first African–Nordic candidate was described as a 2022 event. Contemporary material documents a 27–29 October 2022 announcement, but later institutional records identify the conference that took place as the four-day 1–4 August 2023 event. The Event record therefore uses the verified 2023 dates and does not create an unsupported 2022 record.
+
+The remaining research candidates require the following treatment:
+
+- **ETICAM-2:** externally confirmed as a 10–13 February 2025 Addis Ababa event of the Naples–Addis Ababa Scientific Cooperation (NAA∫CO), but no CoRE-Math or associated-programme relationship is documented. Recommend exclusion unless that relationship is established.
+- **ESPIDAM 2025:** externally confirmed at Stockholm University on 23–27 June 2025, supported by Stockholm University and NordForsk. No CoRE-Math, programme, project or research-network relationship is documented. Recommend exclusion.
+- **Women in Sage–Burundi (2024) and Women in Sage–Tunisia (2025):** dates, venues and organisers are now documented, but Women in Math presents WiS-Africa as a related initiative rather than a CoRE-Math programme, project or formal partner. Recommend deferring inclusion unless the archive is explicitly expanded to cover related-initiative events.
+- **International Day of Mathematics activities in Tanzania:** the repository confirms 14 March 2025 in Zanzibar and school-project competitions, but does not identify organisers or a documented CoRE-Math relationship. Recommend exclusion pending a reliable local source.

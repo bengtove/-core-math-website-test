@@ -6,23 +6,14 @@ category: "Industry and Society"
 image: "/assets/images/members/makerere-university-campus.webp"
 ---
 
-The Study Group with Industry (SGI), held at Makerere University on 21–25 September 2026, brought together mathematicians, students and representatives from industry and public institutions to investigate practical challenges using mathematical modelling.
+The Study Group with Industry (SGI), held at Makerere University on 21–25 September 2026, brought together mathematicians, students and representatives from industry and public institutions to investigate practical challenges using mathematical modelling. The event built on a contact workshop organised in Kampala in June, where researchers and potential industry partners identified problems suitable for mathematical investigation.
 
-Working in interdisciplinary groups, participants addressed four problems:
+Working in interdisciplinary groups, participants investigated four challenges spanning public administration, healthcare, agriculture and business. These concerned Uganda’s transition between public-service pension systems, the prediction of hypertension risk, investment decisions in aquaculture, and the optimisation of seating arrangements in food courts. The groups explored how mathematical models and analytical methods could contribute to understanding these problems and identifying possible solutions.
 
-- **Public-service pensions:** Modelling Uganda's transition between pension systems.
-- **Hypertension:** Developing approaches to predicting hypertension risk.
-- **Aquaculture:** Investigating investment decisions and economic sustainability.
-- **Food services:** Optimising seating arrangements in food courts.
+The study group provided an opportunity for researchers and students to engage directly with organisations facing practical challenges, while demonstrating the potential of mathematical sciences to contribute to economic and societal development. It also strengthened connections between universities and external partners, creating opportunities for further collaboration and research.
 
-The study group demonstrated how mathematical expertise can contribute to problems in public administration, healthcare, agriculture and business. It also provided opportunities for researchers and students to work directly with organisations facing these challenges.
+The Kampala SGI forms part of CoRE-Math’s efforts to develop industrial mathematics in Africa, building on earlier study groups and related initiatives in the region. Makerere University’s College of Natural Sciences has published a detailed account of the event, including descriptions of the problems investigated and photographs.
 
-The event followed a contact workshop held in Kampala in June 2026, which helped identify suitable problems and establish connections between mathematicians and potential industry partners.
+[Kampala Study Group with Industry]({{ '/projects/kampala-sgi-2026/' | relative_url }})
 
-The SGI forms part of CoRE-Math's efforts to strengthen collaboration between universities, industry and society, building on earlier mathematical study groups organised in East Africa.
-
-For event information, see [Kampala Study Group with Industry]({{ '/projects/kampala-sgi-2026/' | relative_url }}).
-
-Makerere University's College of Natural Sciences has published a detailed account of the event, including descriptions of the problems investigated and photographs.
-
-[Read the full article published by Makerere University.]({{ '/news/external-coverage/#makerere-kampala-sgi-2026' | relative_url }})
+[Read the Makerere University article]({{ '/news/external-coverage/#makerere-kampala-sgi-2026' | relative_url }})

@@ -3,7 +3,7 @@ title: "Kampala Study Group with Industry tackles regional development challenge
 date: 2026-10-02
 location: "Kampala, Uganda"
 category: "Industry and Society"
-image: "/assets/images/news/kampala-sgi-2026-opening-ceremony.jpg"
+image: "/assets/images/news/kampala-sgi-2026-alexandre-lyambabaje.jpg"
 ---
 
 The Study Group with Industry (SGI), held at Makerere University on 21–25 September 2026, brought together mathematicians, students and representatives from industry and public institutions to investigate practical challenges using mathematical modelling. The event built on a contact workshop organised in Kampala in June, where researchers and potential industry partners identified problems suitable for mathematical investigation.

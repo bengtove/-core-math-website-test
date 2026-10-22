@@ -1,8 +1,8 @@
 ---
 title: "Resources"
 permalink: /resources/
-parent_context_url: /
-parent_context_label: Home
+parent_context_url: /about/
+parent_context_label: About
 ---
 
 # Resources

@@ -67,4 +67,9 @@ about_page: true
       <p class="about-gateway-link"><a class="action-link" href="{{ '/about/organisation/' | relative_url }}">Read more about the CoRE-Math organisation and governance<span class="link-arrow">&nbsp;→</span></a></p>
     </section>
   </div>
+
+  <section aria-labelledby="further-information-heading">
+    <h2 id="further-information-heading">Further information</h2>
+    <p>Official documents, reports and other resources relating to CoRE-Math are available on the <a href="{{ '/resources/' | relative_url }}">Resources</a> page.</p>
+  </section>
 </div>

@@ -11,8 +11,8 @@ theme: jekyll-theme-primer
 plugins:
   - jekyll-sitemap
 
-baseurl: "/-core-math-website-test"
-url: "https://bengtove.github.io"
+baseurl: ""
+url: "https://www.africaeuropecoremath.org"
 
 permalink: /news/:year/:title/
 

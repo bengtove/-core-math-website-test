@@ -31,8 +31,6 @@ Researchers in EAALG also participate in regional and international collaboratio
 - David Ssevviiri — Makerere University
 - Alex B. Tumwesigye — Makerere University
 
-{% include related-events.html relationship="research_group" identifier=page.research_group_id heading="Workshops and events" reverse=true %}
-
 ## Selected publications
 
 The publications below are a selection of work by researchers associated with EAALG.

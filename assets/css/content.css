@@ -107,13 +107,13 @@ body,
 /* Quiet, reusable orientation for detail pages within a collection. */
 .parent-context {
   margin: 0 0 1.1rem;
-  font-size: var(--metadata-text-size);
-  line-height: 1.4;
+  font-size: var(--body-text-size);
+  line-height: var(--prose-line-height);
 }
 
 .parent-context a {
-  color: var(--editorial-muted);
-  font-weight: 600;
+  color: var(--editorial-link);
+  font-weight: 400;
   text-decoration: none;
 }
 

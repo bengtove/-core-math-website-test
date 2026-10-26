@@ -6,7 +6,7 @@ news_events: true
 
 # External Coverage
 
-[← News & Events]({{ '/news-events/' | relative_url }})
+<p class="parent-context"><a href="{{ '/news-events/' | relative_url }}"><span aria-hidden="true">←</span> News &amp; Events</a></p>
 
 Articles about CoRE-Math published by universities, research organisations, media and other external sources.
 

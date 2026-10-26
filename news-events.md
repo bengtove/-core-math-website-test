@@ -6,6 +6,39 @@ news_events: true
 
 # News & Events
 
+## Latest News
+
+<div class="latest-news">
+{% for post in site.posts limit:6 %}
+  <article class="news-card{% if post.image %} news-card--with-image{% endif %}">
+    {% if post.image %}
+    <a class="news-card-image-link" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
+      <img class="news-card-image" src="{{ post.image | relative_url }}" alt="">
+    </a>
+    {% endif %}
+    <div class="news-card-content">
+      <div class="news-date">{{ post.date | date: "%-d %B %Y" }}</div>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="news-excerpt">{% include news-card-excerpt.html post=post %}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+
+## News archive
+
+<div class="news-archive-years">
+  <a href="{{ "/news/archive/2026/" | relative_url }}">2026</a>
+  <span aria-hidden="true">·</span>
+  <a href="{{ "/news/archive/2025/" | relative_url }}">2025</a>
+  <span aria-hidden="true">·</span>
+  <a href="{{ "/news/archive/2024/" | relative_url }}">2024</a>
+</div>
+
+## External Coverage
+
+<p><a class="action-link" href="{{ '/news/external-coverage/' | relative_url }}">Browse external coverage<span class="link-arrow">&nbsp;→</span></a></p>
+
 ## Upcoming Events
 
 {% assign today = site.time | date: "%Y%m%d" %}
@@ -47,36 +80,3 @@ news_events: true
 ## Past events
 
 <p><a class="action-link" href="{{ '/events/archive/' | relative_url }}">Browse past events<span class="link-arrow">&nbsp;→</span></a></p>
-
-## Latest News
-
-<div class="latest-news">
-{% for post in site.posts limit:6 %}
-  <article class="news-card{% if post.image %} news-card--with-image{% endif %}">
-    {% if post.image %}
-    <a class="news-card-image-link" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
-      <img class="news-card-image" src="{{ post.image | relative_url }}" alt="">
-    </a>
-    {% endif %}
-    <div class="news-card-content">
-      <div class="news-date">{{ post.date | date: "%-d %B %Y" }}</div>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p class="news-excerpt">{% include news-card-excerpt.html post=post %}</p>
-    </div>
-  </article>
-{% endfor %}
-</div>
-
-## News archive
-
-<div class="news-archive-years">
-  <a href="{{ "/news/archive/2026/" | relative_url }}">2026</a>
-  <span aria-hidden="true">·</span>
-  <a href="{{ "/news/archive/2025/" | relative_url }}">2025</a>
-  <span aria-hidden="true">·</span>
-  <a href="{{ "/news/archive/2024/" | relative_url }}">2024</a>
-</div>
-
-## External Coverage
-
-<p><a class="action-link" href="{{ '/news/external-coverage/' | relative_url }}">Browse external coverage<span class="link-arrow">&nbsp;→</span></a></p>

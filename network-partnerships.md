@@ -88,6 +88,10 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
     <p>CoE-MaSS is a South African network for pure mathematics, applied mathematics and statistics, hosted by the University of the Witwatersrand. CoRE-Math is developing collaboration with CoE-MaSS in research, postgraduate education, industrial mathematics, schools and workshops, early-career development and scientific networking.</p>
   </article>
   <article class="partner-card">
+    <h3>Ethiopian–Norwegian Network in Computational Mathematics (ENNCoMat)</h3>
+    <p>CoRE-Math has initiated collaboration with ENNCoMat, a network of Ethiopian and Norwegian universities coordinated by Hawassa University and NTNU. The collaboration focuses on computational and applied mathematics, particularly Study Groups with Industry, research collaboration and postgraduate education. It builds on ENNCoMat’s experience in connecting mathematical research and education with practical challenges from industry and society.</p>
+  </article>
+  <article class="partner-card">
     <h3><a href="https://www.ictp.it/">International Centre for Theoretical Physics (ICTP)</a></h3>
     <p>ICTP has long collaborated with universities and networks that now participate in CoRE-Math. The collaboration includes schools and other activities supporting research and postgraduate education in mathematics, bringing international researchers together with students and early-career mathematicians from across Africa and Europe.</p>
   </article>

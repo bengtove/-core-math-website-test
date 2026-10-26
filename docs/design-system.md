@@ -130,7 +130,7 @@ Collection detail pages are long-form content pages with an automatic parent-con
 
 ### News articles and event pages
 
-News posts and event pages are long-form articles with a parent-context link to News & Events. The heading is followed by date/location metadata. Event pages may add organiser, external link and generated related programme/project/research-group relationships. News images may use the accessible lightbox; list images are optional and no placeholder image is added for a post without one.
+News posts and event pages are long-form articles with a parent-context link to News & Events. The heading is followed by date/location metadata. Event pages may add organiser, external link and generated related programme/project/research-group relationships. Inline news figures are centred and capped at `36rem`, use the available content width on narrow screens, and retain their natural aspect ratios. Their left-aligned captions share the figure width and use muted `0.875rem` text. News images may use the accessible lightbox; list images are optional and no placeholder image is added for a post without one.
 
 ### Research-group pages and publications
 

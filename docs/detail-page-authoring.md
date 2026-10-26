@@ -57,3 +57,12 @@ relevant page record. If any of this is uncertain, do not publish the image
 until it has been clarified. Permission for one image or publication does not
 extend to other material. Before reusing an image in a report, presentation or
 other publication, confirm that its permission covers that new use.
+
+### News photographs
+
+New or substantially revised news posts should use a `<figure>` containing an
+`<img>` and `<figcaption>` for each editorial photograph. Give every image
+meaningful alternative text, and use a concise caption that includes the
+appropriate credit. Record the image source and permission information using
+the practice above. Existing historical posts do not need to be converted
+unless their caption, credit and permission information can be verified.

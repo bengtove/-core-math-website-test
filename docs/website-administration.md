@@ -1,7 +1,7 @@
 # CoRE-Math website administration
 
 This note records the practical information needed to maintain or recover the
-CoRE-Math website. It was reviewed on 25 October 2026. Repository facts below
+CoRE-Math website. It was reviewed on 26 October 2026. Repository facts below
 are verified from the working repository; Wix registration and billing details
 are administrative information supplied by the site owner and should be
 checked in Wix before acting on them.
@@ -38,6 +38,71 @@ In particular, daily event-archive rebuilding and the funding-opportunities
 import depend on GitHub Actions continuing to run against this repository and
 its `main` branch. The funding import requires the repository secret
 `CODA_API_TOKEN`; its value must never be recorded here.
+
+## Website analytics
+
+The website uses [Freqo](https://freqo.eu) for anonymous usage statistics for
+`africaeuropecoremath.org`. The service is administered through the Freqo
+account registered with an ISP email address. It is intended to provide visitor
+and page-view counts, popular pages, referring websites, country-level
+geographical distribution, and related aggregate browser and device data.
+
+The site is configured in Freqo's **Essential** mode. This is the anonymous,
+cookie-free counting mode: it does not display a consent banner and does not
+recognise returning visitors. Freqo states that anonymous statistics are hosted
+in France and retained for 25 months. The site should continue to avoid adding
+other analytics, cookies, or consent features unless a deliberate privacy
+decision is made.
+
+### Integration and maintenance
+
+The integration was added in commit `d407577`. Its shared include is
+[`_includes/freqo-analytics.html`](../_includes/freqo-analytics.html), which is
+included in both [`_layouts/default.html`](../_layouts/default.html) and
+[`_layouts/redirect.html`](../_layouts/redirect.html). The include emits the
+deferred Freqo script only when both conditions are true:
+
+- Jekyll is building in the `production` environment; and
+- `site.url` is exactly `https://www.africaeuropecoremath.org`.
+
+Consequently, ordinary local Jekyll development builds and previews do not
+contain the tracking script. A developer should not deliberately set
+`JEKYLL_ENV=production` against the production URL for a preview unless that
+preview is intended to be tracked.
+
+The tracking identifier is the public `data-site` value in the include; it is
+not an account credential. To replace or remove Freqo, edit or remove that
+include rather than adding code to individual pages, then commit and deploy as
+usual. Keep account passwords, recovery codes and any future API credentials
+outside the repository.
+
+To view statistics, sign in to the Freqo dashboard with the ISP-administered
+account, select the CoRE-Math site, and choose the required date range. The
+dashboard provides its aggregate traffic views, including pages, traffic
+sources, countries and devices. To exclude an administrator's own browser from
+future counting, visit the live site once with `#freqo-ignore` appended to its
+URL (for example `https://www.africaeuropecoremath.org/#freqo-ignore`). To
+resume counting in that browser, use `#freqo-unignore`. This preference is
+stored only in that browser's local storage.
+
+### Statistics export and privacy
+
+Freqo publicly documents CSV export for its statistics, including the
+dashboard's traffic breakdowns such as pages, sources, countries and devices.
+Its public pricing states that the Free plan includes all analytics, so CSV
+export appears to be available there; confirm this in the account before
+depending on it for a formal reporting workflow. The public documentation does
+not specify the exact dashboard export controls or whether every view has a
+separate export. Record any established export procedure here after it has been
+confirmed in the account. Freqo states that statistics are retained for 25
+months, so export periodic reports if longer historical retention is required.
+
+The service records anonymous audience measurements in Essential mode. Freqo
+states that it does not store visitors' IP addresses, track people across sites,
+sell statistics or move visitor data outside France. The site has no current
+privacy notice or cookie policy in the repository. Whether to add a short
+privacy notice is an editorial and governance decision; consult the relevant
+institutional privacy guidance before changing public wording.
 
 ## Domain registration and DNS
 

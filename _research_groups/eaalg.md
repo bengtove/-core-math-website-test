@@ -17,15 +17,15 @@ Researchers in EAALG also participate in regional and international collaboratio
 
 ## Coordinators
 
-- David Ssevviiri — Makerere University
-- Alex S. Bamunoba — Makerere University
-- Alex B. Tumwesigye — Makerere University
-- Layla Sorkatti — Al Neelain University
-- Jared Ongaro — University of Nairobi
 - Tilahun Abebaw — Addis Ababa University
+- Adson Banda — University of Zambia
+- Alex S. Bamunoba — Makerere University
 - Iara Goncalves — Universidade Eduardo Mondlane
 - Celestin Kurujyibwami — University of Rwanda
-- Adson Banda — University of Zambia
+- Jared Ongaro — University of Nairobi
+- Layla Sorkatti — Al Neelain University
+- David Ssevviiri — Makerere University
+- Alex B. Tumwesigye — Makerere University
 
 {% include related-events.html relationship="research_group" identifier=page.research_group_id heading="Workshops and events" reverse=true %}
 
@@ -45,3 +45,10 @@ The publications below are a selection of work by researchers associated with EA
 {% include publication-listing.html publication=publication suppress_research_group=true suppress_node=true %}
 {% endfor %}
 {% endfor %}
+
+## Contact
+
+For enquiries about research collaboration and participation in the group’s activities, please contact:
+
+- David Ssevviiri — Makerere University<br>
+  [ssevviiridaudi@gmail.com](mailto:ssevviiridaudi@gmail.com)

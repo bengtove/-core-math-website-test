@@ -41,3 +41,12 @@ The publications below are records in the CoRE-Math publication dataset explicit
 {% endfor %}
 
 <p><a class="action-link" href="https://african-enumerative-combinatorics.github.io/">Visit the AECC website<span class="link-arrow">&nbsp;→</span></a></p>
+
+## Contact
+
+For enquiries about research collaboration and participation in the group’s activities, please contact:
+
+- Olivia Nabawanda — Makerere University<br>
+  [nabawandaolivia100@gmail.com](mailto:nabawandaolivia100@gmail.com)
+- Samuel Fufa — Addis Ababa University<br>
+  [samuel.asefa@aau.edu.et](mailto:samuel.asefa@aau.edu.et)

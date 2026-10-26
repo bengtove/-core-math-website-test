@@ -27,3 +27,12 @@ The publications below are records in the CoRE-Math publication dataset explicit
 {% include publication-listing.html publication=publication show_meta=false %}
 {% endfor %}
 {% endfor %}
+
+## Contact
+
+For enquiries about research collaboration and participation in the group’s activities, please contact:
+
+- Banzi Wellars — University of Rwanda<br>
+  [webanzi@gmail.com](mailto:webanzi@gmail.com)
+- Hamidou Touré — Joseph Ki-Zerbo University<br>
+  [toureh98@gmail.com](mailto:toureh98@gmail.com)

@@ -27,3 +27,10 @@ The publications below are records in the CoRE-Math publication dataset explicit
 {% include publication-listing.html publication=publication show_meta=false %}
 {% endfor %}
 {% endfor %}
+
+## Contact
+
+For enquiries about research collaboration and participation in the group’s activities, please contact:
+
+- Patrick Weke — University of Nairobi<br>
+  [pweke@uonbi.ac.ke](mailto:pweke@uonbi.ac.ke)

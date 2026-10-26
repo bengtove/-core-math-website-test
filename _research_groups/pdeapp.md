@@ -3,6 +3,7 @@ layout: default
 title: "PDEAPP – Partial Differential Equations and Applications"
 type: research-group
 research_group_id: pdeapp
+render_related_events: false
 ---
 
 # PDEAPP – Partial Differential Equations and Applications
@@ -12,6 +13,8 @@ Partial Differential Equations and Applications (PDEAPP) is a regional research 
 Its objectives include developing new research projects, strengthening proposal and grant-writing capacity, supporting MSc and PhD students, and promoting North–South and South–South research collaboration through research visits.
 
 The network has included researchers from Université Joseph Ki-Zerbo, Addis Ababa University, Eduardo Mondlane University, the University of Rwanda, Busitema University, Makerere University and the University of Zambia. ISP support to the network ran through 2025.
+
+{% include related-events.html relationship="research_group" identifier=page.research_group_id heading="Related events" plain=true %}
 
 ## Selected publications
 

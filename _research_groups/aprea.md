@@ -3,6 +3,7 @@ layout: default
 title: "APREA – Applied Probability Research in Eastern Africa"
 type: research-group
 research_group_id: aprea
+render_related_events: false
 ---
 
 # APREA – Applied Probability Research in Eastern Africa
@@ -12,6 +13,8 @@ Applied Probability Research in Eastern Africa (APREA) is a regional research gr
 The network has included researchers from the University of Nairobi, Kenyatta University, the Technical University of Kenya, Makerere University, Kyambogo University and Eduardo Mondlane University. Its principal collaborating institutions in Sweden have been KTH Royal Institute of Technology and Linköping University.
 
 APREA was supported by the International Science Programme (ISP) through 2025.
+
+{% include related-events.html relationship="research_group" identifier=page.research_group_id heading="Related events" plain=true %}
 
 ## Selected publications
 

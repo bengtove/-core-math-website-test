@@ -11,9 +11,13 @@ The Eastern Africa Algebra Research Group (EAALG) brings together researchers in
 
 EAALG organises research workshops and connects researchers and graduate students across the region with international collaborators. Its activities are closely linked to broader collaborations and training initiatives in algebra and geometry, including activities supported through CoRE-Math.
 
+<p><a class="action-link" href="https://sites.google.com/view/eaalg/home">Visit the EAALG website<span class="link-arrow">&nbsp;→</span></a></p>
+
 ## Related collaborations
 
 Researchers in EAALG also participate in regional and international collaborations in algebra, algebraic geometry and related fields. These include the Africa-UniNet-supported Uganda–Austria Collaboration in Algebra and Geometry, running from October 2024 to September 2027.
+
+{% include related-events.html relationship="research_group" identifier=page.research_group_id heading="Related events" reverse=true plain=true %}
 
 ## Coordinators
 
@@ -32,8 +36,6 @@ Researchers in EAALG also participate in regional and international collaboratio
 ## Selected publications
 
 The publications below are a selection of work by researchers associated with EAALG.
-
-<p><a class="action-link" href="https://sites.google.com/view/eaalg/home">EAALG website<span class="link-arrow">&nbsp;→</span></a></p>
 
 {% assign eaalg_publications = site.data.publications | where_exp: "publication", "publication.research_groups contains 'EAALG'" %}
 {% assign years = eaalg_publications | map: "year" | uniq | sort | reverse %}

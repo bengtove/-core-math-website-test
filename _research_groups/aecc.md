@@ -3,6 +3,7 @@ layout: default
 title: "AECC – African Enumerative Combinatorics Community"
 type: research-group
 research_group_id: aecc
+render_related_events: false
 ---
 
 # AECC – African Enumerative Combinatorics Community
@@ -11,9 +12,13 @@ The African Enumerative Combinatorics Community (AECC) brings together students 
 
 AECC builds on an earlier regional collaboration in enumerative combinatorics, the **Combinatorial Research Studio (CoRS)**. CoRS was established with support from ISP and Sida bilateral research programmes and brought together researchers from Addis Ababa University, the University of Antananarivo, Makerere University and Mbarara University of Science and Technology, with international collaboration involving Stockholm University and Université Paris Cité.
 
+<p><a class="action-link" href="https://african-enumerative-combinatorics.github.io/">Visit the AECC website<span class="link-arrow">&nbsp;→</span></a></p>
+
 ## Seminar series
 
 AECC organises a regular online seminar series in enumerative combinatorics, providing a meeting place for researchers and students across institutions and countries.
+
+{% include related-events.html relationship="research_group" identifier=page.research_group_id heading="Related events" plain=true %}
 
 ## Committee
 
@@ -39,8 +44,6 @@ The publications below are records in the CoRE-Math publication dataset explicit
 {% include publication-listing.html publication=publication show_meta=false %}
 {% endfor %}
 {% endfor %}
-
-<p><a class="action-link" href="https://african-enumerative-combinatorics.github.io/">Visit the AECC website<span class="link-arrow">&nbsp;→</span></a></p>
 
 ## Contact
 

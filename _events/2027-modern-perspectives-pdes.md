@@ -5,6 +5,7 @@ end_date: 2027-08-06
 location: "Addis Ababa University, Addis Ababa, Ethiopia"
 type: school
 programme: core-math-schools
+research_group: pdeapp
 external_url: https://cimpa.info/index.php/en/ecoles/modern-perspectives-partial-differential-equations-theory-and-applications
 external_label: "School website"
 ---

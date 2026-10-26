@@ -1,7 +1,7 @@
 {% assign related_events = site.events | where: include.relationship, include.identifier | sort: "start_date" %}
 {% if include.reverse == true %}{% assign related_events = related_events | reverse %}{% endif %}
 {% if related_events.size > 0 %}
-<section class="related-content related-events" aria-labelledby="related-events-heading">
+<section class="{% unless include.plain == true %}related-content {% endunless %}related-events" aria-labelledby="related-events-heading">
   <h2 id="related-events-heading">{{ include.heading | default: "Related events" }}</h2>
   <ul>
   {% for event in related_events %}

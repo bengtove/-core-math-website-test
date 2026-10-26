@@ -43,3 +43,17 @@ Use explicit action labels on their own line when linking from a catalogue or ed
 - `Read the report →`
 
 Use a descriptive external-link label when an external destination is the primary source, for example `Visit the FAME website →`.
+
+## Images and permissions
+
+Verify permission or an applicable licence before publishing a photograph,
+illustration or other image. A publicly available image is not automatically
+available for reuse, and an institution supplying an image must have the right
+to authorise its reuse.
+
+Record the image source, copyright holder where known, permission or licence,
+and required attribution in maintainable metadata alongside the image or in the
+relevant page record. If any of this is uncertain, do not publish the image
+until it has been clarified. Permission for one image or publication does not
+extend to other material. Before reusing an image in a report, presentation or
+other publication, confirm that its permission covers that new use.

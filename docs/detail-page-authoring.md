@@ -82,6 +82,9 @@ image_permission: "approved-web"
 image_license: "CC BY 4.0" # when applicable
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_modification: "Cropped to 16:9." # when applicable; also state when it depicts a different activity
+image_caption_context: "Kampala SGI 2026" # optional, short public context
+image_caption_permission: "Used with permission" # optional, short public notice
+image_caption_modification: "Cropped" # optional, short public notice
 image_archive_id: "CM-PH-000000"
 ```
 
@@ -93,14 +96,15 @@ empty alternative text and is removed from the keyboard tab order because the
 adjacent linked event title provides the single accessible destination.
 
 When `image_credit` and `image_source` are supplied, the homepage renders a
-small, keyboard-accessible **Photo credit** disclosure directly beneath the
-thumbnail. It keeps the card headings aligned while retaining the full credit,
-source link, licence link where applicable, permission notice and modification
-statement. An `approved-web` image without a licence is labelled “Used with
-permission”. Use `image_title` and `image_modification` to state a source
-title, any crop or other adaptation, and—where relevant—that an illustrative
-photograph depicts a different activity. This is required for Creative Commons
-images that require attribution or a notice of changes.
+short, always-visible caption directly beneath the thumbnail. Use
+`image_caption_context`, `image_caption_permission`, and
+`image_caption_modification` where needed to form the public caption. On
+desktop, the caption reserves two lines so the event-card headings align; on
+small screens it takes only the space it needs. For a Creative Commons image,
+the photographer name links to the source and the licence name links to the
+licence. Keep fuller provenance, permission evidence, source title and any
+explanation of an illustrative image in the photograph archive and event
+metadata. Use `image_title` and `image_modification` for that detailed record.
 
 Record the source, credit, licence or permission evidence, and archive
 identifier before using the image. A homepage thumbnail does not automatically

@@ -96,12 +96,9 @@ homepage: true
         {% assign event_description = event.content | markdownify | split: "</p>" | first | strip_html | strip_newlines %}
         <article class="home-editorial-entry" data-home-event data-start-date="{{ event.start_date | date: '%Y-%m-%d' }}" data-end-date="{{ event.end_date | default: event.start_date | date: '%Y-%m-%d' }}"{% if upcoming_event_count > 2 %} hidden{% endif %}>
           {% if event.image and homepage_event_image_statuses contains event.image_permission %}
-          <a class="home-event-image{% if event.image_credit and event.image_source %} home-event-image--credited{% endif %}" href="{{ event.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ event.image | relative_url }}" alt="" loading="lazy"></a>
+          <a class="home-event-image" href="{{ event.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ event.image | relative_url }}" alt="" loading="lazy"></a>
           {% if event.image_credit and event.image_source %}
-          <details class="home-event-image-credit">
-            <summary>Photo credit</summary>
-            <p>Photo: {% if event.image_title %}“{{ event.image_title }}” by {% endif %}{{ event.image_credit }} · <a href="{{ event.image_source }}" target="_blank" rel="noopener noreferrer">{% if event.image_license %}Original photograph{% else %}Source{% endif %}</a>{% if event.image_license %} · <a href="{{ event.image_license_url | default: event.image_source }}" target="_blank" rel="noopener noreferrer">{{ event.image_license }}</a>{% elsif event.image_permission == "approved-web" %} · Used with permission{% endif %}{% if event.image_modification %} · {{ event.image_modification }}{% endif %}</p>
-          </details>
+          <p class="home-event-image-credit">Photo: {% if event.image_license %}<a href="{{ event.image_source }}" target="_blank" rel="noopener noreferrer" aria-label="{{ event.image_credit }} — original photograph{% if event.image_title %}: {{ event.image_title }}{% endif %}">{{ event.image_credit }}</a>{% else %}{{ event.image_credit }}{% endif %}{% if event.image_caption_context %}, {{ event.image_caption_context }}{% endif %}{% if event.image_license %}, <a href="{{ event.image_license_url | default: event.image_source }}" target="_blank" rel="noopener noreferrer">{{ event.image_license }}</a>{% endif %}{% if event.image_caption_permission %}. {{ event.image_caption_permission }}{% endif %}{% if event.image_caption_modification %}. {{ event.image_caption_modification }}{% endif %}</p>
           {% endif %}
           {% endif %}
           <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>

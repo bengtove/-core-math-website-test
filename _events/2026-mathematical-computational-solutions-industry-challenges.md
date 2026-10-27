@@ -14,6 +14,8 @@ image_credit: "Makerere University, College of Natural Sciences"
 image_source: "https://cns.mak.ac.ug/mak-core-math-project-partners-develop-models-to-address-regional-development-challenges/"
 image_permission: "approved-web"
 image_modification: "Cropped to 16:9. Photograph from the Kampala Study Group with Industry, September 2026; it does not depict the forthcoming University of Dar es Salaam event."
+image_caption_context: "Kampala SGI 2026"
+image_caption_permission: "Used with permission"
 image_archive_id: "CM-PH-000022"
 ---
 

@@ -14,6 +14,7 @@ image_permission: "CC/licensed"
 image_license: "CC BY-SA 3.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
 image_modification: "Cropped to 16:9."
+image_caption_modification: "Cropped"
 image_archive_id: "CM-PH-000029"
 ---
 

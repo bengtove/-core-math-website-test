@@ -92,13 +92,15 @@ asset and later editorial reuse. On the homepage, the thumbnail itself has an
 empty alternative text and is removed from the keyboard tab order because the
 adjacent linked event title provides the single accessible destination.
 
-When `image_credit` and `image_source` are supplied, the homepage also renders
-a compact visible credit and source link. A licence link is added when
-`image_license` is supplied; an `approved-web` image without a licence is
-labelled “Used with permission”. Use `image_title` and `image_modification` to
-state a source title, any crop or other adaptation, and—where relevant—that an
-illustrative photograph depicts a different activity. This is required for
-Creative Commons images that require attribution or a notice of changes.
+When `image_credit` and `image_source` are supplied, the homepage renders a
+small, keyboard-accessible **Photo credit** disclosure directly beneath the
+thumbnail. It keeps the card headings aligned while retaining the full credit,
+source link, licence link where applicable, permission notice and modification
+statement. An `approved-web` image without a licence is labelled “Used with
+permission”. Use `image_title` and `image_modification` to state a source
+title, any crop or other adaptation, and—where relevant—that an illustrative
+photograph depicts a different activity. This is required for Creative Commons
+images that require attribution or a notice of changes.
 
 Record the source, credit, licence or permission evidence, and archive
 identifier before using the image. A homepage thumbnail does not automatically

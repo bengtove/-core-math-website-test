@@ -98,7 +98,10 @@ homepage: true
           {% if event.image and homepage_event_image_statuses contains event.image_permission %}
           <a class="home-event-image{% if event.image_credit and event.image_source %} home-event-image--credited{% endif %}" href="{{ event.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ event.image | relative_url }}" alt="" loading="lazy"></a>
           {% if event.image_credit and event.image_source %}
-          <p class="home-event-image-credit home-news-meta">Photo: {% if event.image_title %}“{{ event.image_title }}” by {% endif %}{{ event.image_credit }} · <a href="{{ event.image_source }}" target="_blank" rel="noopener noreferrer">{% if event.image_license %}Original photograph{% else %}Source{% endif %}</a>{% if event.image_license %} · <a href="{{ event.image_license_url | default: event.image_source }}" target="_blank" rel="noopener noreferrer">{{ event.image_license }}</a>{% elsif event.image_permission == "approved-web" %} · Used with permission{% endif %}{% if event.image_modification %} · {{ event.image_modification }}{% endif %}</p>
+          <details class="home-event-image-credit">
+            <summary>Photo credit</summary>
+            <p>Photo: {% if event.image_title %}“{{ event.image_title }}” by {% endif %}{{ event.image_credit }} · <a href="{{ event.image_source }}" target="_blank" rel="noopener noreferrer">{% if event.image_license %}Original photograph{% else %}Source{% endif %}</a>{% if event.image_license %} · <a href="{{ event.image_license_url | default: event.image_source }}" target="_blank" rel="noopener noreferrer">{{ event.image_license }}</a>{% elsif event.image_permission == "approved-web" %} · Used with permission{% endif %}{% if event.image_modification %} · {{ event.image_modification }}{% endif %}</p>
+          </details>
           {% endif %}
           {% endif %}
           <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>

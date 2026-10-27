@@ -150,7 +150,9 @@ programmes_projects: true
 
         <article class="project-entry">
           <h4>{{ lake_victoria.title }}</h4>
-          <p class="entry-description">A developing CoRE-Math research collaboration bringing together mathematicians and researchers from other disciplines around challenges connected with the Lake Victoria region. The project aims to develop interdisciplinary research, regional collaboration and joint funding initiatives around problems where the mathematical sciences can make a contribution.</p>
+          <p class="entry-description">The Lake Victoria Living Lab is a CoRE-Math initiative to develop and apply mathematical, statistical and computational methods to scientific and societal challenges in the Lake Victoria Basin. The initiative brings together mathematical scientists, researchers from other disciplines and regional stakeholders to address interconnected challenges involving water quality, climate change, fisheries, ecosystems and sustainable development.</p>
+          <p class="entry-description">A central objective is to improve the integration of observational data, remote sensing and mathematical models to better understand complex environmental systems and support evidence-informed decision-making. The initiative will explore the development of a regional data and modelling platform, alongside collaborative research projects addressing specific scientific questions. Initial pilot studies may focus on lake circulation and transport processes and their connections with water quality, fisheries and environmental risks.</p>
+          <p class="entry-description">The initiative aims to establish long-term interdisciplinary research collaboration between African and European institutions, strengthening research capacity through postgraduate education, joint supervision, researcher mobility and scientific workshops. Although centred on Lake Victoria, the methods and approaches developed are intended to be applicable to other lake systems and river basins.</p>
           <p class="project-meta"><span>External support:</span> NORHED II / Math4SDG (project-development workshop)</p>
         </article>
 

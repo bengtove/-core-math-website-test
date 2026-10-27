@@ -79,7 +79,7 @@ These are published as accessible dialogs on `/network-partnerships/`; the fragm
 | --- | --- | --- | --- | --- |
 | Applied Mathematics for Earth Observation | `/projects/applied-mathematics-for-earth-observation/` | Programmes & Projects / Research | Project | No — linked from listings |
 | Flagship of Advanced Mathematics for Sensing, Imaging and Modelling (FAME) | `/projects/fame/` | Programmes & Projects | Project | No — linked from listings |
-| Lake Victoria project | `/projects/lake-victoria/` | Programmes & Projects / Research | Project | No — linked from listings |
+| Lake Victoria Living Lab | `/projects/lake-victoria/` | Programmes & Projects / Research | Project | No — linked from listings |
 | Mathematics for Sustainable Development (Math4SDG) | `/projects/math4sdg/` | Programmes & Projects / Research | Project | No — linked from listings |
 | Sida-supported collaboration | `/projects/sida-supported-collaboration/` | Programmes & Projects | Project | No — linked from listings |
 | SPIRIT | `/projects/spirit/` | Programmes & Projects / Research | Project | No — linked from listings |
@@ -103,7 +103,7 @@ These are published as accessible dialogs on `/network-partnerships/`; the fragm
 | EAALG Workshop and 10th Anniversary Nairobi Workshop in Algebraic Geometry | `/events/2025-eaalg-nairobi-workshop-algebraic-geometry/` | News & Events / EAALG | Event | No — Past events and EAALG |
 | 2026 School on Arithmetic, Geometry and Algorithms | `/events/2026-arithmetic-geometry-algorithms-addis-ababa/` | News & Events / CoRE-Math Schools | Event | No — Past events and Schools |
 | Study Group with Industry in Kampala | `/events/2026-kampala-study-group-with-industry/` | News & Events / Industrial Mathematics | Event | No — Past events and programme |
-| Lake Victoria Workshop | `/events/2026-lake-victoria-workshop/` | News & Events / Lake Victoria project | Event | No — current event listing and project |
+| Lake Victoria Workshop | `/events/2026-lake-victoria-workshop/` | News & Events / Lake Victoria Living Lab | Event | No — current event listing and project |
 | Mathematical and Computational Solutions to Industry Challenges | `/events/2026-mathematical-computational-solutions-industry-challenges/` | News & Events / Industrial Mathematics / Math4SDG | Event | No — current event listing and related pages |
 | Austria–Uganda Workshop on Algebra and Geometry | `/events/2027-austria-uganda-workshop-algebra-geometry/` | News & Events / EAALG | Event | No — current event listing and EAALG |
 | Pan-African Mathematics Olympiad (PAMO 2027) | `/events/2027-pan-african-mathematics-olympiad/` | News & Events / Mathematics Competitions | Event | No — current event listing and programme |

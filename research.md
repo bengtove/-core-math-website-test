@@ -43,9 +43,9 @@ Research within CoRE-Math brings together researchers across African and Europea
           <p>Connects mathematics and medicine around the use and analysis of health data.</p>
         </article>
         <article class="research-tile">
-          <h3>Lake Victoria project</h3>
+          <h3>Lake Victoria Living Lab</h3>
           <p>A developing interdisciplinary research collaboration around challenges connected with the Lake Victoria region.</p>
-          <p class="research-entry-link"><a class="action-link" href="{{ '/projects/lake-victoria/' | relative_url }}" aria-label="About the project: Lake Victoria project">About the project<span class="link-arrow">&nbsp;→</span></a></p>
+          <p class="research-entry-link"><a class="action-link" href="{{ '/projects/lake-victoria/' | relative_url }}" aria-label="About the project: Lake Victoria Living Lab">About the project<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
         <article class="research-tile">
           <h3>Mathematics for Sustainable Development (Math4SDG)</h3>

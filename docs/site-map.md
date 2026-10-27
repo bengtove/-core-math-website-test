@@ -70,7 +70,7 @@ flowchart TD
     - **Research projects and collaborations** (also linked from Programmes & Projects)
       - [Applied Mathematics for Earth Observation](/projects/applied-mathematics-for-earth-observation/)
       - [Flagship of Advanced Mathematics for Sensing, Imaging and Modelling (FAME)](/projects/fame/)
-      - [Lake Victoria project](/projects/lake-victoria/)
+      - [Lake Victoria Living Lab](/projects/lake-victoria/)
       - [Mathematics for Sustainable Development (Math4SDG)](/projects/math4sdg/)
       - [Sida-supported collaboration](/projects/sida-supported-collaboration/)
       - [SPIRIT](/projects/spirit/)
@@ -97,7 +97,7 @@ flowchart TD
     - **Projects and collaborations**
       - [Applied Mathematics for Earth Observation](/projects/applied-mathematics-for-earth-observation/)
       - [Flagship of Advanced Mathematics for Sensing, Imaging and Modelling (FAME)](/projects/fame/)
-      - [Lake Victoria project](/projects/lake-victoria/)
+      - [Lake Victoria Living Lab](/projects/lake-victoria/)
       - [Mathematics for Sustainable Development (Math4SDG)](/projects/math4sdg/)
       - [Sida-supported collaboration](/projects/sida-supported-collaboration/)
       - [SPIRIT](/projects/spirit/)

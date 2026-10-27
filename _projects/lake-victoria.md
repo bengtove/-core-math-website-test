@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Lake Victoria project"
+title: "Lake Victoria Living Lab"
 project_id: "lake-victoria"
 type: project
 section: research
 ---
 
-# Lake Victoria project
+# Lake Victoria Living Lab
 
 The Lake Victoria Living Lab is a CoRE-Math initiative to develop and apply mathematical, statistical and computational methods to scientific and societal challenges in the Lake Victoria Basin. The initiative brings together mathematical scientists, researchers from other disciplines and regional stakeholders to address interconnected challenges involving water quality, climate change, fisheries, ecosystems and sustainable development.
 

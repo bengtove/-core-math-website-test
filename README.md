@@ -2,6 +2,11 @@
 
 Test website for CoRE-Math.
 
+## Documentation
+
+For website maintenance, editorial procedures, design, metadata, deployment
+and recovery, start with the [CoRE-Math website documentation](docs/README.md).
+
 ## Events
 
 Dated activities are stored as Markdown records in `_events/`. This is the central register for schools, research workshops, conferences, mathematics competitions, modelling weeks, Study Groups with Industry and other network events.

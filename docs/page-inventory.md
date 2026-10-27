@@ -1,6 +1,6 @@
 # CoRE-Math website page inventory
 
-Snapshot: 18 October 2026. This inventory uses the current Jekyll configuration, front matter, collections and navigation data. Site-relative URLs are shown; on the test site each is served below `/-core-math-website-test/`.
+Snapshot: 18 October 2026. This inventory uses the Jekyll configuration, front matter, collections and navigation data at that time. Site-relative URLs resolve from the production site root, `https://www.africaeuropecoremath.org/`. Refresh it after structural or route changes; it is not a live catalogue.
 
 ## Verification scope
 

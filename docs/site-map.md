@@ -1,6 +1,6 @@
 # CoRE-Math website site map
 
-Snapshot: 18 October 2026. This map is derived from the Jekyll configuration, content collections, front matter, and the current main navigation. URLs are site-relative; on the test site they sit below `/-core-math-website-test/`.
+Snapshot: 18 October 2026. This map is derived from the Jekyll configuration, content collections, front matter, and the main navigation at that time. URLs are site-relative and resolve from the production site root, `https://www.africaeuropecoremath.org/`. Refresh the map after structural or route changes; it is not a live catalogue.
 
 **Main navigation** marks pages present in the desktop rail and mobile menu. Other entries are published pages reached from those sections, contextual links, listings, or legacy redirects.
 

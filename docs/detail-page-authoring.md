@@ -81,7 +81,7 @@ image_source: "Source URL or archive reference"
 image_permission: "approved-web"
 image_license: "CC BY 4.0" # when applicable
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
-image_modification: "Cropped to 16:9." # when applicable
+image_modification: "Cropped to 16:9." # when applicable; also state when it depicts a different activity
 image_archive_id: "CM-PH-000000"
 ```
 
@@ -92,11 +92,13 @@ asset and later editorial reuse. On the homepage, the thumbnail itself has an
 empty alternative text and is removed from the keyboard tab order because the
 adjacent linked event title provides the single accessible destination.
 
-When `image_credit`, `image_source`, and `image_license` are supplied, the
-homepage also renders a compact visible credit with links to the original
-photograph and licence. Use `image_title` and `image_modification` to state a
-source title and any crop or other adaptation. This is required for Creative
-Commons images that require attribution or a notice of changes.
+When `image_credit` and `image_source` are supplied, the homepage also renders
+a compact visible credit and source link. A licence link is added when
+`image_license` is supplied; an `approved-web` image without a licence is
+labelled “Used with permission”. Use `image_title` and `image_modification` to
+state a source title, any crop or other adaptation, and—where relevant—that an
+illustrative photograph depicts a different activity. This is required for
+Creative Commons images that require attribution or a notice of changes.
 
 Record the source, credit, licence or permission evidence, and archive
 identifier before using the image. A homepage thumbnail does not automatically

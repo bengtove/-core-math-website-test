@@ -7,6 +7,14 @@ organiser: "Math4SDG project, University of Dar es Salaam"
 type: research-workshop
 programme: study-groups-with-industry
 project: math4sdg
+image: "/assets/images/events/mathematical-computational-solutions-industry-challenges-kampala-sgi.jpg"
+image_alt: "Three participants at the Kampala Study Group with Industry working together around a laptop."
+image_title: "Participants working collaboratively at the Kampala Study Group with Industry"
+image_credit: "Makerere University, College of Natural Sciences"
+image_source: "https://cns.mak.ac.ug/mak-core-math-project-partners-develop-models-to-address-regional-development-challenges/"
+image_permission: "approved-web"
+image_modification: "Cropped to 16:9. Photograph from the Kampala Study Group with Industry, September 2026; it does not depict the forthcoming University of Dar es Salaam event."
+image_archive_id: "CM-PH-000022"
 ---
 
 The Math4SDG project at the University of Dar es Salaam is organising a programme combining practical training in data analysis and machine learning with collaboration between students, university researchers and industry representatives.

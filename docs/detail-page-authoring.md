@@ -22,6 +22,30 @@ Use the available information to provide, in this order where relevant:
 
 Existing historical content should be preserved. A short record does not need invented sections merely to match a richer page.
 
+## Events and news posts
+
+### Event pages
+
+Event pages are the principal, lasting record of CoRE-Math activities. Before
+an event, record its objectives, programme where available, organisers, dates,
+location and other relevant factual information. After it has taken place, add
+a brief factual account. When a report or other output becomes available,
+incorporate it into, or link to it from, the Event page. Do not present
+anticipated outcomes as established results.
+
+### News posts
+
+News posts should normally be short and timely, highlighting the main
+development rather than reproducing the full Event description. Link to the
+relevant Event or Project page for more detailed information. A post may stand
+alone when no corresponding Event or Project page exists.
+
+### Cross-linking
+
+Where both an Event page and a News post exist, provide simple links in both
+directions. Avoid unnecessary duplication: the Event page holds the durable
+record, while the News post provides the timely account.
+
 ## Contextual navigation
 
 Programme, project and research-group pages generated from their respective collections receive a parent-context link automatically. This returns visitors to Programmes & Projects or Research groups, as appropriate.

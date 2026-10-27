@@ -10,3 +10,5 @@ programme: study-groups-with-industry
 The 2026 CoRE-Math Study Group with Industry brought together mathematicians, students and industry partners in Kampala to work on problems originating outside academia.
 
 Activities included a Mathematics–Industry Contact Workshop in Kampala in June 2026, bringing mathematics and industry participants together ahead of the Study Group.
+
+[Read the news article: Kampala Study Group with Industry tackles regional development challenges →]({{ '/news/2026/study-group-with-industry/' | relative_url }})

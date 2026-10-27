@@ -82,9 +82,9 @@ image_permission: "approved-web"
 image_license: "CC BY 4.0" # when applicable
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_modification: "Cropped to 16:9." # when applicable; also state when it depicts a different activity
-image_caption_context: "Kampala SGI 2026" # optional, short public context
-image_caption_permission: "Used with permission" # optional, short public notice
-image_caption_modification: "Cropped" # optional, short public notice
+image_caption_context: "Kampala SGI 2026" # optional, short public context; omit terminal punctuation
+image_caption_permission: "Used with permission" # optional, short public notice; omit terminal punctuation
+image_caption_modification: "Cropped" # optional, short public notice; omit terminal punctuation
 image_archive_id: "CM-PH-000000"
 ```
 

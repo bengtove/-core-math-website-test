@@ -85,6 +85,38 @@ URL (for example `https://www.africaeuropecoremath.org/#freqo-ignore`). To
 resume counting in that browser, use `#freqo-unignore`. This preference is
 stored only in that browser's local storage.
 
+### Development and live-site testing
+
+Local development builds and previews do not load Freqo because the shared
+include requires both Jekyll's `production` environment and the production
+site URL. GitHub Actions builds, local-asset validation, `curl` checks and
+other HTTP-only checks also do not create Freqo page views: they do not execute
+the tracking JavaScript.
+
+In contrast, an interactive browser visit to the live site can be counted.
+Do not assume that an administrator's existing exclusion applies to a Codex
+browser, an automated browser, a private window, or another browser profile:
+each has separate local storage. Before an interactive live-site test in any
+such context, open the relevant production URL with `#freqo-ignore` appended,
+for example:
+
+```text
+https://www.africaeuropecoremath.org/#freqo-ignore
+```
+
+Then carry out further checks in that same browser profile. The current Freqo
+script processes this hash before its tracking initialisation and saves
+`freqo_ignore=true` in that profile's local storage. Do not use
+`#freqo-unignore` in a test profile unless future visits from that profile are
+intended to be counted. This exclusion is local to the testing browser and
+does not affect genuine visitors or historical statistics.
+
+For future Codex work, prefer non-browser checks for routine deployment
+verification. When browser rendering, touch interaction, or accessibility
+testing of the live site is necessary, establish `#freqo-ignore` first in the
+exact browser profile used for the test and record that the visual test was
+performed with analytics excluded.
+
 ### Statistics export and privacy
 
 Freqo publicly documents CSV export for its statistics, including the

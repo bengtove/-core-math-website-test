@@ -4,6 +4,7 @@ title: "Lake Victoria Living Lab"
 project_id: "lake-victoria"
 type: project
 section: research
+summary: "The Lake Victoria Living Lab is a developing interdisciplinary research initiative applying mathematical, statistical and computational methods to challenges involving water quality, climate, fisheries and sustainable development in the Lake Victoria Basin."
 ---
 
 # Lake Victoria Living Lab

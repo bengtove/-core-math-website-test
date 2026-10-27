@@ -152,6 +152,7 @@ programmes_projects: true
           <h4>{{ lake_victoria.title }}</h4>
           <p class="entry-description">{{ lake_victoria.summary }}</p>
           <p class="project-meta"><span>External support:</span> NORHED II / Math4SDG (project-development workshop)</p>
+          <p class="entry-link"><a class="action-link" href="{{ lake_victoria.url | relative_url }}" aria-label="About the project: {{ lake_victoria.title }}">About the project<span class="link-arrow">&nbsp;→</span></a></p>
         </article>
 
         <article class="project-entry">

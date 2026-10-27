@@ -123,12 +123,14 @@ When `image_credit` and `image_source` are supplied, the homepage renders a
 short, always-visible caption directly beneath the thumbnail. Use
 `image_caption_context`, `image_caption_permission`, and
 `image_caption_modification` where needed to form the public caption. On
-desktop, the caption reserves two lines so the event-card headings align; on
-small screens it takes only the space it needs. For a Creative Commons image,
-the photographer name links to the source and the licence name links to the
-licence. Keep fuller provenance, permission evidence, source title and any
-explanation of an illustrative image in the photograph archive and event
-metadata. Use `image_title` and `image_modification` for that detailed record.
+desktop, paired event cards with thumbnails share CSS Grid rows, so their
+headings follow the tallest natural caption without a fixed caption height. On
+small screens the cards stack and each caption takes only the space it needs.
+For a Creative Commons image, the photographer name links to the source and
+the licence name links to the licence. Keep fuller provenance, permission
+evidence, source title and any explanation of an illustrative image in the
+photograph archive and event metadata. Use `image_title` and
+`image_modification` for that detailed record.
 
 Record the source, credit, licence or permission evidence, and archive
 identifier before using the image. A homepage thumbnail does not automatically

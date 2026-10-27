@@ -114,6 +114,8 @@ The homepage combines a full-width photograph with a dark-blue identity overlay,
 - two-column upcoming-events and working-together grids;
 - terracotta orientation labels and editorial top rules;
 - a news subgrid to align images, dates, headlines and descriptions on desktop; and
+- optional linked 16:9 Upcoming-events thumbnails, rendered only for Events
+  with an approved image record; and
 - a single-column mobile layout below `760px`.
 
 Homepage section links sit after the relevant content. Headings introducing general sections are plain text; individual news and event titles are clickable.

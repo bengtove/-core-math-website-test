@@ -83,6 +83,7 @@ homepage: true
   <div class="home-event-grid">
     {% assign today = site.time | date: "%Y%m%d" %}
     {% assign events_by_date = site.events | sort: "start_date" %}
+    {% assign homepage_event_image_statuses = "approved-web|CC/licensed|public-domain" | split: "|" %}
     {% assign upcoming_event_count = 0 %}
     {% for event in events_by_date %}
       {% assign event_end = event.end_date | default: event.start_date | date: "%Y%m%d" %}
@@ -94,6 +95,9 @@ homepage: true
         {% assign end_year = event.end_date | default: event.start_date | date: "%Y" %}
         {% assign event_description = event.content | markdownify | split: "</p>" | first | strip_html | strip_newlines %}
         <article class="home-editorial-entry" data-home-event data-start-date="{{ event.start_date | date: '%Y-%m-%d' }}" data-end-date="{{ event.end_date | default: event.start_date | date: '%Y-%m-%d' }}"{% if upcoming_event_count > 2 %} hidden{% endif %}>
+          {% if event.image and homepage_event_image_statuses contains event.image_permission %}
+          <a class="home-event-image" href="{{ event.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ event.image | relative_url }}" alt="" loading="lazy"></a>
+          {% endif %}
           <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
           <p class="home-news-meta">
             {% if event.end_date %}

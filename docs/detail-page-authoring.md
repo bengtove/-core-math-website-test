@@ -66,3 +66,30 @@ meaningful alternative text, and use a concise caption that includes the
 appropriate credit. Record the image source and permission information using
 the practice above. Existing historical posts do not need to be converted
 unless their caption, credit and permission information can be verified.
+
+### Event homepage photographs
+
+An Event may supply an optional featured image for the homepage Upcoming
+events listing. Use the existing image metadata names in its front matter:
+
+```yaml
+image: "path/to/approved-event-image.jpg"
+image_alt: "Factual description of the photograph"
+image_credit: "Photographer or institution"
+image_source: "Source URL or archive reference"
+image_permission: "approved-web"
+image_license: "CC BY 4.0" # when applicable
+image_archive_id: "CM-PH-000000"
+```
+
+The homepage renders an event thumbnail only when `image` is present and
+`image_permission` is one of `approved-web`, `CC/licensed` or
+`public-domain`. `image_alt` records meaningful alternative text for the
+asset and later editorial reuse. On the homepage, the thumbnail itself has an
+empty alternative text and is removed from the keyboard tab order because the
+adjacent linked event title provides the single accessible destination.
+
+Record the source, credit, licence or permission evidence, and archive
+identifier before using the image. A homepage thumbnail does not automatically
+place a photograph on the Event page; that remains a separate editorial
+decision.

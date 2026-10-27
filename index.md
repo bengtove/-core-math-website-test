@@ -96,7 +96,10 @@ homepage: true
         {% assign event_description = event.content | markdownify | split: "</p>" | first | strip_html | strip_newlines %}
         <article class="home-editorial-entry" data-home-event data-start-date="{{ event.start_date | date: '%Y-%m-%d' }}" data-end-date="{{ event.end_date | default: event.start_date | date: '%Y-%m-%d' }}"{% if upcoming_event_count > 2 %} hidden{% endif %}>
           {% if event.image and homepage_event_image_statuses contains event.image_permission %}
-          <a class="home-event-image" href="{{ event.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ event.image | relative_url }}" alt="" loading="lazy"></a>
+          <a class="home-event-image{% if event.image_credit and event.image_source and event.image_license %} home-event-image--credited{% endif %}" href="{{ event.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ event.image | relative_url }}" alt="" loading="lazy"></a>
+          {% if event.image_credit and event.image_source and event.image_license %}
+          <p class="home-event-image-credit home-news-meta">Photo: {% if event.image_title %}“{{ event.image_title }}” by {% endif %}{{ event.image_credit }} · <a href="{{ event.image_source }}" target="_blank" rel="noopener noreferrer">Original photograph</a> · <a href="{{ event.image_license_url | default: event.image_source }}" target="_blank" rel="noopener noreferrer">{{ event.image_license }}</a>{% if event.image_modification %} · {{ event.image_modification }}{% endif %}</p>
+          {% endif %}
           {% endif %}
           <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
           <p class="home-news-meta">

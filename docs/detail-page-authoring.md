@@ -75,10 +75,13 @@ events listing. Use the existing image metadata names in its front matter:
 ```yaml
 image: "path/to/approved-event-image.jpg"
 image_alt: "Factual description of the photograph"
+image_title: "Photograph title, when supplied by its source"
 image_credit: "Photographer or institution"
 image_source: "Source URL or archive reference"
 image_permission: "approved-web"
 image_license: "CC BY 4.0" # when applicable
+image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+image_modification: "Cropped to 16:9." # when applicable
 image_archive_id: "CM-PH-000000"
 ```
 
@@ -88,6 +91,12 @@ The homepage renders an event thumbnail only when `image` is present and
 asset and later editorial reuse. On the homepage, the thumbnail itself has an
 empty alternative text and is removed from the keyboard tab order because the
 adjacent linked event title provides the single accessible destination.
+
+When `image_credit`, `image_source`, and `image_license` are supplied, the
+homepage also renders a compact visible credit with links to the original
+photograph and licence. Use `image_title` and `image_modification` to state a
+source title and any crop or other adaptation. This is required for Creative
+Commons images that require attribution or a notice of changes.
 
 Record the source, credit, licence or permission evidence, and archive
 identifier before using the image. A homepage thumbnail does not automatically

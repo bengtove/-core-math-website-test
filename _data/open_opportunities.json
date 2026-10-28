@@ -156,6 +156,18 @@
     "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/international-cooperation/initiation-international-collaboration"
   },
   {
+    "programme": "Junior Associates",
+    "funder": "ICTP",
+    "description": "Funding for long-term affiliation (typically 6 years) with ICTP for early-career researchers",
+    "status": "Open",
+    "deadline": "31 January 2027",
+    "deadline_note": "",
+    "support_type": "Research visits",
+    "career_stage": "Early-career",
+    "region": "Global South",
+    "url": "https://www.ictp.it/math/research-opportunities"
+  },
+  {
     "programme": "Knowledge Exchange Event Fund",
     "funder": "ICMS",
     "description": "Funding for activities that aim to maximise the impact of the mathematical sciences",
@@ -178,6 +190,18 @@
     "career_stage": "Institutional",
     "region": "Global South",
     "url": "https://www.mathunion.org/cdc/grants-institutions"
+  },
+  {
+    "programme": "MARM Partnership Grants",
+    "funder": "LMS",
+    "description": "Funding for partnerships between UK/European and African mathematics departments to strengthen research, postgraduate training and collaboration",
+    "status": "Open",
+    "deadline": "18 January 2027",
+    "deadline_note": "",
+    "support_type": "Research collaboration",
+    "career_stage": "Faculty",
+    "region": "Africa",
+    "url": "https://www.lms.ac.uk/grants/marm"
   },
   {
     "programme": "Mathematical Sciences Early Independence Fellowship",
@@ -204,6 +228,17 @@
     "url": "https://www.ukri.org/opportunity/mathematical-sciences-postdoctoral-fellowship/"
   },
   {
+    "programme": "Mathematics Postdoctoral Fellowships",
+    "funder": "ICTP",
+    "description": "Postdoctoral research fellowships in mathematics at ICTP, with preference for researchers from developing countries",
+    "status": "Open",
+    "deadline": "13 December 2026",
+    "deadline_note": "",
+    "support_type": "Research funding",
+    "career_stage": "Postdoc",
+    "region": "Global South"
+  },
+  {
     "programme": "Mid-Career Research Fellowships",
     "funder": "ARUA",
     "description": "Six-month research-intensive sabbatical fellowships for mid-career academics at ARUA universities, hosted by ARUA Centres of Excellence or Africa–Europe Clusters of Research Excellence",
@@ -226,6 +261,18 @@
     "career_stage": "PhD",
     "region": "Global",
     "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks"
+  },
+  {
+    "programme": "Regular Associates",
+    "funder": "ICTP",
+    "description": "Funding for a six-year ICTP associateship including three research visits",
+    "status": "Open",
+    "deadline": "31 January 2027",
+    "deadline_note": "",
+    "support_type": "Research visits",
+    "career_stage": "Faculty",
+    "region": "Global South",
+    "url": "https://www.ictp.it/math/research-opportunities"
   },
   {
     "programme": "Research Funding",
@@ -333,6 +380,18 @@
     "career_stage": "Faculty",
     "region": "Africa",
     "url": "https://www.sasuf.org/sasuf-nrf-seed-grants-for-intra-africa-collaborative-research-1"
+  },
+  {
+    "programme": "Senior Associates",
+    "funder": "ICTP",
+    "description": "Funding for a six-year ICTP associateship, supporting repeated research visits by mathematicians aged 46–65",
+    "status": "Open",
+    "deadline": "31 January 2027",
+    "deadline_note": "",
+    "support_type": "Research visits",
+    "career_stage": "Faculty",
+    "region": "Global South",
+    "url": "https://www.ictp.it/math/research-opportunities"
   },
   {
     "programme": "Simons Collaborations in Mathematics and the Physical Sciences",

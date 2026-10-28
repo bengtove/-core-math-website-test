@@ -116,3 +116,7 @@ These scripts improve interaction but do not create or update content:
 3. **News archive year navigation is partly manual.** New years require a corresponding archive destination/link if the site continues to use discrete year archives.
 4. **No feed/newsletter automation exists.** This is a current absence, not a broken feature.
 5. **No automated external-link checker exists.** The local asset check correctly limits itself to repository-controlled files.
+
+### Applicant-category terminology
+
+The visible funding label is **Applicant category**. The importer selects Coda column `c-dJzcLWwGR8` by stable ID (`useColumnNames=false`), so renaming that display column from Career stage does not require a data migration. The JSON key `career_stage`, HTML `data-career-stage` attribute and `career-stage-filter` ID are deliberately retained together. The source Coda select column remains `Career stage filter`; its six categories and the display formula are unchanged. Filter options continue to come from the published records. The daily workflow and generated JSON format are unchanged.

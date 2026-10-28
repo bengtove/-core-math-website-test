@@ -27,6 +27,7 @@ COLUMNS = {
     "deadline": "c-PCA_1hp23U",
     "deadline_note": "c-EAm7jWk5aP",
     "support_type": "c-eKVKLI88t_",
+    # Applicant category display column; retain the internal JSON key for compatibility.
     "career_stage": "c-dJzcLWwGR8",
     "region": "c--xiaIgEGf9",
 }

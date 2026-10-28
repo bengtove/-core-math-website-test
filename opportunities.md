@@ -48,9 +48,9 @@ Deadlines and conditions may change. Always verify the information on the funder
     </select>
   </label>
   <label for="career-stage-filter">
-    Career stage
+    Applicant category
     <select id="career-stage-filter">
-      <option value="">All career stages</option>
+      <option value="">All applicant categories</option>
     </select>
   </label>
 </div>
@@ -75,7 +75,7 @@ Deadlines and conditions may change. Always verify the information on the funder
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
           {% if opportunity.deadline != empty %}<p class="opportunity-deadline"><span class="opportunity-meta-label">Deadline:</span> <span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span></p>{% endif %}
-          {% if opportunity.support_type != empty or opportunity.career_stage != empty %}<p class="opportunity-details">{% if opportunity.support_type != empty %}<span><span class="opportunity-meta-label">Support type:</span> {{ opportunity.support_type | escape }}</span>{% endif %}{% if opportunity.career_stage != empty %}{% if opportunity.support_type != empty %} <span aria-hidden="true">·</span> {% endif %}<span><span class="opportunity-meta-label">Career stage:</span> {{ opportunity.career_stage | escape }}</span>{% endif %}</p>{% endif %}
+          {% if opportunity.support_type != empty or opportunity.career_stage != empty %}<p class="opportunity-details">{% if opportunity.support_type != empty %}<span><span class="opportunity-meta-label">Support type:</span> {{ opportunity.support_type | escape }}</span>{% endif %}{% if opportunity.career_stage != empty %}{% if opportunity.support_type != empty %} <span aria-hidden="true">·</span> {% endif %}<span><span class="opportunity-meta-label">Applicant category:</span> {{ opportunity.career_stage | escape }}</span>{% endif %}</p>{% endif %}
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>
       </article>
@@ -100,7 +100,7 @@ Deadlines and conditions may change. Always verify the information on the funder
         {% if opportunity.description != empty %}<p class="opportunity-description">{{ opportunity.description | escape }}</p>{% endif %}
         <div class="opportunity-meta">
           {% if opportunity.deadline != empty %}<p class="opportunity-deadline"><span class="opportunity-meta-label">Deadline:</span> <span class="opportunity-deadline-value">{{ opportunity.deadline | escape }}</span></p>{% endif %}
-          {% if opportunity.support_type != empty or opportunity.career_stage != empty %}<p class="opportunity-details">{% if opportunity.support_type != empty %}<span><span class="opportunity-meta-label">Support type:</span> {{ opportunity.support_type | escape }}</span>{% endif %}{% if opportunity.career_stage != empty %}{% if opportunity.support_type != empty %} <span aria-hidden="true">·</span> {% endif %}<span><span class="opportunity-meta-label">Career stage:</span> {{ opportunity.career_stage | escape }}</span>{% endif %}</p>{% endif %}
+          {% if opportunity.support_type != empty or opportunity.career_stage != empty %}<p class="opportunity-details">{% if opportunity.support_type != empty %}<span><span class="opportunity-meta-label">Support type:</span> {{ opportunity.support_type | escape }}</span>{% endif %}{% if opportunity.career_stage != empty %}{% if opportunity.support_type != empty %} <span aria-hidden="true">·</span> {% endif %}<span><span class="opportunity-meta-label">Applicant category:</span> {{ opportunity.career_stage | escape }}</span>{% endif %}</p>{% endif %}
           {% if opportunity.deadline_note != empty %}<p class="opportunity-deadline-note">{{ opportunity.deadline_note | escape }}</p>{% endif %}
         </div>
       </article>

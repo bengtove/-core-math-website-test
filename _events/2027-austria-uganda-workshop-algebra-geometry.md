@@ -8,9 +8,24 @@ type: research-workshop
 research_group: eaalg
 external_url: https://homepage.univie.ac.at/balazs.szendroi/?page_id=946
 external_label: "Official workshop website"
+image: "/assets/images/events/austria-uganda-workshop-eaalg-makerere-2024.jpg"
+image_alt: "A presenter at a blackboard during a mathematics session at Makerere University."
+image_title: "EAALG workshop session, Makerere University, 25 November 2024"
+image_credit: "Makerere University/CoNAS (source)"
+image_source: "https://cns.mak.ac.ug/happening-this-week-25th-29th-11-2024-the-eastern-africa-algebra-research-group-workshop-on-some-topics-in-algebra-geometry/"
+image_permission: "approved-web"
+image_modification: "Cropped to 16:9 and JPEG-optimised. Historical photograph; not the forthcoming workshop."
+image_caption_context: "EAALG workshop, 25 November 2024"
+image_caption_modification: "Cropped"
 ---
 
 The Austria–Uganda Workshop on Algebra and Geometry brings together mathematicians from the Uganda–Austria collaboration and colleagues from across the region for minicourses and research talks.
+
+<figure style="margin: 1.5rem 0;">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" width="1024" height="576" style="display: block; width: 100%; height: auto;" loading="lazy">
+  <figcaption style="margin-top: .45rem; color: var(--editorial-muted); font-size: .86rem;">Mathematics session at the EAALG workshop, Makerere University, 25 November 2024. Source: <a href="{{ page.image_source }}">Makerere University/CoNAS</a>. Cropped to 16:9; this photograph does not depict the forthcoming workshop.</figcaption>
+</figure>
+
 
 The workshop forms part of the [Africa-UniNet Uganda–Austria Collaboration in Algebra and Geometry](https://africa-uninet.at/en/projects/call4/p142-uganda). The collaboration studies questions at the interface of algebra and geometry, including ring theory and module theory, and aims to strengthen research connections and capacity. It involves senior and early-career researchers and PhD students, with mentoring and opportunities to develop teaching and research skills.
 

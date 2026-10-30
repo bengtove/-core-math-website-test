@@ -82,14 +82,24 @@ until it has been clarified. Permission for one image or publication does not
 extend to other material. Before reusing an image in a report, presentation or
 other publication, confirm that its permission covers that new use.
 
-### News photographs
+### News and event photographs
 
-New or substantially revised news posts should use a `<figure>` containing an
+New or substantially revised news posts and event pages should use a `<figure>` containing an
 `<img>` and `<figcaption>` for each editorial photograph. Give every image
 meaningful alternative text, and use a concise caption that includes the
 appropriate credit. Record the image source and permission information using
 the practice above. Existing historical posts do not need to be converted
 unless their caption, credit and permission information can be verified.
+
+Both layouts use the shared `.editorial-photos` rules in
+`assets/css/news-lightbox.css` and the same lightbox script. Photographs and
+figures are centred within a maximum width of `min(100%, 36rem)`; images also
+have a maximum height of `min(34rem, 70vh)`. Images retain their proportions
+without cropping or enlargement. Captions use the same small, muted,
+left-aligned style within the centred figure on both page types. Do not add
+inline sizing or page-type overrides; change the shared rules when the
+convention changes. Intrinsic HTML width/height attributes may describe the
+source image dimensions, while CSS controls display size.
 
 ### Event homepage photographs
 

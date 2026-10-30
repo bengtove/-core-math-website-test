@@ -123,7 +123,7 @@ body,
   text-decoration: underline;
 }
 
-/* Related material is intentionally lighter than the detail-page body. */
+/* Related material uses body-sized links and labels with quiet section framing. */
 .related-content {
   max-width: var(--prose-measure);
   margin-top: 3rem;
@@ -140,6 +140,7 @@ body,
 .related-content ul {
   margin: 0;
   padding-left: 1.15rem;
+  font-size: var(--body-text-size);
 }
 
 .related-content li + li {
@@ -149,6 +150,9 @@ body,
 .related-content li > span,
 .related-event-meta {
   color: var(--editorial-muted);
+}
+
+.related-event-meta {
   font-size: var(--metadata-text-size);
 }
 

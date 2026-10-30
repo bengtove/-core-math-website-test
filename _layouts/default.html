@@ -13,7 +13,7 @@
     {% if page.opportunities_page %}
     <link rel="stylesheet" href="{{ "/assets/css/opportunities.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
-    {% if page.layout == "post" %}
+    {% if page.layout == "post" or page.layout == "event" %}
     <link rel="stylesheet" href="{{ "/assets/css/news-lightbox.css?v=" | append: site.github.build_revision | relative_url }}">
     {% endif %}
     {% if page.homepage %}

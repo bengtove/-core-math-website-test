@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var images = Array.from(document.querySelectorAll(".news-post img"))
+  var images = Array.from(document.querySelectorAll(".editorial-photos img"))
     .filter(function (image) { return !image.hasAttribute("data-no-lightbox"); });
 
   if (!images.length || typeof HTMLDialogElement === "undefined") return;

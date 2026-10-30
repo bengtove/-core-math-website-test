@@ -21,11 +21,10 @@ image_caption_modification: "Cropped"
 
 The Austria–Uganda Workshop on Algebra and Geometry brings together mathematicians from the Uganda–Austria collaboration and colleagues from across the region for minicourses and research talks.
 
-<figure style="margin: 1.5rem 0;">
-  <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" width="1024" height="576" style="display: block; width: 100%; height: auto;" loading="lazy">
-  <figcaption style="margin-top: .45rem; color: var(--editorial-muted); font-size: .86rem;">Mathematics session at the EAALG workshop, Makerere University, 25 November 2024. Source: <a href="{{ page.image_source }}">Makerere University/CoNAS</a>. Cropped to 16:9; this photograph does not depict the forthcoming workshop.</figcaption>
+<figure>
+  <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" width="1024" height="576" loading="lazy">
+  <figcaption>Mathematics session at the EAALG workshop, Makerere University, 25 November 2024. Source: <a href="{{ page.image_source }}">Makerere University/CoNAS</a>. Cropped to 16:9; this photograph does not depict the forthcoming workshop.</figcaption>
 </figure>
-
 
 The workshop forms part of the [Africa-UniNet Uganda–Austria Collaboration in Algebra and Geometry](https://africa-uninet.at/en/projects/call4/p142-uganda). The collaboration studies questions at the interface of algebra and geometry, including ring theory and module theory, and aims to strengthen research connections and capacity. It involves senior and early-career researchers and PhD students, with mentoring and opportunities to develop teaching and research skills.
 

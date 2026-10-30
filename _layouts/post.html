@@ -10,4 +10,4 @@ layout: default
   {{ content }}
 </article>
 
-<script src="{{ "/assets/js/news-lightbox.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/news-lightbox.js?v=" | append: site.github.build_revision | relative_url }}"></script>

@@ -107,7 +107,7 @@ The default layout adds a generic related-events section to programme pages, exc
 | --- | --- | --- |
 | `title` | Project title and related-content label. | Yes |
 | `project_id` | Stable identifier used by Event `project` and post `project` relationships. | Indirectly |
-| `programme` | Optional parent programme identifier. Existing Math4SDG content resolves it manually in its page body; the generic layout does not automatically render a project-to-programme link. | Potentially, if page uses it |
+| `programme` | Optional CoRE-Math parent programme identifier; the generic layout does not automatically render a project-to-programme link. External funding programmes are recorded in project funding information, not as parent programmes. | Potentially, if page uses it |
 | `type` / `section` | Present in most project records but not used by templates or automated lists. | No current display |
 | `layout` | Standard layout override. | Indirectly |
 

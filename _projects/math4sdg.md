@@ -2,13 +2,9 @@
 layout: default
 title: "Mathematics for Sustainable Development (Math4SDG)"
 project_id: "math4sdg"
-programme: "norhed-ii"
 ---
 
 # Mathematics for Sustainable Development (Math4SDG)
-
-{% assign programme = site.programmes | where: "programme_id", page.programme | first %}
-**Programme:** [{{ programme.title }}]({{ programme.url | relative_url }})
 
 Math4SDG is a NORHED II capacity-building project bringing together the University of Dar es Salaam, Makerere University and the University of Bergen. Its purpose is to strengthen mathematics research and education in Tanzania and Uganda through research, PhD training, curriculum development, mathematics education, outreach and engagement beyond the universities.
 
@@ -33,7 +29,7 @@ Beyond the PhD programme, Math4SDG has supported the review of mathematics and m
 
 ## African–Nordic conferences
 
-African–Nordic conferences have formed part of the project’s regional and international research collaboration. The first conference was held at Makerere University in October 2022. The [Second African–Nordic Conference in Mathematics]({{ "/news/2026/the-second-african-nordic-conference-in-mathematics/" | relative_url }}) was held in Arusha, Tanzania, on 11–14 August 2026 under the theme “Collaborative Research in Mathematics and Mathematics Education for Sustainable Development.” Organised through Math4SDG in collaboration with CoRE-Math, the International Science Programme and Sida, it brought together 104 participants from 14 countries.
+African–Nordic conferences have formed part of the project’s regional and international research collaboration. The first conference was held at Makerere University in October 2022. The [Second African–Nordic Conference in Mathematics]({{ "/news/2026/african-nordic-conference/" | relative_url }}) was held in Arusha, Tanzania, on 11–14 August 2026 under the theme “Collaborative Research in Mathematics and Mathematics Education for Sustainable Development.” Organised through Math4SDG in collaboration with CoRE-Math, the International Science Programme and Sida, it brought together 104 participants from 14 countries.
 
 The Arusha conference was an important concluding activity, while the formal Math4SDG project period continues until 31 December 2026.
 

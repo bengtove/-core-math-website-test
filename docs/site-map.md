@@ -42,9 +42,8 @@ flowchart TD
 
   ProgrammeCollection --> Schools
   ProgrammeCollection --> Competitions
-  ProgrammeCollection --> Norhed[NORHED II]
   ProjectCollection -.-> ResearchProjects
-  Norhed -.-> Math4SDG[Math4SDG]
+  ProjectCollection --> Math4SDG[Math4SDG]
   Schools -.-> Events
   Groups -.-> Events
   ResearchProjects -.-> Events
@@ -93,7 +92,6 @@ flowchart TD
       - [Industrial Mathematics](/programmes/study-groups-with-industry/)
       - [Mathematics Competitions](/programmes/mathematics-competitions/)
       - [Women in Math](/programmes/women-in-math/)
-      - [NORHED II](/programmes/norhed-ii/)
     - **Projects and collaborations**
       - [Applied Mathematics for Earth Observation](/projects/applied-mathematics-for-earth-observation/)
       - [Flagship of Advanced Mathematics for Sensing, Imaging and Modelling (FAME)](/projects/fame/)

@@ -69,7 +69,6 @@ These are published as accessible dialogs on `/network-partnerships/`; the fragm
 | CoRE-Math Fellowships at the University of KwaZulu-Natal | `/programmes/core-math-fellowships/university-of-kwazulu-natal/` | CoRE-Math Fellowships | Fellowship scheme | No — linked from programme and Opportunities |
 | CoRE-Math Schools | `/programmes/core-math-schools/` | Programmes & Projects | Programme | No — listed on Programmes & Projects |
 | Mathematics Competitions | `/programmes/mathematics-competitions/` | Programmes & Projects and Outreach | Programme | No — listed on Programmes & Projects |
-| NORHED II | `/programmes/norhed-ii/` | Programmes & Projects / Math4SDG | Programme | No — listed on Programmes & Projects |
 | Industrial Mathematics | `/programmes/study-groups-with-industry/` | Programmes & Projects | Programme | No — listed on Programmes & Projects |
 | Women in Math | `/programmes/women-in-math/` | Programmes & Projects | Programme | No — listed on Programmes & Projects |
 
@@ -191,3 +190,6 @@ These are published as accessible dialogs on `/network-partnerships/`; the fragm
 4. **Contact is footer-only by design.** It has a stable public route and appears in the global footer, but not in the main navigation. This is a reasonable compact-navigation choice rather than an orphan page.
 
 5. **No duplicate standalone school/project pages remain.** The current historical and upcoming schools are Events, with legacy project URLs redirected to their authoritative event records. The CoRE-Math Schools page remains the continuing programme context, and the previous-schools archive remains separate.
+
+The former `/programmes/norhed-ii/` address redirects to `/projects/math4sdg/`.
+NORHED II is recorded as external funding, not as a CoRE-Math programme.

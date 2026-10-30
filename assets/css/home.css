@@ -79,6 +79,8 @@
 .home-event-image { display:block; aspect-ratio:16/9; overflow:hidden; }
 .home-news-image { grid-row:1; margin:0; }
 .home-event-image { margin:0 0 .45rem; }
+.home-event-image--fallback { background: var(--content-surface); }
+.home-event-grid > .home-editorial-entry[hidden] { display: none; }
 .home-news-image img,
 .home-event-image img { width:100%; height:100%; object-fit:cover; display:block; }
 .home-news-meta { grid-row:2; color:var(--editorial-muted); font-size:.86rem; margin:0; }
@@ -105,26 +107,22 @@
 .home-projects-column p { max-width: 32rem; line-height: 1.6; }
 @media (min-width: 761px) {
   .home-news-grid { width: calc(100% - 1.5rem); }
-  /*
-   * When both visible event cards have thumbnails, share their image,
-   * caption, heading, metadata and description rows. The heading begins
-   * after the taller natural caption, without a fixed caption height.
-   */
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) {
+  /* Share rows across visible cards, including cards without photographs. */
+  .home-event-grid {
     grid-template-rows: auto auto auto auto auto;
     column-gap: 2rem;
     row-gap: 0;
   }
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) > .home-editorial-entry {
+  .home-event-grid > .home-editorial-entry:not([hidden]) {
     display: grid;
     grid-row: 1 / 6;
     grid-template-rows: subgrid;
   }
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) .home-event-image { grid-row: 1; }
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) .home-event-image-credit { grid-row: 2; }
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) h3 { grid-row: 3; }
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) .home-news-meta { grid-row: 4; }
-  .home-event-grid:has(> .home-editorial-entry:nth-child(1) .home-event-image):has(> .home-editorial-entry:nth-child(2) .home-event-image) > .home-editorial-entry > p:not(.home-news-meta):not(.home-event-image-credit) { grid-row: 5; }
+  .home-event-grid .home-event-image { grid-row: 1; }
+  .home-event-grid .home-event-image-credit { grid-row: 2; }
+  .home-event-grid h3 { grid-row: 3; }
+  .home-event-grid .home-news-meta { grid-row: 4; }
+  .home-event-grid > .home-editorial-entry > p:not(.home-news-meta):not(.home-event-image-credit) { grid-row: 5; }
 }
 @media (max-width: 760px) {
   .home-hero { margin-bottom:1.9rem; }

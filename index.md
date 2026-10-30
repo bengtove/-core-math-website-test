@@ -100,6 +100,8 @@ homepage: true
           {% if event.image_credit and event.image_source %}
           <p class="home-event-image-credit">Photo: {% if event.image_license %}<a href="{{ event.image_source }}" target="_blank" rel="noopener noreferrer" aria-label="{{ event.image_credit }} — original photograph{% if event.image_title %}: {{ event.image_title }}{% endif %}">{{ event.image_credit }}</a>{% else %}{{ event.image_credit }}{% endif %}{% if event.image_caption_context %}, {{ event.image_caption_context }}{% endif %}{% if event.image_license %}, <a href="{{ event.image_license_url | default: event.image_source }}" target="_blank" rel="noopener noreferrer">{{ event.image_license }}</a>{% endif %}{% if event.image_caption_permission %}. {{ event.image_caption_permission }}{% endif %}{% if event.image_caption_modification %}. {{ event.image_caption_modification }}{% endif %}.</p>
           {% endif %}
+          {% else %}
+          <div class="home-event-image home-event-image--fallback" aria-hidden="true"></div>
           {% endif %}
           <h3><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
           <p class="home-news-meta">

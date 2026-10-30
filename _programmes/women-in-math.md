@@ -8,13 +8,15 @@ section: programmes
 
 # Women in Math
 
-Women in Math provides a framework for activities aimed at strengthening the participation and development of women in mathematics across the CoRE-Math network. It connects existing initiatives in areas such as research, networking, mentoring, career development and outreach, while providing a basis for developing new activities across the network.
+Women in Math provides an umbrella framework connecting existing initiatives and encouraging collaboration to strengthen the participation and development of women in mathematics across the CoRE-Math network. It encourages exchange in research, networking, mentoring, career development and outreach. The initiatives retain their own organisers, leadership and activities.
 
 ## EANWoBAS
 
-[The Eastern Africa Network for Women in Basic Sciences (EANWoBAS)](https://www.uu.se/en/centre/international-science-programme-isp/isp-core-programme/isp-and-gender/eanwobas) was founded by female mathematicians and physicists from Kenya, Rwanda, Tanzania, Uganda and Zambia and is coordinated from Uganda, with branches in several countries. ISP has supported the network annually since 2019.
+[The Eastern Africa Network for Women in Basic Sciences (EANWoBAS)](https://www.uu.se/en/centre/international-science-programme-isp/isp-core-programme/isp-and-gender/eanwobas) was founded by female mathematicians and physicists from Kenya, Rwanda, Tanzania, Uganda and Zambia and is coordinated from Uganda, with branches in several countries. The network focuses on mathematics and physics. ISP has supported the network annually since 2019.
 
 EANWoBAS predates CoRE-Math and is an established regional network closely connected with the participating mathematics environments. Its recurring activities include networking and mentoring, workshops, school visits, mathematics and science camps, Run4MATH and other outreach that encourages girls and women to continue in mathematics and the basic sciences.
+
+<a class="action-link" href="https://www.uu.se/en/centre/international-science-programme-isp/isp-core-programme/isp-and-gender/eanwobas">Visit the EANWoBAS page at ISP<span class="link-arrow">&nbsp;→</span></a>
 
 ## Activities across the network
 
@@ -24,11 +26,19 @@ Activities supporting women and girls in mathematics also take place at individu
 - **Tanzania:** the University of Dar es Salaam has organised recurring science camps for secondary-school girls combining mathematics and physics, alongside school outreach and support that helps female postgraduate students participate in scientific activities.
 - **Zambia:** activities include mentoring and career talks for female secondary-school students and research and professional-development opportunities for female postgraduate students and early-career researchers in mathematics.
 
-These are selected examples rather than a complete inventory; relevant activities at other CoRE-Math nodes have not yet been collected centrally.
-
 ## Related networks and initiatives
 
 The following organisations, networks and initiatives are useful connections for this area of work but are not CoRE-Math programmes, projects or formal partners.
+
+### [STEM MentHER](https://www.stemmenther.co.za/about)
+
+STEM MentHER is a South African mentoring programme founded in 2022 by mathematician Dr Cerene Rathilal of the University of KwaZulu-Natal. It supports academically promising secondary-school girls interested in pursuing careers in science, technology, engineering and mathematics (STEM), helping them navigate the transition from school to university.
+
+Participants are paired with female academics and professionals who provide individual mentoring, career guidance and opportunities to experience university life and scientific work. The programme also organises workshops, networking activities and meetings with women working in STEM. By 2026, STEM MentHER had expanded to nine South African universities, including the CoRE-Math institutions of KwaZulu-Natal and Stellenbosch.
+
+### [IMU Committee for Women in Mathematics (CWM)](https://www.mathunion.org/cwm)
+
+The Committee for Women in Mathematics (CWM) of the International Mathematical Union promotes the participation and visibility of women in mathematics worldwide. It supports the development of regional and international networks, encourages workshops and other initiatives, and provides information about organisations, activities and opportunities for women mathematicians.
 
 ### [Association of Women Mathematicians Uganda (AWoM)](https://awom.or.ug/)
 
@@ -44,12 +54,4 @@ AWMA is a pan-African organisation promoting the participation and development o
 
 ### [Women in Sage Africa](https://www.africanwomeninmath.org/activities/conference)
 
-Women in Sage Africa (WiS-Africa) is a recurring initiative bringing together African mathematicians, particularly women and early-career researchers, for collaborative research, training in SageMath, networking and mentoring. The workshops aim to develop research collaborations across countries while strengthening the participation and visibility of women in mathematics.
-
-WiS-Africa workshops have been held in:
-
-**Senegal (2021) · Nigeria (2022) · Uganda (2023) · Burundi (2024) · Tunisia (2025) · South Africa (2026)**
-
-### [STEM MentHER](https://www.stemmenther.co.za/about)
-
-STEM MentHER is a South African mentoring initiative supporting female secondary-school learners interested in STEM and connecting them with women in academia and industry. It was founded by mathematician Cerene Rathilal, who is based at the University of KwaZulu-Natal.
+Women in Sage Africa (WiS-Africa) brings together African mathematicians, particularly women and early-career researchers, for collaborative research, training in SageMath, networking and mentoring. Its workshops promote research collaboration and strengthen the participation and visibility of women in mathematics.

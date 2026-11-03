@@ -13,7 +13,7 @@ news_events: true
   <article class="news-card{% if post.image %} news-card--with-image{% endif %}">
     {% if post.image %}
     <a class="news-card-image-link" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
-      <img class="news-card-image" src="{{ post.image | relative_url }}" alt="">
+      <img class="news-card-image{% if post.image_type == "logo" %} editorial-logo{% endif %}" src="{{ post.image | relative_url }}" alt="">
     </a>
     {% endif %}
     <div class="news-card-content">

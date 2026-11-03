@@ -322,3 +322,12 @@ body,
     font-size: 1.875rem;
   }
 }
+
+/* Preserve complete logo artwork inside existing editorial image dimensions. */
+.home-news-image img.editorial-logo,
+.news-card-image.editorial-logo,
+.editorial-photos img.editorial-logo {
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 1rem;
+}

@@ -331,3 +331,9 @@ body,
   box-sizing: border-box;
   padding: 1rem;
 }
+
+/* Logo files retain their own clear space in homepage news cards. */
+.home-news-image img.editorial-logo {
+  padding: 0;
+  background: #fff;
+}

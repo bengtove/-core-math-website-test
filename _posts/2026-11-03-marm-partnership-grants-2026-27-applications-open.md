@@ -16,11 +16,6 @@ The London Mathematical Society is inviting applications for the 2026/27 round o
 
 The programme offers grants of £4,000 to support partnerships between mathematics departments in Africa and the UK or Europe. It aims to build lasting research relationships, strengthen mathematical networks and infrastructure in Africa, and support collaboration with colleagues and students.
 
-<figure>
-  <img class="editorial-logo" src="{{ '/assets/images/news/london-mathematical-society-logo.png' | relative_url }}" alt="London Mathematical Society (LMS) logo" width="894" height="279" loading="lazy">
-  <figcaption>Logo: <a href="https://www.lms.ac.uk/" target="_blank" rel="noopener noreferrer">London Mathematical Society</a>.</figcaption>
-</figure>
-
 Previous partnerships have supported research visits, lectures and workshops, joint PhD supervision, mentoring for early-career researchers, and the development of postgraduate programmes. Each partnership sets its objectives collaboratively, reflecting the priorities of the participating African institution.
 
 This opportunity is particularly relevant to members of the CoRE-Math network seeking to develop or strengthen collaborations across Africa and Europe. We encourage colleagues to explore the call and share it within their institutions and networks.

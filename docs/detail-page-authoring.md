@@ -40,6 +40,12 @@ development rather than reproducing the full Event description. Link to the
 relevant Event or Project page for more detailed information. A post may stand
 alone when no corresponding Event or Project page exists.
 
+#### External links in news posts
+
+Short news announcements should normally contain one principal external link, preferably at the end of the article. Additional links should be included only when they provide essential information not readily accessible through the principal link.
+
+Avoid excessive hyperlinks within running text, particularly when several links point to closely related information.
+
 ### Cross-linking
 
 Where both an Event page and a News post exist, provide simple links in both

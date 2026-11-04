@@ -9,11 +9,11 @@ CoRE-Math uses a restrained, professional and welcoming visual identity for an i
 - Keep a coherent site frame and visual hierarchy while allowing page layouts to respond to their content. A research directory, a chronological event list and a long-form programme page do not need to look identical.
 - Use the implemented warm-neutral palette: warm off-white content surfaces and neutral surroundings, with terracotta as a restrained editorial accent. CoRE-Math blue remains the functional and identity colour for branding, navigation, links and focus treatment.
 - Prefer open editorial layouts, typography, whitespace and simple rules. Do not introduce cards, shadows, rounded containers, decorative patterns or additional illustration unless the information task genuinely requires them.
-- Make links, focus states, hierarchy and responsive behaviour clear independently of colour alone.
+- Keep interactive states, hierarchy and responsive behaviour clear, with visible keyboard-focus indicators.
 
 ## Hyperlink visibility
 
-Inline hyperlinks should be visually distinguishable through a consistent, distinctive blue that complements the CoRE-Math palette. Link styling should be restrained and consistent across the website. Use a modest semibold weight as an additional non-colour cue; do not rely on hue alone.
+Inline hyperlinks use a restrained, muted medium-blue that complements the CoRE-Math palette. They inherit the surrounding text’s font weight: normally regular, while deliberately bold text remains bold. Links have no default underline. Keep this treatment consistent across the website.
 
 Underlining is reserved for hover and keyboard focus. Keyboard focus must also retain a clearly visible outline. Visited links use the same identifiable treatment as unvisited links.
 

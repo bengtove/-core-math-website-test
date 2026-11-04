@@ -24,7 +24,7 @@
   --editorial-accent: #874432;
   --editorial-heading: #302b28;
   --editorial-link: #315d7b;
-  --body-link: #006bb3;
+  --body-link: #286a96;
   --editorial-muted: #625d57;
   --editorial-entry-padding: .9rem;
   --editorial-entry-rule: 2px solid var(--editorial-accent);
@@ -51,7 +51,7 @@ body,
   color: var(--editorial-link);
 }
 
-/* Distinct blue and semibold weight identify body links without resting
+/* Muted medium-blue body links inherit surrounding weight without resting
  * underlines, including visited links. Apply by default to
  * future content too; exempt only recognisable interface links, not whole cards
  * (their descriptions and captions can still contain inline links). */
@@ -62,7 +62,7 @@ body,
   .event-title, .btn, .button, [role="button"], a:has(img)
 )) {
   color: var(--body-link);
-  font-weight: 600;
+  font-weight: inherit;
   text-decoration-line: none;
   text-decoration-thickness: 1px;
   text-underline-offset: .15em;

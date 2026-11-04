@@ -59,7 +59,7 @@ The production palette is declared mainly in `assets/css/content.css`.
 | `--brand-blue-deep` | `#164c74` | Hero overlay and dark CoRE-Math blue surfaces. |
 | `--editorial-blue` | `#1f5f8b` | Header rule, active navigation marker and focus outline. |
 | `--editorial-link` | `#315d7b` | Interface links and linked entry headings. |
-| `--body-link` | `#006bb3` | Inline content links, including visited links. |
+| `--body-link` | `#286a96` | Inline content links, including visited links. |
 | `--editorial-accent` | `#874432` | Terracotta editorial labels and entry rules. |
 
 Terracotta is intentionally limited to editorial orientation labels and entry rules; large section headings remain dark neutral. Blue remains the principal functional/identity colour for logos, navigation, links, focus and the homepage hero panel. The white hero foreground uses `#fff` on the dark blue overlay. The news lightbox has self-contained dark overlay and control colours because it is an image-viewing interaction rather than a page surface.
@@ -75,9 +75,9 @@ Terracotta is intentionally limited to editorial orientation labels and entry ru
 
 ## Links and interactive states
 
-- Body links use `--body-link` (`#006bb3`), weight `600`, and no default underline. Shared rules in `assets/css/content.css` cover paragraphs, lists, tables, captions and future content automatically. The semibold weight provides a non-colour cue where colour alone cannot sufficiently distinguish links from surrounding text.
+- Body links use `--body-link` (`#286a96`), inherited font weight, and no default underline. Shared rules in `assets/css/content.css` cover paragraphs, lists, tables, captions and future content automatically. Ordinary inline links match regular body text; links inside deliberately bold text retain that emphasis.
 - Hover and keyboard focus retain the body-link blue and add a `1px` underline with `.15em` offset and ink skipping. Keyboard focus also retains the shared `3px` blue outline and `3px` offset. Visited links use the same history-independent styling.
-- The body-link blue meets the 4.5:1 normal-text contrast threshold on the main warm surface, white, the supporting surface and the theme’s alternate table-row surface. It does not reach 3:1 against surrounding body text; semibold weight is therefore part of the link treatment, not an optional decoration. This is not a claim of colour-only link accessibility. When adding differently coloured content surfaces or links inside already-bold text, verify that links remain identifiable and readable.
+- The body-link blue meets the 4.5:1 normal-text contrast threshold on the main warm surface, white, the supporting surface and the theme’s alternate table-row surface. It does not reach 3:1 against surrounding body text. This restrained, colour-led resting treatment therefore does not satisfy the WCAG G183 colour-only link-distinction technique; hover underlines and focus outlines do not remove that limitation. Do not describe this styling as fully accessibility-conformant on the basis of background contrast alone.
 - Exemptions preserve existing interface styling: heading links; navigation and local contents; parent-context links; news archive year navigation; explicit `.action-link` / `.home-text-link` controls; `.event-title` listing links; button-style anchors (`.btn`, `.button`, `[role="button"]`); and image links. Header, navigation rail and footer are outside the main-content scope. Card descriptions and captions are not exempt: inline links there use the shared body-link treatment. Use these semantic elements and established component hooks for future interface links, rather than page-specific overrides.
 - Linked news, event, school and research-item titles are visually identifiable as links and underline on hover/focus where their component style specifies it.
 - Editorial cards that introduce an area use plain headings plus a separate action link rather than duplicate heading and action links to the same destination.

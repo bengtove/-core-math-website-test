@@ -20,4 +20,9 @@ Official documents relating to the establishment, organisation and development o
 
 ## Reports and other resources
 
+<ul>
+  <li><a href="https://www.mathunion.org/fileadmin/CDC/cdc-uploads/CDC_MENAO/Africa_Report.pdf" target="_blank" rel="noopener noreferrer"><strong>Mathematics in Africa: A Summary Report (IMU, 2014)</strong></a> — An updated assessment of mathematical research and education in Africa, examining developments since 2009, remaining challenges, and opportunities for strengthening research capacity and regional and international collaboration.</li>
+  <li><a href="https://www.mathunion.org/fileadmin/IMU/Report/Mathematics_in_Africa_Challenges___Opportunities.pdf" target="_blank" rel="noopener noreferrer"><strong>Mathematics in Africa: Challenges and Opportunities (IMU, 2009)</strong></a> — An assessment of the challenges facing mathematical research and education in Africa, with recommendations for strengthening research capacity, postgraduate training and international collaboration.</li>
+</ul>
+
 Forthcoming: CoRE-Math baseline study.

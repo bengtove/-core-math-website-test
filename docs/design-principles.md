@@ -13,13 +13,13 @@ CoRE-Math uses a restrained, professional and welcoming visual identity for an i
 
 ## Hyperlink visibility
 
-Inline hyperlinks within body text must be clearly distinguishable from surrounding text without requiring users to hover over them. They should use the website’s established link colour and be underlined by default.
+Inline hyperlinks should be visually distinguishable through a consistent, distinctive blue that complements the CoRE-Math palette. Link styling should be restrained and consistent across the website. Use a modest semibold weight as an additional non-colour cue; do not rely on hue alone.
 
-This applies to news articles, research pages, programme descriptions, resources and other textual content, including links in paragraphs, bullet lists and tables.
+Underlining is reserved for hover and keyboard focus. Keyboard focus must also retain a clearly visible outline. Visited links use the same identifiable treatment as unvisited links.
 
-Navigation menus, buttons, linked headings, cards and other interface elements that are already visually identifiable as interactive do not require underlining. Inline links within their descriptive text remain covered by this principle.
+This applies to news articles, research pages, programme descriptions, resources and other textual content, including paragraphs, bullet lists, tables and captions. Maintain adequate contrast against the actual background, including alternate table rows and supporting surfaces.
 
-Hyperlinks must remain identifiable when visited, and hover and keyboard-focus states must provide appropriate visual feedback.
+Preserve established styling for navigation menus, buttons, linked headings, cards and other recognisable interface controls. Inline links within descriptive text follow the body-link treatment.
 
 ## Working principles
 

@@ -58,7 +58,8 @@ The production palette is declared mainly in `assets/css/content.css`.
 | `--content-rule` | `#d4cec4` | Quiet 1px section/list dividers. |
 | `--brand-blue-deep` | `#164c74` | Hero overlay and dark CoRE-Math blue surfaces. |
 | `--editorial-blue` | `#1f5f8b` | Header rule, active navigation marker and focus outline. |
-| `--editorial-link` | `#315d7b` | Standard links and linked entry headings. |
+| `--editorial-link` | `#315d7b` | Interface links and linked entry headings. |
+| `--body-link` | `#006bb3` | Inline content links, including visited links. |
 | `--editorial-accent` | `#874432` | Terracotta editorial labels and entry rules. |
 
 Terracotta is intentionally limited to editorial orientation labels and entry rules; large section headings remain dark neutral. Blue remains the principal functional/identity colour for logos, navigation, links, focus and the homepage hero panel. The white hero foreground uses `#fff` on the dark blue overlay. The news lightbox has self-contained dark overlay and control colours because it is an image-viewing interaction rather than a page surface.
@@ -74,9 +75,10 @@ Terracotta is intentionally limited to editorial orientation labels and entry ru
 
 ## Links and interactive states
 
-- General content links use `--editorial-link` (`#315d7b`). Shared rules in `assets/css/content.css` underline body links by default, including visited links, with a `1px` line, `.15em` offset and ink skipping. The rule targets content anchors rather than individual pages, so paragraphs, lists, tables, captions and future content inherit it automatically.
-- Body-link hover and keyboard focus use `--editorial-blue` and a `2px` underline; keyboard focus also retains the shared outline. Visited links keep the same blue and underline as unvisited links (the rules are history-state independent).
-- Exemptions preserve existing interface styling: heading links; navigation and local contents; parent-context links; news archive year navigation; explicit `.action-link` / `.home-text-link` controls; `.event-title` listing links; button-style anchors (`.btn`, `.button`, `[role="button"]`); and image links. Header, navigation rail and footer are outside the main-content scope. Card descriptions and captions are not exempt: inline links there must remain underlined. Use these semantic elements and established component hooks for future interface links, rather than page-specific overrides.
+- Body links use `--body-link` (`#006bb3`), weight `600`, and no default underline. Shared rules in `assets/css/content.css` cover paragraphs, lists, tables, captions and future content automatically. The semibold weight provides a non-colour cue where colour alone cannot sufficiently distinguish links from surrounding text.
+- Hover and keyboard focus retain the body-link blue and add a `1px` underline with `.15em` offset and ink skipping. Keyboard focus also retains the shared `3px` blue outline and `3px` offset. Visited links use the same history-independent styling.
+- The body-link blue meets the 4.5:1 normal-text contrast threshold on the main warm surface, white, the supporting surface and the theme’s alternate table-row surface. It does not reach 3:1 against surrounding body text; semibold weight is therefore part of the link treatment, not an optional decoration. This is not a claim of colour-only link accessibility. When adding differently coloured content surfaces or links inside already-bold text, verify that links remain identifiable and readable.
+- Exemptions preserve existing interface styling: heading links; navigation and local contents; parent-context links; news archive year navigation; explicit `.action-link` / `.home-text-link` controls; `.event-title` listing links; button-style anchors (`.btn`, `.button`, `[role="button"]`); and image links. Header, navigation rail and footer are outside the main-content scope. Card descriptions and captions are not exempt: inline links there use the shared body-link treatment. Use these semantic elements and established component hooks for future interface links, rather than page-specific overrides.
 - Linked news, event, school and research-item titles are visually identifiable as links and underline on hover/focus where their component style specifies it.
 - Editorial cards that introduce an area use plain headings plus a separate action link rather than duplicate heading and action links to the same destination.
 - Action links use meaningful labels such as `About the programme →`, `About the project →`, `About the research group →`, `Event details →` and `Read the report →`. A `span.link-arrow` keeps the arrow with the final word without disabling normal wrapping.

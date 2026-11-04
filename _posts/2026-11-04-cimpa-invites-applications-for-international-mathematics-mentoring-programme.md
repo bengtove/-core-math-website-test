@@ -3,6 +3,12 @@ layout: post
 title: "CIMPA invites applications for international mathematics mentoring programme"
 date: 2026-11-04
 category: "Opportunities"
+image: "/assets/images/news/cimpa-logo.jpg"
+image_type: "logo"
+image_alt: "CIMPA logo"
+image_credit: "CIMPA"
+image_source: "https://cimpa.info/sites/default/files/inline-images/cimpa-long.jpg"
+image_modification: "None. Original official logo from CIMPA’s communication resources, used to identify the programme organiser."
 card_excerpt: "CIMPA invites applications for year-long academic mentoring. A separate PIMS–CIMPA programme supports researchers at African institutions; eligible applicants based in Africa may apply to both."
 ---
 

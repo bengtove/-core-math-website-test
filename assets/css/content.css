@@ -255,8 +255,7 @@ body,
   margin-top: .4rem;
 }
 
-/* Strategy tables are deliberately editorial: readable on wide screens and
- * scrollable rather than compressed on the narrowest viewports. */
+/* Strategy prose retains the existing reading measure. */
 .strategy-page {
   max-width: 64rem;
 }
@@ -270,38 +269,32 @@ body,
   margin-top: 3rem;
 }
 
-.strategy-table-wrapper {
-  max-width: 64rem;
-  margin-top: 1.5rem;
-  overflow-x: auto;
+/* Reuse archive rows for paired About-page content. */
+.site-main .about-detail-list dt,
+.site-main .about-detail-list dd {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: normal;
 }
 
-.strategy-table {
-  width: 100%;
-  min-width: 42rem;
-  border-collapse: collapse;
-  font-size: var(--body-text-size);
-  line-height: var(--prose-line-height);
+.strategy-list .news-archive-item {
+  margin: 1.25rem 0;
 }
 
-.strategy-table th,
-.strategy-table td {
-  padding: .9rem 1rem;
-  border-bottom: 1px solid var(--content-rule);
-  text-align: left;
-  vertical-align: top;
-}
-
-.strategy-table thead th {
-  color: var(--editorial-muted);
-  font-size: var(--metadata-text-size);
-  font-weight: 600;
-}
-
-.strategy-table tbody th {
-  width: 34%;
+.site-main .strategy-list dt {
   color: var(--editorial-heading);
   font-weight: 700;
+}
+
+@media (min-width: 601px) {
+  .about-detail-list .news-archive-item {
+    grid-template-columns: 10rem minmax(0, 1fr);
+  }
+
+  .strategy-list .news-archive-item {
+    grid-template-columns: minmax(0, 34%) minmax(0, 1fr);
+  }
 }
 
 /* Ordinary page prose remains aligned with the full-width page structure. */
@@ -375,25 +368,3 @@ body,
   padding: 0;
   background: var(--content-surface);
 }
-
-/* Two-column chronology: wrap dates and descriptions within narrow screens. */
-.milestones-table {
-  width: 100%;
-  border-collapse: collapse;
-  line-height: var(--prose-line-height);
-}
-.milestones-table th,
-.milestones-table td {
-  padding: .75rem .6rem;
-  border-bottom: 1px solid var(--content-rule);
-  text-align: left;
-  vertical-align: top;
-}
-.milestones-table th:first-child,
-.milestones-table td:first-child {
-  width: 25%;
-  min-width: 7rem;
-  word-break: normal;
-  overflow-wrap: normal;
-}
-.milestones-table thead th { color: var(--editorial-heading); }

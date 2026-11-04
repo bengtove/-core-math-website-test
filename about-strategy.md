@@ -1,6 +1,7 @@
 ---
 title: "CoRE-Math Strategy"
 permalink: /about/strategy/
+news_events: true
 parent_context_url: /about/
 parent_context_label: About CoRE-Math
 ---
@@ -29,49 +30,39 @@ parent_context_label: About CoRE-Math
 
 <p>The following strategic areas guide the long-term development of CoRE-Math and its activities.</p>
 
-<div class="strategy-table-wrapper">
-  <table class="strategy-table">
-    <thead>
-      <tr>
-        <th scope="col">Strategic Area</th>
-        <th scope="col">Objective</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1. Research &amp; Scientific Collaboration</th>
-        <td>Strengthen collaborative mathematical research by connecting research environments across Africa and Europe.</td>
-      </tr>
-      <tr>
-        <th scope="row">2. Postgraduate Education</th>
-        <td>Strengthen postgraduate education by connecting expertise, expanding mobility, and developing shared educational activities across the network.</td>
-      </tr>
-      <tr>
-        <th scope="row">3. Mathematics for Industry &amp; Society</th>
-        <td>Strengthen the contribution of mathematical sciences to addressing societal challenges through interdisciplinary collaboration and partnerships.</td>
-      </tr>
-      <tr>
-        <th scope="row">4. Partnerships &amp; Network Development</th>
-        <td>Build a strong, well-connected, and sustainable network of universities and strategic partners.</td>
-      </tr>
-      <tr>
-        <th scope="row">5. Gender &amp; Inclusion</th>
-        <td>Strengthen gender and inclusion across the network by connecting, supporting, and increasing the visibility of existing initiatives.</td>
-      </tr>
-      <tr>
-        <th scope="row">6. Communication, Dissemination &amp; Visibility</th>
-        <td>Increase the visibility, recognition, and impact of CoRE-Math through strategic communication and dissemination.</td>
-      </tr>
-      <tr>
-        <th scope="row">7. Funding &amp; Resource Mobilisation</th>
-        <td>Secure diversified and sustainable funding that supports CoRE-Math’s strategic priorities.</td>
-      </tr>
-      <tr>
-        <th scope="row">8. Governance &amp; Strategy</th>
-        <td>Provide effective governance, strategic direction, and shared leadership for CoRE-Math.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<dl class="news-archive-list about-detail-list strategy-list">
+  <div class="news-archive-item">
+    <dt>1. Research &amp; Scientific Collaboration</dt>
+    <dd>Strengthen collaborative mathematical research by connecting research environments across Africa and Europe.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>2. Postgraduate Education</dt>
+    <dd>Strengthen postgraduate education by connecting expertise, expanding mobility, and developing shared educational activities across the network.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>3. Mathematics for Industry &amp; Society</dt>
+    <dd>Strengthen the contribution of mathematical sciences to addressing societal challenges through interdisciplinary collaboration and partnerships.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>4. Partnerships &amp; Network Development</dt>
+    <dd>Build a strong, well-connected, and sustainable network of universities and strategic partners.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>5. Gender &amp; Inclusion</dt>
+    <dd>Strengthen gender and inclusion across the network by connecting, supporting, and increasing the visibility of existing initiatives.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>6. Communication, Dissemination &amp; Visibility</dt>
+    <dd>Increase the visibility, recognition, and impact of CoRE-Math through strategic communication and dissemination.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>7. Funding &amp; Resource Mobilisation</dt>
+    <dd>Secure diversified and sustainable funding that supports CoRE-Math’s strategic priorities.</dd>
+  </div>
+  <div class="news-archive-item">
+    <dt>8. Governance &amp; Strategy</dt>
+    <dd>Provide effective governance, strategic direction, and shared leadership for CoRE-Math.</dd>
+  </div>
+</dl>
 
 </div>

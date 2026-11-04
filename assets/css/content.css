@@ -368,3 +368,12 @@ body,
   padding: 0;
   background: var(--content-surface);
 }
+
+/* Year groups retain archive spacing with the established terracotta rule. */
+.past-events-year.milestones-year > h2 {
+  border-bottom: var(--editorial-entry-rule);
+}
+
+.milestones-year .news-archive-item {
+  margin: .8rem 0;
+}

@@ -8,8 +8,10 @@ parent_context_label: About CoRE-Math
 
 # Milestones
 
-Since its establishment in 2024, CoRE-Math has expanded its institutional network, developed research and educational activities, and established new opportunities for collaboration between Africa and Europe. The milestones below highlight important developments in the network's evolution.
+The milestones below trace CoRE-Math’s development from its establishment in 2024 to an expanding Africa–Europe network of research, education and collaboration.
 
+<section class="past-events-year milestones-year" aria-labelledby="milestones-2024">
+<h2 id="milestones-2024">2024 — Establishment</h2>
 <dl class="news-archive-list about-detail-list">
   <div class="news-archive-item">
     <dt>September 2024</dt>
@@ -23,6 +25,12 @@ Since its establishment in 2024, CoRE-Math has expanded its institutional networ
     <dt>October 2024</dt>
     <dd>First <a href="{{ '/news/2024/kick-off-meeting-with-the-european-partners-in-uppsala/' | relative_url }}">in-person CoRE-Math meeting</a> held in Uppsala</dd>
   </div>
+</dl>
+</section>
+
+<section class="past-events-year milestones-year" aria-labelledby="milestones-2025">
+<h2 id="milestones-2025">2025 — Building the network</h2>
+<dl class="news-archive-list about-detail-list">
   <div class="news-archive-item">
     <dt>January 2025</dt>
     <dd>University of Vienna joins CoRE-Math</dd>
@@ -43,6 +51,12 @@ Since its establishment in 2024, CoRE-Math has expanded its institutional networ
     <dt>October 2025</dt>
     <dd>University of KwaZulu-Natal joins CoRE-Math</dd>
   </div>
+</dl>
+</section>
+
+<section class="past-events-year milestones-year" aria-labelledby="milestones-2026">
+<h2 id="milestones-2026">2026 — Expanding activities</h2>
+<dl class="news-archive-list about-detail-list">
   <div class="news-archive-item">
     <dt>February 2026</dt>
     <dd>ICMS funding awarded for mathematics-in-industry activities</dd>
@@ -80,3 +94,4 @@ Since its establishment in 2024, CoRE-Math has expanded its institutional networ
     <dd>New CoRE-Math website launched</dd>
   </div>
 </dl>
+</section>

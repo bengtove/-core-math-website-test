@@ -42,9 +42,9 @@ alone when no corresponding Event or Project page exists.
 
 #### External links in news posts
 
-Short news announcements should normally contain one principal external link, preferably at the end of the article. Additional links should be included only when they provide essential information not readily accessible through the principal link.
+Short news announcements should generally avoid hyperlinks scattered throughout the text. Place the principal external links together at the end of the article, under a clear label such as “Further information and applications”.
 
-Avoid excessive hyperlinks within running text, particularly when several links point to closely related information.
+Include separate links when readers need access to distinct programmes or application processes. Avoid redundant links to closely related information already readily accessible through the principal links.
 
 ### Cross-linking
 

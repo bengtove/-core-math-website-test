@@ -20,4 +20,7 @@ CIMPA has opened applications for its international mentoring programme, which c
 
 CIMPA is a long-standing partner of ISP and CoRE-Math. We encourage eligible researchers across the CoRE-Math network to explore these opportunities.
 
-**Further information and applications:** [Official CIMPA announcement](https://www.cimpa.info/en/node/8292).
+**Further information and applications:**
+
+- [CIMPA mentoring programme](https://www.cimpa.info/en/node/8292)
+- [PIMS–CIMPA Africa mentoring programme](https://ubc.ca1.qualtrics.com/jfe/form/SV_eeRtSMTshEjbB42)

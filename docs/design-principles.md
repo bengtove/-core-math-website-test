@@ -21,6 +21,14 @@ This applies to news articles, research pages, programme descriptions, resources
 
 Preserve established styling for navigation menus, buttons, linked headings, cards and other recognisable interface controls. Inline links within descriptive text follow the body-link treatment.
 
+## News-card images
+
+Every newly featured news item should have a relevant, permitted image. If rights cannot be established, use an appropriate approved alternative or explicitly report the limitation before publishing; do not treat a blank image area as a finished result.
+
+Use the existing shared card dimensions. Photographs fill their image area with a considered crop. Posters and announcement graphics use `image_type: graphic` to show the complete artwork at its original proportions without additional CSS padding. Avoid embedding excessive blank canvas around logos; assess the visible artwork, not just the dimensions of the file. Follow applicable brand rules and report any constraint that prevents an effective card image.
+
+Record source, permission evidence, credit and modifications in post metadata, with public attribution where required. Provide a full-size link for posters whose detailed text cannot be read at card size. Check the actual rendered homepage and News & Events cards on desktop and mobile, including legibility, cropping, whitespace and image loading.
+
 ## Working principles
 
 - Reuse the shared CSS variables and established page/component classes before adding a page-specific treatment. Do not create a near-duplicate component merely to solve a local styling problem.

@@ -367,3 +367,11 @@ body,
   padding: 0;
   background: #fff;
 }
+
+/* Complete poster and announcement artwork, without a second layer of padding. */
+.home-news-image img.editorial-graphic,
+.news-card-image.editorial-graphic {
+  object-fit: contain;
+  padding: 0;
+  background: var(--content-surface);
+}

@@ -4,12 +4,12 @@ title: "CNRS supports mathematical research collaboration in Africa"
 date: 2026-11-04 12:01:00 +0100
 category: "Research"
 image: "/assets/images/news/cnrs-logo.png"
-image_type: "logo"
+image_type: "graphic"
 image_alt: "CNRS logo"
 image_credit: "CNRS"
 image_source: "https://images.cnrs.fr/telechargez-le-logo-officiel-du-cnrs"
 image_permission: "Official logo download, used according to the published CNRS logo rules."
-image_modification: "Artwork proportionally resized without alteration, centred on white with clear space of at least one logo width on each side."
+image_modification: "Original official logo proportionally resized without alteration, centred on white; enlarged for editorial identification in news cards."
 card_excerpt: "CNRS funding supports a new mathematical research collaboration involving six African countries represented in CoRE-Math."
 ---
 

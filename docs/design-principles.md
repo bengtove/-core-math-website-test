@@ -11,6 +11,16 @@ CoRE-Math uses a restrained, professional and welcoming visual identity for an i
 - Prefer open editorial layouts, typography, whitespace and simple rules. Do not introduce cards, shadows, rounded containers, decorative patterns or additional illustration unless the information task genuinely requires them.
 - Make links, focus states, hierarchy and responsive behaviour clear independently of colour alone.
 
+## Hyperlink visibility
+
+Inline hyperlinks within body text must be clearly distinguishable from surrounding text without requiring users to hover over them. They should use the website’s established link colour and be underlined by default.
+
+This applies to news articles, research pages, programme descriptions, resources and other textual content, including links in paragraphs, bullet lists and tables.
+
+Navigation menus, buttons, linked headings, cards and other interface elements that are already visually identifiable as interactive do not require underlining. Inline links within their descriptive text remain covered by this principle.
+
+Hyperlinks must remain identifiable when visited, and hover and keyboard-focus states must provide appropriate visual feedback.
+
 ## Working principles
 
 - Reuse the shared CSS variables and established page/component classes before adding a page-specific treatment. Do not create a near-duplicate component merely to solve a local styling problem.

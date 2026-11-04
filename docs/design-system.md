@@ -74,7 +74,9 @@ Terracotta is intentionally limited to editorial orientation labels and entry ru
 
 ## Links and interactive states
 
-- General content links use `--editorial-link` (`#315d7b`).
+- General content links use `--editorial-link` (`#315d7b`). Shared rules in `assets/css/content.css` underline body links by default, including visited links, with a `1px` line, `.15em` offset and ink skipping. The rule targets content anchors rather than individual pages, so paragraphs, lists, tables, captions and future content inherit it automatically.
+- Body-link hover and keyboard focus use `--editorial-blue` and a `2px` underline; keyboard focus also retains the shared outline. Visited links keep the same blue and underline as unvisited links (the rules are history-state independent).
+- Exemptions preserve existing interface styling: heading links; navigation and local contents; parent-context links; news archive year navigation; explicit `.action-link` / `.home-text-link` controls; `.event-title` listing links; button-style anchors (`.btn`, `.button`, `[role="button"]`); and image links. Header, navigation rail and footer are outside the main-content scope. Card descriptions and captions are not exempt: inline links there must remain underlined. Use these semantic elements and established component hooks for future interface links, rather than page-specific overrides.
 - Linked news, event, school and research-item titles are visually identifiable as links and underline on hover/focus where their component style specifies it.
 - Editorial cards that introduce an area use plain headings plus a separate action link rather than duplicate heading and action links to the same destination.
 - Action links use meaningful labels such as `About the programme →`, `About the project →`, `About the research group →`, `Event details →` and `Read the report →`. A `span.link-arrow` keeps the arrow with the final word without disabling normal wrapping.

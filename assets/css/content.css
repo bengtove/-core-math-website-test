@@ -50,6 +50,31 @@ body,
   color: var(--editorial-link);
 }
 
+/* Body links remain identifiable in every history state. Apply by default to
+ * future content too; exempt only recognisable interface links, not whole cards
+ * (their descriptions and captions can still contain inline links). */
+.site-main.markdown-body a[href]:not(:where(
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+  nav a, [role="navigation"] a, .local-contents a, .parent-context a,
+  .news-archive-years a, .action-link, .home-text-link,
+  .event-title, .btn, .button, [role="button"], a:has(img)
+)) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .15em;
+  text-decoration-skip-ink: auto;
+}
+
+.site-main.markdown-body a[href]:not(:where(
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+  nav a, [role="navigation"] a, .local-contents a, .parent-context a,
+  .news-archive-years a, .action-link, .home-text-link,
+  .event-title, .btn, .button, [role="button"], a:has(img)
+)):is(:hover, :focus-visible) {
+  color: var(--editorial-blue);
+  text-decoration-thickness: 2px;
+}
+
 /*
  * Shared open editorial grids. Individual pages retain their own widths,
  * margins, opening-rule assignment and responsive column changes.

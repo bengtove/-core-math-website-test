@@ -375,3 +375,25 @@ body,
   padding: 0;
   background: var(--content-surface);
 }
+
+/* Two-column chronology: wrap dates and descriptions within narrow screens. */
+.milestones-table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: var(--prose-line-height);
+}
+.milestones-table th,
+.milestones-table td {
+  padding: .75rem .6rem;
+  border-bottom: 1px solid var(--content-rule);
+  text-align: left;
+  vertical-align: top;
+}
+.milestones-table th:first-child,
+.milestones-table td:first-child {
+  width: 25%;
+  min-width: 7rem;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+.milestones-table thead th { color: var(--editorial-heading); }

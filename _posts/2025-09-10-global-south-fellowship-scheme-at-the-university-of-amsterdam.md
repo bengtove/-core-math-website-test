@@ -1,4 +1,5 @@
 ---
+linkedin_id: ec4c9398-1c44-4e03-939a-e7819c6eeb42
 title: "Global South Fellowship Scheme at the University of Amsterdam"
 date: 2025-09-10
 type: news

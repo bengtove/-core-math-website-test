@@ -65,7 +65,7 @@ At page load, `opportunities.js` hides passed fixed-deadline calls, changes fell
 | Files/services | GitHub Actions, Python standard library, `scripts/check_local_assets.py`. |
 | Dependencies | Repository checkout and source files encoded as text. |
 | Output | A pass/fail log; no files are generated or changed. |
-| Maintenance | Run it before committing asset work. It intentionally does **not** fetch external URLs and does not validate theme-provided assets. |
+| Maintenance | The workflow also prepares and validates LinkedIn metadata in a disposable checkout, without pushing changes. Run the asset check before committing asset work. It intentionally does **not** fetch external URLs and does not validate theme-provided assets. |
 | Status | Implemented. |
 
 ### Jekyll-generated listings and archives
@@ -97,10 +97,10 @@ These scripts improve interaction but do not create or update content:
 
 ## Feeds, social and newsletter integrations
 
-- **RSS/Atom:** no `jekyll-feed` plugin, feed template or feed file was found. There is no RSS automation.
+- **LinkedIn RSS:** `/linkedin.xml` is a dedicated feed for future news, with immutable UUIDs, a fixed exclusion baseline for all 53 historical posts, optional image derivatives, and `linkedin: false` opt-out. The preparation workflow automatically persists IDs and image metadata on relevant pushes to `main`, then requests a Pages rebuild; authors need no extra command. See [LinkedIn publication setup](linkedin-publication.md) for automatic preparation and its publication timing, Zapier Free mapping, required live mention/image tests and recovery limits. No Zap is created or activated by the repository.
 - **Newsletter:** no newsletter service, mailing-list form or scheduled mailing integration was found.
-- **LinkedIn:** the footer contains a normal external link to a LinkedIn group. It is not an API or publishing integration.
-- **Social sharing:** no automated social-post publishing or feed import was found.
+- **LinkedIn links:** the footer links to both the organisation page and existing group; those links are separate from publishing.
+- **Social publishing:** external publication remains inactive until a separately authorised live test passes. Deploying the feed and preparation workflow does not connect LinkedIn or activate a Zap.
 
 ## Manual processes often mistaken for automations
 
@@ -114,7 +114,7 @@ These scripts improve interaction but do not create or update content:
 1. **Daily Pages rebuild is an external API trigger.** If GitHub changes Pages API permissions or the repository’s Pages configuration, date-sensitive server-rendered lists will stop advancing. The homepage browser safeguard does not update Education or the Past Events page.
 2. **The opportunities workflow commits directly to `main`.** This is intentional for generated data, but a failed or malformed Coda source needs investigation in Coda rather than a local edit to the JSON.
 3. **News archive year navigation is partly manual.** New years require a corresponding archive destination/link if the site continues to use discrete year archives.
-4. **No feed/newsletter automation exists.** This is a current absence, not a broken feature.
+4. **LinkedIn publication is not activated.** The feed is prepared; account configuration and live verification are still required. No newsletter automation exists.
 5. **No automated external-link checker exists.** The local asset check correctly limits itself to repository-controlled files.
 
 ### Applicant-category terminology

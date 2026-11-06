@@ -1,4 +1,5 @@
 ---
+linkedin_id: c66aee0d-43c3-4b16-b126-3873d6b1ae70
 title: "Kampala Study Group with Industry tackles regional development challenges"
 date: 2026-10-02
 location: "Kampala, Uganda"

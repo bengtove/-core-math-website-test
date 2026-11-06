@@ -1,4 +1,5 @@
 ---
+linkedin_id: d07abcb6-52de-4485-9a6a-e9f94303bbfc
 layout: post
 title: "Mathematics and industry meet in Kampala"
 date: 2026-06-10

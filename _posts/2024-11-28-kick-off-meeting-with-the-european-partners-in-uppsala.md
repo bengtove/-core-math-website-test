@@ -1,4 +1,5 @@
 ---
+linkedin_id: 2ca1c7a5-c797-49d8-9534-ee347a783a9f
 title: "Kick-off meeting of the European partners in Uppsala"
 date: 2024-11-28
 type: news

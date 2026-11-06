@@ -1,4 +1,5 @@
 ---
+linkedin_id: 80157275-bff2-436e-ae3e-d7b6a882327a
 layout: post
 title: "CoRE-Math fellows meet colleagues at Uppsala University"
 date: 2026-10-19

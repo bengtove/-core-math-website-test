@@ -1,4 +1,5 @@
 ---
+linkedin_id: ea482b23-3475-4cce-82e1-20abf7c1a209
 title: "2025 Nairobi Workshop in Algebraic Geometry"
 date: 2025-07-10
 type: news

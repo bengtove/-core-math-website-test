@@ -1,4 +1,5 @@
 ---
+linkedin_id: 9fd98016-7fab-4509-9b59-b943722cc2b6
 title: "The Second African-Nordic Conference in Mathematics"
 date: 2025-10-14
 type: news

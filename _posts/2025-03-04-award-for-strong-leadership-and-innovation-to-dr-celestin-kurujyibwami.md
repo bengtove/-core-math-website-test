@@ -1,4 +1,5 @@
 ---
+linkedin_id: b6921c02-956b-444b-b89f-31494084e0ef
 title: "Award for Strong Leadership and Innovation to Dr Celestin Kurujyibwami"
 date: 2025-03-04
 type: news

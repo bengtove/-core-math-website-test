@@ -1,4 +1,5 @@
 ---
+linkedin_id: 78e1f288-f4cb-45f9-a56c-d46ed4241b14
 layout: post
 title: "Makerere University awards honorary doctorate to Leif Abrahamsson"
 date: 2024-01-29

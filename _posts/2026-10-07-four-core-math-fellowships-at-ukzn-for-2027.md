@@ -1,4 +1,5 @@
 ---
+linkedin_id: 4cab2694-bcde-434c-b89c-0015454cdfa5
 layout: post
 title: "Four CoRE-Math fellowships at UKZN for 2027"
 date: 2026-10-07

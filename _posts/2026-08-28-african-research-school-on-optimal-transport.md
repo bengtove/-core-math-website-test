@@ -1,4 +1,5 @@
 ---
+linkedin_id: 24ab9093-08be-4444-9cbe-e3fdc8944417
 title: "African Research School on Optimal Transport"
 date: 2026-08-28
 type: news

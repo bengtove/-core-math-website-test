@@ -1,4 +1,5 @@
 ---
+linkedin_id: 190d0b7e-9cb9-47ad-b54d-a048c449aeec
 layout: post
 title: "CIMPA mentoring programmes: Applications open"
 date: 2026-11-04

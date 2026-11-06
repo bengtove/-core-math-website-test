@@ -1,4 +1,5 @@
 ---
+linkedin_id: 14064ffd-6a64-4013-9fa3-974451c58c44
 title: "Kenya celebrates International Day of Mathematics with Pi-Day Competitions"
 date: 2025-03-17
 type: news

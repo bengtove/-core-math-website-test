@@ -1,4 +1,5 @@
 ---
+linkedin_id: 253b98ed-f0d8-40ae-83cf-85401bc43478
 title: "CIMPA School on Effective Algebra and the LMFBD at Makerere"
 date: 2025-01-10
 type: news

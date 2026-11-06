@@ -40,6 +40,10 @@ development rather than reproducing the full Event description. Link to the
 relevant Event or Project page for more detailed information. A post may stand
 alone when no corresponding Event or Project page exists.
 
+#### LinkedIn feed preparation
+
+Commit or merge news posts normally. The LinkedIn preparation Action assigns and commits a permanent `linkedin_id`, prepares optional images, and requests a Pages rebuild automatically. Do not change an existing ID when editing or renaming a post; remove a copied ID when creating a distinct new article. Set `linkedin: false` to exclude an article. A new article may appear on the website before the follow-up build adds it to the LinkedIn feed. See [LinkedIn publication setup](linkedin-publication.md) for safeguards, image choices and recovery. No local preparation command is required.
+
 #### External links in news posts
 
 Short news announcements should generally avoid hyperlinks scattered throughout the text. Place the principal external links together at the end of the article, under a clear label such as “Further information and applications”.

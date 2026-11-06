@@ -1,4 +1,5 @@
 ---
+linkedin_id: 6ebb72fd-621c-405c-8458-12fef3550ef5
 title: "The 2nd European Summer Program in Infectious Disease Analysis and Modelling (ESPIDAM)"
 date: 2025-06-17
 type: news

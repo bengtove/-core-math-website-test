@@ -1,4 +1,5 @@
 ---
+linkedin_id: 355a72fd-7d9e-4229-bd5c-deae67493d1f
 title: "SPIRIT project strengthens research on gender disparities in Rwanda"
 date: 2026-07-01
 type: news

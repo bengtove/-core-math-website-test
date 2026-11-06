@@ -1,4 +1,5 @@
 ---
+linkedin_id: ff1843c2-8e52-4d07-b0b2-a88f8b37122c
 title: "ICTP-EAUMP Summer school on Real and Harmonic Analysis"
 date: 2025-08-19
 type: news

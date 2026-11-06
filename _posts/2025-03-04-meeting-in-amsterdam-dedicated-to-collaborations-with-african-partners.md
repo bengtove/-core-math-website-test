@@ -1,4 +1,5 @@
 ---
+linkedin_id: 27904df6-b723-432e-b5db-c69e5fc9ff87
 title: "Meeting in Amsterdam dedicated to Collaborations with African Partners"
 date: 2025-03-04
 type: news

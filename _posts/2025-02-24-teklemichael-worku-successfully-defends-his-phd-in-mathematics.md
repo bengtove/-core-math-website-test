@@ -1,4 +1,5 @@
 ---
+linkedin_id: a1edd53a-c3dd-41a0-8b64-84af958d517e
 title: "Teklemichael Worku successfully defends his PhD in Mathematics."
 date: 2025-02-24
 type: news

@@ -1,4 +1,5 @@
 ---
+linkedin_id: 7e46fca7-6858-4a5a-8968-665d993f59e1
 title: "Samya Suleiman successfully defends PhD at UDSM"
 date: 2025-02-18
 type: news

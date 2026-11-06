@@ -1,4 +1,5 @@
 ---
+linkedin_id: 9d1e1e79-0355-4b9f-885b-5003f3bbf6a9
 layout: post
 title: "African collaboration highlighted at ECMI 2026"
 date: 2026-11-04 12:00:00 +0100

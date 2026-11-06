@@ -1,4 +1,5 @@
 ---
+linkedin_id: 57da0213-5902-4e33-a0a6-3c9e3a64785a
 layout: post
 title: "MARM Partnership Grants 2026/27: Applications Open"
 date: 2026-11-03

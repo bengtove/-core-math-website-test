@@ -1,4 +1,5 @@
 ---
+linkedin_id: 043400e7-2b3e-428b-8d7c-cefd97d3fdfc
 title: "University of Bergen to host a symposium on Africa-Europe Research Collaborations"
 date: 2025-11-12
 type: news

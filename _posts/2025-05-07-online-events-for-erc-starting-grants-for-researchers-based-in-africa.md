@@ -1,4 +1,5 @@
 ---
+linkedin_id: 9b3727aa-a7b8-48b4-acfe-e28aa5b7b73b
 title: "Online events for ERC Starting Grants for researchers based in Africa"
 date: 2025-05-07
 type: news

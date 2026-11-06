@@ -1,4 +1,5 @@
 ---
+linkedin_id: 7670dd0c-bec7-47a4-91f1-3c83cdfa069e
 title: "Tanzania celebrates International Day of Mathematics"
 date: 2025-03-17
 type: news

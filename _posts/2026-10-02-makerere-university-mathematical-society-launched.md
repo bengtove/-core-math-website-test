@@ -1,4 +1,5 @@
 ---
+linkedin_id: 0a043d33-34dd-4cad-9945-4935f0dc87fd
 layout: post
 title: "Makerere University Mathematical Society launched"
 date: 2026-10-02

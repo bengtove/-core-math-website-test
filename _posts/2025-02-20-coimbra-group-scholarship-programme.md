@@ -1,4 +1,5 @@
 ---
+linkedin_id: d4c119d7-d65e-4ea6-8bea-7b2680d100ac
 title: "Coimbra Group Scholarship Programme"
 date: 2025-02-20
 type: news

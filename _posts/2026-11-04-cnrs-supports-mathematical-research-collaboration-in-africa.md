@@ -1,4 +1,5 @@
 ---
+linkedin_id: 946758ee-3e81-446c-96f8-729814b69059
 layout: post
 title: "CNRS supports mathematical research collaboration in Africa"
 date: 2026-11-04 12:01:00 +0100

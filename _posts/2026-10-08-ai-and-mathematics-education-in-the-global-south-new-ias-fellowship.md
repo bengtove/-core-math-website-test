@@ -1,4 +1,5 @@
 ---
+linkedin_id: c8590140-e66f-4344-b01f-cf00831b85a4
 layout: post
 title: "AI and mathematics education in the Global South: new IAS fellowship"
 date: 2026-10-08

@@ -1,4 +1,5 @@
 ---
+linkedin_id: 69e4be26-10c3-41ae-9340-23e7271f88f7
 title: "LUT University's UNESCO Chair focuses on digital transformation in Africa"
 date: 2025-08-28
 type: news

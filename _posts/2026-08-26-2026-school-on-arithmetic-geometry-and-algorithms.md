@@ -1,4 +1,5 @@
 ---
+linkedin_id: 9538e2e8-1696-4a2f-8d6b-3eb5e3aba3a5
 title: "2026 School on Arithmetic, Geometry and Algorithms"
 date: 2026-08-26
 type: news

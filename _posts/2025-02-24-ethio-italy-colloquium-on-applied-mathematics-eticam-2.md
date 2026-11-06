@@ -1,4 +1,5 @@
 ---
+linkedin_id: 11bcb4fb-5b0c-4cc0-9366-a707b1a65934
 title: "Ethio-Italy Colloquium on Applied Mathematics (ETICAM-2)"
 date: 2025-02-24
 type: news

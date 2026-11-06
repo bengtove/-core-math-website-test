@@ -1,4 +1,5 @@
 ---
+linkedin_id: f6347ad2-e2f1-463b-ac2d-198354d35f9c
 title: "SAMSA Conference 2025"
 date: 2025-06-10
 type: news

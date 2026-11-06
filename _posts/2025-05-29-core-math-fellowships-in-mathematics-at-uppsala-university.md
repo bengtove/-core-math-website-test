@@ -1,4 +1,5 @@
 ---
+linkedin_id: 6e0d7648-8c87-464b-b0b3-1c81414a671b
 title: "CoRE-Math Fellowships in Mathematics at Uppsala University"
 date: 2025-05-29
 type: news

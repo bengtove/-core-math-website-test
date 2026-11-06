@@ -1,4 +1,5 @@
 ---
+linkedin_id: e0e5c1b1-59e6-4697-aaca-ac61cbbf19a6
 title: "Seminar in \"Telescoping Physics of the Early Universe\" at the University of KwaZulu-Natal"
 date: 2026-02-03
 type: news

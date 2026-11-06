@@ -1,4 +1,5 @@
 ---
+linkedin_id: ede9cb0f-8161-481b-9598-cd6065d33fcb
 title: "ICTP-EAUMP Summer School 2025"
 date: 2025-02-07
 type: news

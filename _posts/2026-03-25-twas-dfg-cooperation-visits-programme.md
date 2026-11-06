@@ -1,4 +1,5 @@
 ---
+linkedin_id: 36edaa6d-946e-4a0a-b27e-fd4723bdd99b
 title: "TWAS-DFG Cooperation Visits Programme"
 date: 2026-03-25
 type: news

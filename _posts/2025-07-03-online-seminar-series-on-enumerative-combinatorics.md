@@ -1,4 +1,5 @@
 ---
+linkedin_id: 7fab4340-781a-4de4-9b92-3aa69a5fa680
 title: "Online Seminar Series on Enumerative Combinatorics"
 date: 2025-07-03
 type: news

@@ -1,4 +1,5 @@
 ---
+linkedin_id: 0f1f48de-130a-4353-a727-3212d5c94d9f
 title: "East African Mathematical Olympiad"
 date: 2025-06-06
 type: news

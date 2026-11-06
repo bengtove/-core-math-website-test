@@ -1,4 +1,5 @@
 ---
+linkedin_id: ebb734e5-8ee8-4e03-93b9-327e9c183e15
 title: "EU funding for Generative AI for Africa"
 date: 2025-05-23
 type: news

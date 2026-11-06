@@ -1,4 +1,5 @@
 ---
+linkedin_id: b7f72020-77da-433b-a599-f9109ff30fab
 layout: post
 title: "ARUA Early Career Fellow completes research visit at Makerere"
 date: 2026-11-04 13:00:00 +0100

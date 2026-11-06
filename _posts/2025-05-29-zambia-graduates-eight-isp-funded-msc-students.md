@@ -1,4 +1,5 @@
 ---
+linkedin_id: 1f70f8d0-7bc9-420e-a20d-0f0f92a8a0a6
 title: "Zambia Graduates Eight ISP Funded MSc Students"
 date: 2025-05-29
 type: news

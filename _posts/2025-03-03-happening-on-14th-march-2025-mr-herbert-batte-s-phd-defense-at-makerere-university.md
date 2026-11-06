@@ -1,4 +1,5 @@
 ---
+linkedin_id: 9b71ca0d-bccd-4c8f-abe0-6c55649c2141
 title: "Herbert Batte successfully defends his PhD at Makerere University"
 date: 2025-03-03
 type: news

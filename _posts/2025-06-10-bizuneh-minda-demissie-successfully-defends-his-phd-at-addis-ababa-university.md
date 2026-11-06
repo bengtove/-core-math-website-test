@@ -1,4 +1,5 @@
 ---
+linkedin_id: c07fbf2c-345a-4bdb-947f-2a7203c6a56f
 title: "Bizuneh Minda Demissie successfully defends his PhD at Addis Ababa University"
 date: 2025-06-10
 type: news

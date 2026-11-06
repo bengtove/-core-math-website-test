@@ -1,4 +1,5 @@
 ---
+linkedin_id: 5c4fefcb-c06f-4208-a6a1-948da869b993
 title: "New TFK-funded collaboration strengthens CoRE-Math partnership with Rwanda"
 date: 2026-07-02
 type: news

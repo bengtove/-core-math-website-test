@@ -1,4 +1,5 @@
 ---
+linkedin_id: e85adef3-3be8-4f17-9340-3f16e49a7de2
 title: "Second stage of Mathematics Competitions in Rwanda"
 date: 2025-02-21
 type: news

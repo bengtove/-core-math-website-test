@@ -1,4 +1,5 @@
 ---
+linkedin_id: 68d34bb1-bcea-4a7e-b20a-1c100fb5f053
 layout: post
 title: "The Second African-Nordic Conference in Mathematics"
 date: 2026-08-14

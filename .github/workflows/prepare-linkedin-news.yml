@@ -1,0 +1,52 @@
+name: Prepare LinkedIn news feed
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_posts/**'
+      - 'assets/images/**'
+      - '_data/linkedin_*.json'
+      - 'scripts/prepare_linkedin.rb'
+      - 'scripts/commit_linkedin_preparation.sh'
+      - '.github/workflows/prepare-linkedin-news.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: prepare-linkedin-news
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Install existing AVIF conversion dependency
+        run: |
+          python3 -m pip install --target "$RUNNER_TEMP/linkedin-python" 'Pillow==12.3.0'
+          echo "PYTHONPATH=$RUNNER_TEMP/linkedin-python" >> "$GITHUB_ENV"
+      - name: Prepare, validate and persist permanent IDs
+        run: bash scripts/commit_linkedin_preparation.sh
+      # GITHUB_TOKEN commits do not themselves trigger branch-based Pages builds.
+      # Request even on a no-op rerun, so a previously failed build request recovers.
+      - name: Request Pages build of prepared main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if gh api --method POST "repos/${GH_REPOSITORY}/pages/builds" --silent; then
+              exit 0
+            fi
+            sleep 10
+          done
+          echo 'Pages build request failed; rerun this workflow after checking Pages status.' >&2
+          exit 1

@@ -1,4 +1,5 @@
 ---
+linkedin_id: b0418c46-67f4-4241-ac2b-2c9fddfc1fdd
 layout: post
 title: "Stellenbosch University joins CoRE-Math"
 date: 2026-11-04

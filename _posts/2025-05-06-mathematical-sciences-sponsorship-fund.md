@@ -1,4 +1,5 @@
 ---
+linkedin_id: 6618303d-30eb-4d35-8987-2ac07e0e68d1
 title: "Mathematical Sciences Sponsorship Fund"
 date: 2025-05-06
 type: news

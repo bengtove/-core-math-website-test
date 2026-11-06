@@ -16,3 +16,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check local asset references
         run: python3 scripts/check_local_assets.py
+      # Validate the result of automatic preparation, not the unprepared input.
+      # This checkout is disposable; PRs never receive write permissions or commits.
+      - name: Install existing AVIF conversion dependency
+        run: |
+          python3 -m pip install --target "$RUNNER_TEMP/linkedin-python" 'Pillow==12.3.0'
+          echo "PYTHONPATH=$RUNNER_TEMP/linkedin-python" >> "$GITHUB_ENV"
+      - name: Validate LinkedIn preparation in disposable checkout
+        run: |
+          ruby scripts/prepare_linkedin.rb --prepare
+          ruby scripts/prepare_linkedin.rb

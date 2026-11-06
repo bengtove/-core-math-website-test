@@ -81,7 +81,11 @@ module LinkedInFeed
     end
     target = File.join(root, '_data/linkedin_images.json')
     if prepare
-      File.write(target, JSON.pretty_generate(images) + "\n")
+      # Ruby/JSON versions format empty objects differently. Preserve equivalent
+      # JSON so local previews and the runner cannot alternate formatting commits.
+      unless File.exist?(target) && JSON.parse(File.read(target)) == images
+        File.write(target, JSON.pretty_generate(images) + "\n")
+      end
     else
       raise 'Image manifest is stale; run --prepare' unless File.exist?(target) && JSON.parse(File.read(target)) == images
     end

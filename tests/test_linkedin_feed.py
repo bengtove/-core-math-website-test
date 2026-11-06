@@ -34,6 +34,10 @@ class LinkedInFeedTest(unittest.TestCase):
                 self.assertIsNotNone(rss.find('channel/{http://www.w3.org/2005/Atom}link'))
                 return rss.findall('channel/item')
             prepare(check=True)
+            manifest = root / '_data/linkedin_images.json'
+            manifest.write_text('{\n}\n')
+            prepare()
+            self.assertEqual(manifest.read_text(), '{\n}\n')
             self.assertEqual(build(), [])
             history = json.loads((root / '_data/linkedin_history.json').read_text())
             self.assertEqual(len(history), 53)

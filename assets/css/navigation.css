@@ -266,6 +266,22 @@ body {
   }
 }
 
+.site-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  min-height: 24px;
+}
+
+.site-social-link svg {
+  flex-shrink: 0;
+}
+
+.site-social-link:focus-visible {
+  outline: 2px solid var(--editorial-blue);
+  outline-offset: 3px;
+}
+
 /* Site-wide responsive directories */
 @media (min-width: 768px) {
   .member-columns {

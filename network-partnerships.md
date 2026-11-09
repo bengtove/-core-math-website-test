@@ -24,40 +24,19 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 </article>
 
 {% for member in site.data.member_universities %}
-  {% assign member_image = member.image %}
-  {% unless member_image contains '://' %}
-    {% assign member_image = member_image | relative_url %}
-  {% endunless %}
+  {% assign profile_url = site.data.member_profile_paths[member.photo_id] | relative_url %}
   <article class="node-card">
-    <div class="node-card-image{% if member.image_crop %} node-card-image--{{ member.image_crop }}{% endif %}"><img src="{{ member_image }}" alt="{{ member.image_alt }}"></div>
+    <a class="node-card-image" href="{{ profile_url }}" aria-label="CoRE-Math profile: {{ member.name | escape }}"><img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}"></a>
     <div class="node-card-body">
       <p class="node-card-country">{{ member.country }}</p>
-      <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
+      <h3><a href="{{ member.url }}">{{ member.name }} <span aria-hidden="true">↗</span><span class="member-link-sr-only"> (official university website)</span></a></h3>
       <p>{{ member.introduction }}</p>
-      <button class="node-card-more" type="button" aria-label="University profile: {{ member.name }}" aria-haspopup="dialog" aria-controls="member-portrait-{{ forloop.index }}" data-member-portrait-trigger="member-portrait-{{ forloop.index }}">University profile<span class="link-arrow">&nbsp;→</span></button>
+      <a class="node-card-more" href="{{ profile_url }}" aria-label="CoRE-Math profile: {{ member.name | escape }}">CoRE-Math profile<span class="link-arrow">&nbsp;→</span></a>
     </div>
   </article>
 {% endfor %}
 
 </div>
-
-{% for member in site.data.member_universities %}
-  <dialog class="member-portrait-dialog" id="member-portrait-{{ forloop.index }}" aria-labelledby="member-portrait-heading-{{ forloop.index }}">
-    <div class="member-portrait-dialog__surface">
-      <header class="member-portrait-dialog__header">
-        <div>
-          <p class="member-portrait-dialog__country">{{ member.country }}</p>
-          <h2 id="member-portrait-heading-{{ forloop.index }}">{{ member.name }}</h2>
-        </div>
-        <button class="member-portrait-dialog__close" type="button" aria-label="Close" data-member-portrait-close>&times;</button>
-      </header>
-      <div class="member-portrait-dialog__content">
-        <p>{{ member.portrait }}</p>
-        <p class="member-portrait-dialog__link"><a class="action-link" href="{{ member.url }}">Visit {{ member.name }} website<span class="link-arrow">&nbsp;→</span></a></p>
-      </div>
-    </div>
-  </dialog>
-{% endfor %}
 
 ## Formal partners
 

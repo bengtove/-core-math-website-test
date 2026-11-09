@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign member = site.data.member_universities | where: "name", page.member_name | first %}
+{% assign photo = site.data.member_photographs[member.photo_id] %}
+<article class="member-profile">
+  <p><a href="{{ '/network-partnerships/' | relative_url }}">← Network &amp; Partnerships</a></p>
+  <p class="node-card-country">{{ member.country }}</p>
+  <h1>{{ member.name }}</h1>
+  <figure class="member-profile-photo">
+    <img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}" width="{{ photo.website_dimensions[0] }}" height="{{ photo.website_dimensions[1] }}">
+    <figcaption>
+      <p><a href="{{ photo.source_url }}">{{ photo.title | escape }}</a> — {{ photo.creator | escape }} · <a href="{{ photo.licence_url }}" rel="license">{{ photo.licence | escape }}</a>.</p>
+      {% if photo.copyright_notice != empty %}<p>{{ photo.copyright_notice | escape }}</p>{% endif %}
+      <details>
+        <summary>Photograph modifications and reuse conditions</summary>
+        <p>{{ photo.modifications | escape }} The overview displays the documented crop; this profile shows the full website derivative.</p>
+        <p>The website derivative and overview crop retain the licence above. {{ photo.conditions | escape }}</p>
+        <p><a href="{{ photo.source_url }}">Original source on Wikimedia Commons</a> · <a href="{{ '/photo-credits/' | relative_url }}#{{ member.photo_id }}">Full credit record</a></p>
+      </details>
+    </figcaption>
+  </figure>
+  <p>{{ member.portrait }}</p>
+  <p class="member-portrait-dialog__link"><a class="action-link" href="{{ member.url }}">Visit {{ member.name }} website<span class="link-arrow">&nbsp;→</span></a></p>
+</article>

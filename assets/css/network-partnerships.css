@@ -250,6 +250,10 @@
 .member-profile { max-width: 48rem; }
 .member-profile-photo { margin: 1.5rem 0; }
 .member-profile-photo img { display: block; width: auto; height: auto; max-width: 100%; max-height: 21rem; margin: 0 auto; }
-.member-profile-photo figcaption { margin-top: .75rem; font-size: .85rem; line-height: 1.5; overflow-wrap: anywhere; color: var(--editorial-muted); }
-.member-profile-photo figcaption p { margin: .4rem 0; }
-.member-profile-photo summary { cursor: pointer; }
+.member-photo-credit { margin-top: .75rem; font-size: .85rem; line-height: 1.5; overflow-wrap: anywhere; color: var(--editorial-muted); }
+.member-photo-credit p { margin: .4rem 0; }
+.member-photo-credit summary { cursor: pointer; }
+
+.member-photo-credit { margin-top: 2rem; border-top: 1px solid var(--editorial-accent); padding-top: .75rem; }
+.member-photo-credit h3 { font-size: .85rem; margin: 0 0 .4rem; }
+.member-portrait-dialog__surface { overscroll-behavior: contain; }

@@ -26,17 +26,35 @@ The 17 member universities form the nodes of CoRE-Math. The network brings toget
 {% for member in site.data.member_universities %}
   {% assign profile_url = site.data.member_profile_paths[member.photo_id] | relative_url %}
   <article class="node-card">
-    <a class="node-card-image" href="{{ profile_url }}" aria-label="CoRE-Math profile: {{ member.name | escape }}"><img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}"></a>
+    <a class="node-card-image" href="{{ profile_url }}" data-member-portrait-trigger="profile-{{ member.photo_id }}" aria-haspopup="dialog" aria-label="CoRE-Math profile: {{ member.name | escape }}"><img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}"></a>
     <div class="node-card-body">
       <p class="node-card-country">{{ member.country }}</p>
-      <h3><a href="{{ member.url }}">{{ member.name }} <span aria-hidden="true">↗</span><span class="member-link-sr-only"> (official university website)</span></a></h3>
+      <h3><a href="{{ member.url }}">{{ member.name }}<span class="member-link-sr-only"> (official university website)</span></a></h3>
       <p>{{ member.introduction }}</p>
-      <a class="node-card-more" href="{{ profile_url }}" aria-label="CoRE-Math profile: {{ member.name | escape }}">CoRE-Math profile<span class="link-arrow">&nbsp;→</span></a>
+      <a class="node-card-more" href="{{ profile_url }}" data-member-portrait-trigger="profile-{{ member.photo_id }}" aria-haspopup="dialog" aria-label="CoRE-Math profile: {{ member.name | escape }}">CoRE-Math profile<span class="link-arrow">&nbsp;→</span></a>
     </div>
   </article>
 {% endfor %}
 
 </div>
+
+{% for member in site.data.member_universities %}
+{% assign photo = site.data.member_photographs[member.photo_id] %}
+<dialog class="member-portrait-dialog" id="profile-{{ member.photo_id }}" aria-labelledby="profile-title-{{ member.photo_id }}">
+  <div class="member-portrait-dialog__surface">
+    <header class="member-portrait-dialog__header">
+      <div><p class="member-portrait-dialog__country">{{ member.country }}</p><h2 id="profile-title-{{ member.photo_id }}">{{ member.name }}</h2></div>
+      <button type="button" class="member-portrait-dialog__close" data-member-portrait-close aria-label="Close profile">×</button>
+    </header>
+    <div class="member-portrait-dialog__content">
+      <figure class="member-profile-photo"><img src="{{ member.image | relative_url }}" alt="{{ member.image_alt | escape }}" width="{{ photo.website_dimensions[0] }}" height="{{ photo.website_dimensions[1] }}" loading="lazy"></figure>
+      <p>{{ member.portrait }}</p>
+      <p class="member-portrait-dialog__link"><a class="action-link" href="{{ member.url }}">Visit {{ member.name }} website<span class="link-arrow">&nbsp;→</span></a></p>
+      {% include member-photo-credit.html %}
+    </div>
+  </div>
+</dialog>
+{% endfor %}
 
 ## Formal partners
 

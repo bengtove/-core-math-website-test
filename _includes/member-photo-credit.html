@@ -1,0 +1,13 @@
+<section class="member-photo-credit" aria-label="Photo credit">
+  <h3>Photo credit</h3>
+
+      <p><a href="{{ photo.source_url }}">{{ photo.title | escape }}</a> — {{ photo.creator | escape }} · <a href="{{ photo.licence_url }}" rel="license">{{ photo.licence | escape }}</a>.</p>
+      {% if photo.copyright_notice != empty %}<p>{{ photo.copyright_notice | escape }}</p>{% endif %}
+      <details>
+        <summary>Details</summary>
+        <p>{{ photo.modifications | escape }} The overview displays the documented crop; this profile shows the full website derivative.</p>
+        <p>The website derivative and overview crop retain the licence above. {{ photo.conditions | escape }}</p>
+        <p><a href="{{ photo.source_url }}">Original source on Wikimedia Commons</a> · <a href="{{ '/photo-credits/' | relative_url }}#{{ member.photo_id }}">Full credit record</a></p>
+      </details>
+
+</section>

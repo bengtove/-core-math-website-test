@@ -1,0 +1,308 @@
+[
+  {
+    "cell": 1,
+    "row": 1,
+    "column": 1,
+    "id": "CM-PH-000030",
+    "university": "Addis Ababa University",
+    "original_sha256": "994db97739535b050e27d4d4a4329cb5a8cfa6e3fa37480adf74172f8ffcebe8",
+    "original_dimensions": [
+      5646,
+      3176
+    ],
+    "scale": 0.11125104953820318,
+    "focal_point": [
+      0.5,
+      0.6
+    ]
+  },
+  {
+    "cell": 2,
+    "row": 1,
+    "column": 2,
+    "id": "CM-PH-000046",
+    "university": "Uppsala University",
+    "original_sha256": "c2fc8da8934b7d9607d9d14f401caed2994d62eb686cdc62bd95a651ac7fa860",
+    "original_dimensions": [
+      6163,
+      4113
+    ],
+    "scale": 0.08590647540319313,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 3,
+    "row": 1,
+    "column": 3,
+    "id": "CM-PH-000033",
+    "university": "Makerere University",
+    "original_sha256": "1467207fb692217419ef2137b991119a26400db66689e013c3a5d232dd5e51a8",
+    "original_dimensions": [
+      4032,
+      2268
+    ],
+    "scale": 0.1557907113462669,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 4,
+    "row": 1,
+    "column": 4,
+    "id": "CM-PH-000031",
+    "university": "Linköping University",
+    "original_sha256": "b5f3f566d35053f49d6d24ff16419344e319ab080adeb0ab4eb0a44d05a18d50",
+    "original_dimensions": [
+      2560,
+      1728
+    ],
+    "scale": 0.2044753086419753,
+    "focal_point": [
+      0.55,
+      0.55
+    ]
+  },
+  {
+    "cell": 5,
+    "row": 1,
+    "column": 5,
+    "id": "CM-PH-000034",
+    "university": "Stellenbosch University",
+    "original_sha256": "03c9c32f57eaf74ec66ca73094a316c19ba831092363768db75f09e052ac2275",
+    "original_dimensions": [
+      1276,
+      894
+    ],
+    "scale": 0.39522744220730793,
+    "focal_point": [
+      0.5,
+      0.4
+    ]
+  },
+  {
+    "cell": 6,
+    "row": 1,
+    "column": 6,
+    "id": "CM-PH-000039",
+    "university": "University of Groningen",
+    "original_sha256": "e11df238c3d0625459a589842f27ff35e9ae679fc9f09f8ac9c7d43d6fce1837",
+    "original_dimensions": [
+      5472,
+      3648
+    ],
+    "scale": 0.09685672514619882,
+    "focal_point": [
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "cell": 7,
+    "row": 2,
+    "column": 1,
+    "id": "CM-PH-000042",
+    "university": "University of Oslo",
+    "original_sha256": "4822997a3e58629759f490a429187a044e1d16ac3fd499b9584e8e42dd0dba58",
+    "original_dimensions": [
+      3072,
+      2304
+    ],
+    "scale": 0.15335648148148148,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 8,
+    "row": 2,
+    "column": 2,
+    "id": "CM-PH-000038",
+    "university": "University of Dar es Salaam",
+    "original_sha256": "11dea4044389ca69ef1a64a0478df8ef7b2429ea55f5b52057902b0cdf9c0a22",
+    "original_dimensions": [
+      2576,
+      1932
+    ],
+    "scale": 0.1828847481021394,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 9,
+    "row": 2,
+    "column": 3,
+    "id": "CM-PH-000044",
+    "university": "University of Vienna",
+    "original_sha256": "e1269746117b9197730705a7f8ce07b22469990ad46cfff877310db2f2532750",
+    "original_dimensions": [
+      3648,
+      2736
+    ],
+    "scale": 0.12914230019493178,
+    "focal_point": [
+      0.65,
+      0.5
+    ]
+  },
+  {
+    "cell": 10,
+    "row": 2,
+    "column": 4,
+    "id": "CM-PH-000037",
+    "university": "University of Bergen",
+    "original_sha256": "f48dfae4f346dd5ea58bdb11e465c93fd958bf3b3a4c6ce2fbe0265cec3cb9bd",
+    "original_dimensions": [
+      4000,
+      3000
+    ],
+    "scale": 0.11777777777777777,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 11,
+    "row": 2,
+    "column": 5,
+    "id": "CM-PH-000040",
+    "university": "University of KwaZulu-Natal",
+    "original_sha256": "4a344430c0602542d5affa517816faf4a7f7492018a1d0c9640b4f57d4c98646",
+    "original_dimensions": [
+      938,
+      624
+    ],
+    "scale": 0.5662393162393162,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 12,
+    "row": 2,
+    "column": 6,
+    "id": "CM-PH-000035",
+    "university": "Stockholm University",
+    "original_sha256": "997f44e1e55e29fc2aca87a9cf10a6723fca761c5e66655f6e057fe9fd757021",
+    "original_dimensions": [
+      3668,
+      2096
+    ],
+    "scale": 0.16857506361323155,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 13,
+    "row": 3,
+    "column": 1,
+    "id": "CM-PH-000043",
+    "university": "University of Rwanda",
+    "original_sha256": "4708ea78d5b40fe7e2e4392c4c4334fe3cd160a817182b4b7cd86365358ca43b",
+    "original_dimensions": [
+      2592,
+      1944
+    ],
+    "scale": 0.18175582990397804,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 14,
+    "row": 3,
+    "column": 2,
+    "id": "CM-PH-000036",
+    "university": "University of Amsterdam",
+    "original_sha256": "284e09db0a461d561e827c6cbbaab3085b21cee656003fcd06b964009463bf34",
+    "original_dimensions": [
+      3072,
+      2304
+    ],
+    "scale": 0.15335648148148148,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 15,
+    "row": 3,
+    "column": 3,
+    "id": "CM-PH-000045",
+    "university": "University of Zambia",
+    "original_sha256": "4f8a42d3a27b41d62ed0697f66c009ec0acc1e126a84b2f92014f7513e384099",
+    "original_dimensions": [
+      2438,
+      1835
+    ],
+    "scale": 0.19255222524977292,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 16,
+    "row": 3,
+    "column": 4,
+    "id": "CM-PH-000032",
+    "university": "LUT University",
+    "original_sha256": "880423e69a9c62d115fa12ef092e13b14ec62f6ac4135280a0bbedf4fd374307",
+    "original_dimensions": [
+      6690,
+      4460
+    ],
+    "scale": 0.07922272047832586,
+    "focal_point": [
+      0.28,
+      0.5
+    ]
+  },
+  {
+    "cell": 17,
+    "row": 3,
+    "column": 5,
+    "id": "CM-PH-000041",
+    "university": "University of Nairobi",
+    "original_sha256": "b89c775122c199fdec0f7e479572d8c5a5ec31b3ed66917ff59597d4045aa38f",
+    "original_dimensions": [
+      3872,
+      2592
+    ],
+    "scale": 0.13631687242798354,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "cell": 18,
+    "row": 3,
+    "column": 6,
+    "id": "logo",
+    "university": "CoRE-Math logo",
+    "original_sha256": "5e8cdf0fc0ba86305bf5de487c4554484c9c4927403651b00870f309907bf6d3",
+    "original_dimensions": [
+      512,
+      512
+    ],
+    "scale": 0.49687499999999996,
+    "focal_point": [
+      0.5,
+      0.5
+    ]
+  }
+]

@@ -1,11 +1,25 @@
 # CoRE-Math picture archive workflow
 
-This is the website-facing operational guide to selecting and preparing
-photographs. The permanent archive, original files, permissions evidence and
-activity records remain in Dropbox; this repository contains only the web
-derivatives and documentation needed to publish them consistently. It does not
-replace the wider CoRE-Math communication or image-policy material held in
-Dropbox.
+## Current storage policy
+
+Follow [AGENTS.md](../AGENTS.md): GitHub is authoritative for website photographs,
+new website originals that may be committed, attribution and communications
+records. Reuse the relevant existing image and documentation folders. Preserve
+original bytes and record source, creator, licence, copyright and modifications.
+Do not commit restricted originals or confidential correspondence to the public
+repository; report the limitation and retain public-safe provenance.
+
+The wider visually browsable photo library remains undecided. Do not assume
+Dropbox is complete, and do not move, delete or reorganise existing photographs.
+Do not use the historical steps below to add new website/communications material
+to Dropbox, regenerate its catalogue or initiate a migration without a separate
+explicit task.
+
+## Historical archive procedure (reference only)
+
+The following records the earlier archive layout and tooling; it is not the
+current default workflow for new deliverables. Existing paths and identifiers
+remain valid references and are not changed by the storage policy.
 
 The archive is stored in Dropbox at:
 

@@ -1,5 +1,9 @@
 # Reuse of the 17 approved university photographs
 
+> Historical record of the November 2026 preparation. Storage statements describe
+> that work, not instructions for new material. Follow [AGENTS.md](../AGENTS.md)
+> for current storage policy; do not move or reorganise existing originals.
+
 Verified 8 November 2026. Selections are recorded in `_data/member_photographs.yml`; the full-resolution originals, sidecars and evidence belong in the existing Dropbox Pictures archive. The website repository contains only derivatives. No collage has been created and nothing has been published.
 
 ## Website

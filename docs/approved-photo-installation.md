@@ -1,5 +1,9 @@
 # Approved university photograph installation
 
+> Historical record of the November 2026 preparation. Storage statements describe
+> that work, not instructions for new material. Follow [AGENTS.md](../AGENTS.md)
+> for current storage policy; do not move or reorganise existing originals.
+
 This change is prepared locally only. Do not push to the deployment branch or publish without approval.
 
 ## Scope

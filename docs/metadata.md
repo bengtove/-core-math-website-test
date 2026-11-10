@@ -58,9 +58,9 @@ If neither excerpt field is supplied, `_includes/news-card-excerpt.html` derives
 | `image_credit` / `image_source` | Required together for the current public photo-credit line. `image_source` is the original source URL. | Yes |
 | `image_permission` | Rights-status value. The homepage displays the image only for `approved-web`, `CC/licensed`, or `public-domain`; absence or any other value suppresses it. | Indirectly |
 | `image_license` / `image_license_url` | Optional licence name and its URL. The current credit links the credit name to the source and the licence name to this URL. | Yes, when supplied |
-| `image_modification` | Full internal note about a crop or contextual limitation. Keep detailed provenance in the Dropbox archive/activity record as well. | Not currently displayed |
+| `image_modification` | Full internal note about a crop or contextual limitation. Keep detailed public-safe provenance in the relevant repository attribution record. | Not currently displayed |
 | `image_caption_context`, `image_caption_permission`, `image_caption_modification` | Optional short public credit fragments, for example the activity actually depicted, a permission statement, and `Cropped`. | Yes, when supplied |
-| `image_archive_id` | Permanent Dropbox picture-archive identifier, such as `CM-PH-000022`. | Not currently displayed |
+| `image_archive_id` | Stable photograph identifier (including legacy archive IDs), such as `CM-PH-000022`. | Not currently displayed |
 | `organiser` | Named organiser, shown on the Event page. | Yes |
 | `external_url` | Official event/site URL, rendered as an action link. | Yes |
 | `external_label` | Label for that link; falls back to `External website`. | Yes |
@@ -83,8 +83,11 @@ programme: study-groups-with-industry
 
 An Event image is optional. Do not add one merely to fill a homepage card: the
 image must have a documented source and an approved `image_permission` value.
-Store original files, permissions evidence and full provenance in the Dropbox
-picture archive, following the [photo archive workflow](photo-archive-workflow.md).
+Store new website originals and public-safe provenance in the relevant existing
+repository folders under [AGENTS.md](../AGENTS.md). Preserve existing external
+archive references; do not migrate files or commit private permissions correspondence.
+See the [photo archive workflow](photo-archive-workflow.md) for current rules and
+historical context.
 
 ## Programmes (`_programmes/`)
 

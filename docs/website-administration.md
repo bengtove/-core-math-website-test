@@ -183,6 +183,12 @@ domain transfer has completed successfully.
 
 ## Backup and recovery
 
+[AGENTS.md](../AGENTS.md) governs authoritative storage. The existing backup and
+recovery procedure below is not a parallel working archive. Do not automatically
+create new Dropbox copies when preparing website or communications deliverables;
+use these backup steps only for an explicitly requested recovery/backup task.
+Preserve existing backups without moving or deleting them.
+
 An independent Git-bundle backup is stored in Dropbox at:
 
 `CoRE-Math/06. Communication, Dissemination, and Visibility/Website/Administration/Backups/core-math-website-2026-10-25.bundle`

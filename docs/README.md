@@ -5,11 +5,13 @@ website. It explains how the live site is maintained, how content is prepared,
 and how its design and automated processes work. The website is published from
 this repository at [www.africaeuropecoremath.org](https://www.africaeuropecoremath.org).
 
-Dropbox remains the archive for source material: original photographs,
-permissions correspondence and rights evidence, historical screenshots,
-backups, and broader CoRE-Math communication policies. Do not treat a web
-image in this repository as the archival original or as evidence of reuse
-rights.
+[Repository instructions for Codex](../AGENTS.md) define authoritative storage:
+GitHub holds final website, communications and related documentation. Use
+`_communications/` for communications assets and `docs/` for shared guidance.
+Local Codex folders are temporary; do not create new parallel Dropbox archives.
+Existing external originals and historical records remain untouched. The broader
+browsable photo library is undecided, and Dropbox is not assumed complete.
+A website derivative is not an archival original or evidence of reuse rights.
 
 ## Getting started
 
@@ -50,13 +52,12 @@ repository; no named support contact is assumed here.
 - [Detail-page authoring](detail-page-authoring.md) — writing and linking
   programme, project, research-group and event pages; includes news and image
   authoring conventions.
-- [Photo archive workflow](photo-archive-workflow.md) — the interface between
-  the Dropbox photograph archive and approved web derivatives, credits and
-  permission checks.
+- [Photo archive workflow](photo-archive-workflow.md) — current repository storage rules and historical archive procedures,
+  including credits and permission checks.
 
-The wider CoRE-Math communication guidelines and the organisation-level image
-policy remain in Dropbox. This repository records the procedures needed to
-publish website material, not a replacement for those policies.
+Maintain new and updated shared communications guidance in this repository.
+Existing external policy records are not moved by this change; consult them
+when relevant, applying the current storage rules in `AGENTS.md`.
 
 ## Design
 

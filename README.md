@@ -1,20 +1,15 @@
-# -core-math-website-test
+# CoRE-Math website and communications
 
-Test website for CoRE-Math.
+This repository holds the [CoRE-Math website](https://www.africaeuropecoremath.org/), communications material and documentation. Use the table to find a file or instructions for updating it.
 
-## Documentation
+| I’m looking for… | Where to go |
+| --- | --- |
+| A published news article | [News articles by date](_posts/) |
+| An event announcement | [Event files](_events/) |
+| A university profile | [University names and profile text](_data/member_universities.yml) · [Individual profile pages](universities/) |
+| A website photograph | [News photos](assets/images/news/) · [Event photos](assets/images/events/) · [University photos](assets/images/members/approved/) · [Photo credits](photo-credits.md) |
+| A LinkedIn post, photograph or collage | [LinkedIn post index](_communications/linkedin/README.md) · [Organisation tagging register](_communications/linkedin/organisation-ids.md) |
+| A report or downloadable document | [Resource documents](assets/documents/resources/) · [News attachments](assets/documents/news/) |
+| Instructions for updating the website | [Writing and editing pages](docs/detail-page-authoring.md) · [Publishing changes](docs/website-administration.md) · [All guides](docs/README.md) |
 
-For website maintenance, editorial procedures, design, metadata, deployment
-and recovery, start with the [CoRE-Math website documentation](docs/README.md).
-
-## Events
-
-Dated activities are stored as Markdown records in `_events/`. This is the central register for schools, research workshops, conferences, mathematics competitions, modelling weeks, Study Groups with Industry and other network events.
-
-Each event needs a `title`, `type`, `start_date`, `location` and a short description in the Markdown body. Add `end_date` for a multi-day event; otherwise the start date is used as the end date. Links to internal pages or external information belong in the body.
-
-Supported `type` values are `school`, `research-workshop`, `conference`, `mathematics-competition`, `modelling-week`, `study-group-with-industry` and `network-event`. Optional `programme`, `project` and `research_group` fields associate an event with the corresponding record ID where relevant.
-
-Upcoming lists include events whose end date is today or later and sort them by start date. News & Events and Education are filtered when Jekyll builds the site. The homepage also refreshes its two-event selection in the browser, so events advance as dates pass without a new deployment.
-
-For conventions for programme, project, research-group and event detail pages, see [detail-page authoring conventions](docs/detail-page-authoring.md).
+The authoritative branch is `main`. GitHub Pages builds the public website from this branch, so changes to website files here can affect the live site. Final communications material belongs in `_communications/`, and shared maintenance guides are in `docs/`.

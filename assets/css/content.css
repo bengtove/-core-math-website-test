@@ -377,3 +377,57 @@ body,
 .milestones-year .news-archive-item {
   margin: .8rem 0;
 }
+
+/* Editorial tables share the page surface, with rules only between rows. */
+.site-main.markdown-body table {
+  display: table;
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+}
+
+.site-main.markdown-body table tr,
+.site-main.markdown-body table tr:nth-child(even) {
+  border: 0;
+  background: transparent;
+}
+
+.site-main.markdown-body table th,
+.site-main.markdown-body table td {
+  padding: .7rem .75rem;
+  border: 0;
+  vertical-align: top;
+}
+
+.site-main.markdown-body table th {
+  font-weight: 700;
+}
+
+.site-main.markdown-body table th:not([align]) {
+  text-align: left;
+}
+
+.site-main.markdown-body table thead th {
+  border-bottom: 2px solid var(--content-rule);
+}
+
+.site-main.markdown-body table tbody tr + tr > * {
+  border-top: 1px solid #deddda;
+}
+
+/* Wide tables scroll locally on phones, keeping text at its reading size. */
+@media (max-width: 767px) {
+  .site-main.markdown-body table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .fellowship-table {
+    overflow-x: auto;
+  }
+
+  .site-main.markdown-body .fellowship-table table {
+    display: table;
+    min-width: 32rem;
+  }
+}

@@ -143,28 +143,6 @@
   margin: 1rem 0;
 }
 
-.fellowship-table {
-  overflow-x: auto;
-  margin: .75rem 0 1rem;
-}
-
-.fellowship-table table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.fellowship-table th,
-.fellowship-table td {
-  padding: .5rem .75rem .5rem 0;
-  border-bottom: 1px solid var(--content-rule);
-  text-align: left;
-  vertical-align: top;
-}
-
-.fellowship-table th {
-  white-space: nowrap;
-}
-
 @media (min-width: 600px) {
   .opportunities-page .opportunity-filters { grid-template-columns:repeat(3,minmax(0,1fr)); }
 }

@@ -72,18 +72,6 @@
     "url": "https://www.claymath.org/funded-programs/enhancement-and-partnership/"
   },
   {
-    "programme": "Faculty for the Future",
-    "funder": "Schlumberger Foundation",
-    "description": "Fellowships for women from developing and emerging countries to pursue PhD or postdoctoral STEM research abroad",
-    "status": "Open",
-    "deadline": "7 November 2026",
-    "deadline_note": "",
-    "support_type": "PhD funding, Postdoc funding",
-    "career_stage": "PhD, Postdoc",
-    "region": "Global South",
-    "url": "https://www.facultyforthefuture.net/"
-  },
-  {
     "programme": "Fulbright Specialist Program",
     "funder": "U.S. Department of State",
     "description": "Short-term visits by U.S. academics and professionals for teaching, curriculum development, training and institutional capacity building",
@@ -156,6 +144,18 @@
     "url": "https://www.dfg.de/en/research-funding/funding-opportunities/programmes/international-cooperation/initiation-international-collaboration"
   },
   {
+    "programme": "Intra-Africa Academic Mobility Scheme",
+    "funder": "European Commission",
+    "description": "Funding for postgraduate student mobility, traineeships and staff exchanges within Africa",
+    "status": "Open",
+    "deadline": "2 February 2027",
+    "deadline_note": "Deadline 17:00 Brussels time",
+    "support_type": "Institutional capacity building, PhD funding, Postgraduate education",
+    "career_stage": "Institutional",
+    "region": "Africa",
+    "url": "https://www.eacea.ec.europa.eu/grants/2021-2027/intra-africa-academic-mobility-scheme_en"
+  },
+  {
     "programme": "Junior Associates",
     "funder": "ICTP",
     "description": "Funding for long-term affiliation (typically 6 years) with ICTP for early-career researchers",
@@ -166,18 +166,6 @@
     "career_stage": "Early-career",
     "region": "Global South",
     "url": "https://www.ictp.it/math/research-opportunities"
-  },
-  {
-    "programme": "Knowledge Exchange Event Fund",
-    "funder": "ICMS",
-    "description": "Funding for activities that aim to maximise the impact of the mathematical sciences",
-    "status": "Open",
-    "deadline": "2 November 2026",
-    "deadline_note": "Three calls per year, November call",
-    "support_type": "Event organisation",
-    "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://icms.ac.uk/fundings/ke-event-fund/"
   },
   {
     "programme": "Library Assistance Scheme",
@@ -322,30 +310,6 @@
     "region": "Global South, Nordic"
   },
   {
-    "programme": "Research Programs",
-    "funder": "Simons Laufer Mathematical Sciences Institute",
-    "description": "Research membership and postdoctoral fellowship deadline; programme-specific calls",
-    "status": "Open",
-    "deadline": "1 November 2026",
-    "deadline_note": "Programme-specific deadlines",
-    "support_type": "Research collaboration",
-    "career_stage": "Faculty, Postdoc",
-    "region": "Global",
-    "url": "https://www.slmath.org/programs"
-  },
-  {
-    "programme": "Research Support Fund",
-    "funder": "Edinburgh Mathematical Society",
-    "description": "Support for mathematical research activities, including research visits to Scotland, conferences, workshops and summer schools",
-    "status": "Open",
-    "deadline": "10 November 2026",
-    "deadline_note": "Five calls per year, November round",
-    "support_type": "Event organisation, Research visits",
-    "career_stage": "Faculty",
-    "region": "Global, UK linked",
-    "url": "https://www.ems.ac.uk/research-support-fund/?utm_source=chatgpt.com"
-  },
-  {
     "programme": "Research Workshop Organisation",
     "funder": "ICMS",
     "description": "Funding for organising thematic mathematical research workshops",
@@ -358,30 +322,6 @@
     "url": "https://www.icms.org.uk/workshops"
   },
   {
-    "programme": "Research-in-Groups",
-    "funder": "ICMS",
-    "description": "Funding for small collaborative research groups with short-term hosted visits",
-    "status": "Open",
-    "deadline": "30 October 2026",
-    "deadline_note": "",
-    "support_type": "Research funding",
-    "career_stage": "Faculty, Postdoc",
-    "region": "Global",
-    "url": "https://www.icms.org.uk/research-groups"
-  },
-  {
-    "programme": "Seed Grants for Intra-Africa Collaborative Research Projects",
-    "funder": "NRF, SASUF",
-    "description": "Seed funding for new multilateral research collaborations between universities in Sweden, South Africa and other participating African countries",
-    "status": "Open",
-    "deadline": "3 November 2026",
-    "deadline_note": "2026 call",
-    "support_type": "Research collaboration",
-    "career_stage": "Faculty",
-    "region": "Africa",
-    "url": "https://www.sasuf.org/sasuf-nrf-seed-grants-for-intra-africa-collaborative-research-1"
-  },
-  {
     "programme": "Senior Associates",
     "funder": "ICTP",
     "description": "Funding for a six-year ICTP associateship, supporting repeated research visits by mathematicians aged 46–65",
@@ -392,30 +332,6 @@
     "career_stage": "Faculty",
     "region": "Global South",
     "url": "https://www.ictp.it/math/research-opportunities"
-  },
-  {
-    "programme": "Simons Collaborations in Mathematics and the Physical Sciences",
-    "funder": "Simons Foundation",
-    "description": "Funding for large collaborative research projects in mathematics and the physical sciences",
-    "status": "Open",
-    "deadline": "29 October 2026",
-    "deadline_note": "Annual call; Letter of Intent required",
-    "support_type": "Research funding",
-    "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://www.simonsfoundation.org"
-  },
-  {
-    "programme": "Strategic Workshops",
-    "funder": "ICMS",
-    "description": "Funding for workshops addressing emerging, interdisciplinary or strategically important areas of the mathematical sciences",
-    "status": "Open",
-    "deadline": "1 November 2026",
-    "deadline_note": "Two calls per year",
-    "support_type": "Event organisation",
-    "career_stage": "Faculty",
-    "region": "Global",
-    "url": "https://icms.ac.uk/fundings/strategic-workshops/"
   },
   {
     "programme": "Support for scientific meetings",
@@ -488,18 +404,6 @@
     "career_stage": "Faculty",
     "region": "Global South",
     "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards"
-  },
-  {
-    "programme": "Wellcome Early-Career Awards",
-    "funder": "Wellcome",
-    "description": "Funding for early-career researchers undertaking innovative research related to human life, health and wellbeing",
-    "status": "Open",
-    "deadline": "10 November 2026",
-    "deadline_note": "Three calls per year, November call",
-    "support_type": "Research funding",
-    "career_stage": "Early-career",
-    "region": "Global South",
-    "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards"
   },
   {
     "programme": "Wellcome Early-Career Awards",

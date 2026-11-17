@@ -5,14 +5,14 @@ title: "AI and mathematics education in the Global South: new IAS fellowship"
 date: 2026-10-08
 location: "Amsterdam, the Netherlands"
 category: "Research"
-image: "https://www.uva.nl/binaries/_ht_1717663662062/700x0-jpg/content/gallery/subsites/amsterdam-school-of-economics/2018-redesign/herobanners/rec-e-plein-hoofdingang.jpg"
+image: "https://web.archive.org/web/20261115101232im_/https://www.uva.nl/binaries/_ht_1717663662062/700x0-jpg/content/gallery/subsites/amsterdam-school-of-economics/2018-redesign/herobanners/rec-e-plein-hoofdingang.jpg"
 home_excerpt: "Diletta Martinelli, Jim Portegies and Michael Oyengo are working together on an IAS fellowship exploring emerging technologies for mathematics education in the Global South."
 card_excerpt: "Diletta Martinelli, Jim Portegies and Michael Oyengo are collaborating through an IAS fellowship to explore emerging technologies that can support mathematics education and mathematical communities in the Global South."
 ---
 
 [Read more on the University of Amsterdam Institute for Advanced Study website →](https://ias.uva.nl/content/events/2026/10/fellowship-event-diletta-martinelli-jim-portegies-michael-oyengo-21.10.2026.html)
 
-![University of Amsterdam](https://www.uva.nl/binaries/_ht_1717663662062/700x0-jpg/content/gallery/subsites/amsterdam-school-of-economics/2018-redesign/herobanners/rec-e-plein-hoofdingang.jpg)
+![University of Amsterdam](https://web.archive.org/web/20261115101232im_/https://www.uva.nl/binaries/_ht_1717663662062/700x0-jpg/content/gallery/subsites/amsterdam-school-of-economics/2018-redesign/herobanners/rec-e-plein-hoofdingang.jpg)
 
 Diletta Martinelli (University of Amsterdam), Jim Portegies (Eindhoven University of Technology) and Michael Oyengo (Maseno University) are working together on an Institute for Advanced Study fellowship exploring how emerging technologies can support mathematics education and mathematical communities in the Global South.
 

@@ -1,5 +1,17 @@
 [
   {
+    "programme": "Abel Visiting Scholar Program for Graduate Students",
+    "funder": "IMU–CDC",
+    "description": "One-month research visits for applicants under 35 after two years of doctoral study or within a year of defence. Workshop attendance alone is ineligible.",
+    "status": "Open",
+    "deadline": "1 June 2027",
+    "deadline_note": "Open 15 November 2026. Visits start February–December 2028.",
+    "support_type": "Research visits",
+    "career_stage": "PhD",
+    "region": "Global South",
+    "url": "https://www.mathunion.org/cdc/grants/AVSPGS"
+  },
+  {
     "programme": "Attend an ICTP Event",
     "funder": "ICTP",
     "description": "Funding of participation in  schools and workshops",
@@ -24,6 +36,42 @@
     "url": "https://www.cimpa.info/en/node/64"
   },
   {
+    "programme": "Collaborations with Developing Countries - Scheme 5",
+    "funder": "LMS",
+    "description": "Supports research collaboration between UK mathematicians and colleagues in developing countries. Conference participation requires 14 additional days of academic activity.",
+    "status": "Open",
+    "deadline": "15 May 2027",
+    "deadline_note": "Decision June. Earliest start October.",
+    "support_type": "Research collaboration, Research visits",
+    "career_stage": "Faculty, Postdoc",
+    "region": "UK linked, Global South",
+    "url": "https://www.lms.ac.uk/grants/collaborations"
+  },
+  {
+    "programme": "Collaborations with Developing Countries - Scheme 5",
+    "funder": "LMS",
+    "description": "Supports research collaboration between UK mathematicians and colleagues in developing countries. Conference participation requires 14 additional days of academic activity.",
+    "status": "Open",
+    "deadline": "15 September 2027",
+    "deadline_note": "Decision October. Earliest start February of the following year.",
+    "support_type": "Research collaboration, Research visits",
+    "career_stage": "Faculty, Postdoc",
+    "region": "UK linked, Global South",
+    "url": "https://www.lms.ac.uk/grants/collaborations"
+  },
+  {
+    "programme": "Collaborations with Developing Countries - Scheme 5",
+    "funder": "LMS",
+    "description": "Supports research collaboration between UK mathematicians and colleagues in developing countries. Conference participation requires 14 additional days of academic activity.",
+    "status": "Open",
+    "deadline": "22 January 2027",
+    "deadline_note": "Decision February–March. Earliest start June.",
+    "support_type": "Research collaboration, Research visits",
+    "career_stage": "Faculty, Postdoc",
+    "region": "UK linked, Global South",
+    "url": "https://www.lms.ac.uk/grants/collaborations"
+  },
+  {
     "programme": "Collaborative Research Actions (CRAs)",
     "funder": "Belmont Forum",
     "description": "International transdisciplinary research funding addressing global environmental change and sustainability",
@@ -34,6 +82,75 @@
     "career_stage": "Faculty",
     "region": "Global",
     "url": "https://belmontforum.org/open-opportunities/?utm_source=chatgpt.com"
+  },
+  {
+    "programme": "Conference and Research Workshop Grants - Scheme 1",
+    "funder": "LMS",
+    "description": "Supports UK conferences and research workshops, including participation by mathematicians from developing countries. Up to £7,000.",
+    "status": "Open",
+    "deadline": "15 May 2027",
+    "deadline_note": "Decision June. Earliest start October.",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty, Postdoc",
+    "region": "UK linked"
+  },
+  {
+    "programme": "Conference and Research Workshop Grants - Scheme 1",
+    "funder": "LMS",
+    "description": "Supports UK conferences and research workshops, including participation by mathematicians from developing countries. Up to £7,000.",
+    "status": "Open",
+    "deadline": "15 September 2027",
+    "deadline_note": "Decision October. Earliest start February of the following year.",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty, Postdoc",
+    "region": "UK linked"
+  },
+  {
+    "programme": "Conference and Research Workshop Grants - Scheme 1",
+    "funder": "LMS",
+    "description": "Supports UK conferences and research workshops, including participation by mathematicians from developing countries. Up to £7,000.",
+    "status": "Open",
+    "deadline": "22 January 2027",
+    "deadline_note": "Decision February–March. Earliest start June.",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty, Postdoc",
+    "region": "UK linked"
+  },
+  {
+    "programme": "Conference Support Program",
+    "funder": "IMU–CDC",
+    "description": "Support of up to €4,000 for travel and accommodation of participants from developing countries attending mathematical conferences",
+    "status": "Open",
+    "deadline": "15 April 2027",
+    "deadline_note": "For meetings starting after 15 August 2027. Decision by 15 June.",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty, Institutional",
+    "region": "Global South",
+    "url": "https://www.mathunion.org/cdc/grants/CSP"
+  },
+  {
+    "programme": "Conference Support Program",
+    "funder": "IMU–CDC",
+    "description": "Support of up to €4,000 for travel and accommodation of participants from developing countries attending mathematical conferences",
+    "status": "Open",
+    "deadline": "15 July 2027",
+    "deadline_note": "For meetings starting after 15 November 2027. Decision by 15 September.",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty, Institutional",
+    "region": "Global South",
+    "url": "https://www.mathunion.org/cdc/grants/CSP"
+  },
+  {
+    "programme": "Conference Support Program",
+    "funder": "IMU–CDC",
+    "description": "Support of up to €4,000 for travel and accommodation of participants from developing countries attending mathematical conferences.",
+    "status": "Open",
+    "deadline": "15 January 2027",
+    "deadline_note": "For meetings starting after 15 May 2027. Decision by 15 March.",
+    "support_type": "Event organisation",
+    "career_stage": "Faculty, Institutional",
+    "region": "Global South",
+    "url": "https://www.mathunion.org/cdc/grants/CSP"
   },
   {
     "programme": "Early Career Fellowships",
@@ -70,6 +187,18 @@
     "career_stage": "Faculty",
     "region": "Global",
     "url": "https://www.claymath.org/funded-programs/enhancement-and-partnership/"
+  },
+  {
+    "programme": "Event Funding Grants",
+    "funder": "EMS–CDC",
+    "description": "Support for events organised by Global South institutions for participants from the Global South.",
+    "status": "Open",
+    "deadline": "28 February 2027",
+    "deadline_note": "Opens 15 November. Decisions April–May.",
+    "support_type": "Event organisation",
+    "career_stage": "Institutional, Faculty",
+    "region": "Global South",
+    "url": "https://euromathsoc.org/committee-developing-countries-activities"
   },
   {
     "programme": "Fulbright Specialist Program",
@@ -120,6 +249,42 @@
     "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/"
   },
   {
+    "programme": "ICIAM Conference Support",
+    "funder": "ICIAM",
+    "description": "Up to USD 3,500 for conferences in applied and industrial mathematics to support participation from developing countries. Preference is given to conferences held in developing countries",
+    "status": "Rolling",
+    "deadline": "30 April 2026",
+    "deadline_note": "Standing deadlines 30 April and 31 October. Submit a year before the meeting. Decisions within one month.",
+    "support_type": "Event organisation",
+    "career_stage": "Institutional, Faculty",
+    "region": "Global South",
+    "url": "https://iciam.org/iciam-conference-support"
+  },
+  {
+    "programme": "ICIAM Conference Support",
+    "funder": "ICIAM",
+    "description": "Up to USD 3,500 for conferences in applied and industrial mathematics to support participation from developing countries. Preference is given to conferences held in developing countries",
+    "status": "Rolling",
+    "deadline": "31 October 2026",
+    "deadline_note": "Standing deadlines 30 April and 31 October. Submit a year before the meeting. Decisions within one month.",
+    "support_type": "Event organisation",
+    "career_stage": "Institutional, Faculty",
+    "region": "Global South",
+    "url": "https://iciam.org/iciam-conference-support"
+  },
+  {
+    "programme": "IMU-Simons Research Fellowship Program for Developing Countries",
+    "funder": "IMU–CDC",
+    "description": "Research visits of 1–3 months for mathematicians with a PhD employed at universities in developing countries",
+    "status": "Open",
+    "deadline": "15 January 2027",
+    "deadline_note": "Final call. Research visits between 1 June 2027 and 1 June 2028",
+    "support_type": "Research visits",
+    "career_stage": "Faculty",
+    "region": "Global South",
+    "url": "https://www.mathunion.org/cdc/grants/SRF"
+  },
+  {
     "programme": "Inclusion and Diversity Fund",
     "funder": "LMS",
     "description": "Funding for activities promoting equity, diversity and inclusion in mathematics",
@@ -130,6 +295,18 @@
     "career_stage": "Faculty",
     "region": "UK linked",
     "url": "https://www.lms.ac.uk/grants"
+  },
+  {
+    "programme": "Individual Travel Grants",
+    "funder": "EMS–CDC",
+    "description": "Travel support for active participation in mathematical meetings or research visits.",
+    "status": "Open",
+    "deadline": "28 February 2027",
+    "deadline_note": "Opens 15 November. Decisions April–May.",
+    "support_type": "Event participation, Research visits",
+    "career_stage": "Early-career, Faculty, Postdoc",
+    "region": "Global South",
+    "url": "https://euromathsoc.org/committee-developing-countries-activities"
   },
   {
     "programme": "Initiation of International Collaboration",
@@ -370,36 +547,12 @@
     "url": "https://www.ictp.it/home/other-opportunities-institutes"
   },
   {
-    "programme": "Travel Grants",
-    "funder": "IMU–CDC",
-    "description": "Funding for research travel to support collaboration with internationally renowned mathematical institutions",
-    "status": "Rolling",
-    "deadline": "",
-    "deadline_note": "Several calls per year, dates announced individually",
-    "support_type": "Research visits",
-    "career_stage": "Early-career, Faculty",
-    "region": "Global South",
-    "url": "https://www.mathunion.org/cdc/grants/research-travel-grants"
-  },
-  {
     "programme": "Wellcome Career Development Awards",
     "funder": "Wellcome",
     "description": "Funding for mid-career researchers to develop independent research programmes related to human life, health and wellbeing",
     "status": "Open",
     "deadline": "13 April 2027",
     "deadline_note": "Three calls per year, April call",
-    "support_type": "Research funding",
-    "career_stage": "Faculty",
-    "region": "Global South",
-    "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards"
-  },
-  {
-    "programme": "Wellcome Career Development Awards",
-    "funder": "Wellcome",
-    "description": "Funding for mid-career researchers to develop independent research programmes related to human life, health and wellbeing",
-    "status": "Open",
-    "deadline": "17 November 2026",
-    "deadline_note": "Three calls per year, November call",
     "support_type": "Research funding",
     "career_stage": "Faculty",
     "region": "Global South",

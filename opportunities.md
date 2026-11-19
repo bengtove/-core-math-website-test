@@ -34,6 +34,11 @@ Deadlines and conditions may change. Always verify the information on the funder
 
 <p class="opportunity-database-link"><a class="action-link" href="https://docs.superhuman.com/d/_dtwgdrEvtAq/Mathematics-funding-database_su79Sp_C" target="_blank" rel="noopener noreferrer">Explore the full ISP Mathematics Funding Database<span class="link-arrow">&nbsp;→</span></a></p>
 
+{% if site.data.opportunities_sync.last_synced_at %}
+<p class="opportunity-section-note"><strong>Last updated:</strong> <time datetime="{{ site.data.opportunities_sync.last_synced_at | escape }}">{{ site.data.opportunities_sync.last_synced_at | date: "%-d %B %Y" }}</time><br>
+The funding database is updated daily.</p>
+{% endif %}
+
 <div class="opportunity-filters" aria-label="Filter funding opportunities">
   <label for="funder-filter">
     Funder

@@ -48,9 +48,11 @@ Education’s upcoming-school list and the CoRE-Math Schools programme list use 
 | Trigger | `.github/workflows/update-open-opportunities.yml`: daily at `03:00` UTC, plus manual dispatch. |
 | Files/services | GitHub Actions; `scripts/build_open_opportunities.py`; Coda API; `_data/open_opportunities.json`; `opportunities.md`; `assets/js/opportunities.js`. |
 | Dependencies | Repository secret `CODA_API_TOKEN`; the Coda document/table/column IDs defined at the top of the script; Python standard library; write access to `main`. |
-| Output | A regenerated `_data/open_opportunities.json`; the workflow commits and pushes it only if it differs. It publishes records whose Coda status is `Open` or `Rolling`. |
+| Output | A regenerated `_data/open_opportunities.json`; the workflow commits and pushes it together with `_data/opportunities_sync.json`, which records the UTC time of each successful retrieval and validation, even when the opportunity records are unchanged. It then explicitly requests a Pages rebuild. It publishes records whose Coda status is `Open` or `Rolling`. |
 | Maintenance | Review workflow logs and the generated JSON. The script fails without the secret or when Coda responses/required columns are invalid. Correct source URLs in Coda, not in the generated JSON, because the next run replaces it. |
 | Status | Implemented. |
+
+The Opportunities page displays that recorded synchronisation date using the existing muted note style. Failed retrieval or validation leaves the published date unchanged; ordinary website rebuilds do not advance it. The initial timestamp was taken from the last verified successful import run, not the website build time.
 
 The script reads Coda in both `simple` and `rich` formats so it can preserve public text but extract an unambiguous public HTTP(S) URL. It deliberately rejects Coda/Superhuman URLs, conflicting links and ambiguous multiple links. This is a safety measure, not an external-link availability check.
 

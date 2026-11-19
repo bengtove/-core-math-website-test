@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: update-open-opportunities
@@ -35,15 +36,22 @@ jobs:
       - name: Replace generated data after successful validation
         run: |
           install -m 0644 "$RUNNER_TEMP/open_opportunities.json" _data/open_opportunities.json
+          printf '{"last_synced_at": "%s"}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > _data/opportunities_sync.json
 
       - name: Commit generated data when changed
         run: |
-          if git diff --quiet -- _data/open_opportunities.json; then
+          if git diff --quiet -- _data/open_opportunities.json _data/opportunities_sync.json; then
             echo "Open opportunities data is already up to date."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _data/open_opportunities.json
+          git add _data/open_opportunities.json _data/opportunities_sync.json
           git commit -m "Update open opportunities data"
           git push origin HEAD:main
+
+      - name: Publish the successful synchronisation date
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPOSITORY: ${{ github.repository }}
+        run: gh api --method POST "repos/${GH_REPOSITORY}/pages/builds" --silent

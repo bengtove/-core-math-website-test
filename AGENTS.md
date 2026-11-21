@@ -50,7 +50,10 @@ justify new parallel collections of deliverables.
 
 Read `docs/README.md` and the relevant existing authoring/design guidance.
 Follow `docs/website-administration.md` for GitHub publishing. A push to `main`
-publishes the website; use a separate branch when deployment is not authorised.
+publishes the website. For routine website updates, work directly on `main` and
+deploy without creating review branches or requesting additional approval.
+Use a separate branch when the user explicitly requests review-only work or
+withholds deployment authorisation.
 Keep temporary build outputs out of commits. Report exact final repository
 paths, branch and whether files were committed and pushed (including commit
 ID), plus any remaining publication or storage limitation.

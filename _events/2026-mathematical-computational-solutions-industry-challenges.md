@@ -32,3 +32,7 @@ Twenty-five students will develop their Python skills and work in groups on prac
 Students will present their findings, while industry representatives and university staff explore opportunities for further collaboration, including research projects, internships and student projects.
 
 The initiative aims to strengthen students' mathematical and computational skills while developing longer-term connections between the university and industry.
+
+## Related news
+
+[Students tackle industry challenges in Dar es Salaam →]({{ '/news/2026/students-tackle-industry-challenges-in-dar-es-salaam/' | relative_url }})

@@ -1,4 +1,5 @@
 ---
+linkedin_id: a26ab394-25a5-48ab-b31a-8fb1b5a6715a
 layout: post
 title: "Students tackle industry challenges in Dar es Salaam"
 date: 2026-11-21 09:00:00 +0100

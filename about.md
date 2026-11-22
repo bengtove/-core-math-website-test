@@ -58,20 +58,18 @@ about_page: true
     </div>
   </section>
 
-  <div class="about-gateway-grid">
-    <section class="about-gateway" aria-labelledby="about-network-heading">
-      <h2 id="about-network-heading">Network &amp; Partnerships</h2>
-      <p>CoRE-Math brings together eight African and nine European universities and works with mathematical organisations, networks and other strategic partners.</p>
-      <p class="about-gateway-link"><a class="action-link" href="{{ '/network-partnerships/' | relative_url }}">Explore the CoRE-Math network and partnerships<span class="link-arrow">&nbsp;→</span></a></p>
-    </section>
-    <section class="about-gateway" aria-labelledby="about-organisation-heading">
-      <h2 id="about-organisation-heading">Organisation</h2>
-      <p>CoRE-Math is co-led by Makerere University and Uppsala University. The Steering Committee consists of the Co-Leads and node coordinators and is responsible for major decisions. A smaller Management Team coordinates ongoing activities, supported by working groups in specific areas.</p>
-      <p class="about-gateway-link"><a class="action-link" href="{{ '/about/organisation/' | relative_url }}">Read more about the CoRE-Math organisation and governance<span class="link-arrow">&nbsp;→</span></a></p>
-    </section>
-  </div>
+  <section class="about-background" aria-labelledby="about-network-heading">
+    <h2 id="about-network-heading">Network &amp; Partnerships</h2>
+    <p>CoRE-Math brings together eight African and nine European universities and works with mathematical organisations, networks and other strategic partners.</p>
+    <p class="about-gateway-link"><a class="action-link" href="{{ '/network-partnerships/' | relative_url }}">Explore the CoRE-Math network and partnerships<span class="link-arrow">&nbsp;→</span></a></p>
+  </section>
+  <section class="about-background" aria-labelledby="about-organisation-heading">
+    <h2 id="about-organisation-heading">Organisation</h2>
+    <p>CoRE-Math is co-led by Makerere University and Uppsala University. The Steering Committee consists of the Co-Leads and node coordinators and is responsible for major decisions. A smaller Management Team coordinates ongoing activities, supported by working groups in specific areas.</p>
+    <p class="about-gateway-link"><a class="action-link" href="{{ '/about/organisation/' | relative_url }}">Read more about the CoRE-Math organisation and governance<span class="link-arrow">&nbsp;→</span></a></p>
+  </section>
 
-  <section aria-labelledby="further-information-heading">
+  <section class="about-background" aria-labelledby="further-information-heading">
     <h2 id="further-information-heading">Further information</h2>
     <p>Official documents, reports and other resources relating to CoRE-Math are available on the <a href="{{ '/resources/' | relative_url }}">Resources</a> page.</p>
   </section>

@@ -6,7 +6,7 @@ permalink: /education/schools/
 # Previous schools
 
 - **2026:** [2026 School on Arithmetic, Geometry and Algorithms]({{ "/events/2026-arithmetic-geometry-algorithms-addis-ababa/" | relative_url }}) — Addis Ababa University, Ethiopia; 17–28 August 2026.
-- **2025:** EAUMP-ICTP School on Real and Harmonic Analysis — University of Rwanda; 21 July–1 August 2025.
+- **2025:** [EAUMP-ICTP School on Real and Harmonic Analysis](https://indico.ictp.it/event/10852) — University of Rwanda; 21 July–1 August 2025.
 - **2024:** [EAUMP-ICTP School on the Mathematics of AI](https://indico.ictp.it/event/10494) — Makerere University, Uganda; 8–26 July 2024.
 - **2023:** [EAUMP-ICTP School on Enumerative Combinatorics, in Collaboration with AMU, CIMPA and ISP](https://indico.ictp.it/event/10188) — Arusha, Tanzania; 10–28 July 2023.
 - **2022:** [ICTP-EAUMP School on Mathematical Programming and Algorithms – an African Mathematical School](https://indico.ictp.it/event/9815/) — University of Nairobi, Kenya; 11–29 July 2022.
@@ -18,7 +18,7 @@ permalink: /education/schools/
 - **2015:** Summer School on Experimental Pure Mathematics — Makerere University, Uganda; 6–17 July 2015.<br>Facilitators: Rikard Bøgvad (Stockholm University); Gregory Sankaran (University of Bath); Jennifer Balakrishnan and Balázs Szendrői (University of Oxford); Viviane Pons (Paris); Rammea Lisema (National University of Lesotho); Isaac Owino Okoth (Maseno University).
 - **2014:** Summer School on Representation Theory — Arusha Technical College, Tanzania; 7–26 July 2014.<br>Lecturers: Joseph Grant, Balázs Szendrői and Kevin McGeerty (University of Oxford); David Stern (AIMS Ghana); Bernardo Rodrigues (University of Pretoria).
 - **2013:** East African School on Applicable Algebraic Geometry — Bandari College, Mombasa, Kenya; 6–20 July 2013.<br>Lecturers: Gavin Brown (University of Warwick); Joseph Grant (University of Leeds); George Hein (University of Duisburg-Essen); Tom Denton (Maseno University); Ruriko Yoshida (University of Kentucky); Balázs Szendrői and Gergely Berczi (University of Oxford).
-- **2012:** School on Combinatorial Commutative Algebra — Arusha Technical College, Tanzania; 13–21 August 2012.
+- **2012:** School on Combinatorial Commutative Algebra — Arusha Technical College, Tanzania; 13–21 August 2012.<br>Lecturers: Rikard Bøgvad (Stockholm University); Paul Vaderlind (Stockholm University); Fanja Rakotondrajao (University of Antananarivo, Madagascar); Qimh Xantcha (Stockholm University).
 - **2011:** School on Introduction to Riemannian Geometry — Kigali Institute of Science and Technology, Rwanda; 21 November–3 December 2011.<br>Lecturers: Eleonora Ciriza; Claudio Arezzo (ICTP); Alberto Della Vedova.
 - **2010:** School on Linear Algebra and the Fast Fourier Transformation — Makerere University, Uganda; 6–17 December 2010.<br>Lecturers: Fanja Rakotondrajao (University of Antananarivo); Rikard Bøgvad (Stockholm University); Ramadas Ramakrishnan (ICTP).
 - **2009:** School on Linear Algebra — University of Dar es Salaam, Tanzania; 16–30 August 2009.<br>Lecturers included Ramadas Ramakrishnan (ICTP), Stefano S. Capizzano and Enrico Rogora (University of Rome).

@@ -181,12 +181,48 @@ renewal should be disabled after checking any contractual consequences, but
 this has not been confirmed. Do not cancel the domain subscription until the
 domain transfer has completed successfully.
 
+## Storage and archiving
+
+The permanent storage conventions are:
+
+| Location | Purpose |
+| --- | --- |
+| GitHub repository | Website content, maintenance documentation and publicly downloadable resources. Public resources require redistribution permission. |
+| Dropbox `/0. CoRE-Math/` | Main CoRE-Math document archive. Do not assume this archive is private. |
+| Dropbox `/CoRE-Math Archive – Restricted/` | Source materials retained for internal reference, not for public distribution. |
+
+The restricted archive has two existing subfolders:
+
+- `/CoRE-Math Archive – Restricted/Conference documentation/`
+- `/CoRE-Math Archive – Restricted/External coverage/`
+
+**Access record, 24 November 2026:** The owner manually checked the restricted
+archive's sharing settings and confirmed that no other users had been granted
+access. This records the owner's confirmation; it does not claim an independent
+automated permissions audit.
+
+For materials retained in the restricted archive, website links must point to
+the original external source rather than the archived copy. Never create public
+sharing links for restricted archival material or commit those copies to the
+public repository. For External Coverage, use `original_url` and leave
+`archive_pdf` empty when the retained copy is restricted.
+
+Use existing archive locations and established descriptive filenames. Preserve
+original files when copying material into an archive. Local Codex working
+directories are temporary and do not replace the permanent archives. Do not
+create extra folders, reorganise existing documents or alter sharing settings
+unless separately instructed.
+
+These conventions, also recorded in [AGENTS.md](../AGENTS.md), supersede
+conflicting earlier storage guidance.
+
 ## Backup and recovery
 
 [AGENTS.md](../AGENTS.md) governs authoritative storage. The existing backup and
 recovery procedure below is not a parallel working archive. Do not automatically
-create new Dropbox copies when preparing website or communications deliverables;
-use these backup steps only for an explicitly requested recovery/backup task.
+create duplicate website working copies in Dropbox. Archive documents and
+internal source materials according to the storage conventions above; use these
+backup steps only for an explicitly requested recovery/backup task.
 Preserve existing backups without moving or deleting them.
 
 An independent Git-bundle backup is stored in Dropbox at:

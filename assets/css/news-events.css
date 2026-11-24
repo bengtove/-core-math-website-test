@@ -123,11 +123,11 @@
   grid-template-columns: 7.5rem minmax(0, 1fr) minmax(11rem, .8fr);
   gap: 1rem;
   padding: .9rem 0;
-  border-bottom: 1px solid var(--content-rule);
+  border-bottom: 1px solid #deddda;
 }
 
 .external-coverage-item:first-child {
-  border-top: 1px solid var(--content-rule);
+  border-top: 1px solid #deddda;
 }
 
 .external-coverage-date,

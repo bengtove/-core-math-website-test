@@ -11,9 +11,12 @@ repository; report the limitation and retain public-safe provenance.
 
 The wider visually browsable photo library remains undecided. Do not assume
 Dropbox is complete, and do not move, delete or reorganise existing photographs.
-Do not use the historical steps below to add new website/communications material
-to Dropbox, regenerate its catalogue or initiate a migration without a separate
-explicit task.
+Use the permanent [storage conventions](website-administration.md#storage-and-archiving):
+Dropbox `/0. CoRE-Math/` is the main document archive, and
+`/CoRE-Math Archive – Restricted/` holds internal source materials not for public
+distribution. Do not create public links to restricted copies; website links
+must use the original external source. The historical steps below do not
+authorise new folders, catalogue regeneration or a migration.
 
 ## Historical archive procedure (reference only)
 

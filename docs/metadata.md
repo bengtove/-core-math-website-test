@@ -161,6 +161,14 @@ A focused comparison in October 2026 found that all 78 `_publications/` records 
 | `_data/member_universities.yml` | University directory/profile information, including identity, country, description, image and portrait/modal content where supplied. | Network & Partnerships reads it to render member cards and dialogs; the JavaScript uses generated dialog IDs/`data-member-portrait-*` attributes rather than the YAML directly. |
 | `_data/phd_students.json` | Student directory records. | Used by the current-PhD-students page; field expectations should be checked against that page before editing. |
 
+For External Coverage material retained in Dropbox
+`/CoRE-Math Archive – Restricted/External coverage/`, set `original_url` to
+the original external publication and leave `archive_pdf` empty. Never use
+`archive_pdf` for a restricted copy or create a public Dropbox link to it.
+A local PDF download is appropriate only for resources permitted for public
+distribution and stored in GitHub. See
+[storage and archiving](website-administration.md#storage-and-archiving).
+
 ## Static and historical content
 
 The previous-schools archive (`education-schools.md`), previous-projects page, contact list, Strategy, Resources and most landing-page cards are ordinary manually authored Markdown/HTML. They may have normal page metadata, but do not have collection schemas or automatic lifecycle behaviour.

@@ -5,13 +5,18 @@ website. It explains how the live site is maintained, how content is prepared,
 and how its design and automated processes work. The website is published from
 this repository at [www.africaeuropecoremath.org](https://www.africaeuropecoremath.org).
 
-[Repository instructions for Codex](../AGENTS.md) define authoritative storage:
-GitHub holds final website, communications and related documentation. Use
-`_communications/` for communications assets and `docs/` for shared guidance.
-Local Codex folders are temporary; do not create new parallel Dropbox archives.
-Existing external originals and historical records remain untouched. The broader
-browsable photo library is undecided, and Dropbox is not assumed complete.
-A website derivative is not an archival original or evidence of reuse rights.
+[Repository instructions for Codex](../AGENTS.md) and the
+[storage and archiving guide](website-administration.md#storage-and-archiving)
+define the permanent storage conventions: GitHub holds website content and
+publicly downloadable resources; Dropbox `/0. CoRE-Math/` is the main document
+archive; Dropbox `/CoRE-Math Archive – Restricted/` holds internal source
+materials in `Conference documentation` and `External coverage`.
+
+Link to original external sources from the website, not restricted archived
+copies. Do not create public sharing links for restricted material. The owner
+confirmed on 24 November 2026 that no other users have access to the restricted
+archive. Local Codex folders are temporary. Preserve existing documents and
+folders; these conventions do not authorise reorganisation.
 
 ## Getting started
 

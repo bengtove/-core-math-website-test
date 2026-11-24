@@ -27,7 +27,6 @@ Articles about CoRE-Math published by universities, research organisations, medi
       <span>{{ item.source }}</span>
       {% if item.author %}<span>{{ item.author }}</span>{% endif %}
     </div>
-    {% if item.description %}<p>{{ item.description | escape }}</p>{% endif %}
   </article>
 {% endfor %}
 </div>

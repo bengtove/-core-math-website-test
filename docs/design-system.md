@@ -144,7 +144,7 @@ Research-group pages receive a parent-context link to Research groups, use their
 
 ### Other specialised pages
 
-Contact uses a simple two-column directory with muted affiliations and blue email links. Opportunities combines a two-column fellowship overview with a filterable one-column funding catalogue. Strategy uses a wide, horizontally scrollable table on narrow screens rather than compressing its columns. These patterns should remain specialised.
+Contact uses a simple two-column directory with muted affiliations and blue email links. Opportunities combines a two-column fellowship overview with a filterable one-column funding catalogue. Strategy uses a label–description grid with a 34% label column, stacking below 601px. These patterns should remain specialised.
 
 ## Responsive behaviour
 
@@ -159,6 +159,40 @@ Contact uses a simple two-column directory with muted affiliations and blue emai
 | `360px` and below | Site gutters reduce from 3rem to 2.5rem. |
 
 Responsive collapse preserves source order. It does not add entry rules to items that did not have one in the desktop grid.
+
+## Tables and chronological lists
+
+Conventional tables use transparent backgrounds, no vertical borders or ordinary
+row separators, and a 1px rule beneath left-aligned bold column headings.
+Cell padding is `var(--list-row-padding) .75rem` (currently .7rem vertically);
+first-column left padding is zero to align with surrounding text. Cells align
+at the top. Maintain these rules centrally in `assets/css/content.css`.
+
+Annual fellowship tables use the existing `.fellowship-table` wrapper and fixed
+column proportions: Fellow 30%, University 34%, Category 18%, Duration 18%.
+Text wraps; do not introduce annual overrides. Below 768px, retain the existing
+36rem minimum table width and local horizontal scrolling, without reducing type.
+
+External Coverage, News Archive, Milestones and Past Events share a 10rem date
+column, 1rem column gap and .7rem top/bottom row padding. Ordinary row rules are
+omitted. External Coverage retains its third source/author column. Date ranges
+wrap naturally. Keep typography, muted metadata, source order and existing
+section/year rules. Do not add column headings to headerless lists.
+Shared chronology rules live in `assets/css/news-events.css`, using tokens
+declared in `assets/css/content.css`.
+
+Below 601px chronological records stack with a .25rem internal gap; vertical
+row padding separates records. A subtle mobile-only separator may be used if
+a substantial stacked record needs it, but is not the default.
+
+Exceptions: Strategy retains its distinct label proportions and spacing;
+school listings retain their editorial presentation; substantial funding
+catalogue entries retain subtle separators. Do not apply table rules to these
+components indiscriminately.
+
+Validate both annual fellowship tables together and representative chronological
+lists at desktop and mobile widths after changing these shared rules. Check
+column alignment, wrapping, local table scrolling and page overflow.
 
 ## Maintenance checklist
 

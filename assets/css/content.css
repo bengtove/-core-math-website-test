@@ -15,6 +15,9 @@
   --body-text-size: 17px;
   --metadata-text-size: .9rem;
   --label-text-size: .8rem;
+  --chronology-date-width: 10rem;
+  --chronology-column-gap: 1rem;
+  --list-row-padding: .7rem;
   --content-rule: #d4cec4;
   --content-surface: #f4f0e9;
   --content-surface-padding: 1rem 1.1rem 1.15rem;
@@ -280,6 +283,7 @@ body,
 
 .strategy-list .news-archive-item {
   margin: 1.25rem 0;
+  padding: 0;
 }
 
 .site-main .strategy-list dt {
@@ -288,10 +292,6 @@ body,
 }
 
 @media (min-width: 601px) {
-  .about-detail-list .news-archive-item {
-    grid-template-columns: 10rem minmax(0, 1fr);
-  }
-
   .strategy-list .news-archive-item {
     grid-template-columns: minmax(0, 34%) minmax(0, 1fr);
   }
@@ -374,11 +374,7 @@ body,
   border-bottom: var(--editorial-entry-rule);
 }
 
-.milestones-year .news-archive-item {
-  margin: .8rem 0;
-}
-
-/* Editorial tables share the page surface, with rules only between rows. */
+/* Editorial tables share the page surface, with a thin rule beneath column headings. */
 .site-main.markdown-body table {
   display: table;
   width: 100%;
@@ -394,7 +390,7 @@ body,
 
 .site-main.markdown-body table th,
 .site-main.markdown-body table td {
-  padding: .7rem .75rem;
+  padding: var(--list-row-padding) .75rem;
   border: 0;
   vertical-align: top;
 }
@@ -408,12 +404,23 @@ body,
 }
 
 .site-main.markdown-body table thead th {
-  border-bottom: 2px solid var(--content-rule);
+  border-bottom: 1px solid var(--content-rule);
 }
 
-.site-main.markdown-body table tbody tr + tr > * {
-  border-top: 1px solid #deddda;
+.site-main.markdown-body table tr > :first-child {
+  padding-left: 0;
 }
+
+/* Identical annual tables share column boundaries, independent of content. */
+.site-main.markdown-body .fellowship-table table {
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+.fellowship-table th:nth-child(1) { width: 30%; }
+.fellowship-table th:nth-child(2) { width: 34%; }
+.fellowship-table th:nth-child(3) { width: 18%; }
+.fellowship-table th:nth-child(4) { width: 18%; }
 
 /* Wide tables scroll locally on phones, keeping text at its reading size. */
 @media (max-width: 767px) {
@@ -428,6 +435,6 @@ body,
 
   .site-main.markdown-body .fellowship-table table {
     display: table;
-    min-width: 32rem;
+    min-width: 36rem;
   }
 }

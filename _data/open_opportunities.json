@@ -165,6 +165,18 @@
     "url": "https://www.leverhulme.ac.uk/early-career-fellowships/"
   },
   {
+    "programme": "Early Career Research Fellowships",
+    "funder": "ARUA",
+    "description": "Six-month research fellowships for early-career African researchers.",
+    "status": "Open",
+    "deadline": "15 February 2027",
+    "deadline_note": "2027 cohort (Cohort 3).",
+    "support_type": "Research visits",
+    "career_stage": "Early-career, Faculty, Postdoc",
+    "region": "Africa",
+    "url": "https://arua.org/early-career-research-fellowships"
+  },
+  {
     "programme": "Emmy Noether Fellowships",
     "funder": "LMS",
     "description": "Funding for mathematicians with significant caring responsibilities to maintain or re-establish their research programme",
@@ -402,30 +414,6 @@
     "support_type": "Research funding",
     "career_stage": "Postdoc",
     "region": "Global South"
-  },
-  {
-    "programme": "Mid-Career Research Fellowships",
-    "funder": "ARUA",
-    "description": "Six-month research-intensive sabbatical fellowships for mid-career academics at ARUA universities, hosted by ARUA Centres of Excellence or Africa–Europe Clusters of Research Excellence",
-    "status": "Open",
-    "deadline": "",
-    "deadline_note": "Deadline not specified",
-    "support_type": "Research funding, Research visits",
-    "career_stage": "Faculty",
-    "region": "Africa",
-    "url": "https://arua.org/mid-career-research-fellowships/"
-  },
-  {
-    "programme": "MSCA Doctoral Networks",
-    "funder": "European Commission",
-    "description": "International doctoral programmes implemented by consortia of universities, research organisations and other partners",
-    "status": "Open",
-    "deadline": "26 November 2026",
-    "deadline_note": "Annual call",
-    "support_type": "PhD funding, Research collaboration",
-    "career_stage": "PhD",
-    "region": "Global",
-    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks"
   },
   {
     "programme": "Regular Associates",
